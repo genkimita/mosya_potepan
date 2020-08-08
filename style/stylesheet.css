@@ -22,15 +22,46 @@ font-family:"";/* 1ワードの場合は""は無し */
   /*  */
   display: flex;
 }
-.header-menu-list {
-  /*  */
-  display: flex;
-}
+
 .header-content {
   width:510px;
 }
+.header-content-text {}
+.header-content-left {}
+.header-content-1 {}
+.header-content-2 {}
+.header-content-3 {}
+.header-content-counseling {}
+.header-content-left-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: px;
+}
+
+.header-menu-list {
+  font-weight: 700;
+  font-size: 14px;
+  sline-height: px;
+  /*  */
+  display: flex;
+}
+.header-menu-list li{
+  font-weight: 700;
+  font-size: 10px;
+  line-height: px;
+}
+.header-menu-button a{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: px;
+}
 .header-memo {
   width:100%;
+}
+.header-memo a{
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
 }
 
 
@@ -48,10 +79,37 @@ font-family:"";/* 1ワードの場合は""は無し */
   width:550px;
   float:right;
 }
+.about-left-1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: px;
+}
+.about-left-1 span{
+  font-weight: 900;
+  font-size: 50px;
+  line-height: px;
+}
+.about-left-2 {}
+.about-left-2 p{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+}
+
 .about-right {}
 .about-right-button {
   background-color:#ffffff;
   color:rgb(247, 147, 20);
+}
+.about-right-button p{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+.about-right-button p span{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: px;
 }
 
 
