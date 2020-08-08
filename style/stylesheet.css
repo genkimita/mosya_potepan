@@ -61,8 +61,8 @@ font-family:"";/* 1ワードの場合は""は無し */
 }
 .header-memo {
   width:100%;
-}
-.header-memo a{
+  color:rgb(185, 185, 185);
+  /*  */
   font-weight: 400;
   font-size: 10px;
   line-height: 15px;
