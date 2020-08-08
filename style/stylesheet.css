@@ -20,17 +20,21 @@ font-family:"";/* 1ワードの場合は""は無し */
 .header-menu {
   width:100%;
   /*  */
+  margin: 0 auto;
   display: flex;
 }
 
 .header-content {
   width:510px;
 }
-.header-content-text {}
-.header-content-left {}
-.header-content-1 {}
-.header-content-2 {}
-.header-content-3 {}
+.header-content-text {
+  display: flex;
+}
+.header-content-text-left {
+}
+.header-content-left-1-logo {}
+.header-content-left-2 {}
+.header-content-left-3 {}
 .header-content-counseling {}
 .header-content-left-button {
   font-weight: 700;
@@ -41,7 +45,7 @@ font-family:"";/* 1ワードの場合は""は無し */
 .header-menu-list {
   font-weight: 700;
   font-size: 14px;
-  sline-height: px;
+  line-height: px;
   /*  */
   display: flex;
 }
