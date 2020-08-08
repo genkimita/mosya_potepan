@@ -1,109 +1,149 @@
-<!DOCTYPE html>
-<html>
+* {
+margin: 0px;
+padding: 0px;/* 要素同士の隙間を0に */
+box-sizing: border-box;/* スクロールの余白なし */
+}
+li {
+  list-style: none;
+}
 
-<head>
-<title>模写-ポテパン</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="style/stylesheet.css" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style/responsive.css"><!-- viewport宣言より下に書く -->
-</head>
+ body {
+font-family:"";/* 1ワードの場合は""は無し */
+}
 
+.header {
+  width:100%;
+  height:605px;
+  background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/top-hero.png);
+  background-size: cover;
+}
+.header-menu {
+  width:100%;
+  /*  */
+  margin: 0 auto;
+  display: flex;
+}
 
+.header-content {
+  width:510px;
+}
+.header-content-text {
+  display: flex;
+}
+.header-content-text-left {
+}
+.header-content-left-1-logo {}
+.header-content-left-2 {}
+.header-content-left-3 {}
+.header-content-counseling {}
+.header-content-left-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: px;
+}
 
-<body>
-<div class="header">
-  <div class="header-menu">
-    <img class="header-menu-image" src="image/header-logo.png" alt="" href="">
-    <ul class="header-menu-list">
-      <li>ABOUT<br /><span>初めての方へ</span></li>
-      <li>FLOW<br /><span>卒業までの流れ</span></li>
-      <li>COURSE<br /><span>コース・料金</span></li>
-      <li>INTERVIEW<br /><span>受講者の声</span></li>
-      <li>FAQ<br /><span>よくある質問</span></li>
-      <li>COMPANY<br /><span>会社概要</span></li>
-    </ul>
-    <div class="header-menu-button">
-      <a class="" href="#">無料カウンセリング</a>
-    </div>
-  </div>
-  <div class="header-content">
-    <div class="header-content-text">
-      <div class="header-content-text-left">
-        <div class="header-content-left-1-logo">
-          <img class="header-content-left-1-logo-image" src="https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/top-hero-logo.png" alt="" href="">
-        </div>
-        <div class="header-content-left-2"><p>本気で<span>Webエンジニア</span>を目指すなら、<br />本気のプログラミング学習。</p></div>
-        <div class="header-content-left-3">
-          <div class="header-content-left-button"><p>無料カウンセリング</p></div>
-        </div>
-      </div>
-      <div class="header-content-right"></div>
-    </div>
-    <div class="header-memo">
-      <a class="" href="#">※ショッパーズアイ「プログラミングスクール10社を対象にしたサイト比較イメージ調査（2020 年 5 月 22 日～25 日）」より全国の22～49歳の男女691名へのインターネット調査</a>
-    </div>
-  </div>
-</div>
-
-<div class="about">
-  <div class="about-left">
-    <div class="about-left-box">
-    <div class="about-left-1"><p><span>POTEPAN CAMP</span>とは</p></div>
-    <div class="about-left-2"><p>卒業生の多くがWebエンジニアに転職成功している、実績豊富なプログラミングスクール。優秀なレビュアー陣と実践的なカリキュラムで、現場で求められる開発スキルを身につけることが可能です。</p></div>
-    </div>
-  </div>
-  <div class="about-right">
-    <div class="about-right-button">
-      <p>ABOUT<br /><span>はじめての方へ</span></p>
-    </div>
-  </div>
-</div>
-
-<div class="future">
-  <div class="future-title"></div>
-  <div class="future-one"></div>
-  <div class="future-two"></div>
-  <div class="future-three"></div>
-</div>
-
-<div class="course">
-  <div class="course-text"></div>
-  <div class="course-carrier"></div>
-  <div class="course-beginner"></div>
-  <div class="course-open"></div>
-  <div class="course-button"></div>
-</div>
-
-<div class="message">
-  <div class="message-title"></div>
-  <div class="message-content"></div>
-</div>
-
-<div class="interview">
-  <div class="interview-title"></div>
-  <div class="interview-content"></div>
-</div>
-
-<div class="service">
-  <div class="service-title"></div>
-  <div class="service-content"></div>
-</div>
-
-<div class="footer">
-  <div class="footer-content">
-    <div class="footer-content-left"></div>
-    <div class="footer-content-center"></div>
-    <div class="footer-content-right"></div>
-  </div>
-</div>
-<div class="footer-copyright"></div>
-</body>
-
-</html>
+.header-menu-list {
+  font-weight: 700;
+  font-size: 14px;
+  sline-height: px;
+  /*  */
+  display: flex;
+}
+.header-menu-list li{
+  font-weight: 700;
+  font-size: 10px;
+  line-height: px;
+}
+.header-menu-button a{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: px;
+}
+.header-memo {
+  width:100%;
+}
+.header-memo a{
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+}
 
 
 
+.about {
+  width:100%;
+  height:330px;
+  background-color:rgb(247, 147, 20);
+  color:#ffffff;
+}
+.about-left {
+  width:50%;
+}
+.about-left-box {
+  width:550px;
+  float:right;
+}
+.about-left-1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: px;
+}
+.about-left-1 span{
+  font-weight: 900;
+  font-size: 50px;
+  line-height: px;
+}
+.about-left-2 {}
+.about-left-2 p{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.about-right {}
+.about-right-button {
+  background-color:#ffffff;
+  color:rgb(247, 147, 20);
+}
+.about-right-button p{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+.about-right-button p span{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: px;
+}
+
+
+
+.course {
+  width:100%;
+  height:2335px;
+}
+
+.message {
+  width:100%;
+  height:790px;
+}
+
+
+.interview {
+  width:100%;
+  height:930px;
+}
+
+
+.service {
+  width:100%;
+  height:630px;
+}
+
+.footer {
+  width:100%;
+  height:490px;
+}
 
 
 
@@ -113,4 +153,5 @@
 
 
 
-<!-- -->
+
+/*  */
