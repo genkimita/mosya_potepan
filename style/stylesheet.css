@@ -1,0 +1,19 @@
+* {
+margin: 0px;
+padding: 0px;/* 要素同士の隙間を0に */
+box-sizing: border-box;/* スクロールの余白なし */
+}
+li {
+  list-style: none;
+}
+
+ body {
+font-family:"";/* 1ワードの場合は""は無し */
+}
+
+.header {
+
+}
+.footer {
+
+}
