@@ -26,6 +26,13 @@ font-family:"";/* 1ワードの場合は""は無し */
   /*  */
   display: flex;
 }
+.header-content {
+  width:510px;
+}
+.header-memo {
+  width:100%;
+}
+
 
 
 .about {
