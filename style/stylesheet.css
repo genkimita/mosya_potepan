@@ -17,6 +17,15 @@ font-family:"";/* 1ワードの場合は""は無し */
   background: url(image/top-hero.png);
   background-size: cover;
 }
+.header-menu {
+  width:100%;
+  /*  */
+  display: flex;
+}
+.header-menu-list {
+  /*  */
+  display: flex;
+}
 
 
 .about {
