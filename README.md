@@ -1,1 +1,1 @@
-# mosya_potepan
+git rm -r --cached hoge/
