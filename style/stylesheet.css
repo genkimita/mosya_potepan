@@ -12,13 +12,14 @@ li {
 }
 
 header {
-  position: fixed;
-  top: 0px;
+  height:80px;
+  /* ■■■あとで ■■■ */
+  /* position: fixed;
+  top: 0px; */
 }
 .header-box {
-  height:80px;
-  /*  */
-  margin: 0 auto;
+  height:40px;
+  vertical-align : middle;
   display: flex;
 }
   .header-logo {
@@ -29,12 +30,20 @@ header {
     /*  */
     vertical-align : middle;
   }
-  .header-menu-list {}
+  .header-menu-list {
+    margin-right: 20px;
+  }
     .header-menu-list li{
       color:rgb(0, 0, 0);
       text-align: center;
     }
-  .header-counseling {}
+  .header-counseling {
+    height:40px;
+    background-color:rgb(247, 147, 20);
+  }
+  .header-counseling:hover {
+    background-color:rgb(247, 147, 20,.5);
+  }
 
 
 
