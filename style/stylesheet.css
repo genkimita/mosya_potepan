@@ -85,9 +85,33 @@ body {}
 
 
 .about {
+  height:330px;
   background-color:rgb(247, 147, 20);
-  color:rgb(255, 255, 255);
-}
+  color:rgb(255, 255, 255);}
+  .about-container {
+    width:1050px;
+    display: flex;
+  }
+    .about-left {
+      width:550px;
+      margin-right: 175px;
+    }
+      .about-left-1 {
+        padding-bottom:35px;
+      }
+        .about-left-1 span{}
+      .about-left-2 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 32px;
+      }
+    .about-right {
+      width:323px;
+      height:60px;
+      background-color:rgb(255, 255, 255);
+      color:rgb(247, 147, 20);
+    }
+      .about-right-btn {}
 
 
 
