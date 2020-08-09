@@ -42,7 +42,7 @@ header {
     background-color:rgb(247, 147, 20);
   }
   .header-counseling:hover {
-    background-color:rgb(247, 147, 20,.5);
+    opacity :.5;
   }
 
 
