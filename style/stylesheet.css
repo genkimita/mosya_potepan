@@ -12,9 +12,8 @@ li {
 
 header {
   height:80px;
-  /* ■■■あとで ■■■ */
-  /* position: fixed;
-  top: 0px; */
+  position: fixed;
+  top: 0px;
 }
 .header-container {
   height:40px;
