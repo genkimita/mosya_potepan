@@ -54,27 +54,29 @@ body {}
 }
   .top-container {
     width:50%;
+    position: relative;
   }
     .top-box {
       width:525px;
       float:right;
+      position: absolute;
+      top: 50px;
     }
-      .top-middle  {}
+      .top-middle  {
+        display: flex;
+      }
         .top-middle-left {
           width:340px;
           margin-right: 10px;
-          display: inline-block;
         }
           .top-middle-left-logo{
             height:40px;
           }
           .top-middle-left-text{}
-          .top-middle-left-counseling {}
+          .top-middle-left-btn {}
         .top-middle-right{
           width:100%;
           height:100%;
-          display: inline-block;
-          vertical-align : top;
         }
       .top-bottom {
         font-weight: 400;
