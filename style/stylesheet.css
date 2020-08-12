@@ -21,8 +21,8 @@ li {
 body {}
 .top {
   height:605px;
-  background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/top-hero.png);
-  background-size: cover;}
+  background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/top-hero.png)  right 0/ auto 100% no-repeat;
+}
   .header {
     height:40px;
   }
@@ -53,7 +53,7 @@ body {}
       .header-container-btn {
         height:40px;
       }
-      .header-container-logo,.header-container-list,.header-container-btn:hover {
+      .header-container-logo:hover,.header-container-list:hover,.header-container-btn:hover {
         opacity :.5;
       }
   .main {
@@ -70,7 +70,7 @@ body {}
       }
         .main-counseling-left-image {
           width:340px;
-          height:40px;
+          height:35px;
         }
         .main-counseling-left-text {
           font-weight: 400  ;
