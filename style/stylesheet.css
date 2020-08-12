@@ -12,6 +12,9 @@ li {
   border-radius: 50%;
   text-align: center;
 }
+.btn:hover {
+  opacity :.5;
+}
 
 
 
@@ -24,12 +27,12 @@ body {}
     height:40px;
   }
     .header-container {
+      padding-left:320px;
       display: flex;
     }
       .header-container-logo {
         width:185px;
         height:20px;
-        margin-left: 320px;
         margin-right: 135px;
       }
       .header-container-list {
@@ -55,6 +58,7 @@ body {}
       }
   .main {
     width:525px;
+    padding-left:320px;
   }
     .main-counseling {
       padding-top:150px;
@@ -96,46 +100,6 @@ body {}
       }
 
 
-
-
-
-
-
-  .top-container {
-    width:50%;
-    position: relative;
-  }
-    .top-box {
-      width:525px;
-      float:right;
-      position: absolute;
-      top: 50px;
-    }
-      .top-middle  {
-        display: flex;
-      }
-        .top-middle-left {
-          width:340px;
-          margin-right: 10px;
-        }
-          .top-middle-left-logo{
-            height:40px;
-          }
-          .top-middle-left-text{}
-          .top-middle-left-btn {}
-        .top-middle-right{
-          width:100%;
-          height:100%;
-        }
-      .top-bottom {
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 15px;
-        color:rgb(220, 220, 220);
-
-        margin-bottom:30px;
-        vertical-align : bottom;
-      }
 
 
 
