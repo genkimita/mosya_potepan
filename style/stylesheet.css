@@ -10,6 +10,7 @@ li {
   color:rgb(255, 255, 255);
   background-color:rgb(247, 147, 20);
   text-align: center;
+  vertical-align : middle;
 }
 .btn:hover {
   opacity :.5;
@@ -60,7 +61,6 @@ body {}
         width:150px;
         height:40px;
         border-radius: 20px;
-        vertical-align : middle;
       }
       .header-container-logo:hover,.header-container-list:hover,.header-container-btn:hover {
         opacity :.5;
@@ -82,14 +82,18 @@ body {}
           height:35px;
         }
         .main-counseling-left-text {
-          font-weight: 400  ;
+          font-weight: 700px;
           font-size: 20px;
           line-height: 34px;
+          font-family:"Noto Sans JP", sans-serif;;
         }
         .main-counseling-left-btn {
-          font-weight: 400;
+          width:340px;
+          height:60px;
+          font-weight: 700;
           font-size: 16px;
-          line-height: 24px;
+          line-height: px;
+          border-radius: 30px;
         }
       .main-counseling-right {
         width:185px;
