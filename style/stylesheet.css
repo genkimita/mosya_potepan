@@ -9,7 +9,6 @@ li {
 .btn {
   color:rgb(255, 255, 255);
   background-color:rgb(247, 147, 20);
-  border-radius: 50%;
   text-align: center;
 }
 .btn:hover {
@@ -58,7 +57,9 @@ body {}
           }
       .header-container-btn {
         font-family:"Noto Sans JP", sans-serif;
+        width:150px;
         height:40px;
+        border-radius: 20px;
         vertical-align : middle;
       }
       .header-container-logo:hover,.header-container-list:hover,.header-container-btn:hover {
