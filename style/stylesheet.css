@@ -1,123 +1,99 @@
-<!DOCTYPE html>
-<html>
+* {
+margin: 0px;
+padding: 0px;/* 要素同士の隙間を0に */
+box-sizing: border-box;/* スクロールの余白なし */
+}
+li {
+  list-style: none;
+}
+.btn {
+  color:rgb(255, 255, 255);
+  background-color:rgb(247, 147, 20);
+  border-radius: 50%;
+  text-align: center;
+}
 
 
 
-<head>
-<title>模写-ポテパン</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="style/stylesheet.css" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style/responsive.css"><!-- viewport宣言より下に書く -->
-</head>
-
-
-
-<body>
-
-<div class="top">
-  <div class="header">
-    <div class="header-container">
-      <img class="header-container-logo" src="image/header-logo.png" alt="ぽてぱん" href="#">
-      <ul class="header-container-list">
-        <li href="#">ABOUT<br /><span>初めての方へ</span></li>
-        <li href="#">FLOW<br /><span>卒業までの流れ</span></li>
-        <li href="#">COURSE<br /><span>コース・料金</span></li>
-        <li href="#">INTERVIEW<br /><span>受講者の声</span></li>
-        <li href="#">FAQ<br /><span>よくある質問</span></li>
-        <li href="#">COMPANY<br /><span>会社概要</span></li>
-      </ul>
-      <a class="header-container-btn btn" href="#">無料カウンセリング</a>
-    </div>
-  </div>
-  <div class="main">
-    <div class="main-counseling">
-      <div class="main-counseling-left">
-        <img class="main-counseling-left-image" src="image/top-hero-logo.png" alt="ぽてぱん" href="">
-        <a class="main-counseling-left-text">本気で<span>Webエンジニア</span>を目指すなら、<br />本気のプログラミング学習。</a>
-        <a class="main-counseling-left-btn btn">無料カウンセリング</a>
-      </div>
-      <div class="main-counseling-right">
-        <img  class="main-counseling-right-image" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/badge-number1.svg" alt="" href="">
-      </div>
-    </div>
-    <div class="main-annotation">
-      <a class="main-annotation-text">※ショッパーズアイ「プログラミングスクール10社を対象にしたサイト比較イメージ調査（2020 年 5 月 22 日～25 日）」より全国の22～49歳の男女691名へのインターネット調査</a>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="about">
-  <div class="about-container">
-    <div class="about-left">
-      <p class="about-left-1">POTEPAN CAMP<span>とは</span></p>
-      <p class="about-left-2">卒業生の多くがWebエンジニアに転職成功している、実績豊富なプログラミングスクール。優秀なレビュアー陣と実践的なカリキュラムで、現場で求められる開発スキルを身につけることが可能です。</p>
-    </div>
-    <div class="about-right">
-      <a class="about-right-btn btn">ABOUT<br />はじめての方へ</a>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<div class="future">
-  <div class="future-title"></div>
-  <div class="future-one"></div>
-  <div class="future-two"></div>
-  <div class="future-three"></div>
-</div>
-
-<div class="course">
-  <div class="course-text"></div>
-  <div class="course-carrier"></div>
-  <div class="course-beginner"></div>
-  <div class="course-open"></div>
-  <div class="course-button"></div>
-</div>
-
-<div class="message">
-  <div class="message-title">
-    <p class=""></p>
-    <p class=""></p>
-    <p class=""></p>
-  </div>
-  <div class="message-content"></div>
-</div>
-
-<div class="interview">
-  <div class="interview-title">
-  <p class=""></p>
-  <p class=""></p>
-  <p class=""></p>
-  </div>
-  <div class="interview-interviewer">
-    <div class="interview-ay"></div>
-    <div class="interview-ty"></div>
-    <div class="interview-st"></div>
-  </div>
-</div>
-
-<div class="service">
-  <div class="service-title"></div>
-  <div class="service-content"></div>
-</div>
-
-<div class="footer">
-  <div class="footer-content">
-    <div class="footer-content-left"></div>
-    <div class="footer-content-center"></div>
-    <div class="footer-content-right"></div>
-  </div>
-</div>
-<div class="footer-copyright"></div>
-</body>
-
-</html>
+body {}
+.top {
+  height:605px;
+  background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/top-hero.png);
+  background-size: cover;}
+  .header {
+    height:40px;
+  }
+    .header-container {
+      display: flex;
+    }
+      .header-container-logo {
+        width:185px;
+        height:20px;
+        margin-left: 320px;
+        margin-right: 135px;
+      }
+      .header-container-list {
+        color:rgb(0, 0, 0);
+        display: flex;
+        margin-right: 20px;
+      }
+        .header-container-list li{
+          font-weight: 700;
+          font-size: 14px;
+          line-height: px;
+          text-align: center;}
+          .header-container-list span{
+            font-weight: 700;
+            font-size: 10px;
+            line-height: px;
+          }
+      .header-container-btn {
+        height:40px;
+      }
+      .header-container-logo,.header-container-list,.header-container-btn:hover {
+        opacity :.5;
+      }
+  .main {
+    width:525px;
+  }
+    .main-counseling {
+      padding-top:150px;
+      padding-bottom:130px;
+      display: flex;
+    }
+      .main-counseling-left {
+        width:340px;
+      }
+        .main-counseling-left-image {
+          height:40px;
+        }
+        .main-counseling-left-text {
+          font-weight: 400  ;
+          font-size: 20px;
+          line-height: 34px;
+        }
+        .main-counseling-left-btn {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+        }
+      .main-counseling-right {
+        width:185px;
+      }
+        .main-counseling-right-image {
+          width:100%;
+          height:100%;
+        }
+    .main-annotation {
+      margin-bottom:30px;
+      vertical-align : bottom;
+    }
+      .main-annotation-text {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        color:rgb(220, 220, 220);
+      }
 
 
 
@@ -125,9 +101,232 @@
 
 
 
+  .top-container {
+    width:50%;
+    position: relative;
+  }
+    .top-box {
+      width:525px;
+      float:right;
+      position: absolute;
+      top: 50px;
+    }
+      .top-middle  {
+        display: flex;
+      }
+        .top-middle-left {
+          width:340px;
+          margin-right: 10px;
+        }
+          .top-middle-left-logo{
+            height:40px;
+          }
+          .top-middle-left-text{}
+          .top-middle-left-btn {}
+        .top-middle-right{
+          width:100%;
+          height:100%;
+        }
+      .top-bottom {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        color:rgb(220, 220, 220);
+
+        margin-bottom:30px;
+        vertical-align : bottom;
+      }
+
+
+
+.about {
+  height:330px;
+  background-color:rgb(247, 147, 20);
+  color:rgb(255, 255, 255);}
+  .about-container {
+    width:1050px;
+    display: flex;
+  }
+    .about-left {
+      width:550px;
+      margin-right: 175px;
+    }
+      .about-left-1 {
+        padding-bottom:35px;
+      }
+        .about-left-1 span{}
+      .about-left-2 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 32px;
+      }
+    .about-right {
+      width:323px;
+      height:60px;
+      background-color:rgb(255, 255, 255);
+      color:rgb(247, 147, 20);
+    }
+      .about-right-btn {}
+
+
+
+.header-menu {
+  width:100%;
+  /*  */
+  margin: 0 auto;
+  display: flex;
+}
+
+.header-content {
+  width:510px;
+}
+.header-content-text {
+  display: flex;
+}
+.header-content-text-left {
+}
+.header-content-left-1-logo {}
+.header-content-left-2 {}
+.header-content-left-3 {}
+.header-content-btn {}
+.header-content-left-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: px;
+}
+
+.header-menu-list {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: px;
+  /*  */
+  display: flex;
+}
+.header-menu-list li{
+  font-weight: 700;
+  font-size: 10px;
+  line-height: px;
+}
+.header-menu-button a{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: px;
+}
+.header-memo {
+  width:100%;
+  color:rgb(185, 185, 185);
+  /*  */
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+
+
+.about {
+  width:100%;
+  height:330px;
+  background-color:rgb(247, 147, 20);
+  color:#ffffff;
+}
+.about-box {
+  padding-left:320px;
+  padding-right:320px;
+}
+.about-left {
+  width:50%;
+}
+.about-left-box {
+  width:550px;
+  float:right;
+}
+.about-left-1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: px;
+}
+.about-left-1 span{
+  font-weight: 900;
+  font-size: 50px;
+  line-height: px;
+}
+.about-left-2 {}
+.about-left-2 p{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.about-right {}
+.about-right-button {
+  background-color:#ffffff;
+  color:rgb(247, 147, 20);
+}
+.about-right-button p{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+.about-right-button p span{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: px;
+}
+
+
+
+.future {
+  width:100%;
+  height:2335px;
+}
+.future-title {
+
+}
+.future-one {}
+.future-two {}
+.future-three {}
+
+
+.course {
+  width:100%;
+  height:1040px;
+  background: url();
+}
+.course-course {}
+.course-carrier {}
+.course-beginner {}
+.course-open {}
+.course-button {}
+
+.message {
+  width:100%;
+  height:790px;
+}
+
+
+.interview {
+  width:100%;
+  height:930px;
+}
+
+
+.service {
+  width:100%;
+  height:630px;
+}
+
+.footer {
+  width:100%;
+  height:490px;
+}
 
 
 
 
 
-<!-- -->
+
+
+
+
+
+/*  */
