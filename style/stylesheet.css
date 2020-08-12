@@ -45,6 +45,7 @@ body {}
           font-weight: 700;
           font-size: 14px;
           line-height: px;
+          font-family:Lato, sans-serif;
           text-align: center;
           margin-left: 15px;
           margin-right: 15px;
@@ -53,9 +54,12 @@ body {}
             font-weight: 700;
             font-size: 10px;
             line-height: px;
+            font-family:"Noto Sans JP", sans-serif;;
           }
       .header-container-btn {
+        font-family:"Noto Sans JP", sans-serif;
         height:40px;
+        vertical-align : middle;
       }
       .header-container-logo:hover,.header-container-list:hover,.header-container-btn:hover {
         opacity :.5;
