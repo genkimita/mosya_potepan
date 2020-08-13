@@ -46,7 +46,9 @@ body {}
         .header-container-list li{
           text-align: center;
           margin-left: 15px;
-          margin-right: 15px;}
+          margin-right: 15px;
+          font-weight: bold;
+        }
           .header-container-list-1 {
             font-weight: 700;
             font-size: 14px;
