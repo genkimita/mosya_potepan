@@ -5,11 +5,11 @@ box-sizing: border-box;/* スクロールの余白なし */
 }
 @font-face {
   font-family: 'Lato';
-  src: url(font/lato/Lato-Black.ttf) format('Lato');
+  src: url('./font/lato/Lato-Black.ttf') format('Lato');
 }
 @font-face {
   font-family: 'Noto Sans JP';
-  src: url(font/Noto_Sans_JP/NotoSansJP-Black.otf) format('Noto Sans JP');
+  src: url('./font/Noto_Sans_JP/NotoSansJP-Black.otf') format('Noto Sans JP');
 }
 li {
   list-style: none;
