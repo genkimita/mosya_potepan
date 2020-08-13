@@ -10,7 +10,6 @@ li {
   color:rgb(255, 255, 255);
   background-color:rgb(247, 147, 20);
   text-align: center;
-  align-items:　center;
   vertical-align : middle;
 }
 .btn:hover {
@@ -62,8 +61,8 @@ body {}
         font-family:"Noto Sans JP", sans-serif;
         width:150px;
         height:40px;
-        font-weight: 400;
-        font-size: 16px;
+        font-weight: 700;
+        font-size: 12px;
         line-height: px;
         border-radius: 20px;
       }
