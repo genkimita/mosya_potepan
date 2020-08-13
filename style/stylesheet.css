@@ -3,6 +3,10 @@ margin: 0px;
 padding: 0px;/* 要素同士の隙間を0に */
 box-sizing: border-box;/* スクロールの余白なし */
 }
+@font-face {
+  font-family: 'myfont';
+  src: url(./font/lato/Lato-Black.ttf) format('Lato');
+}
 li {
   list-style: none;
 }
@@ -54,7 +58,7 @@ body {}
           .header-container-list-1 {
             font-weight: 700;
             font-size: 14px;
-            font-family:Lato, sans-serif;
+            font-family:'Lato', sans-serif;
           }
           .header-container-list-2 {
             font-weight: 700;
