@@ -4,8 +4,12 @@ padding: 0px;/* 要素同士の隙間を0に */
 box-sizing: border-box;/* スクロールの余白なし */
 }
 @font-face {
-  font-family: 'myfont';
-  src: url(./font/lato/Lato-Black.ttf) format('Lato');
+  font-family: 'Lato';
+  src: url(font/lato/Lato-Black.ttf) format('Lato');
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url(font/Noto_Sans_JP/NotoSansJP-Black.otf) format('Noto Sans JP');
 }
 li {
   list-style: none;
