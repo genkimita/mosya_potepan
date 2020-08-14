@@ -133,8 +133,6 @@ body {}
           height:100%;
         }
     .main-annotation {
-      margin-bottom:30px;
-      vertical-align : bottom;
     }
       p.main-annotation-text {
         font-weight: 400;
