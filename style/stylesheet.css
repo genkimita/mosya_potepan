@@ -127,12 +127,8 @@ body {}
       .main-counseling-right {
         width:185px;
       }
-      img.main-counseling-right {
-        
-      }
-        .main-counseling-right-image {
-          width:100%;
-          height:100%;
+        img.main-counseling-right-image {
+          object-fit: cover;/* アス比維持、短い方に合わせ、長い方ははみ出し*/
         }
     .main-annotation {
       width:525px;
