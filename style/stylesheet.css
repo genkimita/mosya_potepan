@@ -88,7 +88,7 @@ body {}
       .header-container-list-company:hover,
       .header-container-btn:hover {
         opacity :.7;
-        transition: all 0.5s;
+        transition: 0.5s;
       }
   .main {
     width:525px;
