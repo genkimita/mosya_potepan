@@ -136,11 +136,11 @@ body {}
       margin-bottom:30px;
       vertical-align : bottom;
     }
-      .main-annotation-text {
+      p.main-annotation-text {
         font-weight: 400;
         font-size: 10px;
         line-height: 15px;
-        color:rgb(220, 220, 220);
+        color:rgb(136, 136, 136);
       }
 
 
