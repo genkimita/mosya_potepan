@@ -17,7 +17,6 @@ li {
 .btn {
   color:rgb(255, 255, 255);
   background-color:rgb(247, 147, 20);
-  display: block;
   display: flex;
   justify-content: center;
   align-items: center;/* 真ん中にしたい子の1つ親に */
@@ -125,7 +124,6 @@ body {}
           font-size: 16px;
           line-height: px;
           border-radius: 30px;
-          display: block;
         }
       .main-counseling-right {
         width:185px;
