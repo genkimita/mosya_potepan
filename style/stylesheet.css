@@ -8,8 +8,8 @@ box-sizing: border-box;/* スクロールの余白なし */
   src: url('./font/lato/Lato-Black.ttf') format('Lato');
 }
 @font-face {
-  font-family: 'Noto Sans JP';
-  src: url('./font/Noto_Sans_JP/NotoSansJP-Black.otf') format('Noto Sans JP');
+  font-family: "Noto Sans JP";
+  src: url('./font/Noto_Sans_JP/NotoSansJP-Black.otf') format("Noto Sans JP");
 }
 li {
   list-style: none;
@@ -79,7 +79,14 @@ body {}
         line-height: px;
         border-radius: 20px;
       }
-      .header-container-logo:hover,.header-container-list:hover,.header-container-btn:hover {
+      .header-container-logo:hover,
+      .header-container-list-about:hover,
+      .header-container-list-flow:hover,
+      .header-container-list-course:hover,
+      .header-container-list-interview:hover,
+      .header-container-list-faq:hover,
+      .header-container-list-company:hover,  
+      .header-container-btn:hover {
         opacity :.5;
       }
   .main {
