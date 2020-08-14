@@ -168,6 +168,8 @@ body {}
         line-height: 32px;
       }
     .about-right {
+      margin-left: 170px;
+      margin-top:130px;
     }
       .about-right-btn {
         width:322px;
