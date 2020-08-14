@@ -124,15 +124,18 @@ body {}
           line-height: px;
           border-radius: 30px;
         }
-      img.main-counseling-right {
+      .main-counseling-right {
         width:185px;
-        height:100%;
+      }
+      img.main-counseling-right {
+        
       }
         .main-counseling-right-image {
           width:100%;
           height:100%;
         }
     .main-annotation {
+      width:525px;
     }
       p.main-annotation-text {
         font-weight: 400;
