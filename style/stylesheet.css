@@ -240,6 +240,10 @@ body {}
             width:34px;
             height:auto;
           }
+        .f01-example-text-border {
+          width:220px;
+          border-bottom:8px solid rgb(247, 147, 20) ;
+        }
       .f01-logos-upper {}
         .f01-logos-upper1 {}
         .f01-logos-upper2 {}
