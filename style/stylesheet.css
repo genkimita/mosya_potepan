@@ -26,6 +26,11 @@ li {
   opacity :.7;
   transition: all 0.5s;
 }
+.orange-border {
+  width:50px;
+  border-bottom:8px solid rgb(247, 147, 20) ;
+  margin: 0 auto;
+}
 
 
 
@@ -203,17 +208,31 @@ body {}
     .future-titles {}
       .future-title1 {}
       .future-title2 {}
-      .future-title3 {}
-    .future-01 {}
+      .future-title3 {}/* orange-border */
+    .future-01 {
+      width:1040px;
+      margin: 0 auto;
+    }
       /* 共通部分❶ => */
-      .f-number {}
-      .f-subtitle {}
-      .f-explanation {}
+      .f-number {
+        margin: 0 auto;
+      }
+      .f-subtitle {
+        margin: 0 auto;
+      }
+      .f-explanation {
+        margin: 0 auto;
+      }
         .f-explanation span{}
       .f-images {}
       /* <= */
       .f01-example {}
         .f01-example-text {}
+          .f01-example-text a{}
+          .f01-example-text img{
+            width:34px;
+            height:auto;
+          }
       .f01-logos-upper {}
         .f01-logos-upper1 {}
         .f01-logos-upper2 {}
