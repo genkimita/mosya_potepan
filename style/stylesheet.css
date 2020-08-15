@@ -183,125 +183,65 @@ body {}
         background-color:rgb(255, 255, 255);
         color:rgb(247, 147, 20);
         border-radius: 30px;
+        text-align: center;
       }
 
 
 
-.header-menu {
-  width:100%;
-  /*  */
-  margin: 0 auto;
-  display: flex;
-}
-
-.header-content {
-  width:510px;
-}
-.header-content-text {
-  display: flex;
-}
-.header-content-text-left {
-}
-.header-content-left-1-logo {}
-.header-content-left-2 {}
-.header-content-left-3 {}
-.header-content-btn {}
-.header-content-left-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: px;
-}
-
-.header-menu-list {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: px;
-  /*  */
-  display: flex;
-}
-.header-menu-list li{
-  font-weight: 700;
-  font-size: 10px;
-  line-height: px;
-}
-.header-menu-button a{
-  font-weight: 700;
-  font-size: 12px;
-  line-height: px;
-}
-.header-memo {
-  width:100%;
-  color:rgb(185, 185, 185);
-  /*  */
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 15px;
-}
 
 
-
-.about {
-  width:100%;
-  height:330px;
-  background-color:rgb(247, 147, 20);
-  color:#ffffff;
-}
-.about-box {
-  padding-left:320px;
-  padding-right:320px;
-}
-.about-left {
-  width:50%;
-}
-.about-left-box {
-  width:550px;
-  float:right;
-}
-.about-left-1 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: px;
-}
-.about-left-1 span{
-  font-weight: 900;
-  font-size: 50px;
-  line-height: px;
-}
-.about-left-2 {}
-.about-left-2 p{
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 32px;
-}
-
-.about-right {}
-.about-right-button {
-  background-color:#ffffff;
-  color:rgb(247, 147, 20);
-}
-.about-right-button p{
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-}
-.about-right-button p span{
-  font-weight: 700;
-  font-size: 14px;
-  line-height: px;
-}
+.future {}
+  .future-container {}
+    .future-titles {}
+      .future-title1 {}
+      .future-title2 {}
+      .future-title3 {}
+    .future-01 {}
+      /* 共通部分❶ => */
+      .f-number {}
+      .f-subtitle {}
+      .f-explanation {}
+        .f-explanation span{}
+      .f-images {}
+      /* <= */
+      .f01-example {}
+        .f01-example-text {}
+      .f01-logos-upper {}
+        .f01-logos-upper1 {}
+        .f01-logos-upper2 {}
+        .f01-logos-upper3 {}
+        .f01-logos-upper4 {}
+      .f01-logos-lower {}
+        .f01-logos-lower1 {}
+        .f01-logos-lower2 {}
+        .f01-logos-lower3 {}
+        .f01-logos-lower4 {}
+    .future-02 {}
+      /* 共通部分❶ => *//* <= */
+      .f02-images {}
+        .f02-image1 {}
+        .f02-image2 {}
+        .f02-image3 {}
+    .future-03 {}
+      /* 共通部分❶ => *//* <= */
+      .f03-cases {}
+        .f03-case1 {}
+          /* 共通部分❷ => */
+          .f03-case-logo {}
+          .f03-case-belonging {}
+            .f03-case-belonging-icon {}
+            .f03-case-belonging-texts {}
+              .f03-case-belonging-text1 {}
+              .f03-case-belonging-text2 {}
+          .f03-case-comment {}
+          /* <= */
+        .f03-case2 {}
+          /* 共通部分❷ => *//* <= */
+        .f03-case3 {}
+          /* 共通部分❸ => *//* <= */
 
 
 
-.future {
-  width:100%;
-  height:2335px;
-}
-.future-title {
-
-}
-.future-one {}
-.future-two {}
-.future-three {}
 
 
 .course {
