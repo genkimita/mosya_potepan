@@ -86,9 +86,8 @@ body {}
       .header-container-list-course:hover,
       .header-container-list-interview:hover,
       .header-container-list-faq:hover,
-      .header-container-list-company:hover,
-      .header-container-btn:hover {
-        opacity :.7;
+      .header-container-list-company:hover {
+        opacity :.5;
         transition: 0.5s;
       }
   .main {
