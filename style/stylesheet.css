@@ -154,11 +154,11 @@ body {}
   }
     .about-left {
       width:550px;
-      padding-top:70px;
-      padding-left:320px;
+      margin-top:70px;
+      margin-left: 320px;
     }
       p.about-left-1 {
-        font-weight: 400;
+        font-weight: 900;
         font-size: 50px;
         line-height: px;
         padding-bottom:35px;
@@ -180,11 +180,19 @@ body {}
       .about-right-btn {
         width:322px;
         height:60px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
         background-color:rgb(255, 255, 255);
         color:rgb(247, 147, 20);
         border-radius: 30px;
         text-align: center;
       }
+        .about-right-btn span{
+          font-weight: 700;
+          font-size: 14px;
+          line-height: px;
+        }
 
 
 
