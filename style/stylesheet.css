@@ -232,15 +232,17 @@ body {}
         line-height: 24px;
         margin-bottom:25px;
       }
-      .future-title3 {
+      .future-title3 /* orange-border */{
         margin-bottom:110px;
-        }/* orange-border */
-    .future-01 {
+        }
+    .future-box /* 共通 */{
       width:1040px;
       background-color:rgb(252, 250, 244);
       border-radius: 20px;
       margin: 0 auto;
       padding: 40px;
+    }
+    .future-01 {
       margin-bottom:90px;
     }
       /* 共通部分❶ => */
