@@ -1,264 +1,351 @@
-<!DOCTYPE html>
-<html>
+* {
+margin: 0px;
+padding: 0px;/* 要素同士の隙間を0に */
+box-sizing: border-box;/* スクロールの余白なし */
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('./font/lato/Lato-Black.ttf') format('Lato');
+}
+@font-face {
+  font-family: "Noto Sans JP";
+  src: url('./font/Noto_Sans_JP/NotoSansJP-Black.otf') format("Noto Sans JP");
+}
+li {
+  list-style: none;
+}
+.btn {
+  color:rgb(255, 255, 255);
+  background-color:rgb(247, 147, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;/* 真ん中にしたい子の1つ親に */
+  text-decoration: none;
+}
+.btn:hover {
+  opacity :.7;
+  transition: all 0.5s;
+}
+.orange-border {
+  width:50px;
+  border-bottom:8px solid rgb(247, 147, 20) ;
+  margin: 0 auto;
+}
 
 
 
-<head>
-<title>模写-ポテパン</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="style/stylesheet.css" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style/responsive.css"><!-- viewport宣言より下に書く -->
-</head>
-
-
-
-<body>
-
-<div class="top">
-  <div class="header">
-    <div class="header-container">
-      <img class="header-container-logo" src="image/header-logo.png" alt="ぽてぱん" href="#">
-      <ul class="header-container-list">
-        <li  class="header-container-list-about" href="#">
-          <p class="header-container-list-1">ABOUT</p><p class="header-container-list-2">初めての方へ</p>
-        </li>
-        <li class="header-container-list-flow" href="#">
-          <p class="header-container-list-1">FLOW</p><p class="header-container-list-2">卒業までの流れ</p>
-        </li>
-        <li class="header-container-list-course" href="#">
-          <p class="header-container-list-1">COURSE</p><p class="header-container-list-2">コース・料金</p>
-        </li>
-        <li class="header-container-list-interview" href="#">
-          <p class="header-container-list-1">INTERVIEW</p><p class="header-container-list-2">受講者の声</p>
-        </li>
-        <li class="header-container-list-faq" href="#">
-          <p class="header-container-list-1">FAQ</p><p class="header-container-list-2">よくある質問</p>
-        </li>
-        <li class="header-container-list-company" href="#">
-          <p class="header-container-list-1">COMPANY</p><p class="header-container-list-2">会社概要</p>
-        </li>
-      </ul>
-      <a class="header-container-btn btn" href="#">無料カウンセリング</a>
-    </div>
-  </div>
-  <div class="main">
-    <div class="main-counseling">
-      <div class="main-counseling-left">
-        <img class="main-counseling-left-logo" src="image/top-hero-logo.png" alt="ぽてぱん" href="">
-        <p class="main-counseling-left-text">本気で<span>Webエンジニア</span>を目指すなら、<br />本気のプログラミング学習。</p>
-        <p class="main-counseling-left-btn btn">無料カウンセリング</p>
-      </div>
-      <div class="main-counseling-right">
-        <img  class="main-counseling-right-image" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/badge-number1.svg" alt="" href="">
-      </div>
-    </div>
-    <div class="main-annotation">
-      <p class="main-annotation-text">※ショッパーズアイ「プログラミングスクール10社を対象にしたサイト比較イメージ調査（2020 年 5 月 22 日～252 日）」より全国の22～49歳の男女691名へのインターネット調査</a>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<div class="about">
-  <div class="about-container">
-    <div class="about-left">
-      <p class="about-left-1">POTEPAN CAMP<span>とは</span></p>
-      <p class="about-left-2">卒業生の多くがWebエンジニアに転職成功している、実績豊富なプログラミングスクール。優秀なレビュアー陣と実践的なカリキュラムで、現場で求められる開発スキルを身につけることが可能です。</p>
-    </div>
-    <div class="about-right">
-      <p class="about-right-btn btn" href="#">　ABOUT　<br /><span>はじめての方へ</span></p>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<div class="future">
-  <div class="future-container">
-    <div class="future-titles">
-      <p class="future-title1">POTEPAN CAMP<span>の特徴</span></p>
-      <p class="future-title2">POTEPAN CAMPが選ばれる理由</p>
-      <p class="future-title3 orange-border"></p>
-    </div>
-    <!-- 豊富な転職実績　-->
-    <div class="future-01">
-      <div class="f01-number f-number"><a>01</a></div>
-      <div class="f01-subtitle f-subtitle"><a>豊富な転職実績</a></div>
-      <div class="f01-explanation f-explanation">
-        <a>転職サポート希望者の多くが Web系エンジニアとして転職成功しております。<br />
-          10000人以上の利用者を抱える転職サポートサービスを運営する当社だからこそ、<br />
-          企業の求めている人材像に即した教育カリキュラムを反映できます。
-        </a>
-      </div>
-      <div class="f01-images f-images">
-        <div class="f01-example">
-          <p class="f01-example-text">
-            <a>転職先企業の例 </a>
-            <img src="image/desc-list-example-title.png" alt="" href="">
-          </p>
-          <a class="f01-example-text-border"></a>
-        </div>
-        <div class="f01-logos-upper">
-          <img class="f01-logos-upper1" src="image/example-company01.png" alt="" href="">
-          <img class="f01-logos-upper2" src="image/example-company02.png" alt="" href="">
-          <img class="f01-logos-upper3" src="image/example-company03.png" alt="" href="">
-          <img class="f01-logos-upper4" src="image/example-company04.png" alt="" href="">
-        </div>
-        <div class="f01-logos-lower">
-          <img class="f01-logos-lower1" src="image/example-company05.png" alt="" href="">
-          <img class="f01-logos-lower2" src="image/example-company06.png" alt="" href="">
-          <img class="f01-logos-lower3" src="image/example-company07.png" alt="" href="">
-          <img class="f01-logos-lower4" src="image/example-company08.png" alt="" href="">
-        </div>
-      </div>
-    </div>
-    <!-- 多くの受講者受入実績　-->
-    <div class="future-02">
-      <div class="f-number"></div>
-      <div class="f-subtitle"></div>
-      <div class="f-explanation"></div>
-      <div class="f02-images f-images">
-        <img class="f02-image1" src="" alt="" href="">
-        <img class="f02-image2" src="" alt="" href="">
-        <img class="f02-image3" src="" alt="" href="">
-      </div>
-    </div>
-    <!-- 現役エンジニアが講師　-->
-    <div class="future-03">
-      <div class="f03-number f-number"></div>
-      <div class="f03-subtitle f-subtitle"></div>
-      <div class="f03-explanation f-explanation"></div>
-      <div class="f03-cases f-images">
-        <div class="f03-case1">
-          <div class="f03-case-logo">
-          </div>
-          <div class="f03-case-belonging">
-            <div class="f03-case-belonging-icon">
-            </div>
-            <div class="f03-case-belonging-texts">
-              <div class="f03-case-belonging-text1"></div>
-              <div class="f03-case-belonging-text2"></div>
-            </div>
-          </div>
-          <div class="f03-case-comment">
-          </div>
-        </div>
-        <div class="f03-case">
-          <div class="f03-case-logo">
-          </div>
-          <div class="f03-case-belonging">
-            <div class="f03-case-belonging-icon">
-            </div>
-            <div class="f03-case-belonging-texts">
-              <div class="f03-case-belonging-text1"></div>
-              <div class="f03-case-belonging-text2"></div>
-            </div>
-          </div>
-          <div class="f03-case-comment">
-          </div>
-        </div>
-        <div class="f03-case">
-          <div class="f03-case-logo">
-          </div>
-          <div class="f03-case-belonging">
-            <div class="f03-case-belonging-icon">
-            </div>
-            <div class="f03-case-belonging-texts">
-              <div class="f03-case-belonging-text1"></div>
-              <div class="f03-case-belonging-text2"></div>
-            </div>
-          </div>
-          <div class="f03-case-comment">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+body {}
+.top {
+  width:100%;
+  height:605px;
+  background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/top-hero.png)  right 0/ auto 100% no-repeat;
+}
+  .header {
+    height:40px;
+  }
+    .header-container {
+      padding-top:20px;
+      padding-left:320px;
+      display: flex;
+    }
+      .header-container-logo {
+        width:185px;
+        height:20px;
+        margin-top:2px;
+        margin-right: 135px;
+      }
+      .header-container-list {
+        color:rgb(0, 0, 0);
+        display: flex;
+        margin-right:5px;
+      }
+        .header-container-list li{
+          text-align: center;
+          margin-left: 15px;
+          margin-right: 15px;
+          font-weight: bold;
+        }
+          .header-container-list-1 {
+            font-weight: 700;
+            font-size: 14px;
+            font-family:'Lato', sans-serif;
+          }
+          .header-container-list-2 {
+            font-weight: 700;
+            font-size: 10px;
+            line-height: px;
+            font-family:"Noto Sans JP", sans-serif;
+          }
+      .header-container-btn {
+        font-family:"Noto Sans JP", sans-serif;
+        width:150px;
+        height:40px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: px;
+        border-radius: 20px;
+      }
+      .header-container-logo:hover,
+      .header-container-list-about:hover,
+      .header-container-list-flow:hover,
+      .header-container-list-course:hover,
+      .header-container-list-interview:hover,
+      .header-container-list-faq:hover,
+      .header-container-list-company:hover {
+        opacity :.5;
+        transition: 0.5s;
+      }
+  .main {
+    width:525px;
+    padding-left:320px;
+  }
+    .main-counseling {
+      height:170px;
+      display: flex;
+      padding-top:150px;
+      margin-bottom:130px;
+    }
+      .main-counseling-left {
+        width:340px;
+      }
+        .main-counseling-left-logo {
+          width:340px;
+          height:35px;
+        }
+        p.main-counseling-left-text {
+          font-weight: 700px;
+          font-size: 20px;
+          line-height: 1.7;
+          font-family:"Noto Sans JP", sans-serif;
+        }
+          p.main-counseling-left-text span{
+            color:rgb(247, 147, 20);
+          }
+        .main-counseling-left-btn {
+          width:340px;
+          height:60px;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: px;
+          border-radius: 30px;
+        }
+      .main-counseling-right {
+        width:185px;
+      }
+        img.main-counseling-right-image {
+          object-fit: cover;/* アス比維持、短い方に合わせ、長い方ははみ出し*/
+        }
+    .main-annotation {
+      width:525px;
+    }
+      p.main-annotation-text {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        color:rgb(136, 136, 136);
+      }
 
 
 
 
 
-<div class="course">
-  <div class="course-text"></div>
-  <div class="course-carrier"></div>
-  <div class="course-beginner"></div>
-  <div class="course-open"></div>
-  <div class="course-button"></div>
-</div>
-
-
-
-
-<div class="message">
-  <div class="message-title">
-    <p class=""></p>
-    <p class=""></p>
-    <p class=""></p>
-  </div>
-  <div class="message-content"></div>
-</div>
-
-
-
-
-
-<div class="interview">
-  <div class="interview-title">
-  <p class=""></p>
-  <p class=""></p>
-  <p class=""></p>
-  </div>
-  <div class="interview-interviewer">
-    <div class="interview-ay"></div>
-    <div class="interview-ty"></div>
-    <div class="interview-st"></div>
-  </div>
-</div>
-
-
-
-
-
-<div class="service">
-  <div class="service-title"></div>
-  <div class="service-content"></div>
-</div>
-
-
-
-
-
-<div class="footer">
-  <div class="footer-content">
-    <div class="footer-content-left"></div>
-    <div class="footer-content-center"></div>
-    <div class="footer-content-right"></div>
-  </div>
-</div>
-
-
-
-
-<div class="footer-copyright"></div>
-
-</body>
-
-
-
-</html>
+.about {
+  width:100%;
+  height:330px;
+  background-color:rgb(247, 147, 20);
+  color:rgb(255, 255, 255);}
+  .about-container {
+    display: flex;
+  }
+    .about-left {
+      width:550px;
+      margin-top:70px;
+      margin-left: 320px;
+    }
+      p.about-left-1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: px;
+        padding-bottom:35px;
+      }
+        p.about-left-1 span{
+          font-weight: 700;
+          font-size: 40px;
+          line-height: px;
+        }
+      p.about-left-2 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 32px;
+      }
+    .about-right {
+      margin-left: 170px;
+      margin-top:130px;
+    }
+      .about-right-btn {
+        width:322px;
+        height:60px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        background-color:rgb(255, 255, 255);
+        color:rgb(247, 147, 20);
+        border-radius: 30px;
+        text-align: center;
+      }
+        .about-right-btn span{
+          font-weight: 700;
+          font-size: 14px;
+          line-height: px;
+        }
 
 
 
 
 
+.future {}
+  .future-container {
+    text-align: center;
+  }
+    .future-titles {
+      margin: 0 auto;
+    }
+      .future-title1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: px;
+        margin-top:90px;
+        margin-bottom:30px;
+      }
+       .future-title1 span{
+         font-weight: 700;
+         font-size: 46px;
+         line-height: px;
+       }
+      .future-title2 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom:25px;
+      }
+      .future-title3 {
+        margin-bottom:110px;
+        }/* orange-border */
+    .future-01 {
+      width:1040px;
+      background-color:rgb(252, 250, 244);
+      border-radius: 20px;
+      margin: 0 auto;
+    }
+      /* 共通部分❶ => */
+      .f-number {
+        margin: 0 auto;
+      }
+      .f-subtitle {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: px;
+        margin: 0 auto;
+        margin-bottom:45px;
+      }
+      .f-explanation {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        margin: 0 auto;
+        margin-bottom:45px;
+      }
+        .f-explanation span{}
+      .f-images {
+        background-color:rgb(255, 255, 255);
+        border-radius: 20px;
+      }
+      /* <= */
+      .f01-example {}
+        .f01-example-text {}
+          .f01-example-text a{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 24px;
+          }
+          .f01-example-text img{
+            width:34px;
+            height:auto;
+          }
+        .f01-example-text-border {
+          width:220px;
+          border-bottom:8px solid rgb(247, 147, 20) ;
+        }
+      .f01-logos-upper {}
+        .f01-logos-upper1 {}
+        .f01-logos-upper2 {}
+        .f01-logos-upper3 {}
+        .f01-logos-upper4 {}
+      .f01-logos-lower {}
+        .f01-logos-lower1 {}
+        .f01-logos-lower2 {}
+        .f01-logos-lower3 {}
+        .f01-logos-lower4 {}
+    .future-02 {}
+      /* 共通部分❶ => *//* <= */
+      .f02-images {}
+        .f02-image1 {}
+        .f02-image2 {}
+        .f02-image3 {}
+    .future-03 {}
+      /* 共通部分❶ => *//* <= */
+      .f03-cases {}
+        .f03-case1 {}
+          /* 共通部分❷ => */
+          .f03-case-logo {}
+          .f03-case-belonging {}
+            .f03-case-belonging-icon {}
+            .f03-case-belonging-texts {}
+              .f03-case-belonging-text1 {}
+              .f03-case-belonging-text2 {}
+          .f03-case-comment {}
+          /* <= */
+        .f03-case2 {}
+          /* 共通部分❷ => *//* <= */
+        .f03-case3 {}
+          /* 共通部分❸ => *//* <= */
+
+
+
+
+
+.course {
+  width:100%;
+  height:1040px;
+  background: url();
+}
+.course-course {}
+.course-carrier {}
+.course-beginner {}
+.course-open {}
+.course-button {}
+
+.message {
+  width:100%;
+  height:790px;
+}
+
+
+.interview {
+  width:100%;
+  height:930px;
+}
+
+
+.service {
+  width:100%;
+  height:630px;
+}
+
+.footer {
+  width:100%;
+  height:490px;
+}
 
 
 
@@ -266,4 +353,7 @@
 
 
 
-<!-- -->
+
+
+
+/*  */
