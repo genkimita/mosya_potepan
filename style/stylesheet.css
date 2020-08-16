@@ -211,27 +211,30 @@ body {}
   .future-container {
     text-align: center;
   }
-    .future-titles {
+    .future-01 {}
+  /* 共通 =>  */
+    .category-titles {
       margin: 0 auto;
     }
-      .future-title1 {
+      .category-title1 {
         font-weight: 900;
         font-size: 30px;
         line-height: px;
         margin-top:90px;
         margin-bottom:30px;
       }
-       .future-title1 span{
+       .category-title span{
          font-weight: 700;
          font-size: 46px;
          line-height: px;
        }
-      .future-title2 {
+      .category-title2 {
         font-weight: 700;
         font-size: 16px;
         line-height: 24px;
         margin-bottom:25px;
       }
+      /* <= */
       .future-title3 /* orange-border */{
         margin-bottom:110px;
         }
