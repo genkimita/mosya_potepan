@@ -215,12 +215,12 @@ body {}
   /* 共通 =>  */
     .category-titles {
       margin: 0 auto;
+      margin-top:90px;
     }
       .category-title1 {
         font-weight: 900;
         font-size: 30px;
         line-height: px;
-        margin-top:90px;
         margin-bottom:30px;
       }
        .category-title span{
@@ -371,6 +371,9 @@ body {}
             height:95px;
             margin-right: 15px;
           }
+           .f03-case-logo img{
+             vertical-align : middle;
+           }
           .f03-case-belonging {
             display: flex;
           }
