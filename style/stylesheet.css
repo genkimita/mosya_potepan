@@ -274,6 +274,7 @@ body {}
       .f-images {
         background-color:rgb(255, 255, 255);
         border-radius: 20px;
+        padding: 30px;
       }
       /* <= */
       .f01-example {}
@@ -282,6 +283,7 @@ body {}
             font-weight: 700;
             font-size: 24px;
             line-height: 24px;
+            margin-bottom:5px;
           }
           .f01-example-text img{
             width:34px;
