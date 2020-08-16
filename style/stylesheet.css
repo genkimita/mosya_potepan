@@ -422,7 +422,26 @@ body {}
 }
   .course-container {}
     /* 共通　■category-titles */
-    .class-box {}
+    .class-box {
+      height:170px;
+      background-color:#ffffff;
+      display: flex;
+      padding:20px 30px 20px 0px;
+      margin-top:60px;
+    }
+      .class-box-left {
+        border:3px solid rgb(247, 146, 21) ;
+        margin:0 30px 0 -20px ;
+      }
+        .class-box-left1 {}
+        .class-box-left2 {}
+      .class-box-right {}
+        .class-box-right1 {}
+        .class-box-right2 {}
+        .class-box-right3 {}
+        .class-box-right4 {
+          float:right;
+        }
     .course-btn/* btn2 */ {
       width:300px;
       height:60px;
