@@ -374,7 +374,9 @@ body {}
           .f03-case-belonging {
             display: flex;
           }
-            .f03-case-belonging-icon {}
+            .f03-case-belonging-icon {
+              margin-right: 15px;
+            }
             .f03-case-belonging-texts {}
               .f03-case-belonging-text1 {
                 font-weight: 700;
