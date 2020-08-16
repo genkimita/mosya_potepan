@@ -204,10 +204,11 @@ body {}
 
 
 .future {}
-  .future-container {}
+  .future-container {
+    text-align: center;
+  }
     .future-titles {
       margin: 0 auto;
-      text-align: center;
     }
       .future-title1 {
         font-weight: 900;
