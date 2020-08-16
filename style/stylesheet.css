@@ -238,8 +238,9 @@ body {}
       width:1040px;
       background-color:rgb(252, 250, 244);
       border-radius: 20px;
-      padding: 40px;
       margin: 0 auto;
+      padding: 40px;
+      margin-bottom:90px;
     }
       /* 共通部分❶ => */
       .f-number {
@@ -304,13 +305,17 @@ body {}
         .f01-logos-lower2 {}
         .f01-logos-lower3 {}
         .f01-logos-lower4 {}
-    .future-02 {}
+    .future-02 {
+      margin-bottom:90px;
+    }
       /* 共通部分❶ => *//* <= */
       .f02-images {}
         .f02-image1 {}
         .f02-image2 {}
         .f02-image3 {}
-    .future-03 {}
+    .future-03 {
+      margin-bottom:80px;
+    }
       /* 共通部分❶ => *//* <= */
       .f03-cases {}
         .f03-case1 {}
