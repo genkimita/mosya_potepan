@@ -313,9 +313,10 @@ body {}
     }
       /* 共通部分❶ => *//* <= */
       .f02-images {}
-        .f02-image1 {}
-        .f02-image2 {}
-        .f02-image3 {}
+        .f02-images img{
+          width:100%;
+          height:auto;
+        }
     .future-03 {
       margin-bottom:80px;
     }
