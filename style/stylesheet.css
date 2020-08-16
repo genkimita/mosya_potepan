@@ -274,10 +274,15 @@ body {}
         margin: 0 auto;
         margin-bottom:45px;
       }
-        .f-explanation span{}
-      }
+        .f-explanation span{
+          font-weight: 900;
+          font-size: 30px;
+          line-height: 30px;
+          color:#f79314;
+        }
       /* <= */
       .f01-images {
+        width:100%;
         background-color:#ffffff;
         border-radius: 20px;
         padding: 30px;
