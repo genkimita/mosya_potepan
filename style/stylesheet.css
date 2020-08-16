@@ -306,6 +306,7 @@ body {}
         }
       .f01-logos-upper {
         width: calc(100% / 4);
+        display: flex;
       }
         .f01-logos-upper1 {}
         .f01-logos-upper2 {}
@@ -313,6 +314,7 @@ body {}
         .f01-logos-upper4 {}
       .f01-logos-lower {
         width: calc(100% / 4);
+        display: flex;
       }
         .f01-logos-lower1 {}
         .f01-logos-lower2 {}
