@@ -22,6 +22,18 @@ li {
   align-items: center;/* 真ん中にしたい子の1つ親に */
   text-decoration: none;
 }
+.btn-text-upper {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.btn-text-lower {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: px;
+  text-align: center;
+}
 .btn:hover {
   opacity :.7;
   transition: all 0.5s;
@@ -185,20 +197,11 @@ body {}
       .about-right-btn {
         width:322px;
         height:60px;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 30px;
         background-color:rgb(255, 255, 255);
         color:rgb(247, 147, 20);
         border-radius: 30px;
-        text-align: center;
       }
-        .about-right-btn span{
-          font-weight: 700;
-          font-size: 14px;
-          line-height: px;
-        }
-
+        
 
 
 
