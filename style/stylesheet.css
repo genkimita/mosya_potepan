@@ -287,7 +287,7 @@ body {}
         border-radius: 20px;
         padding: 30px;
       }
-      .f01-example {}
+       .f01-example {}
         .f01-example-text {}
           .f01-example-text a{
             font-weight: 700;
@@ -304,12 +304,16 @@ body {}
           border-bottom:5px solid rgb(247, 147, 20) ;
           margin: 0 auto;
         }
-      .f01-logos-upper {}
+      .f01-logos-upper {
+        width: calc(100% / 4);
+      }
         .f01-logos-upper1 {}
         .f01-logos-upper2 {}
         .f01-logos-upper3 {}
         .f01-logos-upper4 {}
-      .f01-logos-lower {}
+      .f01-logos-lower {
+        width: calc(100% / 4);
+      }
         .f01-logos-lower1 {}
         .f01-logos-lower2 {}
         .f01-logos-lower3 {}
