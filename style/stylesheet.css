@@ -22,22 +22,26 @@ li {
   align-items: center;/* 真ん中にしたい子の1つ親に */
   text-decoration: none;
 }
-.btn-text-upper {
+.btn:hover,.btn2:hover {
+  opacity :.7;
+  transition: all 0.5s;
+}
+.btn2 {
+  text-decoration: none;
+}
+.btn2-text-upper {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
 }
-.btn-text-lower {
+.btn2-text-lower {
   font-weight: 700;
   font-size: 14px;
   line-height: px;
   text-align: center;
 }
-.btn:hover {
-  opacity :.7;
-  transition: all 0.5s;
-}
+
 .orange-border {
   width:50px;
   border-bottom:8px solid rgb(247, 147, 20) ;
@@ -416,11 +420,20 @@ body {}
   background-color:#F6F6F6;
   text-align: center;
 }
-.course-course {}
-.course-carrier {}
-.course-beginner {}
-.course-open {}
-.course-button {}
+  .course-container {}
+    /* 共通　■category-titles */
+    .class-box {}
+    .course-btn/* btn2 */ {
+      width:300px;
+      height:60px;
+      border-radius: 30px;
+      color:#ffffff;
+      background-color:rgb(247, 147, 20);
+    }
+
+
+
+
 
 .message {
   width:100%;
