@@ -235,6 +235,7 @@ body {}
       width:1040px;
       background-color:rgb(252, 250, 244);
       border-radius: 20px;
+      padding: 40px;
       margin: 0 auto;
     }
       /* 共通部分❶ => */
