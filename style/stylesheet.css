@@ -348,7 +348,6 @@ body {}
     }
       /* 共通部分❶ => *//* <= */
       .f03-cases {
-        background-color:rgb(255, 255, 255);
         display: flex;
         border-radius: 20px;
       }
@@ -360,17 +359,35 @@ body {}
         }
         .f03-case3 {
         }
-          /* 共通部分❷ => */
           .f03-case {
+            width:300px;
+            border-radius: 20px;
             padding: 20px;
           }
           .f03-case-logo {}
           .f03-case-belonging {}
             .f03-case-belonging-icon {}
             .f03-case-belonging-texts {}
-              .f03-case-belonging-text1 {}
-              .f03-case-belonging-text2 {}
-          .f03-case-comment {}
+              .f03-case-belonging-text1 {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 21px;
+                color:#f79314;
+              }
+              .f03-case-belonging-text2 {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 30px;
+              }
+          .f03-case-comment {
+            background-color:rgb(246, 246, 246);
+            padding:20px 30px 20px 20px;
+          }
+            .f03-case-comment p {
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 21px;
+            }
           /* <= */
         .f03-case2 {}
           /* 共通部分❷ => *//* <= */
