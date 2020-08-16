@@ -209,13 +209,27 @@ body {}
       margin: 0 auto;
       text-align: center;
     }
-      .future-titles p{
-      }
       .future-title1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: px;
+        margin-top:90px;
+        margin-bottom:30px;
       }
+       .future-title1 span{
+         font-weight: 700;
+         font-size: 46px;
+         line-height: px;
+       }
       .future-title2 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom:25px;
       }
-      .future-title3 {}/* orange-border */
+      .future-title3 {
+        margin-bottom:110px;
+        }/* orange-border */
     .future-01 {
       width:1040px;
       margin: 0 auto;
