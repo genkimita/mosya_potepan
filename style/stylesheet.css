@@ -330,6 +330,7 @@ body {}
         .f02-image {
           width: calc(100% / 3);
           height:auto;
+          padding:0px 60px;
         }
          .f02-image img{
            width:100%;
