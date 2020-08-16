@@ -241,6 +241,7 @@ body {}
       /* 共通部分❶ => */
       .f-number {
         color:#f79314;
+        background-color:rgb(252, 250, 244);
         font-weight: 700;
         font-size: 40px;
         line-height: 60px;
