@@ -275,12 +275,13 @@ body {}
         margin-bottom:45px;
       }
         .f-explanation span{}
-      .f-images {
+      }
+      /* <= */
+      .f01-images {
         background-color:rgb(255, 255, 255);
         border-radius: 20px;
         padding: 30px;
       }
-      /* <= */
       .f01-example {}
         .f01-example-text {}
           .f01-example-text a{
@@ -308,11 +309,14 @@ body {}
         .f01-logos-lower2 {}
         .f01-logos-lower3 {}
         .f01-logos-lower4 {}
-    .future-02 {
+    .future-02/* box */ {
       margin-bottom:90px;
     }
       /* 共通部分❶ => *//* <= */
-      .f02-images {}
+      .f02-images {
+        background-color:rgb(255, 255, 255);
+        border-radius: 20px;
+      }
         .f02-image {
           width: calc(100% / 3);
           height:auto;
@@ -321,13 +325,27 @@ body {}
            width:100%;
            height:100%;
          }
-    .future-03 {
+    .future-03/* box */ {
       margin-bottom:80px;
     }
       /* 共通部分❶ => *//* <= */
-      .f03-cases {}
-        .f03-case1 {}
+      .f03-cases {
+        background-color:rgb(255, 255, 255);
+        display: flex;
+        border-radius: 20px;
+      }
+        .f03-case1 {
+          margin-right: 30px;
+        }
+        .f03-case2 {
+          margin-right: 30px;
+        }
+        .f03-case3 {
+        }
           /* 共通部分❷ => */
+          .f03-case {
+            padding: 20px;
+          }
           .f03-case-logo {}
           .f03-case-belonging {}
             .f03-case-belonging-icon {}
