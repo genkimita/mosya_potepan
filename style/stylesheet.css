@@ -552,7 +552,11 @@ body {}
         }
         .message-box-left3 {}
         .message-box-left4 {}
-      .message-box-right {}
+      .message-box-right {
+        width:400px;
+        height:240px;
+        margin:auto 0 auto -100px;
+      }
         .message-box-right1 {
           position: relative;
         }
