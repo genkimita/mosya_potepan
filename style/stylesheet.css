@@ -420,6 +420,7 @@ body {}
   background-color:#F6F6F6;
 }
   .course-container {
+    text-align: center;
     padding-bottom:80px;
   }
     /* 共通　■category-titles */
