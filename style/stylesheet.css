@@ -530,11 +530,15 @@ body {}
     padding-bottom:80px;
   }
     /* 共通category-titles */
-    .message-titles {}
+    .message-titles {
+      margin: 0 auto;
+    }
       .message-title1 {}
       .message-title2 {}
       .message-title3 {}
-    .message-box {}
+    .message-box {
+      margin: 0 auto;
+    }
       .message-box-left {
         width:740px;
         padding: 40px;
@@ -549,10 +553,23 @@ body {}
           line-height: 50px;
         }
         .message-box-left2 {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 28px;
           margin-top:35px;
+          margin-bottom:40px;
         }
-        .message-box-left3 {}
-        .message-box-left4 {}
+        .message-box-left3 {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 28px;
+          margin-bottom:40px;
+        }
+        .message-box-left4 {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 28px;
+        }
       .message-box-right {
         width:400px;
         height:240px;
