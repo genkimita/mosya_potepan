@@ -423,7 +423,6 @@ body {}
   .course-container {}
     /* 共通　■category-titles */
     .course-titles {
-      margin-top:80px;
     }
     .class-box {
       width:1040px;
