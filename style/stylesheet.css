@@ -524,8 +524,50 @@ body {}
 
 .message {
   width:100%;
-  height:790px;
-}
+  height:790px;}
+  .message-container {}
+    /* 共通category-titles */
+    .message-titles {}
+      .message-title1 {}
+      .message-title2 {}
+      .message-title3 {}
+    .message-box {}
+      .message-box-left {
+        width:740px;
+        padding: 40px;
+      }
+        .message-box-left1 {
+          width:245px;
+          height:60px;
+          margin:-80px 0 0 -20px;
+          color:#ff802c;
+          font-weight: 900;
+          font-size: 50px;
+          line-height: 50px;
+        }
+        .message-box-left2 {
+          margin-top:35px;
+        }
+        .message-box-left3 {}
+        .message-box-left4 {}
+      .message-box-right {}
+        .message-box-right1 {
+          position: relative;
+        }
+          .message-box-right1 img{
+            width:400px;
+            height:240px;
+          }
+          .message-box-right1 p{
+            color:#ffffff;
+            position: absolute;
+            top: 25px;
+            left: 20px;
+          }
+
+
+
+
 
 
 .interview {
