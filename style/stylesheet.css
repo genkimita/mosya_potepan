@@ -569,6 +569,7 @@ body {}
       .message-title2 {}
       .message-title3 {}
     .message-box {
+      display: flex;
       margin: 0 auto;
     }
       .message-box-left {
