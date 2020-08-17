@@ -429,6 +429,7 @@ body {}
     .class-box {
       width:1040px;
       height:170px;
+      font-weight: bold;
       background-color:#ffffff;
       display: flex;
       padding:30px;
@@ -463,6 +464,9 @@ body {}
       }
         .class-box-left1 {
           width:120px;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: px;
           padding-bottom:10px;
         }
         .carrier-left1/* class-box-left1 */ {}
@@ -472,6 +476,9 @@ body {}
           width:120px;
           height:20px;
           color:rgb(255, 255, 255);
+          font-weight: 700;
+          font-size: 14px;
+          line-height: px;
           border-radius: 20px;
         }
         .carrier-left2 /* class-box-left2 */{
@@ -485,6 +492,9 @@ body {}
         text-align: left;
       }
         .class-box-right1 {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 16px;
         }
         .carrier-right1 /* class-box-right1 */{
           color:rgb(248,84,10);
@@ -495,11 +505,18 @@ body {}
         .class-box-right2 {
           width:100px;
           height:25px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
           color:rgb(255, 255, 255);
           background-color:rgb(0, 0, 0);
           border-radius: 20px;
         }
-        .class-box-right3 {}
+        .class-box-right3 {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: px;
+        }
           span.marker{
             content: ' ';
             width:8px;
@@ -511,6 +528,9 @@ body {}
             vertical-align : middle;
           }
         .class-box-right4 {
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 18px;
           text-align: right;
         }
         .class-box-right4:hover {
