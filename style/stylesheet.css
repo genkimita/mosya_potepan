@@ -462,14 +462,19 @@ body {}
         border-image:linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%);
       }
         .class-box-left1 {}
+        .carrier-left1/* class-box-left1 */ {}
+        .beginner-left1/* class-box-left1 */ {}
+        .open-left1/* class-box-left1 */ {}
         .class-box-left2 {
           color:rgb(255, 255, 255);
           background-color:;
         }
-        . /* class-box-left2 */{
+        .carrier-left2 /* class-box-left2 */{
+          color:rgb(255, 255, 255);
           background-color:rgb(248,84,10);
         }
-        . /* class-box-left2 */{
+        .beginner-left2 /* class-box-left2 */{
+          color:rgb(255, 255, 255);
           background-color:rgb(73,199,101);
         }
       .class-box-right {
