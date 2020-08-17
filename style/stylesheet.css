@@ -470,7 +470,9 @@ body {}
         .open-left1/* class-box-left1 */ {}
         .class-box-left2 {
           width:120px;
+          height:20px;
           color:rgb(255, 255, 255);
+          border-radius: 20px;
         }
         .carrier-left2 /* class-box-left2 */{
           background-color:rgb(248,84,10);
