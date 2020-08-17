@@ -219,7 +219,7 @@ body {}
   /* 共通 =>  */
     .category-titles {
       margin: 0 auto;
-      margin-top:90px;
+      margin-top:80px;
     }
       .category-title1 {
         font-weight: 900;
@@ -422,6 +422,9 @@ body {}
 }
   .course-container {}
     /* 共通　■category-titles */
+    .course-titles {
+      margin-top:80px;
+    }
     .class-box {
       width:1040px;
       height:170px;
