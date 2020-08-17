@@ -571,7 +571,7 @@ body {}
       .message-title3 {}
     .message-box {
       display: flex;
-      margin: 0 auto;
+      margin: 90 auto 0 auto;
     }
       .message-box-left {
         width:740px;
