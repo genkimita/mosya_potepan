@@ -556,6 +556,7 @@ body {}
 
 .message {
   width:100%;
+  background-color:rgb(252, 250, 244);
 }
   .message-container {
     text-align: center;
