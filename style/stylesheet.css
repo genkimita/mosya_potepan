@@ -437,10 +437,10 @@ body {}
     .class-carrier/* class-box */ {
       margin-bottom:40px;
     }
-    .class-beginner/* class-box */ { {
+    .class-beginner/* class-box */ {
       margin-bottom:40px;
     }
-    .class-open/* class-box */ { {
+    .class-open/* class-box */ {
       margin-bottom:60px;
     }
       .class-box-left {
@@ -509,7 +509,6 @@ body {}
           text-align: right;
         }
         .class-box-right4:hover {
-          color:;
         }
     .course-btn/* btn2 */ {
       width:300px;
