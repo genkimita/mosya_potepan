@@ -491,8 +491,11 @@ body {}
           color:rgb(73,199,101);
         }
         .class-box-right2 {
+          width:100px;
+          height:25px;
           color:rgb(255, 255, 255);
           background-color:rgb(0, 0, 0);
+          border-radius: 20px;
         }
         .class-box-right3 {}
           span.marker{
