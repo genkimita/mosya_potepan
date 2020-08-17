@@ -464,6 +464,7 @@ body {}
       .open-left /* class-box-left */{
         border-image:linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%);
       }
+       .class-box-left0 {}
         .class-box-left1 {
           width:120px;
           font-weight: 700;
@@ -493,6 +494,7 @@ body {}
         width:100%;
         text-align: left;
       }
+       .class-box-right0 {}
         .class-box-right1 {
           font-weight: 700;
           font-size: 16px;
