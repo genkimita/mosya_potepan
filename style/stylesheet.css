@@ -448,7 +448,6 @@ body {}
         width:293px;
         text-align: center;
         border:3px solid;
-        border-image-slice: 1;
         margin:0 30px 0 -50px ;
         justify-content: center;
         align-items: center;/* 真ん中にしたい子の1つ親に */
