@@ -575,7 +575,7 @@ body {}
     }
       .message-box-left {
         width:740px;
-        padding: 40px;
+        padding: 40 155 40 40;
         background-color:rgb(255, 255, 255);
       }
         .message-box-left1 {
