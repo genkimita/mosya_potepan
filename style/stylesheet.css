@@ -435,6 +435,15 @@ body {}
       margin: 0 auto;
       margin-top:60px;
     }
+    .class-carrier/* class-box */ {
+      margin-bottom:40px;
+    }
+    .class-beginner/* class-box */ { {
+      margin-bottom:40px;
+    }
+    .class-open/* class-box */ { {
+      margin-bottom:60px;
+    }
       .class-box-left {
         width:293px;
         border:3px solid ;
@@ -443,13 +452,37 @@ body {}
         justify-content: center;
         align-items: center;
       }
+      .carrier-left /* class-box-left */{
+        border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%);
+      }
+      .beginner-left /* class-box-left */{
+        border-image:linear-gradient(to right, rgb(28, 179, 137) 0%, rgb(73, 199, 101) 100%);
+      }
+      .open-left /* class-box-left */{
+        border-image:linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%);
+      }
         .class-box-left1 {}
-        .class-box-left2 {}
+        .class-box-left2 {
+          color:rgb(255, 255, 255);
+          background-color:;
+        }
+        . /* class-box-left2 */{
+          background-color:rgb(248,84,10);
+        }
+        . /* class-box-left2 */{
+          background-color:rgb(73,199,101);
+        }
       .class-box-right {
         width:100%;
-        text-align: left;
       }
-        .class-box-right1 {}
+        .class-box-right1 {
+        }
+        .carrier-right1 /* class-box-right1 */{
+          color:rgb(248,84,10);
+        }
+        .beginner-right1 /* class-box-right1 */{
+          color:rgb(73,199,101);
+        }
         .class-box-right2 {
           color:rgb(255, 255, 255);
           background-color:rgb(0, 0, 0);
@@ -467,24 +500,9 @@ body {}
         .class-box-right4 {
           text-align: right;
         }
-    .class-carrier/* class-box */ {
-      margin-bottom:40px;
-    }
-    .class-beginner/* class-box */ { {
-      margin-bottom:40px;
-    }
-    .class-open/* class-box */ { {
-      margin-bottom:60px;
-    }
-      .carrier-left /* class-box-left */{
-        border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%);
-      }
-      .beginner-left /* class-box-left */{
-        border-image:linear-gradient(to right, rgb(28, 179, 137) 0%, rgb(73, 199, 101) 100%);
-      }
-      .open-left /* class-box-left */{
-        border-image:linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%);
-      }
+        .class-box-right4:hover {
+          color:;
+        }
     .course-btn/* btn2 */ {
       width:300px;
       height:60px;
