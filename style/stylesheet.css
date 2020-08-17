@@ -435,7 +435,7 @@ body {}
     }
       .class-box-left {
         width:293px;
-        border:3px solid rgb(247, 146, 21) ;
+        border:3px solid ;
         margin:0 30px 0 -50px ;
       }
         .class-box-left1 {}
@@ -449,15 +449,24 @@ body {}
         .class-box-right4 {
           text-align: right;
         }
-    .class-carrier {
+    .class-carrier/* class-box */ {
       margin-bottom:40px;
     }
-    .class-beginner {
+    .class-beginner/* class-box */ { {
       margin-bottom:40px;
     }
-    .class-open {
+    .class-open/* class-box */ { {
       margin-bottom:60px;
     }
+      .carrier-left /* class-box-left */{
+        border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%);
+      }
+      .beginner-left /* class-box-left */{
+        border-image:linear-gradient(to right, rgb(28, 179, 137) 0%, rgb(73, 199, 101) 100%);
+      }
+      .open-left /* class-box-left */{
+        border-image:linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%);
+      }
     .course-btn/* btn2 */ {
       width:300px;
       height:60px;
