@@ -219,7 +219,7 @@ body {}
   /* 共通 =>  */
     .category-titles {
       margin: 0 auto;
-      margin-top:80px;
+      padding-top:80px;
     }
       .category-title1 {
         font-weight: 900;
@@ -420,7 +420,9 @@ body {}
   background-color:#F6F6F6;
   text-align: center;
 }
-  .course-container {}
+  .course-container {
+    padding-bottom:80px;
+  }
     /* 共通　■category-titles */
     .course-titles {
     }
@@ -474,7 +476,6 @@ body {}
       color:#ffffff;
       background-color:rgb(247, 147, 20);
       margin: 0 auto;
-      margin-bottom:80px;
     }
 
 
