@@ -626,11 +626,24 @@ body {}
 
 
 
-
-
 .interview {
-  width:100%;
-}
+  width:100%;}
+  .interview-container {
+    text-align: center;
+  }
+    /* 共通category-titles */
+    .interview-titles {}
+      .interview-title1 {}
+      .interview-title2 {}
+      .interview-title3 {}
+      .interview-title4 {}
+    .interview-box {
+      width:1040px;
+    }
+      .interviewer/* 共通 */ {}
+      .interview-box-left {}
+      .interview-box-center {}
+      .interview-box-right {}
 
 
 .service {
