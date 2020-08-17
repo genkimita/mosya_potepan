@@ -564,6 +564,7 @@ body {}
   }
     /* 共通category-titles */
     .message-titles {
+      padding-bottom:80px;
       margin: 0 auto;
     }
       .message-title1 {}
@@ -577,6 +578,8 @@ body {}
         width:740px;
         padding: 40px 155px 40px 40px;
         background-color:rgb(255, 255, 255);
+        font-weight: bold;
+        text-align: left;
       }
         .message-box-left1 {
           width:245px;
@@ -619,6 +622,7 @@ body {}
           }
           .message-box-right1 p{
             color:#ffffff;
+            font-weight: bold;
             position: absolute;
             top: 25px;
             left: 20px;
