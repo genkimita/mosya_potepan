@@ -585,7 +585,8 @@ body {}
       .message-title3 {}
     .message-box {
       display: flex;
-      margin: 90 auto 0 auto;
+      padding-top:90px;
+      margin: 0 auto 0 auto;
     }
       .message-box-left {
         width:740px;
