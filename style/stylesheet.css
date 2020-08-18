@@ -422,6 +422,7 @@ body {}
   background-color:#F6F6F6;
 }
   .course-container {
+    background: url(image/bg-section-top-course.png)  right top / 50% 50% no-repeat;
     text-align: center;
     padding-bottom:80px;
   }
@@ -521,7 +522,7 @@ body {}
           background-color:rgb(0, 0, 0);
           border-radius: 20px;
           text-align: center;
-          vertical-align : middle;
+          padding-top:5px;
           margin-bottom:10px;
         }
         .class-box-right3 {
