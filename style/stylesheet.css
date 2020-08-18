@@ -448,14 +448,11 @@ body {}
     }
       .class-box-left {
         width:293px;
-        text-align: center;
         border:3px solid;
         margin:0 30 0 -50px ;
-        display: flex;
-        justify-content: center;
-        align-items: center;/* 真ん中にしたい子の1つ親に */
+        text-align: center;
       }
-      border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%);
+      /* border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%); */
       .carrier-left /* class-box-left */{
         background-color:rgb(247, 146, 21);
       }
@@ -518,8 +515,7 @@ body {}
           background-color:rgb(0, 0, 0);
           border-radius: 20px;
           text-align: center;
-          padding-top:auto;
-          padding-bottom:auto;
+          vertical-align : middle;
         }
         .class-box-right3 {
           font-weight: 700;
