@@ -228,7 +228,7 @@ body {}
         line-height: px;
         margin-bottom:30px;
       }
-       .category-title span{
+       .category-title1 span{
          font-weight: 700;
          font-size: 46px;
          line-height: px;
@@ -652,7 +652,7 @@ body {}
   }
     /* 共通category-titles */
     .interview-titles {}
-      .interview-title1 {}
+      .interview-title1 span{}
       .interview-title2 {}
       .interview-title3 {}
       .interview-title4 {}
