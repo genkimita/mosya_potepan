@@ -658,11 +658,36 @@ body {}
       .interview-title4 {}
     .interview-box {
       width:1040px;
+      display: flex;
+      margin: 0 auto;
     }
-      .interviewer/* 共通 */ {}
-      .interview-box-left {}
-      .interview-box-center {}
+      .interviewer/* 共通 */ {
+        width:320px;
+      }
+      .interview-box-left {
+        margin-right: 40px;
+      }
+      .interview-box-center {
+        margin-right: 40px;
+      }
       .interview-box-right {}
+        .interviewer-profile/* 共通 */ {
+          width:320px;
+          height:320px;
+          padding: 20px;
+          position: relative;
+        }
+          .interviewer-profile img{
+          }
+          .interviewer-profile1 {
+            position: absolute;
+            bottom: 0;
+          }
+          .interviewer-profile2 {
+            position: absolute;
+            bottom: 0;
+          }
+        .interviewer-text {}
     .interview-btn/* btn2 */ {
       width:300px;
       height:60px;
