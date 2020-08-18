@@ -400,6 +400,7 @@ body {}
           .f03-case-comment {
             background-color:rgb(246, 246, 246);
             padding:20px 30px 20px 20px;
+            text-align: left;
           }
             .f03-case-comment p {
               font-weight: 700;
