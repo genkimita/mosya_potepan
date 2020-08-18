@@ -462,7 +462,11 @@ body {}
       .open-left /* class-box-left */{
         border-image:linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%);
       }
-       .class-box-left0 {}
+       .class-box-left0 {
+         display: flex;
+         justify-content: center;
+         align-items: center;/* 真ん中にしたい子の1つ親に */
+       }
         .class-box-left1 {
           width:120px;
           font-weight: 700;
