@@ -450,7 +450,7 @@ body {}
     }
       .class-box-left {
         width:293px;
-        margin:0 0 0 -50px ;
+        margin:0 auto 0 -50px ;
         text-align: center;
       }
       /* border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%); */
@@ -501,7 +501,7 @@ body {}
         }
       .class-box-right {
         width:100%;
-        margin-left: 30px;
+        padding-left:30px;
         text-align: left;
       }
        .class-box-right0 {}
