@@ -455,8 +455,9 @@ body {}
         justify-content: center;
         align-items: center;/* 真ん中にしたい子の1つ親に */
       }
+      border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%);
       .carrier-left /* class-box-left */{
-        border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%);
+        background-color:rgb(247, 146, 21);
       }
       .beginner-left /* class-box-left */{
         border-image:linear-gradient(to right, rgb(28, 179, 137) 0%, rgb(73, 199, 101) 100%);
