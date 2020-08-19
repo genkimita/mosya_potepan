@@ -450,7 +450,7 @@ body {}
     }
       .class-box-left {
         width:293px;
-        margin:0 auto 0 -50px ;
+        margin:0 30px 0 -50px ;
         text-align: center;
       }
       /* border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%); */
