@@ -1,717 +1,714 @@
-* {
-margin: 0px;
-padding: 0px;/* 要素同士の隙間を0に */
-box-sizing: border-box;/* スクロールの余白なし */
-}
-@font-face {
-  font-family: 'Lato';
-  src: url('./font/lato/Lato-Black.ttf') format('Lato');
-}
-@font-face {
-  font-family: "Noto Sans JP";
-  src: url('./font/Noto_Sans_JP/NotoSansJP-Black.otf') format("Noto Sans JP");
-}
-li {
-  list-style: none;
-}
-.btn {
-  color:rgb(255, 255, 255);
-  background-color:rgb(247, 147, 20);
-  display: flex;
-  justify-content: center;
-  align-items: center;/* 真ん中にしたい子の1つ親に */
-  text-decoration: none;
-}
-.btn:hover,.btn2:hover {
-  opacity :.7;
-  transition: all 0.5s;
-}
-.btn2 {
-  text-decoration: none;
-  padding-top:5px;
-}
-.btn2-text-upper {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: center;
-}
-.btn2-text-lower {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: px;
-  text-align: center;
-}
-
-.orange-border {
-  width:50px;
-  border-bottom:8px solid rgb(247, 147, 20) ;
-  margin: 0 auto;
-}
-
-
-
-body {}
-.top {
-  width:100%;
-  height:605px;
-  background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/top-hero.png)  right 0/ auto 100% no-repeat;
-}
-  .header {
-    height:40px;
+  * {
+  margin: 0px;
+  padding: 0px;/* 要素同士の隙間を0に */
+  box-sizing: border-box;/* スクロールの余白なし */
   }
-    .header-container {
-      padding-top:20px;
-      padding-left:320px;
-      display: flex;
-    }
-      .header-container-logo {
-        width:185px;
-        height:20px;
-        margin-top:2px;
-        margin-right: 135px;
-      }
-      .header-container-list {
-        color:rgb(0, 0, 0);
-        display: flex;
-        margin-right:5px;
-      }
-        .header-container-list li{
-          text-align: center;
-          margin-left: 15px;
-          margin-right: 15px;
-          font-weight: bold;
-        }
-          .header-container-list-1 {
-            font-weight: 700;
-            font-size: 14px;
-            font-family:'Lato', sans-serif;
-          }
-          .header-container-list-2 {
-            font-weight: 700;
-            font-size: 10px;
-            line-height: px;
-            font-family:"Noto Sans JP", sans-serif;
-          }
-      .header-container-btn {
-        font-family:"Noto Sans JP", sans-serif;
-        width:150px;
-        height:40px;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: px;
-        border-radius: 20px;
-      }
-      .header-container-logo:hover,
-      .header-container-list-about:hover,
-      .header-container-list-flow:hover,
-      .header-container-list-course:hover,
-      .header-container-list-interview:hover,
-      .header-container-list-faq:hover,
-      .header-container-list-company:hover {
-        opacity :.5;
-        transition: 0.5s;
-      }
-  .main {
-    width:525px;
-    padding-left:320px;
+  @font-face {
+    font-family: 'Lato';
+    src: url('./font/lato/Lato-Black.ttf') format('Lato');
   }
-    .main-counseling {
-      height:170px;
-      display: flex;
-      padding-top:150px;
-      margin-bottom:130px;
-    }
-      .main-counseling-left {
-        width:340px;
-      }
-        .main-counseling-left-logo {
-          width:340px;
-          height:35px;
-        }
-        p.main-counseling-left-text {
-          font-weight: 700px;
-          font-size: 20px;
-          line-height: 1.7;
-          font-family:"Noto Sans JP", sans-serif;
-        }
-          p.main-counseling-left-text span{
-            color:rgb(247, 147, 20);
-          }
-        .main-counseling-left-btn {
-          width:340px;
-          height:60px;
-          font-weight: 700;
-          font-size: 16px;
-          line-height: px;
-          border-radius: 30px;
-        }
-      .main-counseling-right {
-        width:185px;
-      }
-        img.main-counseling-right-image {
-          object-fit: cover;/* アス比維持、短い方に合わせ、長い方ははみ出し*/
-        }
-    .main-annotation {
-      width:525px;
-      bottom: 30px;
-    }
-      .main-annotation-text {
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 15px;
-        color:rgb(136, 136, 136);
-      }
-
-
-
-
-
-.about {
-  width:100%;
-  height:330px;
-  background-color:rgb(247, 147, 20);
-  color:rgb(255, 255, 255);}
-  .about-container {
+  @font-face {
+    font-family: "Noto Sans JP";
+    src: url('./font/Noto_Sans_JP/NotoSansJP-Black.otf') format("Noto Sans JP");
+  }
+  li {
+    list-style: none;
+  }
+  .btn {
+    color:rgb(255, 255, 255);
+    background-color:rgb(247, 147, 20);
     display: flex;
+    justify-content: center;
+    align-items: center;/* 真ん中にしたい子の1つ親に */
+    text-decoration: none;
   }
-    .about-left {
-      width:550px;
-      margin-top:70px;
-      margin-left: 320px;
-    }
-      p.about-left-1 {
-        font-weight: 900;
-        font-size: 50px;
-        line-height: px;
-        padding-bottom:35px;
-      }
-        p.about-left-1 span{
-          font-weight: 700;
-          font-size: 40px;
-          line-height: px;
-        }
-      p.about-left-2 {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 32px;
-      }
-    .about-right {
-      margin-left: 170px;
-      margin-top:130px;
-    }
-      .about-right-btn {
-        width:322px;
-        height:60px;
-        background-color:rgb(255, 255, 255);
-        color:rgb(247, 147, 20);
-        border-radius: 30px;
-      }
-
-
-
-
-
-.future {}
-  .future-container {
+  .btn:hover,.btn2:hover {
+    opacity :.7;
+    transition: all 0.5s;
+  }
+  .btn2 {
+    text-decoration: none;
+    padding-top:5px;
+  }
+  .btn2-text-upper {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
     text-align: center;
   }
-    .future-01 {}
-  /* 共通 =>  */
-    .category-titles {
-      margin: 0 auto;
-      padding-top:80px;
+  .btn2-text-lower {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: px;
+    text-align: center;
+  }
+
+  .orange-border {
+    width:50px;
+    border-bottom:8px solid rgb(247, 147, 20) ;
+    margin: 0 auto;
+  }
+
+
+
+  body {}
+  .top {
+    width:100%;
+    height:605px;
+    background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/top-hero.png)  right 0/ auto 100% no-repeat;
+  }
+    .header {
+      height:40px;
     }
-      .category-title1 {
-        font-weight: 900;
-        font-size: 50px;
-        line-height: px;
-        margin-bottom:30px;
-      }
-       .category-title1 span{
-         font-weight: 700;
-         font-size: 46px;
-         line-height: px;
-       }
-      .category-title2 {
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 24px;
-        margin-bottom:25px;
-      }
-      /* <= */
-      .future-title3 /* orange-border */{
-        margin-bottom:110px;
-        }
-    .future-box /* 共通 */{
-      width:1040px;
-      background-color:rgb(252, 250, 244);
-      border-radius: 20px;
-      margin: 0 auto;
-      padding: 40px;
-    }
-    .future-01 {
-      margin-bottom:90px;
-    }
-      /* 共通部分❶ => */
-      .f-number {
-        color:#f79314;
-        background-color:rgb(252, 250, 244);
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 60px;
-        width:100px;
-        height:100px;
-        border-radius: 50px;
-        margin: -90px auto 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .f-subtitle {
-        font-weight: 700;
-        font-size: 30px;
-        line-height: px;
-        margin: 0 auto;
-        margin-bottom:45px;
-      }
-      .f-explanation {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 32px;
-        margin: 0 auto;
-        margin-bottom:45px;
-      }
-        .f-explanation span{
-          font-weight: 900;
-          font-size: 30px;
-          line-height: 30px;
-          color:#f79314;
-        }
-      /* <= */
-      .f01-images {
-        width:100%;
-        background-color:#ffffff;
-        border-radius: 20px;
-        padding: 30px;
-      }
-       .f01-example {}
-        .f01-example-text {}
-          .f01-example-text a{
-            font-weight: 700;
-            font-size: 24px;
-            line-height: 24px;
-            margin-bottom:5px;
-          }
-          .f01-example-text img{
-            width:34px;
-            height:auto;
-          }
-        .f01-example-text-border {
-          width:220px;
-          border-bottom:5px solid rgb(247, 147, 20) ;
-          margin: 0 auto;
-        }
-      .f01-logos-upper {
-        width: calc(100% / 4);
+      .header-container {
+        padding-top:20px;
+        padding-left:320px;
         display: flex;
       }
-        .f01-logos-upper1 {}
-        .f01-logos-upper2 {}
-        .f01-logos-upper3 {}
-        .f01-logos-upper4 {}
-      .f01-logos-lower {
-        width: calc(100% / 4);
-        display: flex;
-      }
-        .f01-logos-lower1 {}
-        .f01-logos-lower2 {}
-        .f01-logos-lower3 {}
-        .f01-logos-lower4 {}
-    .future-02/* box */ {
-      margin-bottom:90px;
-    }
-      /* 共通部分❶ => *//* <= */
-      .f02-images {
-        background-color:rgb(255, 255, 255);
-        border-radius: 20px;
-        padding-top:40px;
-        padding-bottom:40px;
-        display: flex;
-      }
-        .f02-image {
-          width: calc(100% / 3);
-          height:auto;
-          padding:0px 60px;
+        .header-container-logo {
+          width:185px;
+          height:20px;
+          margin-top:2px;
+          margin-right: 135px;
         }
-         .f02-image img{
-           width:100%;
-           height:100%;
-         }
-    .future-03/* box */ {
-      margin-bottom:80px;
-    }
-      /* 共通部分❶ => *//* <= */
-      .f03-cases {
-        display: flex;
-        border-radius: 20px;
-      }
-        .f03-case1 {
-          margin-right: 30px;
+        .header-container-list {
+          color:rgb(0, 0, 0);
+          display: flex;
+          margin-right:5px;
         }
-        .f03-case2 {
-          margin-right: 30px;
-        }
-        .f03-case3 {
-        }
-          .f03-case {
-            width:300px;
-            height:365px;
-            background-color:#ffffff;
-            border-radius: 20px;
-            padding: 20px;
-          }
-          .f03-case-logo {
-            width:auto;
-            height:95px;
+          .header-container-list li{
+            text-align: center;
+            margin-left: 15px;
             margin-right: 15px;
+            font-weight: bold;
           }
-           .f03-case-logo img{
-             vertical-align : middle;
+            .header-container-list-1 {
+              font-weight: 700;
+              font-size: 14px;
+              font-family:'Lato', sans-serif;
+            }
+            .header-container-list-2 {
+              font-weight: 700;
+              font-size: 10px;
+              line-height: px;
+              font-family:"Noto Sans JP", sans-serif;
+            }
+        .header-container-btn {
+          font-family:"Noto Sans JP", sans-serif;
+          width:150px;
+          height:40px;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: px;
+          border-radius: 20px;
+        }
+        .header-container-logo:hover,
+        .header-container-list-about:hover,
+        .header-container-list-flow:hover,
+        .header-container-list-course:hover,
+        .header-container-list-interview:hover,
+        .header-container-list-faq:hover,
+        .header-container-list-company:hover {
+          opacity :.5;
+          transition: 0.5s;
+        }
+    .main {
+      width:525px;
+      padding-left:320px;
+    }
+      .main-counseling {
+        height:170px;
+        display: flex;
+        padding-top:150px;
+        margin-bottom:130px;
+      }
+        .main-counseling-left {
+          width:340px;
+        }
+          .main-counseling-left-logo {
+            width:340px;
+            height:35px;
+          }
+          p.main-counseling-left-text {
+            font-weight: 700px;
+            font-size: 20px;
+            line-height: 1.7;
+            font-family:"Noto Sans JP", sans-serif;
+          }
+            p.main-counseling-left-text span{
+              color:rgb(247, 147, 20);
+            }
+          .main-counseling-left-btn {
+            width:340px;
+            height:60px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: px;
+            border-radius: 30px;
+          }
+        .main-counseling-right {
+          width:185px;
+        }
+          img.main-counseling-right-image {
+            object-fit: cover;/* アス比維持、短い方に合わせ、長い方ははみ出し*/
+          }
+      .main-annotation {
+        width:525px;
+        bottom: 30px;
+      }
+        .main-annotation-text {
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 15px;
+          color:rgb(136, 136, 136);
+        }
+
+
+
+
+
+  .about {
+    width:100%;
+    height:330px;
+    background-color:rgb(247, 147, 20);
+    color:rgb(255, 255, 255);}
+    .about-container {
+      display: flex;
+    }
+      .about-left {
+        width:550px;
+        margin-top:70px;
+        margin-left: 320px;
+      }
+        p.about-left-1 {
+          font-weight: 900;
+          font-size: 50px;
+          line-height: px;
+          padding-bottom:35px;
+        }
+          p.about-left-1 span{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: px;
+          }
+        p.about-left-2 {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 32px;
+        }
+      .about-right {
+        margin-left: 170px;
+        margin-top:130px;
+      }
+        .about-right-btn {
+          width:322px;
+          height:60px;
+          background-color:rgb(255, 255, 255);
+          color:rgb(247, 147, 20);
+          border-radius: 30px;
+        }
+
+
+
+
+
+  .future {}
+    .future-container {
+      text-align: center;
+    }
+      .future-01 {}
+    /* 共通 =>  */
+      .category-titles {
+        margin: 0 auto;
+        padding-top:80px;
+      }
+        .category-title1 {
+          font-weight: 900;
+          font-size: 50px;
+          line-height: px;
+          margin-bottom:30px;
+        }
+         .category-title1 span{
+           font-weight: 700;
+           font-size: 46px;
+           line-height: px;
+         }
+        .category-title2 {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+          margin-bottom:25px;
+        }
+        /* <= */
+        .future-title3 /* orange-border */{
+          margin-bottom:110px;
+          }
+      .future-box /* 共通 */{
+        width:1040px;
+        background-color:rgb(252, 250, 244);
+        border-radius: 20px;
+        margin: 0 auto;
+        padding: 40px;
+      }
+      .future-01 {
+        margin-bottom:90px;
+      }
+        /* 共通部分❶ => */
+        .f-number {
+          color:#f79314;
+          background-color:rgb(252, 250, 244);
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 60px;
+          width:100px;
+          height:100px;
+          border-radius: 50px;
+          margin: -90px auto 0 auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .f-subtitle {
+          font-weight: 700;
+          font-size: 30px;
+          line-height: px;
+          margin: 0 auto;
+          margin-bottom:45px;
+        }
+        .f-explanation {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 32px;
+          margin: 0 auto;
+          margin-bottom:45px;
+        }
+          .f-explanation span{
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 30px;
+            color:#f79314;
+          }
+        /* <= */
+        .f01-images {
+          width:100%;
+          background-color:#ffffff;
+          border-radius: 20px;
+          padding: 30px;
+        }
+         .f01-example {}
+          .f01-example-text {}
+            .f01-example-text a{
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 24px;
+              margin-bottom:5px;
+            }
+            .f01-example-text img{
+              width:34px;
+              height:auto;
+            }
+          .f01-example-text-border {
+            width:220px;
+            border-bottom:5px solid rgb(247, 147, 20) ;
+            margin: 0 auto;
+          }
+        .f01-logos-upper {
+          width: calc(100% / 4);
+          display: flex;
+        }
+          .f01-logos-upper1 {}
+          .f01-logos-upper2 {}
+          .f01-logos-upper3 {}
+          .f01-logos-upper4 {}
+        .f01-logos-lower {
+          width: calc(100% / 4);
+          display: flex;
+        }
+          .f01-logos-lower1 {}
+          .f01-logos-lower2 {}
+          .f01-logos-lower3 {}
+          .f01-logos-lower4 {}
+      .future-02/* box */ {
+        margin-bottom:90px;
+      }
+        /* 共通部分❶ => *//* <= */
+        .f02-images {
+          background-color:rgb(255, 255, 255);
+          border-radius: 20px;
+          padding-top:40px;
+          padding-bottom:40px;
+          display: flex;
+        }
+          .f02-image {
+            width: calc(100% / 3);
+            height:auto;
+            padding:0px 60px;
+          }
+           .f02-image img{
+             width:100%;
+             height:100%;
            }
-          .f03-case-belonging {
-            display: flex;
+      .future-03/* box */ {
+        margin-bottom:80px;
+      }
+        /* 共通部分❶ => *//* <= */
+        .f03-cases {
+          display: flex;
+          border-radius: 20px;
+        }
+          .f03-case1 {
+            margin-right: 30px;
           }
-            .f03-case-belonging-icon {
+          .f03-case2 {
+            margin-right: 30px;
+          }
+          .f03-case3 {
+          }
+            .f03-case {
+              width:300px;
+              height:365px;
+              background-color:#ffffff;
+              border-radius: 20px;
+              padding: 20px;
+            }
+            .f03-case-logo {
+              width:auto;
+              height:95px;
               margin-right: 15px;
             }
-            .f03-case-belonging-texts {}
-              .f03-case-belonging-text1 {
+             .f03-case-logo img{
+               vertical-align : middle;
+             }
+            .f03-case-belonging {
+              display: flex;
+            }
+              .f03-case-belonging-icon {
+                margin-right: 15px;
+              }
+              .f03-case-belonging-texts {}
+                .f03-case-belonging-text1 {
+                  font-weight: 700;
+                  font-size: 14px;
+                  line-height: 21px;
+                  color:#f79314;
+                }
+                .f03-case-belonging-text2 {
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 30px;
+                }
+            .f03-case-comment {
+              background-color:rgb(246, 246, 246);
+              padding:20px 30px 20px 20px;
+              text-align: left;
+            }
+              .f03-case-comment p {
                 font-weight: 700;
                 font-size: 14px;
                 line-height: 21px;
-                color:#f79314;
               }
-              .f03-case-belonging-text2 {
-                font-weight: 700;
-                font-size: 20px;
-                line-height: 30px;
-              }
-          .f03-case-comment {
-            background-color:rgb(246, 246, 246);
-            padding:20px 30px 20px 20px;
-            text-align: left;
-          }
-            .f03-case-comment p {
-              font-weight: 700;
-              font-size: 14px;
-              line-height: 21px;
-            }
-          /* <= */
-        .f03-case2 {}
-          /* 共通部分❷ => *//* <= */
-        .f03-case3 {}
-          /* 共通部分❸ => *//* <= */
+            /* <= */
+          .f03-case2 {}
+            /* 共通部分❷ => *//* <= */
+          .f03-case3 {}
+            /* 共通部分❸ => *//* <= */
 
 
 
 
 
-.course {
-  width:100%;
-  background-color:#F6F6F6;
-}
-  .course-container {
-    background: url(image/bg-section-top-course.png)  right top / 50% 50% no-repeat;
-    text-align: center;
-    padding-bottom:80px;
+  .course {
+    width:100%;
+    background-color:#F6F6F6;
   }
-    /* 共通　■category-titles */
-    .course-titles {
+    .course-container {
+      background: url(image/bg-section-top-course.png)  right top / 50% 50% no-repeat;
+      text-align: center;
+      padding-bottom:80px;
     }
-    .class-box {
-      width:1040px;
-      height:170px;
-      font-weight: bold;
-      background-color:#ffffff;
-      display: flex;
-      padding:30px;
-      margin: 0 auto;
-      margin-top:60px;
-    }
-    .class-carrier/* class-box */ {
-      margin-bottom:40px;
-    }
-    .class-beginner/* class-box */ {
-      margin-bottom:40px;
-    }
-    .class-open/* class-box */ {
-      margin-bottom:60px;
-    }
-      .class-box-left {
-        width:293px;
-        margin:0 30px 0 -50px ;
-        text-align: center;
+      /* 共通　■category-titles */
+      .course-titles {
       }
-      /* border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%); */
-      .carrier-left /* class-box-left */{
-        border:3px solid;
-        border-image:rgb(247, 146, 21);
+      .class-box {
+        width:1040px;
+        height:170px;
+        font-weight: bold;
+        background-color:#ffffff;
+        display: flex;
+        padding:30px;
+        margin: 0 auto;
+        margin-top:60px;
       }
-      .beginner-left /* class-box-left */{
-        border-image:linear-gradient(to right, rgb(28, 179, 137) 0%, rgb(73, 199, 101) 100%);
+      .class-carrier/* class-box */ {
+        margin-bottom:40px;
       }
-      .open-left /* class-box-left */{
-        border-image:linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%);
+      .class-beginner/* class-box */ {
+        margin-bottom:40px;
       }
-       .class-box-left0 {
-         justify-content: center;
-         align-items: center;/* 真ん中にしたい子の1つ親に */
-       }
-        .class-box-left1 {
-          width:120px;
-          font-weight: 700;
-          font-size: 24px;
-          line-height: px;
-          padding-bottom:10px;
-          margin-left: auto;
-          margin-right: auto;
-          vertical-align : middle;
-        }
-        .carrier-left1/* class-box-left1 */ {}
-        .beginner-left1/* class-box-left1 */ {}
-        .open-left1/* class-box-left1 */ {}
-        .class-box-left2 {
-          width:120px;
-          height:20px;
-          color:rgb(255, 255, 255);
-          font-weight: 700;
-          font-size: 14px;
-          line-height: px;
-          border-radius: 20px;
-          margin-left: auto;
-          margin-right: auto;
-          vertical-align : middle;
-        }
-        .carrier-left2 /* class-box-left2 */{
-          background-color:rgb(248,84,10);
-        }
-        .beginner-left2 /* class-box-left2 */{
-          background-color:rgb(73,199,101);
-        }
-      .class-box-right {
-        width:100%;
-        padding-left:30px;
-        text-align: left;
+      .class-open/* class-box */ {
+        margin-bottom:60px;
       }
-       .class-box-right0 {}
-        .class-box-right1 {
-          font-weight: 700;
-          font-size: 16px;
-          line-height: 16px;
-          margin-bottom:10px;
-        }
-        .carrier-right1 /* class-box-right1 */{
-          color:rgb(248,84,10);
-        }
-        .beginner-right1 /* class-box-right1 */{
-          color:rgb(73,199,101);
-        }
-        .class-box-right2 {
-          width:100px;
-          height:25px;
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 21px;
-          color:rgb(255, 255, 255);
-          background-color:rgb(0, 0, 0);
-          border-radius: 20px;
+        .class-box-left {
+          width:293px;
+          margin:0 30px 0 -50px ;
           text-align: center;
-          padding-top:3px;
-          margin-bottom:10px;
         }
-        .class-box-right3 {
-          font-weight: 700;
-          font-size: 14px;
-          line-height: px;
+        /* border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%); */
+        .carrier-left /* class-box-left */{
+          border:3px solid;
+          border-image:rgb(247, 146, 21);
         }
-          span.marker{
-            content: ' ';
-            width:8px;
-            height:8px;
-            border-radius: 50%;
-            background-color:#f79214;
-            margin:0px 10px;
-            display: inline-block;
+        .beginner-left /* class-box-left */{
+          border-image:linear-gradient(to right, rgb(28, 179, 137) 0%, rgb(73, 199, 101) 100%);
+        }
+        .open-left /* class-box-left */{
+          border-image:linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%);
+        }
+         .class-box-left0 {
+           justify-content: center;
+           align-items: center;/* 真ん中にしたい子の1つ親に */
+         }
+          .class-box-left1 {
+            width:120px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: px;
+            padding-bottom:10px;
+            margin-left: auto;
+            margin-right: auto;
             vertical-align : middle;
           }
-        .class-box-right4 {
-          font-weight: 700;
-          font-size: 12px;
-          line-height: 18px;
-          text-align: right;
-        }
-        .class-box-right4:hover {
-        }
-    .course-btn/* btn2 */ {
-      width:300px;
-      height:60px;
-      border-radius: 30px;
-      color:#ffffff;
-      background-color:rgb(247, 147, 20);
-      margin: 0 auto;
-    }
-
-
-
-
-
-
-.message {
-  width:100%;
-  background-color:rgb(252, 250, 244);
-}
-  .message-container {
-    text-align: center;
-    padding-bottom:80px;
-  }
-    /* 共通category-titles */
-    .message-titles {
-      padding-bottom:80px;
-      margin: 0 auto;
-    }
-      .message-title1 {}
-      .message-title2 {}
-      .message-title3 {}
-    .message-box {
-      display: flex;
-      padding-top:90px;
-      margin: 0 auto 0 auto;
-    }
-      .message-box-left {
-        width:740px;
-        padding: 40px 155px 40px 40px;
-        background-color:rgb(255, 255, 255);
-        font-weight: bold;
-        text-align: left;
-      }
-        .message-box-left1 {
-          width:245px;
-          height:60px;
-          margin:-80px 0 0 -20px;
-          color:#ff802c;
-          font-weight: 900;
-          font-size: 50px;
-          line-height: 50px;
-        }
-        .message-box-left2 {
-          font-weight: 500;
-          font-size: 14px;
-          line-height: 28px;
-          margin-top:35px;
-          margin-bottom:40px;
-        }
-        .message-box-left3 {
-          font-weight: 500;
-          font-size: 14px;
-          line-height: 28px;
-          margin-bottom:40px;
-        }
-        .message-box-left4 {
-          font-weight: 500;
-          font-size: 14px;
-          line-height: 28px;
-        }
-      .message-box-right {
-        width:400px;
-        height:240px;
-        margin:auto 0 auto -100px;
-      }
-        .message-box-right1 {
-          position: relative;
-        }
-          .message-box-right1 img{
-            width:400px;
-            height:240px;
+          .carrier-left1/* class-box-left1 */ {}
+          .beginner-left1/* class-box-left1 */ {}
+          .open-left1/* class-box-left1 */ {}
+          .class-box-left2 {
+            width:120px;
+            height:20px;
+            color:rgb(255, 255, 255);
+            font-weight: 700;
+            font-size: 14px;
+            line-height: px;
+            border-radius: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            vertical-align : middle;
           }
-          .message-box-right1 p{
-            color:#ffffff;
-            font-weight: bold;
-            position: absolute;
-            top: 25px;
-            left: 20px;
+          .carrier-left2 /* class-box-left2 */{
+            background-color:rgb(248,84,10);
           }
-
-
-
-
-.interview {
-  width:100%;}
-  .interview-container {
-    text-align: center;
-  }
-    /* 共通category-titles */
-    .interview-titles {}
-      .interview-title1 span{}
-      .interview-title2 {}
-      .interview-title3 {}
-      .interview-title4 {}
-    .interview-box {
-      width:1040px;
-      display: flex;
-      margin: 0 auto;
-    }
-      .interviewer/* 共通 */ {
-        width:320px;
-      }
-      .interview-box-left {
-        margin-right: 40px;
-      }
-      .interview-box-center {
-        margin-right: 40px;
-      }
-      .interview-box-right {}
-        .interviewer-profile/* 共通 */ {
-          width:320px;
-          height:320px;
-          padding: 20px;
-          position: relative;
+          .beginner-left2 /* class-box-left2 */{
+            background-color:rgb(73,199,101);
+          }
+        .class-box-right {
+          width:100%;
+          text-align: left;
         }
-          .interviewer-profile img{
-          }
-          .interviewer-profile1 {
+         .class-box-right0 {}
+          .class-box-right1 {
             font-weight: 700;
             font-size: 16px;
-            line-height: 24px;
-            color:#f79314;
-            position: absolute;
-            bottom: 0;
+            line-height: 16px;
+            margin-bottom:10px;
           }
-          .interviewer-profile2 {
-            position: absolute;
-            bottom: 0;
+          .carrier-right1 /* class-box-right1 */{
+            color:rgb(248,84,10);
           }
-        .interviewer-text {}
-    .interview-btn/* btn2 */ {
-      width:300px;
-      height:60px;
-      border-radius: 30px;
-      color:#ffffff;
-      background-color:rgb(247, 147, 20);
-      margin: 0 auto;
+          .beginner-right1 /* class-box-right1 */{
+            color:rgb(73,199,101);
+          }
+          .class-box-right2 {
+            width:100px;
+            height:25px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color:rgb(255, 255, 255);
+            background-color:rgb(0, 0, 0);
+            border-radius: 20px;
+            text-align: center;
+            padding-top:3px;
+            margin-bottom:10px;
+          }
+          .class-box-right3 {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: px;
+          }
+            span.marker{
+              content: ' ';
+              width:8px;
+              height:8px;
+              border-radius: 50%;
+              background-color:#f79214;
+              margin:0px 10px;
+              display: inline-block;
+              vertical-align : middle;
+            }
+          .class-box-right4 {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: right;
+          }
+          .class-box-right4:hover {
+          }
+      .course-btn/* btn2 */ {
+        width:300px;
+        height:60px;
+        border-radius: 30px;
+        color:#ffffff;
+        background-color:rgb(247, 147, 20);
+        margin: 0 auto;
+      }
+
+
+
+
+
+
+  .message {
+    width:100%;
+    background-color:rgb(252, 250, 244);
+  }
+    .message-container {
+      text-align: center;
+      padding-bottom:80px;
     }
+      /* 共通category-titles */
+      .message-titles {
+        padding-bottom:80px;
+        margin: 0 auto;
+      }
+        .message-title1 {}
+        .message-title2 {}
+        .message-title3 {}
+      .message-box {
+        display: flex;
+        padding-top:90px;
+        margin: 0 auto 0 auto;
+      }
+        .message-box-left {
+          width:740px;
+          padding: 40px 155px 40px 40px;
+          background-color:rgb(255, 255, 255);
+          font-weight: bold;
+          text-align: left;
+        }
+          .message-box-left1 {
+            width:245px;
+            height:60px;
+            margin:-80px 0 0 -20px;
+            color:#ff802c;
+            font-weight: 900;
+            font-size: 50px;
+            line-height: 50px;
+          }
+          .message-box-left2 {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 28px;
+            margin-top:35px;
+            margin-bottom:40px;
+          }
+          .message-box-left3 {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 28px;
+            margin-bottom:40px;
+          }
+          .message-box-left4 {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 28px;
+          }
+        .message-box-right {
+          width:400px;
+          height:240px;
+          margin:auto 0 auto -100px;
+        }
+          .message-box-right1 {
+            position: relative;
+          }
+            .message-box-right1 img{
+              width:400px;
+              height:240px;
+            }
+            .message-box-right1 p{
+              color:#ffffff;
+              font-weight: bold;
+              position: absolute;
+              top: 25px;
+              left: 20px;
+            }
 
 
-.service {
-  width:100%;
-}
-
-.footer {
-  width:100%;
-  height:490px;
-}
 
 
+  .interview {
+    width:100%;}
+    .interview-container {
+      text-align: center;
+    }
+      /* 共通category-titles */
+      .interview-titles {}
+        .interview-title1 span{}
+        .interview-title2 {}
+        .interview-title3 {}
+        .interview-title4 {}
+      .interview-box {
+        width:1040px;
+        display: flex;
+        margin: 0 auto;
+      }
+        .interviewer/* 共通 */ {
+          width:320px;
+        }
+        .interview-box-left {
+          margin-right: 40px;
+        }
+        .interview-box-center {
+          margin-right: 40px;
+        }
+        .interview-box-right {}
+          .interviewer-profile/* 共通 */ {
+            width:320px;
+            height:320px;
+            padding: 20px;
+            position: relative;
+          }
+            .interviewer-profile img{
+            }
+            .interviewer-profile1 {
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 24px;
+              color:#f79314;
+              position: absolute;
+              bottom: 0;
+            }
+            .interviewer-profile2 {
+              position: absolute;
+              bottom: 0;
+            }
+          .interviewer-text {}
+      .interview-btn/* btn2 */ {
+        width:300px;
+        height:60px;
+        border-radius: 30px;
+        color:#ffffff;
+        background-color:rgb(247, 147, 20);
+        margin: 0 auto;
+      }
+
+
+  .service {
+    width:100%;
+  }
+
+  .footer {
+    width:100%;
+    height:490px;
+  }
 
 
 
@@ -720,4 +717,6 @@ body {}
 
 
 
-/*  */
+
+
+  /*  */
