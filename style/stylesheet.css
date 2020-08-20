@@ -736,6 +736,52 @@
   .service {
     background-color:rgb(246, 246, 246);
   }
+    .service-container {
+      text-align: center;
+      padding-bottom:80px;
+    }
+      .service-titles/* category-titles */ {}
+        .service-title1 {}
+        .service-title2 {}
+        .service-title3 {}
+      .service-box {
+        width:1040px;
+        display: flex;
+        margin:0 auto 0 auto;
+      }
+        .service-box-org/* 共通 */ {
+          width:320px;
+        }
+        .service-box-left {
+          margin-right: 40px;
+        }
+        .service-box-center {
+          margin-right: 40px;
+        }
+        .service-box-right {}
+          .service-logo/* 共通 */ {
+            width:320px;
+            height:190px;
+            border-radius: 20px;
+            margin-bottom:25px;
+          }
+          .service-left-logo {}
+          .service-center-logo {}
+          .servicer-right-logo {}
+          .service-text/* 共通 */ {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 29px;
+            font-weight: bold;
+          }
+          .service-left-text {}
+          .service-center-text {}
+          .service-right-text {}
+
+
+
+
+
 
   .footer {
     width:100%;
