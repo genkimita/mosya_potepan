@@ -661,10 +661,12 @@
   .interview {}
     .interview-container {
       text-align: center;
-      padding-bottom:80˜px;
+      padding-bottom:80px;
     }
       /* 共通category-titles */
-      .interview-titles {}
+      .interview-titles {
+        padding-bottom:40px;
+      }
         .interview-title1 span{}
         .interview-title2 {}
         .interview-title3 {}
@@ -687,26 +689,25 @@
           .interviewer-profile/* 共通 */ {
             width:320px;
             height:320px;
-            padding: 20px;
             position: relative;
           }
-            .interviewer-profile img{
-              width:100%;
-              height:auto;
-              overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
-            }
-            .interviewer-profile1 {
-              font-weight: 700;
-              font-size: 16px;
-              line-height: 24px;
-              color:#f79314;
+            .interviewer-profile0 {
               position: absolute;
-              bottom: 0;
+              left: 20px;
+              top: 245px;
             }
-            .interviewer-profile2 {
-              position: absolute;
-              bottom: 0;
-            }
+              .interviewer-profile img{
+                overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
+              }
+              .interviewer-profile1 {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color:#f79314;
+              }
+              .interviewer-profile2 {
+
+              }
           .interviewer-text {}
       .interview-btn/* btn2 */ {
         width:300px;
