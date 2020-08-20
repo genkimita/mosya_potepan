@@ -658,8 +658,7 @@
 
 
 
-  .interview {
-    width:100%;}
+  .interview {}
     .interview-container {
       text-align: center;
     }
@@ -691,6 +690,9 @@
             position: relative;
           }
             .interviewer-profile img{
+              width:100%;
+              height:auto;
+              overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
             }
             .interviewer-profile1 {
               font-weight: 700;
