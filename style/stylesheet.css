@@ -385,7 +385,9 @@
               .f03-case-belonging-icon {
                 margin-right: 15px;
               }
-              .f03-case-belonging-texts {}
+              .f03-case-belonging-texts {
+                text-align: left;
+              }
                 .f03-case-belonging-text1 {
                   font-weight: 700;
                   font-size: 14px;
@@ -552,6 +554,7 @@
             font-size: 12px;
             line-height: 18px;
             text-align: right;
+            vertical-align : bottom;
           }
           p.class-box-right4::after {
             content: ' ';
