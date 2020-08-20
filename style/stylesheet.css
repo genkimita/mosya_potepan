@@ -661,6 +661,7 @@
   .interview {}
     .interview-container {
       text-align: center;
+      padding-bottom:80˜px;
     }
       /* 共通category-titles */
       .interview-titles {}
