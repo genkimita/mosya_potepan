@@ -549,7 +549,7 @@
             line-height: 18px;
             text-align: right;
           }
-          .class-box-right4::after {
+          p.class-box-right4::after {
             content: ' ';
             display: block;
             width:10px;
