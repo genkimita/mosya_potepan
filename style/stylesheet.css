@@ -456,7 +456,7 @@
         /* border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%); */
         .carrier-left /* class-box-left */{
           border:3px solid;
-          border-image:rgb(247, 146, 21);
+          border-color: rgb(247, 146, 21);
         }
         .beginner-left /* class-box-left */{
           border-image:linear-gradient(to right, rgb(28, 179, 137) 0%, rgb(73, 199, 101) 100%);
