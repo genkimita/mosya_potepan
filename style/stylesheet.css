@@ -581,7 +581,6 @@
 
 
   .message {
-    width:100%;
     background-color:rgb(252, 250, 244);
   }
     .message-container {
@@ -597,6 +596,7 @@
         .message-title2 {}
         .message-title3 {}
       .message-box {
+        width:1040px;
         display: flex;
         padding-top:90px;
         margin: 0 auto 0 auto;
