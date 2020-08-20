@@ -697,7 +697,7 @@
               top: 245px;
             }
               .interviewer-profile img{
-                
+
               }
               .interviewer-profile1 {
                 font-weight: 700;
@@ -706,7 +706,21 @@
                 color:#f79314;
               }
               .interviewer-profile2 {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 30px;
+                color:#ffffff;
               }
+                .interviewer-profile2-span1 {
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 24px;
+                }
+                .interviewer-profile2-span2 {
+                  font-weight: 700;
+                  font-size: 12px;
+                  line-height: 18px;
+                }
           .interviewer-text {}
       .interview-btn/* btn2 */ {
         width:300px;
