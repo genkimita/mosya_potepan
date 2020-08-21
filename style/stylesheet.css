@@ -770,6 +770,8 @@
           .service-logo/* 共通 */ {
             width:320px;
             height:190px;
+            background-color:#ffffff;
+            border:3px solid;
             border-radius: 20px;
             margin-bottom:25px;
           }
@@ -777,9 +779,15 @@
               width:320px;
               height:190px;
             }
-          .service-left-logo {}
-          .service-center-logo {}
-          .servicer-right-logo {}
+          .service-left-logo {
+            border-color: rgb(252, 103, 6);
+          }
+          .service-center-logo {
+            border-color: rgb(9,175,118);
+          }
+          .servicer-right-logo {
+            border-color: rgb(0, 0, 0);
+          }
           .service-text/* 共通 */ {
             font-weight: 700;
             font-size: 16px;
