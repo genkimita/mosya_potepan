@@ -779,7 +779,6 @@
           }
             .service-logo img{
               object-fit: cover;
-              overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
             }
           .service-left-logo {
             border-color: rgb(252, 103, 6);
