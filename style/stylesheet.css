@@ -675,6 +675,7 @@
         width:1040px;
         display: flex;
         margin: 0 auto;
+        padding-bottom:60px;
       }
         .interviewer/* 共通 */ {
           width:320px;
@@ -731,7 +732,7 @@
         border-radius: 30px;
         color:#ffffff;
         background-color:rgb(247, 147, 20);
-        margin: 60 auto 0 auto;
+        margin: 0 auto 0 auto;
       }
 
 
