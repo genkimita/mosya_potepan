@@ -701,7 +701,6 @@
               .interviewer-profile img{
                 width:320px;
                 height:320px;
-                object-fit: contain;/* アス比維持、長い方に合わせ */
               }
               .interviewer-profile1 {
                 font-weight: 700;
