@@ -707,17 +707,19 @@
                 color:#f79314;
               }
               .interviewer-profile2 {
-                font-weight: 700;
-                font-size: 20px;
-                line-height: 30px;
                 color:#ffffff;
               }
-                span.interviewer-profile2-span1 {
+                .interviewer-profile2-span1 {
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 30px;
+                }
+                .interviewer-profile2-span2 {
                   font-weight: 700;
                   font-size: 16px;
                   line-height: 24px;
                 }
-                span.interviewer-profile2-span2 {
+                .interviewer-profile2-span3 {
                   font-weight: 700;
                   font-size: 12px;
                   line-height: 18px;
