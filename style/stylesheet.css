@@ -683,7 +683,7 @@
 
         }
         .interview-box-center {
-          
+
         }
         .interview-box-right {}
           .interviewer-profile/* 共通 */ {
@@ -789,8 +789,13 @@
 
   .footer {
     width:100%;
-    height:490px;
+    background-color:rgb(247, 147, 20);
   }
+    .footer-return-btn {}
+    .footer-box {}
+      .footer-box-left {}
+      .footer-box-center {}
+      .footer-box-right {}
 
 
 
