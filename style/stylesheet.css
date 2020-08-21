@@ -690,6 +690,7 @@
           .interviewer-profile/* 共通 */ {
             width:320px;
             height:320px;
+            margin-bottom:20px;
             position: relative;
           }
             .interviewer-profile0 {
