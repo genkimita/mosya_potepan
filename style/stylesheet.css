@@ -1,792 +1,452 @@
-  * {
-  margin: 0px;
-  padding: 0px;/* 要素同士の隙間を0に */
-  box-sizing: border-box;/* スクロールの余白なし */
-  }
-  @font-face {
-    font-family: 'Lato';
-    src: url('./font/lato/Lato-Black.ttf') format('Lato');
-  }
-  @font-face {
-    font-family: "Noto Sans JP";
-    src: url('./font/Noto_Sans_JP/NotoSansJP-Black.otf') format("Noto Sans JP");
-  }
-  li {
-    list-style: none;
-  }
-  .btn {
-    color:rgb(255, 255, 255);
-    background-color:rgb(247, 147, 20);
-    display: flex;
-    justify-content: center;
-    align-items: center;/* 真ん中にしたい子の1つ親に */
-    text-decoration: none;
-  }
-  .btn:hover,.btn2:hover {
-    opacity :.7;
-    transition: all 0.5s;
-  }
-  .btn2 {
-    text-decoration: none;
-    padding-top:5px;
-  }
-  .btn2-text-upper {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-  }
-  .btn2-text-lower {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: px;
-    text-align: center;
-  }
-
-  .orange-border {
-    width:50px;
-    border-bottom:8px solid rgb(247, 147, 20) ;
-    margin: 0 auto;
-  }
+<!DOCTYPE html>
+<html>
 
 
 
-  body {}
-  .top {
-    width:100%;
-    height:605px;
-    background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/top-hero.png)  right 0/ auto 100% no-repeat;
-  }
-    .header {
-      height:40px;
-    }
-      .header-container {
-        padding-top:20px;
-        padding-left:320px;
-        display: flex;
-      }
-        .header-container-logo {
-          width:185px;
-          height:20px;
-          margin-top:2px;
-          margin-right: 135px;
-        }
-        .header-container-list {
-          color:rgb(0, 0, 0);
-          display: flex;
-          margin-right:5px;
-        }
-          .header-container-list li{
-            text-align: center;
-            margin-left: 15px;
-            margin-right: 15px;
-            font-weight: bold;
-          }
-            .header-container-list-1 {
-              font-weight: 700;
-              font-size: 14px;
-              font-family:'Lato', sans-serif;
-            }
-            .header-container-list-2 {
-              font-weight: 700;
-              font-size: 10px;
-              line-height: px;
-              font-family:"Noto Sans JP", sans-serif;
-            }
-        .header-container-btn {
-          font-family:"Noto Sans JP", sans-serif;
-          width:150px;
-          height:40px;
-          font-weight: 700;
-          font-size: 12px;
-          line-height: px;
-          border-radius: 20px;
-        }
-        .header-container-logo:hover,
-        .header-container-list-about:hover,
-        .header-container-list-flow:hover,
-        .header-container-list-course:hover,
-        .header-container-list-interview:hover,
-        .header-container-list-faq:hover,
-        .header-container-list-company:hover {
-          opacity :.5;
-          transition: 0.5s;
-        }
-    .main {
-      width:525px;
-      padding-left:320px;
-    }
-      .main-counseling {
-        height:170px;
-        display: flex;
-        padding-top:150px;
-        margin-bottom:130px;
-      }
-        .main-counseling-left {
-          width:340px;
-        }
-          .main-counseling-left-logo {
-            width:340px;
-            height:35px;
-          }
-          p.main-counseling-left-text {
-            font-weight: 700px;
-            font-size: 20px;
-            line-height: 1.7;
-            font-family:"Noto Sans JP", sans-serif;
-          }
-            p.main-counseling-left-text span{
-              color:rgb(247, 147, 20);
-            }
-          .main-counseling-left-btn {
-            width:340px;
-            height:60px;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: px;
-            border-radius: 30px;
-          }
-        .main-counseling-right {
-          width:185px;
-        }
-          img.main-counseling-right-image {
-            object-fit: cover;/* アス比維持、短い方に合わせ、長い方ははみ出し*/
-          }
-      .main-annotation {
-        width:525px;
-        bottom: 30px;
-      }
-        .main-annotation-text {
-          font-weight: 400;
-          font-size: 10px;
-          line-height: 15px;
-          color:rgb(136, 136, 136);
-        }
+<head>
+<title>模写-ポテパン</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style/stylesheet.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style/responsive.css"><!-- viewport宣言より下に書く -->
+</head>
+
+
+
+<body>
+
+<div class="top">
+  <div class="header">
+    <div class="header-container">
+      <img class="header-container-logo" src="image/header-logo.png" alt="ぽてぱん" href="#">
+      <ul class="header-container-list">
+        <li  class="header-container-list-about" href="#">
+          <p class="header-container-list-1">ABOUT</p><p class="header-container-list-2">初めての方へ</p>
+        </li>
+        <li class="header-container-list-flow" href="#">
+          <p class="header-container-list-1">FLOW</p><p class="header-container-list-2">卒業までの流れ</p>
+        </li>
+        <li class="header-container-list-course" href="#">
+          <p class="header-container-list-1">COURSE</p><p class="header-container-list-2">コース・料金</p>
+        </li>
+        <li class="header-container-list-interview" href="#">
+          <p class="header-container-list-1">INTERVIEW</p><p class="header-container-list-2">受講者の声</p>
+        </li>
+        <li class="header-container-list-faq" href="#">
+          <p class="header-container-list-1">FAQ</p><p class="header-container-list-2">よくある質問</p>
+        </li>
+        <li class="header-container-list-company" href="#">
+          <p class="header-container-list-1">COMPANY</p><p class="header-container-list-2">会社概要</p>
+        </li>
+      </ul>
+      <a class="header-container-btn btn" href="#">無料カウンセリング</a>
+    </div>
+  </div>
+  <div class="main">
+    <div class="main-counseling">
+      <div class="main-counseling-left">
+        <img class="main-counseling-left-logo" src="image/top-hero-logo.png" alt="ぽてぱん" href="">
+        <p class="main-counseling-left-text">本気で<span>Webエンジニア</span>を目指すなら、<br />本気のプログラミング学習。</p>
+        <p class="main-counseling-left-btn btn">無料カウンセリング</p>
+      </div>
+      <div class="main-counseling-right">
+        <img  class="main-counseling-right-image" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/badge-number1.svg" alt="" href="">
+      </div>
+    </div>
+    <div class="main-annotation">
+      <p class="main-annotation-text">※ショッパーズアイ「プログラミングスクール10社を対象にしたサイト比較イメージ調査（2020 年 5 月 22 日～252 日）」より全国の22～49歳の男女691名へのインターネット調査</a>
+    </div>
+  </div>
+</div>
 
 
 
 
 
-  .about {
-    width:100%;
-    height:330px;
-    background-color:rgb(247, 147, 20);
-    color:rgb(255, 255, 255);}
-    .about-container {
-      display: flex;
-    }
-      .about-left {
-        width:550px;
-        margin-top:70px;
-        margin-left: 320px;
-      }
-        p.about-left-1 {
-          font-weight: 900;
-          font-size: 50px;
-          line-height: px;
-          padding-bottom:35px;
-        }
-          p.about-left-1 span{
-            font-weight: 700;
-            font-size: 40px;
-            line-height: px;
-          }
-        p.about-left-2 {
-          font-weight: 700;
-          font-size: 14px;
-          line-height: 32px;
-        }
-      .about-right {
-        margin-left: 170px;
-        margin-top:130px;
-      }
-        .about-right-btn {
-          width:322px;
-          height:60px;
-          background-color:rgb(255, 255, 255);
-          color:rgb(247, 147, 20);
-          border-radius: 30px;
-        }
+<div class="about">
+  <div class="about-container">
+    <div class="about-left">
+      <p class="about-left-1">POTEPAN CAMP<span>とは</span></p>
+      <p class="about-left-2">卒業生の多くがWebエンジニアに転職成功している、実績豊富なプログラミングスクール。優秀なレビュアー陣と実践的なカリキュラムで、現場で求められる開発スキルを身につけることが可能です。</p>
+    </div>
+    <div class="about-right">
+      <div class="btn2 about-right-btn" href="#">
+        <p class="btn2-text-upper">ABOUT</p>
+        <p class="btn2-text-lower">はじめての方へ</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
 
 
-  .future {}
-    .future-container {
-      text-align: center;
-    }
-      .future-01 {}
-    /* 共通 =>  */
-      .category-titles {
-        margin: 0 auto;
-        padding-top:80px;
-      }
-        .category-title1 {
-          font-weight: 900;
-          font-size: 50px;
-          line-height: px;
-          margin-bottom:30px;
-        }
-         .category-title1 span{
-           font-weight: 700;
-           font-size: 46px;
-           line-height: px;
-         }
-        .category-title2 {
-          font-weight: 700;
-          font-size: 16px;
-          line-height: 24px;
-          margin-bottom:25px;
-        }
-        /* <= */
-        .future-title3 /* orange-border */{
-          margin-bottom:110px;
-          }
-      .future-box /* 共通 */{
-        width:1040px;
-        background-color:rgb(252, 250, 244);
-        border-radius: 20px;
-        margin: 0 auto;
-        padding: 40px;
-      }
-      .future-01 {
-        margin-bottom:90px;
-      }
-        /* 共通部分❶ => */
-        .f-number {
-          color:#f79314;
-          background-color:rgb(252, 250, 244);
-          font-weight: 700;
-          font-size: 40px;
-          line-height: 60px;
-          width:100px;
-          height:100px;
-          border-radius: 50px;
-          margin: -90px auto 0 auto;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .f-subtitle {
-          font-weight: 700;
-          font-size: 30px;
-          line-height: px;
-          margin: 0 auto;
-          margin-bottom:45px;
-        }
-        .f-explanation {
-          font-weight: 500;
-          font-size: 16px;
-          line-height: 32px;
-          margin: 0 auto;
-          margin-bottom:45px;
-        }
-          .f-explanation span{
-            font-weight: 900;
-            font-size: 30px;
-            line-height: 30px;
-            color:#f79314;
-          }
-        /* <= */
-        .f01-images {
-          width:100%;
-          background-color:#ffffff;
-          border-radius: 20px;
-          padding: 30px;
-        }
-         .f01-example {}
-          .f01-example-text {}
-            .f01-example-text a{
-              font-weight: 700;
-              font-size: 24px;
-              line-height: 24px;
-              margin-bottom:5px;
-            }
-            .f01-example-text img{
-              width:34px;
-              height:auto;
-            }
-          .f01-example-text-border {
-            width:220px;
-            border-bottom:5px solid rgb(247, 147, 20) ;
-            margin: 0 auto;
-          }
-        .f01-logos-upper {
-          width: calc(100% / 4);
-          display: flex;
-        }
-          .f01-logos-upper1 {}
-          .f01-logos-upper2 {}
-          .f01-logos-upper3 {}
-          .f01-logos-upper4 {}
-        .f01-logos-lower {
-          width: calc(100% / 4);
-          display: flex;
-        }
-          .f01-logos-lower1 {}
-          .f01-logos-lower2 {}
-          .f01-logos-lower3 {}
-          .f01-logos-lower4 {}
-      .future-02/* box */ {
-        margin-bottom:90px;
-      }
-        /* 共通部分❶ => *//* <= */
-        .f02-images {
-          background-color:rgb(255, 255, 255);
-          border-radius: 20px;
-          padding-top:40px;
-          padding-bottom:40px;
-          display: flex;
-        }
-          .f02-image {
-            width: calc(100% / 3);
-            height:auto;
-            padding:0px 60px;
-          }
-           .f02-image img{
-             width:100%;
-             height:100%;
-           }
-      .future-03/* box */ {
-        margin-bottom:80px;
-      }
-        /* 共通部分❶ => *//* <= */
-        .f03-cases {
-          display: flex;
-          border-radius: 20px;
-        }
-          .f03-case1 {
-            margin-right: 30px;
-          }
-          .f03-case2 {
-            margin-right: 30px;
-          }
-          .f03-case3 {
-          }
-            .f03-case {
-              width:300px;
-              height:365px;
-              background-color:#ffffff;
-              border-radius: 20px;
-              padding: 20px;
-            }
-            .f03-case-logo {
-              width:auto;
-              height:95px;
-              margin-right: 15px;
-            }
-             .f03-case-logo img{
-               vertical-align : middle;
-             }
-            .f03-case-belonging {
-              display: flex;
-            }
-              .f03-case-belonging-icon {
-                margin-right: 15px;
-              }
-              .f03-case-belonging-texts {
-                text-align: left;
-              }
-                .f03-case-belonging-text1 {
-                  font-weight: 700;
-                  font-size: 14px;
-                  line-height: 21px;
-                  color:#f79314;
-                }
-                .f03-case-belonging-text2 {
-                  font-weight: 700;
-                  font-size: 20px;
-                  line-height: 30px;
-                }
-            .f03-case-comment {
-              background-color:rgb(246, 246, 246);
-              padding:20px 30px 20px 20px;
-              text-align: left;
-            }
-              .f03-case-comment p {
-                font-weight: 700;
-                font-size: 14px;
-                line-height: 21px;
-              }
-            /* <= */
-          .f03-case2 {}
-            /* 共通部分❷ => *//* <= */
-          .f03-case3 {}
-            /* 共通部分❸ => *//* <= */
+<div class="future">
+  <div class="future-container">
+    <div class="category-titles future-titles">
+      <p class="category-title1 future-title1">POTEPAN CAMP<span>の特徴</span></p>
+      <p class="category-title2 future-title2">POTEPAN CAMPが選ばれる理由</p>
+      <p class="orange-border future-title3"></p>
+    </div>
+    <!-- 01豊富な転職実績　-->
+    <div class="future-01 future-box">
+      <div class="f01-number f-number"><a>01</a></div>
+      <div class="f01-subtitle f-subtitle"><a>豊富な転職実績</a></div>
+      <div class="f01-explanation f-explanation">
+        <a>転職サポート希望者の多くが Web系エンジニアとして転職成功しております。<br />
+          10000人以上の利用者を抱える転職サポートサービスを運営する当社だからこそ、<br />
+          企業の求めている人材像に即した教育カリキュラムを反映できます。
+        </a>
+      </div>
+      <div class="f01-images">
+        <div class="f01-example">
+          <p class="f01-example-text">
+            <a>転職先企業の例 </a>
+            <img src="image/desc-list-example-title.png" alt="" href="">
+          </p>
+          <p class="f01-example-text-border"></p>
+        </div>
+        <div class="f01-logos-upper">
+          <img class="f01-logos-upper1" src="image/example-company01.png" alt="" href="">
+          <img class="f01-logos-upper2" src="image/example-company02.png" alt="" href="">
+          <img class="f01-logos-upper3" src="image/example-company03.png" alt="" href="">
+          <img class="f01-logos-upper4" src="image/example-company04.png" alt="" href="">
+        </div>
+        <div class="f01-logos-lower">
+          <img class="f01-logos-lower1" src="image/example-company05.png" alt="" href="">
+          <img class="f01-logos-lower2" src="image/example-company06.png" alt="" href="">
+          <img class="f01-logos-lower3" src="image/example-company07.png" alt="" href="">
+          <img class="f01-logos-lower4" src="image/example-company08.png" alt="" href="">
+        </div>
+      </div>
+    </div>
+    <!-- 02多くの受講者受入実績　-->
+    <div class="future-02 future-box">
+      <div class="f-number">02</div>
+      <div class="f-subtitle">多くの受講者受入実績</div>
+      <div class="f-explanation">サービス開始以降、累計<span>550</span>人以上がポテパンキャンプを受講。</div>
+      <div class="f02-images">
+        <div class="f02-image">
+          <img src="image/example-data01.png" alt="" href="">
+        </div>
+        <div class="f02-image">
+          <img src="image/example-data02.png" alt="" href="">
+        </div>
+        <div class="f02-image">
+          <img src="image/example-data03.png" alt="" href="">
+        </div>
+      </div>
+    </div>
+    <!-- 03現役エンジニアが講師　-->
+    <div class="future-03 future-box">
+      <div class="f03-number f-number">03</div>
+      <div class="f03-subtitle f-subtitle">現役エンジニアが講師</div>
+      <div class="f03-explanation f-explanation">サービス開始以降、<span>50</span>人以上の現役エンジニアが講師として活躍中。</div>
+      <div class="f03-cases">
+        <div class="f03-case f03-case1">
+          <div class="f03-case-logo">
+            <img src="image/engineer-conpany-logo01.png" alt="" href="">
+          </div>
+          <div class="f03-case-belonging">
+            <div class="f03-case-belonging-icon">
+              <img src="image/engineer-logo01.png" alt="" href="">
+            </div>
+            <div class="f03-case-belonging-texts">
+              <div class="f03-case-belonging-text1">株式会社grooves</div>
+              <div class="f03-case-belonging-text2">Railsエンジニア</div>
+            </div>
+          </div>
+          <div class="f03-case-comment">
+            <p>現場のように細かくレビューしていきますので、ただ動くだけではなく、保守性の高いコードが書けるように一緒に頑張っていきましょう。</p>
+          </div>
+        </div>
+        <div class="f03-case f03-case2">
+          <div class="f03-case-logo">
+            <img src="image/engineer-conpany-logo02.png" alt="" href="">
+          </div>
+          <div class="f03-case-belonging">
+            <div class="f03-case-belonging-icon">
+              <img src="image/engineer-logo02.png" alt="" href="">
+            </div>
+            <div class="f03-case-belonging-texts">
+              <div class="f03-case-belonging-text1">株式会社freee</div>
+              <div class="f03-case-belonging-text2">Railsエンジニア</div>
+            </div>
+          </div>
+          <div class="f03-case-comment">
+            <p>現役Webエンジニアにレビューしてもらえる機会は貴重です。貰ったフィードバックをしっかりと身につけて自分の糧にしていきましょう。</p>
+          </div>
+        </div>
+        <div class="f03-case f03-case3">
+          <div class="f03-case-logo">
+            <img src="image/engineer-conpany-logo03.png" alt="" href="">
+          </div>
+          <div class="f03-case-belonging">
+            <div class="f03-case-belonging-icon">
+              <img src="image/engineer-logo03.png" alt="" href="">
+            </div>
+            <div class="f03-case-belonging-texts">
+              <div class="f03-case-belonging-text1">株式会社Readyfor</div>
+              <div class="f03-case-belonging-text2">Railsエンジニア</div>
+            </div>
+          </div>
+          <div class="f03-case-comment">
+            <p>プログラミングの上達には根気強くプログラミングを書くしかありません。わからない点はサポートしますので一緒に頑張っていきましょう。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
 
 
-  .course {
-    width:100%;
-    background-color:#F6F6F6;
-  }
-    .course-container {
-      background: url(image/bg-section-top-course.png)  right top / 50% 50% no-repeat;
-      text-align: center;
-      padding-bottom:80px;
-    }
-      /* 共通　■category-titles */
-      .course-titles {
-      }
-      .class-box {
-        width:1040px;
-        height:170px;
-        font-weight: bold;
-        background-color:#ffffff;
-        display: flex;
-        padding:30px;
-        margin: 0 auto;
-        margin-top:60px;
-      }
-      .class-carrier/* class-box */ {
-        margin-bottom:40px;
-      }
-      .class-beginner/* class-box */ {
-        margin-bottom:40px;
-      }
-      .class-open/* class-box */ {
-        margin-bottom:60px;
-      }
-        .class-box-left {
-          width:293px;
-          margin:0 30px 0 -50px ;
-          text-align: center;
-        }
-        /* border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%); */
-        .carrier-left /* class-box-left */{
-          border:3px solid;
-          border-color: rgb(247, 146, 21);
-        }
-        .beginner-left /* class-box-left */{
-          /* border-image:linear-gradient(to right, rgb(28, 179, 137) 0%, rgb(73, 199, 101) 100%); */
-          border:3px solid;
-          border-color: rgb(28, 179, 137);
-        }
-        .open-left /* class-box-left */{
-          /* border-image:linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%); */
-          border:3px solid;
-          border-color: rgb(255, 109, 5);
-        }
-         .class-box-left0 {
-           justify-content: center;
-           align-items: center;/* 真ん中にしたい子の1つ親に */
-         }
-          .class-box-left1 {
-            font-weight: 700;
-            font-size: 24px;
-            line-height: px;
-            padding-bottom:10px;
-            margin-left: auto;
-            margin-right: auto;
-            vertical-align : middle;
-          }
-          .carrier-left1/* class-box-left1 */ {}
-          .beginner-left1/* class-box-left1 */ {}
-          .open-left1/* class-box-left1 */ {}
-          .class-box-left2 {
-            width:120px;
-            height:20px;
-            color:rgb(255, 255, 255);
-            font-weight: 700;
-            font-size: 14px;
-            line-height: px;
-            border-radius: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            vertical-align : middle;
-          }
-          .carrier-left2 /* class-box-left2 */{
-            background-color:rgb(248,84,10);
-          }
-          .beginner-left2 /* class-box-left2 */{
-            background-color:rgb(73,199,101);
-          }
-        .class-box-right {
-          text-align: left;
-        }
-         .class-box-right0 {}
-          .class-box-right1 {
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 16px;
-            margin-bottom:10px;
-          }
-          .carrier-right1 /* class-box-right1 */{
-            color:rgb(248,84,10);
-          }
-          .beginner-right1 /* class-box-right1 */{
-            color:rgb(73,199,101);
-          }
-          .class-box-right2 {
-            width:100px;
-            height:25px;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 21px;
-            color:rgb(255, 255, 255);
-            background-color:rgb(0, 0, 0);
-            border-radius: 20px;
-            text-align: center;
-            padding-top:3px;
-            margin-bottom:10px;
-          }
-          .class-box-right3 {
-            font-weight: 700;
-            font-size: 14px;
-            line-height: px;
-          }
-            span.marker{
-              content: ' ';
-              width:8px;
-              height:8px;
-              border-radius: 50%;
-              background-color:#f79214;
-              margin:0px 10px;
-              display: inline-block;
-              vertical-align : middle;
-            }
-          .class-box-right4 {
-            font-weight: 700;
-            font-size: 12px;
-            line-height: 18px;
-            text-align: right;
-            vertical-align : bottom;
-          }
-          p.class-box-right4::after {
-            content: ' ';
-            display: block;
-            width:10px;
-            height:10px;
-            bottom: 4px;
-            right: -18px;
-            border-top:3px solid rgb(247, 146, 21) ;
-            border-right:3px solid rgb(247, 146, 21) ;
-            transform: rotate(45deg);
-          }
-      .course-btn/* btn2 */ {
-        width:300px;
-        height:60px;
-        border-radius: 30px;
-        color:#ffffff;
-        background-color:rgb(247, 147, 20);
-        margin: 0 auto;
-      }
+<div class="course">
+  <div class="course-container">
+    <div class="category-titles course-titles">
+      <p class="category-title1 course-title1">POTEPAN CAMP<span>の選べるコース</span></p>
+      <p class="category-title2 course-title2">POTEPAN CAMPでは複数のコースから目的別で選べる</p>
+      <p class="orange-border course-title3"></p>
+    </div>
+    <!-- キャリア-->
+    <div class="class-box class-carrier">
+      <div class="class-box-left carrier-left">
+        <div class="class-box-left0">
+          <p class="class-box-left1 carrier-left1">選抜コース</p>
+          <p class="class-box-left2 carrier-left2">キャリアコース</p>
+        </div>
+      </div>
+      <div class="class-box-right">
+        <div class="class-box-right0">
+          <p class="class-box-right1 carrier-right1">Railsチュートリアルレベルの内容を既に学習済みの方向けのコース</p>
+          <p class="class-box-right2">応募条件</p>
+          <p class="class-box-right3"><span class="marker"></span>Railsチュートリアルと他Web開発の基礎を学習済みの方</p>
+          <p class="class-box-right4">詳しくはこちら</p>
+        </div>
+      </div>
+    </div>
+    <!-- ビギナー-->
+    <div class="class-box class-beginner">
+      <div class="class-box-left beginner-left">
+       <div class="class-box-left0">
+         <p class="class-box-left1 beginner-left1">選抜クラス</p>
+         <p class="class-box-left2 beginner-left2">ビギナークラス</p>
+       </div>
+      </div>
+      <div class="class-box-right">
+        <div class="class-box-right0">
+          <p class="class-box-right1 beginner-right1">分かりやすい動画教材を用いてRailsチュートリアルから一緒に進めていくコース</p>
+          <p class="class-box-right2">応募条件</p>
+          <p class="class-box-right3"><span class="marker"></span>Web開発の基礎を学習済みの方</p>
+          <p class="class-box-right4">詳しくはこちら</p>
+        </div>
+      </div>
+    </div>
+    <!-- オープン-->
+    <div class="class-box class-open">
+      <div class="class-box-left open-left">
+        <div class="class-box-left0">
+          <p class="class-box-left1 open-left1">オープンクラス</p>
+        </div>
+      </div>
+      <div class="class-box-right">
+        <div class="class-box-right0">
+          <p class="class-box-right1">プログラミングの基礎ができるようになる事をゴールとしたクラス</p>
+          <p class="class-box-right2">応募条件</p>
+          <p class="class-box-right3"><span class="marker"></span>MacBookを持っている方</p>
+          <p class="class-box-right4">詳しくはこちら</p>
+        </div>
+      </div>
+    </div>
+    <div class="btn2 course-btn">
+      <p class="btn2-text-upper">COURSE</p>
+      <p class="btn2-text-lower">コース・料金</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="message">
+  <div class="message-container">
+    <div class="category-titles message-titles">
+      <p class="category-title1 message-title1"><span>サービスの想い</span></p>
+      <p class="category-title2 message-title2">ポテパンのプログラミング学習についてかける想い</p>
+      <p class="orange-border message-title3"></p>
+    </div>
+    <div class="message-box">
+      <div class="message-box-left">
+        <div class="message-box-left1">
+          <p>MESSAGE</p>
+        </div>
+        <div class="message-box-left2">
+          <p>ポテパンエンジニア転職支援サービスを運営しており、8000名以上のエンジニア様と1500社以上の採用企業様と取引がございます。開発がしっかりとできるエンジニアを育て、エンジニア不足を解決できないかと考えスクール事業を始めました。</p>
+        </div>
+        <div class="message-box-left3">
+          <p>エンジニア転職のノウハウと、企業側から随時フィードバックをもらうことで、エンジニアになる上での最適なカリキュラムをご用意することができました。ゴールに向かい無駄なものをそぎ落とす事で高品質で、低価格なスクールとなっております。</p>
+        </div>
+        <div class="message-box-left4">
+          <p>「エンジニアになりたい」「サービスを作りたい」など本気でプログラミングを勉強したいという方に、是非ご利用いただければと思っております。</p>
+        </div>
+      </div>
+      <div class="message-box-right">
+        <div class="message-box-right1">
+          <img src="image/message-thumbnail.png" alt="" href="">
+          <p >株式会社ポテパン<br />代表取締役<span>宮崎</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
 
 
-
-  .message {
-    background-color:rgb(252, 250, 244);
-  }
-    .message-container {
-      text-align: center;
-      padding-bottom:80px;
-    }
-      /* 共通category-titles */
-      .message-titles {
-        padding-bottom:80px;
-        margin: 0 auto;
-      }
-        .message-title1 {}
-        .message-title2 {}
-        .message-title3 {}
-      .message-box {
-        width:1040px;
-        display: flex;
-        padding-top:90px;
-        margin: 0 auto 0 auto;
-      }
-        .message-box-left {
-          width:740px;
-          padding: 40px 155px 40px 40px;
-          background-color:rgb(255, 255, 255);
-          font-weight: bold;
-          text-align: left;
-        }
-          .message-box-left1 {
-            width:245px;
-            height:60px;
-            margin:-80px 0 0 -20px;
-            color:#ff802c;
-            font-weight: 900;
-            font-size: 50px;
-            line-height: 50px;
-          }
-          .message-box-left2 {
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 28px;
-            margin-top:35px;
-            margin-bottom:40px;
-          }
-          .message-box-left3 {
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 28px;
-            margin-bottom:40px;
-          }
-          .message-box-left4 {
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 28px;
-          }
-        .message-box-right {
-          width:400px;
-          height:240px;
-          margin:auto 0 auto -100px;
-        }
-          .message-box-right1 {
-            position: relative;
-          }
-            .message-box-right1 img{
-              width:400px;
-              height:240px;
-            }
-            .message-box-right1 p{
-              color:#ffffff;
-              font-weight: bold;
-              position: absolute;
-              top: 25px;
-              left: 20px;
-            }
-
-
-
-
-  .interview {}
-    .interview-container {
-      text-align: center;
-      padding-bottom:80px;
-    }
-      /* 共通category-titles */
-      .interview-titles {
-        padding-bottom:40px;
-      }
-        .interview-title1 span{}
-        .interview-title2 {}
-        .interview-title3 {}
-        .interview-title4 {}
-      .interview-box {
-        width:1040px;
-        display: flex;
-        margin: 0 auto;
-      }
-        .interviewer/* 共通 */ {
-          width:320px;
-        }
-        .interview-box-left {
-          margin-right: 40px;
-        }
-        .interview-box-center {
-          margin-right: 40px;
-        }
-        .interview-box-right {}
-          .interviewer-profile/* 共通 */ {
-            width:320px;
-            height:320px;
-            position: relative;
-          }
-            .interviewer-profile0 {
-              position: absolute;
-              left: 20px;
-              top: 245px;
-            }
-              .interviewer-profile img{
-                width:320px;
-                height:320px;
-              }
-              .interviewer-profile1 {
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 24px;
-                color:#f79314;
-              }
-              .interviewer-profile2 {
-                font-weight: 700;
-                font-size: 20px;
-                line-height: 30px;
-                color:#ffffff;
-              }
-                .interviewer-profile2-span1 {
-                  font-weight: 700;
-                  font-size: 16px;
-                  line-height: 24px;
-                }
-                .interviewer-profile2-span2 {
-                  font-weight: 700;
-                  font-size: 12px;
-                  line-height: 18px;
-                }
-          .interviewer-text {}
-      .interview-btn/* btn2 */ {
-        width:300px;
-        height:60px;
-        border-radius: 30px;
-        color:#ffffff;
-        background-color:rgb(247, 147, 20);
-        margin: 60 auto 0 auto;
-      }
-
-
-  .service {
-    background-color:rgb(246, 246, 246);
-  }
-    .service-container {
-      text-align: center;
-      padding-bottom:80px;
-    }
-      .service-titles/* category-titles */ {}
-        .service-title1 {}
-        .service-title2 {}
-        .service-title3 {}
-      .service-box {
-        width:1040px;
-        display: flex;
-        margin:0 auto 0 auto;
-      }
-        .service-box-org/* 共通 */ {
-          width:320px;
-        }
-        .service-box-left {
-          margin-right: 40px;
-        }
-        .service-box-center {
-          margin-right: 40px;
-        }
-        .service-box-right {}
-          .service-logo/* 共通 */ {
-            width:320px;
-            height:190px;
-            border-radius: 20px;
-            margin-bottom:25px;
-          }
-          .service-left-logo {}
-          .service-center-logo {}
-          .servicer-right-logo {}
-          .service-text/* 共通 */ {
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 29px;
-            font-weight: bold;
-          }
-          .service-left-text {}
-          .service-center-text {}
-          .service-right-text {}
+<div class="interview">
+  <div class="interview-container">
+    <div class="category-titles interview-titles">
+      <p class="category-title1 interview-title1"><span>受講生の声</span></p>
+      <p class="category-title2 interview-title2">当スクールの卒業生にインタビュー</p>
+      <p class="orange-border interview-title3"></p>
+    </div>
+  </div>
+  <div class="interview-box">
+    <div class="interviewer interview-box-left">
+      <div class="interviewer-profile">
+        <div class="interviewer-profile0">
+          <img src="image/武野さん.jpg" alt="" href="">
+          <div class="interviewer-profile1">
+            <p>選抜クラス ビギナーコース</p>
+          </div>
+          <div class="interviewer-profile2">
+            <p>T.S
+              <span class="interviewer-profile2-span1">さん</span>
+              <span class="interview-profile2-span2">前職：自動制御機器メーカー勤務</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="interviewer-text">
+        <p>8年間の自動制御機器のメーカー勤務から急成長中のFinTechスタートアップに転職成功されたT.Sさん。ポテパンキャンプ受講の感想や今後のキャリアについて伺いました！</p>
+      </div>
+    </div>
+    <div class="interviewer interview-box-center">
+      <div class="interviewer-profile">
+        <div class="interviewer-profile0">
+          <img src="image/川渕さん.jpg" alt="" href="">
+          <div class="interviewer-profile0">
+            <div class="interviewer-profile1">
+              <p>選抜クラス キャリアコース</p>
+            </div>
+            <div class="interviewer-profile2">
+              <p>K.Y
+                <span class="interviewer-profile2-span1">さん</span>
+                <span class="interview-profile2-span2">前職：区役所勤務</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="interviewer-text">
+        <p>公務員からSaaS企業のWebエンジニアとして転職成功されたK.Yさん。異業種からWebエンジニアを目指す際にポテパンキャンプを選んでいただいた理由など伺いました！</p>
+      </div>
+    </div>
+    <div class="interviewer interview-box-right">
+      <div class="interviewer-profile">
+        <img src="image/松村さん.jpg" alt="" href="">
+        <div class="interviewer-profile0">
+          <div class="interviewer-profile1">
+            <p>選抜クラス ビギナーコース</p>
+          </div>
+          <div class="interviewer-profile2">
+            <p>M.S
+              <span class="interviewer-profile2-span1">さん</span>
+              <span class="interview-profile2-span2">前職：アフターサービス職</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="interviewer-text">
+        <p>全くの異業種であるアフターサービス職からRailsエンジニアに転職されたM.Sさん。転職成功された秘訣などを伺いました。</p>
+      </div>
+    </div>
+  </div>
+  <div class="btn2 interview-btn">
+    <p class="btn2-text-upper">INTERVIEW</p>
+    <p class="btn2-text-lower">受講者の声</p>
+  </div>
+</div>
 
 
 
 
 
+<div class="service">
+  <div class="service-container">
+    <div class="category-titles service-titles">
+      <p class="category-title1 service-title1">POTEPAN<span>が運用するサービス</span></p>
+      <p class="category-title2 service-title2">ポテパンのサイトをチェック</p>
+      <p class="orange-border service-title3"></p>
+    </div>
+    <div class="service-box">
+      <div class="service-box-org service-box-left">
+        <div class="service-logo service-left-logo">
+          <img src="image/service-media-thumbnail01.png" alt="" href="">
+        </div>
+        <div class="service-text service-left-text">
+          <p>ポテパンフリーランスは、フリーランス初心者のエンジニアに案件情報を紹介するサービスです。
+          </p>
+        </div>
+      </div>
+      <div class="service-box-org service-box-center">
+        <div class="service-logo service-center-logo">
+          <img src="image/service-media-thumbnail02.png" alt="" href="">
+        </div>
+        <div class="service-text service-center-text">
+          <p>技術のわかるエージェントがあなたの転職をサポートするサービスです。
+          </p>
+        </div>
+      </div>
+      <div class="service-box-org service-box-right">
+        <div class="service-logo service-right-logo">
+          <img src="image/service-media-thumbnail04.png" alt="" href="">
+        </div>
+        <div class="service-text service-right-text">
+          <p>エンジニアのためのお役立ちコンテンツを厳選してお送りしているサービスです。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-  .footer {
-    width:100%;
-    height:490px;
-  }
+
+
+
+
+<div class="footer">
+  <div class="footer-content">
+    <div class="footer-content-left"></div>
+    <div class="footer-content-center"></div>
+    <div class="footer-content-right"></div>
+  </div>
+</div>
+
+
+
+
+<div class="footer-copyright"></div>
+
+</body>
+
+
+
+</html>
 
 
 
@@ -797,4 +457,6 @@
 
 
 
-  /*  */
+
+
+<!-- -->
