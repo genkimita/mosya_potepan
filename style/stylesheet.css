@@ -711,6 +711,7 @@
               }
               .interviewer-profile2 {
                 color:#ffffff;
+                text-align: left;
               }
                 .interviewer-profile2-span1 {
                   font-weight: 700;
@@ -814,7 +815,13 @@
     .footer-box {}
       .footer-box-left {}
       .footer-box-center {}
-      .footer-box-right {}
+      .footer-box-right {
+        margin: 0 auto;
+      }
+        .footer-box-right img{
+          width:auto;
+          height:70px;
+        }
 
 
 
