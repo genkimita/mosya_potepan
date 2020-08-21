@@ -778,7 +778,8 @@
             margin-bottom:25px;
           }
             .service-logo img{
-              object-fit: cover;
+              width:320px;
+              height:190px;
             }
           .service-left-logo {
             border-color: rgb(252, 103, 6);
