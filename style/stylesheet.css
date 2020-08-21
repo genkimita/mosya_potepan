@@ -744,7 +744,9 @@
       text-align: center;
       padding-bottom:80px;
     }
-      .service-titles/* category-titles */ {}
+      .service-titles/* category-titles */ {
+        padding-bottom:60px;
+      }
         .service-title1 {}
         .service-title2 {}
         .service-title3 {}
@@ -769,6 +771,10 @@
             border-radius: 20px;
             margin-bottom:25px;
           }
+            .service-logo img{
+              width:320px;
+              height:190px;
+            }
           .service-left-logo {}
           .service-center-logo {}
           .servicer-right-logo {}
@@ -776,6 +782,7 @@
             font-weight: 700;
             font-size: 16px;
             line-height: 29px;
+            text-align: left;
             font-weight: bold;
           }
           .service-left-text {}
