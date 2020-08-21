@@ -699,8 +699,8 @@
               top: 245px;
             }
               .interviewer-profile img{
-                width:320px;
-                height:320px;
+                object-fit: cover;
+                overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
               }
               .interviewer-profile1 {
                 font-weight: 700;
