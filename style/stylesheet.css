@@ -471,8 +471,7 @@
           border-color: rgb(255, 109, 5);
         }
          .class-box-left0 {
-           justify-content: center;
-           align-items: center;/* 真ん中にしたい子の1つ親に */
+           margin: 20 auto 0 auto;
          }
           .class-box-left1 {
             font-weight: 700;
