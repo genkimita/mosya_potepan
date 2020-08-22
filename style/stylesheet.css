@@ -699,6 +699,8 @@
               top: 245px;
             }
               .interviewer-profile img{
+                width:320px;
+                height:320px;
               }
               .interviewer-profile1 {
                 font-weight: 700;
