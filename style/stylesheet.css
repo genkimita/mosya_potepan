@@ -846,7 +846,8 @@
           .footer-left-list {
             margin-bottom:30px;
           }
-            .footer-left-list li{}
+            .footer-left-list li{
+            }
             .footer-left-list1 {
               margin-bottom:20px;
             }
@@ -899,6 +900,22 @@
                   font-size: 16px;
                   line-height: px;
                 }
+                .footer-center-list11 {
+                  margin-bottom:35px;
+                }
+                .footer-center-list12 {
+                  margin-bottom:35px;
+                }
+                .footer-center-list13 {
+                  margin-bottom:35px;
+                }
+                .footer-center-list14 {
+                  margin-bottom:35px;
+                }
+                .footer-center-list15 {
+                  margin-bottom:35px;
+                }
+                .footer-center-list16 {}
       .footer-box-right {
         margin: 0 auto;
         float:right;
