@@ -693,6 +693,7 @@
             position: relative;
           }
             .interviewer-profile0 {
+              text-align: left;
               position: absolute;
               left: 20px;
               top: 245px;
@@ -726,7 +727,9 @@
                   font-size: 12px;
                   line-height: 18px;
                 }
-          .interviewer-text {}
+          .interviewer-text {
+            text-align: left;
+          }
       /* btn2 */
       .interview-btn {
         width:300px;
