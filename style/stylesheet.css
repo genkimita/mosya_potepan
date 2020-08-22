@@ -699,8 +699,6 @@
               top: 245px;
             }
               .interviewer-profile img{
-                object-fit: cover;
-                overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
               }
               .interviewer-profile1 {
                 font-weight: 700;
@@ -778,8 +776,8 @@
             margin-bottom:25px;
           }
             .service-logo img{
-              width:320px;
-              height:190px;
+              object-fit: contain;/* アス比維持、長い方に合わせ */
+              overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
             }
           .service-left-logo {
             border-color: rgb(252, 103, 6);
