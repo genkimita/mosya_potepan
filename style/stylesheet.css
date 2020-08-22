@@ -880,6 +880,18 @@
       .footer-box-center {
         width:400px;
       }
+        .footer-center-text {}
+            .footer-center-list {}
+              .footer-center-list li{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: px;
+              }
+                .footer-center-list span{
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: px;
+                }
       .footer-box-right {
         margin: 0 auto;
         float:right;
