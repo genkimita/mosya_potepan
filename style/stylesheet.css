@@ -825,9 +825,10 @@
     width:100%;
     color:#ffffff;
     background-color:rgb(247, 147, 20);
-    padding:80 0 0 0;
   }
   .footer-container {
+    padding-top:80px;
+    padding-bottom:40px;
   }
     .footer-return-btn {}
     .footer-box {
@@ -912,7 +913,6 @@
        line-height: px;
        text-align: left;
        margin: 0 auto 0 auto;
-
      }
 
 
