@@ -846,6 +846,10 @@
             .footer-left-list1 {
               margin-bottom:20px;
             }
+            img.footer-left-logo{
+              width:285px;
+              height:30px;
+            }
             .footer-left-list2 {
               margin-bottom:10px;
             }
@@ -864,10 +868,15 @@
               font-size: 16px;
               line-height: 24px;
             }
-              img.footer-left-logo{
-                width:285px;
-                height:30px;
-              }
+        .footer-left-sns {}
+          img.footer-left-btn/* 共通 */ {
+            width:63px;
+            height:63px;
+          }
+          img.footer-left-facebook {
+            margin-right: 10px;
+          }
+          img.footer-left-twitter {}
       .footer-box-center {
         width:400px;
       }
