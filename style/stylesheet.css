@@ -830,7 +830,8 @@
     .footer-box {
       width:1040px;
       display: flex;
-      margin: 0 auto 65 auto;
+      margin: 0 auto;
+      padding-bottom:65px;
     }
       .footer-box-left {
         width:500px;
