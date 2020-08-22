@@ -459,6 +459,7 @@
           width:293px;
           margin:0 30px 0 -50px ;
           text-align: center;
+          padding-top:20px;
         }
         /* border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%); */
         .carrier-left /* class-box-left */{
@@ -476,7 +477,7 @@
           border-color: rgb(255, 109, 5);
         }
          .class-box-left0 {
-           margin: 20 auto 0 auto;
+           margin: 0 auto 0 auto;
          }
           .class-box-left1 {
             font-weight: 700;
