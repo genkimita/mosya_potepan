@@ -931,15 +931,11 @@
                 }
                 .footer-center-list16 {}
       .footer-box-right {
-        position: relative;
-
+        text-align: right;
       }
         .footer-box-right img{
-          width:auto;
           height:70px;
-          position: absolute;
-          right: 0;
-          bottom: 0;
+          vertical-align : bottom;
         }
      .footer-inc {
        width:1040px;
