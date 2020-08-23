@@ -750,6 +750,7 @@
                   line-height: 18px;
                 }
           .interviewer-text {
+            font-weight: bold;
             text-align: left;
           }
       /* btn2 */
