@@ -123,7 +123,7 @@
       position: relative;
     }
       .main-counseling {
-        height:170px;
+        width:100%;
         display: flex;
         padding-top:150px;
         margin-bottom:130px;
@@ -145,10 +145,12 @@
               color:rgb(247, 147, 20);
             }
         .main-counseling-right {
-          width:185px;
+          text-align: center;
         }
           img.main-counseling-right-image {
-            object-fit: cover;/* アス比維持、短い方に合わせ、長い方ははみ出し*/}
+            width:185px;
+            height:auto;
+          }
       .main-counseling-btn {
         width:340px;
         height:60px;
