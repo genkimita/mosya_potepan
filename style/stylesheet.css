@@ -120,6 +120,7 @@
     .main {
       width:525px;
       padding-left:320px;
+      position: relative;
     }
       .main-counseling {
         height:170px;
@@ -159,6 +160,7 @@
           }
       .main-annotation {
         width:525px;
+        position: absolute;
         bottom: 30px;
       }
         .main-annotation-text {
