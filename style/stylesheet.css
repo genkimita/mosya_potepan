@@ -712,6 +712,7 @@
             height:320px;
             margin-bottom:20px;
             position: relative;
+            background: linear-gradient(to top,  rgba(0,0,0,0.8) 55%, rgba(30,30,30,0.7) , rgba(50,50,50,0) );
           }
             .interviewer-profile0 {
               text-align: left;
