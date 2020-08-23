@@ -894,6 +894,7 @@
                 font-weight: 700;
                 font-size: 16px;
                 line-height: px;
+                padding-bottom:30px;
               }
                 .footer-center-list span{
                   font-weight: 400;
@@ -902,29 +903,26 @@
                   margin-left: 15px;
                 }
                 .footer-center-list11 {
-                  padding-bottom:30px;
                 }
                 .footer-center-list12 {
-                  padding-bottom:30px;
                 }
                 .footer-center-list13 {
-                  padding-bottom:30px;
                 }
                 .footer-center-list14 {
-                  padding-bottom:30px;
                 }
                 .footer-center-list15 {
-                  padding-bottom:30px;
                 }
                 .footer-center-list16 {}
       .footer-box-right {
-        margin: 0 auto;
-        float:right;
-        vertical-align : bottom;
+        position: relative;
+        height:100%;
       }
         .footer-box-right img{
           width:auto;
           height:70px;
+          position: absolute;
+          right: 0;
+          bottom: 0;
         }
      .footer-inc {
        width:1040px;
