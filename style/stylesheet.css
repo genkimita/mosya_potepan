@@ -657,12 +657,20 @@
               height:240px;
             }
             .message-box-right1 p{
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 24px;
               color:#ffffff;
               font-weight: bold;
               position: absolute;
               top: 25px;
               left: 20px;
             }
+              .message-box-right1 p span{
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 36px;
+              }
 
 
 
