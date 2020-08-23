@@ -118,11 +118,12 @@
           transition: 0.5s;
         }
     .main {
-      width:525px;
+      width:100%;
       padding-top:150px;
       padding-left:320px;
     }
       .main-counseling {
+        width:525px;
         display: flex;
       }
         .main-counseling-left {
