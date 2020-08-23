@@ -712,13 +712,15 @@
             height:320px;
             margin-bottom:20px;
             position: relative;
-            background: linear-gradient(to top,  rgba(0,0,0,0.8) 55%, rgba(30,30,30,0.7) , rgba(50,50,50,0) );
           }
             .interviewer-profile0 {
               text-align: left;
               position: absolute;
-              left: 20px;
-              top: 245px;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              padding:80px 20px 15px 20px;
+              background: linear-gradient(to top,  rgba(0,0,0,0.8) 55%, rgba(30,30,30,0.7) , rgba(50,50,50,0) );
             }
               .interviewer-profile img{
                 width:320px;
