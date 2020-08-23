@@ -119,12 +119,11 @@
         }
     .main {
       width:525px;
+      padding-top:150px;
       padding-left:320px;
     }
       .main-counseling {
-        width:100%;
         display: flex;
-        padding-top:150px;
       }
         .main-counseling-left {
           width:340px;
@@ -143,11 +142,12 @@
               color:rgb(247, 147, 20);
             }
         .main-counseling-right {
+          width:160px;
+          height:160px;
           text-align: center;
         }
           img.main-counseling-right-image {
-            width:185px;
-            height:auto;
+            width:160px;
           }
       .main-counseling-btn {
         width:340px;
