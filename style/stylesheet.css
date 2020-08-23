@@ -320,8 +320,7 @@
         .f01-logos-upper {
           width: calc(100% / 4);
           display: flex;
-          justify-content: center;
-          align-items: center;/* 真ん中にしたい子の1つ親に */
+          text-align: center;
         }
           .f01-logos-upper1 {}
           .f01-logos-upper2 {}
@@ -330,8 +329,7 @@
         .f01-logos-lower {
           width: calc(100% / 4);
           display: flex;
-          justify-content: center;
-          align-items: center;/* 真ん中にしたい子の1つ親に */
+          text-align: center;
         }
           .f01-logos-lower1 {}
           .f01-logos-lower2 {}
