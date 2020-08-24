@@ -933,16 +933,19 @@
         .footer-left-sns {
           display: flex;
         }
-          img.footer-sns-btn/* 共通 */ {
-            width:63px;
-            height:63px;
-          }
-          img.footer-left-facebook {
-            margin-right: 15px;
-          }
-          img.footer-left-twitter {
-            display: block;
-          }
+          .footer-sns-btn /* 共通 */{}
+          .footer-left-facebook {
+                margin-right: 15px;
+              }
+          .footer-left-twitter {}
+            .footer-sns-btn img/* 共通 */ {
+              width:63px;
+              height:63px;
+            }
+            .footer-left-facebook img{
+            }
+            .footer-left-twitter img{
+            }
       .footer-box-center {
         width:400px;
       }
