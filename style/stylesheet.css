@@ -736,6 +736,8 @@
                 font-size: 16px;
                 line-height: 24px;
                 color:#f79314;
+                padding-bottom:10px;
+                border-bottom:1px solid #ffffff ;
               }
               .interviewer-profile2 {
                 color:#ffffff;
