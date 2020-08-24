@@ -759,6 +759,9 @@
                   line-height: 18px;
                 }
           .interviewer-text {
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 27px;
             font-weight: bold;
             text-align: left;
           }
