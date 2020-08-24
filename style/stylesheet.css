@@ -948,8 +948,7 @@
         .footer-box-right img{
           width:auto;
           height:70px;
-          vertical-align : bottom;
-        }
+          margin-bottom:0px;
      .footer-inc {
        width:1040px;
        font-weight: 400;
