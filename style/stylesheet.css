@@ -812,7 +812,8 @@
              top: 50%;
            }
             .service-logo img{
-              width:320px;
+              width:100%;
+              height:auto;
               transform: translate(-50%,-50%);
               overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
             }
