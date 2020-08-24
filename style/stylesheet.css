@@ -862,7 +862,7 @@
         font-size: 14px;
         line-height: 21px;
         border-radius: 25px;
-        box-shadow: 3px 3px #000000 .5;
+        box-shadow: 3px 3px #000000 ;
         float:right;
         margin: -105px 0px 0px ;
         display: flex;
