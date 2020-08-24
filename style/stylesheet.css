@@ -4,10 +4,15 @@
   box-sizing: border-box;/* スクロールの余白なし */
   }
   @font-face {
-    font-family: 'Noto Sans JP';
+    font-family: "Lato";
+    font-style: normal;
+    src: url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap') format("Lato");
+  }
+  @font-face {
+    font-family: "Noto Sans JP";
     font-style: normal;
     src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap') format("Noto Sans JP");
-  }
+}
   li {
     list-style: none;
   }
@@ -87,16 +92,16 @@
             .header-container-list-1 {
               font-weight: 700;
               font-size: 14px;
-              font-family:'Lato', sans-serif;
+              font-family:"Lato", sans-serif;
             }
             .header-container-list-2 {
               font-weight: 700;
               font-size: 10px;
               line-height: px;
-              font-family: 'Noto Sans JP', sans-serif;
+              font-family: "Noto Sans JP", sans-serif;
             }
         .header-container-btn {
-          font-family: 'Noto Sans JP', sans-serif;
+          font-family: "Noto Sans JP", sans-serif;
           width:150px;
           height:40px;
           font-weight: 700;
