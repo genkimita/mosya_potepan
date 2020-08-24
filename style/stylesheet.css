@@ -923,15 +923,20 @@
               font-size: 16px;
               line-height: 24px;
             }
-        .footer-left-sns {}
+        .footer-left-sns {
+          display: flex;
+        }
           img.footer-sns-btn/* 共通 */ {
             width:63px;
             height:63px;
           }
           img.footer-left-facebook {
-            margin-right: 25px;
+            display: block;
+            margin-right: 15px;
           }
-          img.footer-left-twitter {}
+          img.footer-left-twitter {
+            display: block;
+          }
       .footer-box-center {
         width:400px;
       }
