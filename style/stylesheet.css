@@ -4,7 +4,7 @@
   box-sizing: border-box;/* スクロールの余白なし */
   }
   @font-face {
-    font-family:"Noto Sans JP";
+    font-family:'Noto Sans JP';
     font-style: normal;
     src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap') format("Noto Sans JP");
   }
@@ -93,10 +93,10 @@
               font-weight: 700;
               font-size: 10px;
               line-height: px;
-              font-family:"Noto Sans JP", sans-serif;
+              font-family:'Noto Sans JP', sans-serif;
             }
         .header-container-btn {
-          font-family:"Noto Sans JP", sans-serif;
+          font-family:'Noto Sans JP', sans-serif;
           width:150px;
           height:40px;
           font-weight: 700;
@@ -134,7 +134,7 @@
             font-weight: 700px;
             font-size: 20px;
             line-height: 34px;
-            font-family:"Noto Sans JP";
+            font-family:"Noto Sans JP",sans-serif;
           }
             p.main-counseling-left-text span{
               color:rgb(247, 147, 20);
