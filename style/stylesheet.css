@@ -932,14 +932,12 @@
                 }
                 .footer-center-list16 {}
       .footer-box-right {
-        height:100%;
         text-align: right;
+        vertical-align : bottom;
       }
         .footer-box-right img{
+          width:auto;
           height:70px;
-          position: absolute;
-          right: 0;
-          bottom: 0;
         }
      .footer-inc {
        width:1040px;
