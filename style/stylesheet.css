@@ -933,11 +933,11 @@
                 .footer-center-list16 {}
       .footer-box-right {
         text-align: right;
-        vertical-align : bottom;
       }
         .footer-box-right img{
           width:auto;
           height:70px;
+          vertical-align : bottom;
         }
      .footer-inc {
        width:1040px;
