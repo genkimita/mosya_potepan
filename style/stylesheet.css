@@ -862,6 +862,7 @@
         font-size: 14px;
         line-height: 21px;
         border-radius: 25px;
+        box-shadow: 3px 3px #000000 .5;
         float:right;
         margin: -105px 0px 0px ;
         display: flex;
@@ -877,7 +878,7 @@
           top: -21px;
           border-top:3px solid rgb(247, 146, 21) ;
           border-right:3px solid rgb(247, 146, 21) ;
-          transform: rotate(90deg);
+          transform: rotate(-45deg);
         }
     .footer-box {
       width:1040px;
