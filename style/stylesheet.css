@@ -966,9 +966,11 @@
                 }
                 .footer-center-list16 {}
       .footer-box-right {
+        position: relative;
         text-align: right;
       }
         .footer-box-right img{
+          position: absolute;
           width:auto;
           height:70px;
           margin-bottom:0px;
