@@ -569,7 +569,6 @@
           }
           span.marker-right-sign {
             content: ' ';
-            display: block;
             width:10px;
             height:10px;
             bottom: 4px;
