@@ -967,15 +967,15 @@
           width:auto;
           height:70px;
           margin-bottom:0px;
+        }
       .footer-inc {
-       width:1040px;
-       font-weight: 400;
-       font-size: 14px;
-       line-height: px;
-       text-align: left;
-       margin: 0 auto 0 auto;
-     }
-
+        width:1040px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: px;
+        text-align: left;
+        margin: 0 auto 0 auto;
+      }
 
 
 
