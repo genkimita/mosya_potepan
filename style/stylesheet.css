@@ -864,6 +864,9 @@
         border-radius: 25px;
         float:right;
         margin: -105px 0px 0px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;/* 真ん中にしたい子の1つ親に */
       }
         span.marker-top-sign {
           content: ' ';
@@ -874,7 +877,7 @@
           top: -21px;
           border-top:3px solid rgb(247, 146, 21) ;
           border-right:3px solid rgb(247, 146, 21) ;
-          transform: rotate(45deg);
+          transform: rotate(90deg);
         }
     .footer-box {
       width:1040px;
@@ -963,7 +966,7 @@
           width:auto;
           height:70px;
           margin-bottom:0px;
-     .footer-inc {
+      .footer-inc {
        width:1040px;
        font-weight: 400;
        font-size: 14px;
