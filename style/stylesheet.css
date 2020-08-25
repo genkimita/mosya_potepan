@@ -809,14 +809,11 @@
             background-color:#ffffff;
             border:3px solid;
             border-radius: 20px;
+            display: flex;
+            align-items: center;/*width:100%;の中身に対して */
             margin-bottom:25px;
-            position: relative;
           }
-           .service-logo-inner {
-             display: flex;
-             align-items: center;/*width:100%;の中身に対して */
-           }
-             .service-logo-inner img{
+             .service-logo img{
                width:100%;
                height:auto;
              }
