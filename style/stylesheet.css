@@ -223,12 +223,14 @@
         padding-top:80px;
       }
         .category-title1 {
+          font-family: 'Lato', sans-serif;
           font-weight: 900;
           font-size: 50px;
           line-height: px;
           margin-bottom:30px;
         }
          .category-title1 span{
+           font-family: 'Noto Sans JP', sans-serif;
            font-weight: 700;
            font-size: 46px;
            line-height: px;
@@ -276,6 +278,7 @@
           margin-bottom:45px;
         }
         .f-explanation {
+          font-family: 'Lato', sans-serif;
           font-weight: 500;
           font-size: 16px;
           line-height: 32px;
@@ -283,6 +286,7 @@
           margin-bottom:45px;
         }
           .f-explanation span{
+            font-family: 'Noto Sans JP', sans-serif;
             font-weight: 900;
             font-size: 30px;
             line-height: 30px;
@@ -615,6 +619,7 @@
           text-align: left;
         }
           .message-box-left1 {
+            font-family: 'Lato', sans-serif;
             width:245px;
             height:60px;
             margin:-80px 0 0 -20px;
@@ -804,7 +809,7 @@
             width:320px;
             height:190px;
             background-color:#ffffff;
-            border:3px solid;
+            border:2px solid;
             border-radius: 20px;
             padding:0px 20px;
             display: flex;
