@@ -934,10 +934,10 @@
           display: flex;
         }
           .footer-sns-btn /* 共通 */{}
-          .footer-left-facebook {
+          .footer-sns-facebook {
                 margin-right: 15px;
               }
-          .footer-left-twitter {}
+          .footer-sns-twitter {}
             .footer-sns-btn img/* 共通 */ {
               width:63px;
               height:63px;
@@ -987,7 +987,7 @@
       .footer-inc {
         width:1040px;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 12px;
         line-height: px;
         text-align: left;
         margin: 0 auto 0 auto;
