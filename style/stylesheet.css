@@ -978,11 +978,11 @@
         position: relative;
         text-align: right;
       }
-        img.footer-right-image {
-          position: absolute;
+        .footer-right-image {
           width:auto;
           height:70px;
-          margin-bottom:0px;
+          position: absolute;
+          bottom: 0;
         }
       .footer-inc {
         width:1040px;
