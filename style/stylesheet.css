@@ -813,14 +813,12 @@
             position: relative;
           }
            .service-logo-inner {
-             position: absolute;
-             left: 50%;
-             top: 50%;
+             display: flex;
+             align-items: center;/*width:100%;の中身に対して */
            }
              .service-logo-inner img{
                width:100%;
                height:auto;
-               transform: translate(-50%,-50%);
              }
           .service-left-logo {
             border-color: rgb(252, 103, 6);
