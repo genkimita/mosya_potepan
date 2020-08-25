@@ -817,11 +817,11 @@
              left: 50%;
              top: 50%;
            }
-            .service-logo img{
-              width:100%;
-              height:auto;
-              transform: translate(-50%,-50%);
-            }
+             .service-logo-inner img{
+               width:100%;
+               height:auto;
+               transform: translate(-50%,-50%);
+             }
           .service-left-logo {
             border-color: rgb(252, 103, 6);
           }
@@ -974,14 +974,18 @@
                 }
                 .footer-center-list16 {}
       .footer-box-right {
-        position: relative;
+        width:140px;
+        height:100%;
         text-align: right;
+        position: relative;
       }
-        .footer-right-image {
+        .footer-right img{
           width:auto;
           height:70px;
           position: absolute;
+          right: 0;
           bottom: 0;
+          margin: auto;
         }
       .footer-inc {
         width:1040px;
