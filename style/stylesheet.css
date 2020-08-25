@@ -3,9 +3,6 @@
   padding: 0px;/* 要素同士の隙間を0に */
   box-sizing: border-box;/* スクロールの余白なし */
   }
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Noto+Sans+JP:wght@700&display=swap');
-
   li {
     list-style: none;
   }
