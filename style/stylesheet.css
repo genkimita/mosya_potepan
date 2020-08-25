@@ -430,7 +430,10 @@
     background-color:#F6F6F6;
   }
     .course-container {
-      background: url(image/bg-section-top-course.png)  right top / 50% 50% no-repeat;
+      background: url(image/bg-section-top-course.png);
+      background-size:281px 275px;
+      background-repeat: no-repeat;
+      background-position:calc(100% - 50px) top;
       text-align: center;
       padding-bottom:80px;
     }
