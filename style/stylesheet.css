@@ -438,6 +438,7 @@
       width:1040px;
       background-image: url(image/bg-section-top-course.png);
       /* background-size:281px 275px; */
+      margin: 0 auto;
       padding-bottom:80px;
     }
       /* 共通　■category-titles */
