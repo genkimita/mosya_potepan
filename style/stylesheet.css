@@ -722,6 +722,7 @@
             height:320px;
             margin-bottom:20px;
             position: relative;
+            overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
           }
             .interviewer-profile0 {
               text-align: left;
