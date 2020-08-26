@@ -127,12 +127,12 @@
             width:340px;
             height:35px;
           }
-          .main-counseling-left p{
+          .main-counseling-left-text {
             font-weight: 700px;
             font-size: 20px;
             line-height: 34px;
           }
-            p.main-counseling-left-text span{
+            .main-counseling-left-text span{
               color:rgb(247, 147, 20);
             }
         .main-counseling-right {
