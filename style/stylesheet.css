@@ -732,16 +732,13 @@
             }
               .interviewer-profile img{
                 width:100%;
-                height:100%;
-                object-fit: cover;/* アス比維持、短い方に合わせ、長い方ははみ出し*/
-                position: absolute;
-                top: 0;
-                left: 0;
-                transition: 0.5s;
+                height:auto;
+                object-fit: cover;
+                transition: 0.3s;
               }
               .interviewer:hover .interviewer-profile img {
                 transform: scale(1.05,1.05);
-                transition: 0.5s;
+                transition: 0.3s;
               }
               .interviewer-profile1 {
                 font-weight: 700;
@@ -776,9 +773,11 @@
             line-height: 27px;
             font-weight: bold;
             text-align: left;
+            transition: .3s;
           }
           .interviewer:hover .interviewer-text {
             color:rgb(247,147,20);
+            transition: .3s;
           }
       /* btn2 */
       .interview-btn {
@@ -838,11 +837,11 @@
              .service-logo img{
                width:100%;
                height:auto;
-               transition: all 0.5s;
+               transition: 0.3s;
              }
              .service-box-org:hover .service-logo img {
                transform: scale(1.05,1.05);
-               transition: 0.5s;
+               transition: 0.3s;
              }
           .service-left-logo {
             border-color: rgb(252, 103, 6);
@@ -859,11 +858,11 @@
             line-height: 29px;
             text-align: left;
             font-weight: bold;
-            transition: 0.5s;
+            transition: 0.3s;
           }
           .service-box-org:hover .service-text {
             color:rgb(248,176,99);
-            transition: 0.5s;
+            transition: 0.3s;
           }
           .service-left-text {}
           .service-center-text {}
