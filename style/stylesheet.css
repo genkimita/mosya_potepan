@@ -429,15 +429,14 @@
   .course {
     width:100%;
     background-color:#F6F6F6;
+    text-align: center;
   }
     .course-container {
       width:1040px;
-      background: url(image/bg-section-top-course.png);
+      background-image: url(image/bg-section-top-course.png);
       background-size:281px 275px;
       background-repeat: no-repeat;
-      background-position: right top ;
-      text-align: center;
-      margin: 0 auto;
+      background-position:calc(100% - 50px) top;
       padding-bottom:80px;
     }
       /* 共通　■category-titles */
