@@ -141,7 +141,8 @@
           text-align: center;
         }
           img.main-counseling-right-image {
-            width:160px;
+            width:100%;
+            height:auto;
           }
       .main-counseling-btn{
         width:340px;
