@@ -483,6 +483,7 @@
           /* border-image:linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%); */
           border:3px solid;
           border-color: rgb(255, 109, 5);
+          padding-top:15px;
         }
          .class-box-left0 {
            margin: 0 auto 0 auto;
