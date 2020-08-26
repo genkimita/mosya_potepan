@@ -1008,15 +1008,11 @@
         width:140px;
         height:100%;
         text-align: right;
-        position: relative;
+        vertical-align : bottom;
       }
         .footer-right img{
           width:auto;
           height:70px;
-          position: absolute;
-          right: 0;
-          bottom: 0;
-          margin: auto;
         }
       .footer-inc {
         width:1040px;
