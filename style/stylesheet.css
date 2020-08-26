@@ -705,6 +705,9 @@
         .interviewer/* 共通 */ {
           width:320px;
         }
+        .interviewer:hover {
+          cursor:pointer;
+        }
         .interview-box-left {
           margin-right: 40px;
         }
@@ -736,8 +739,8 @@
                 left: 0;
                 transition: 0.5s;
               }
-              .interviewer-profile img:hover {
-                transform: scale(1.1,1.1);
+              .interviewer:hover .interviewer-profile img {
+                transform: scale(1.05,1.05);
                 transition: 0.5s;
               }
               .interviewer-profile1 {
@@ -774,6 +777,9 @@
             font-weight: bold;
             text-align: left;
           }
+          .interviewer:hover .interviewer-text {
+            color:rgb(247,147,20);
+          }
       /* btn2 */
       .interview-btn {
         width:300px;
@@ -808,6 +814,9 @@
         .service-box-org/* 共通 */ {
           width:320px;
         }
+        .service-box-org:hover {
+          cursor:pointer;
+        }
         .service-box-left {
           margin-right: 40px;
         }
@@ -831,8 +840,8 @@
                height:auto;
                transition: all 0.5s;
              }
-             .service-logo img:hover {
-               transform: scale(1.1,1.1);
+             .service-box-org:hover .service-logo img {
+               transform: scale(1.05,1.05);
                transition: 0.5s;
              }
           .service-left-logo {
@@ -850,6 +859,11 @@
             line-height: 29px;
             text-align: left;
             font-weight: bold;
+            transition: 0.5s;
+          }
+          .service-box-org:hover .service-text {
+            color:rgb(248,176,99);
+            transition: 0.5s;
           }
           .service-left-text {}
           .service-center-text {}
