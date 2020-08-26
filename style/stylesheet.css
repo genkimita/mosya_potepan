@@ -431,6 +431,8 @@
     width:100%;
     background-color:#F6F6F6;
     text-align: center;
+    position: relative;
+    z-index:1;
   }
     .course-container {
       width:1040px;
