@@ -430,7 +430,7 @@
 
   .course {
     width:100%;
-    background:#F6F6F6,url(image/bg-section-top-course.png);
+    background:#F6F6F6 url(image/bg-section-top-course.png) no-repeat  center center / 281px 275px;
     text-align: center;
     position: relative;
   }
