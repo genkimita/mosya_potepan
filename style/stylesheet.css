@@ -430,15 +430,18 @@
 
   .course {
     width:100%;
-    background:#F6F6F6 url(image/bg-section-top-course.png) no-repeat  center center / 281px 275px;
+    background:#F6F6F6;
     text-align: center;
     position: relative;
   }
     .course-container {
       width:1040px;
-      /* background-size:281px 275px; */
+      background:url(image/bg-section-top-course.png);
+      background-size:281px 275px;
+      background-position:right top;
       margin: 0 auto;
       padding-bottom:80px;
+      z-index:10;
     }
       /* 共通　■category-titles */
       .course-titles {
