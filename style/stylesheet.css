@@ -144,6 +144,8 @@
           img.main-counseling-right-image {
             width:100%;
             height:auto;
+            object-fit: cover;
+            overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
           }
       .main-counseling-btn{
         width:340px;
