@@ -466,7 +466,7 @@
         margin-bottom:60px;
       }
         .class-box-left {
-          width:293px;
+          flex-basis: 293px;
           margin:0 30px 0 -50px ;
           text-align: center;
           padding-top:20px;
@@ -521,7 +521,7 @@
             background-color:rgb(73,199,101);
           }
         .class-box-right {
-          width:auto;
+          flex-grow: 1;
           text-align: left;
         }
          .class-box-right0 {
