@@ -439,16 +439,18 @@
     background:#F6F6F6;
     text-align: center;
     position: relative;
+    padding-top:40px;
   }
     .course-container {
       width:1040px;
-      background:url(image/bg-section-top-course.png);
-      background-size:281px 275px;
-      background-position:right top;
       margin: 0 auto;
       padding-bottom:80px;
-      z-index:10;
+      position: relative;
     }
+      img.course-backimage {
+        width:281px;
+        height:275px;
+      }
       /* 共通　■category-titles */
       .course-titles {
       }
@@ -458,6 +460,7 @@
         font-weight: bold;
         background-color:#ffffff;
         display: flex;
+        position: absolute;
         padding:30px;
         margin: 0 auto;
         margin-top:60px;
@@ -602,6 +605,7 @@
         border-radius: 30px;
         color:#ffffff;
         background-color:rgb(247, 147, 20);
+        position: absolute;
         margin: 0 auto;
       }
 
