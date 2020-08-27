@@ -453,6 +453,7 @@
       }
       /* 共通　■category-titles */
       .course-titles {
+        position: absolute;
       }
       .class-box {
         width:1040px;
