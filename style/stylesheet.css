@@ -436,7 +436,9 @@
 
   .course {
     width:100%;
-    background:#F6F6F6;
+    background-color:#F6F6F6;
+    background: url(image/bg-section-top-course.png)  no-repeat ;
+    background-size: 281px 275px;
     text-align: center;
     position: relative;
     padding-top:40px;
@@ -445,15 +447,9 @@
       width:1040px;
       margin: 0 auto;
       padding-bottom:80px;
-      position: relative;
     }
-      img.course-backimage {
-        width:281px;
-        height:275px;
-      }
       /* 共通　■category-titles */
       .course-titles {
-        position: absolute;
       }
       .class-box {
         width:1040px;
@@ -461,7 +457,6 @@
         font-weight: bold;
         background-color:#ffffff;
         display: flex;
-        position: absolute;
         padding:30px;
         margin: 0 auto;
         margin-top:60px;
@@ -606,7 +601,6 @@
         border-radius: 30px;
         color:#ffffff;
         background-color:rgb(247, 147, 20);
-        position: absolute;
         margin: 0 auto;
       }
 
