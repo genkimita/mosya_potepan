@@ -921,6 +921,7 @@
         display: flex;
         justify-content: center;
         align-items: center;/* 真ん中にしたい子の1つ親に */
+        transition: 0.5s;
       }
         span.marker-top-sign {
           content: ' ';
@@ -932,6 +933,15 @@
           border-top:3px solid rgb(247, 146, 21) ;
           border-right:3px solid rgb(247, 146, 21) ;
           transform: rotate(-45deg);
+          transition: 0.5s;
+        }
+        .footer-return-top:hover p.footer-return-btn {
+          background-color:rgb(247,146,21);
+          transition: 0.5s;
+        }
+        .footer-return-top:hover span.marker-top-sign {
+          color:rgb(255, 255, 255);
+          transition: 0.5s;
         }
     .footer-box {
       width:1040px;
@@ -1045,7 +1055,6 @@
         text-align: left;
         margin: 0 auto 0 auto;
       }
-
 
 
 
