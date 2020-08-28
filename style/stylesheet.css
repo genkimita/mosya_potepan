@@ -333,10 +333,18 @@
               vertical-align : middle;
             }
         .f01-logos-lower {
-          width: calc(100% / 4);
+          width:100%;
           display: flex;
-          text-align: center;
         }
+          .f01-logos-lower-image {
+            width:25%;
+            text-align: center;
+          }
+            .f01-logos-lower-image img{
+              width:100%;
+              height:auto;
+              vertical-align : middle;
+            }
           .f01-logos-lower1 {}
           .f01-logos-lower2 {}
           .f01-logos-lower3 {}
