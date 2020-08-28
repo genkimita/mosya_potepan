@@ -437,14 +437,13 @@
   .course {
     width:100%;
     background-color:#F6F6F6;
-    background: url(image/bg-section-top-course.png)  no-repeat ;
-    background-size: 281px 275px;
     text-align: center;
-    position: relative;
     padding-top:40px;
   }
     .course-container {
       width:1040px;
+      background: url(image/bg-section-top-course.png) ;
+      background-size: 281px 275px;
       margin: 0 auto;
       padding-bottom:80px;
     }
