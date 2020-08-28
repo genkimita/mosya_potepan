@@ -979,7 +979,13 @@
         .footer-left-sns {
           display: flex;
         }
-          .footer-sns-btn /* 共通 */{}
+          .footer-sns-btn /* 共通 */{
+            transition: 0.5s;
+          }
+            .footer-sns-btn:hover {
+              opacity :.7;
+              transition: 0.5s;
+            }
           .footer-sns-facebook {
                 margin-right: 15px;
               }
