@@ -985,6 +985,7 @@
             .footer-sns-btn:hover {
               opacity :.7;
               transition: 0.5s;
+              cursor:pointer;
             }
           .footer-sns-facebook {
                 margin-right: 15px;
