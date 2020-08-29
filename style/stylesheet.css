@@ -587,6 +587,7 @@
             text-align: right;
             float:right;
             vertical-align : bottom;
+            transition: 0.5s;
           }
           span.marker-right-sign {
             content: ' ';
@@ -600,6 +601,10 @@
             transform: rotate(45deg);
             padding-left:5px;
           }
+            .class-box-right4:hover {
+              color:rgb(247,147,20);
+              transition: 0.5s;
+            }
       .course-btn/* btn2 */ {
         width:300px;
         height:60px;
