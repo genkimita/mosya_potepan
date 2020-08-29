@@ -1049,14 +1049,12 @@
                 }
                 .footer-center-list16 {}
       .footer-box-right {
-        width:140px;
-        height:100%;
-        text-align: right;
+        align-self:flex-end;
+        
       }
         .footer-right img{
           width:auto;
           height:70px;
-          vertical-align : bottom;
         }
       .footer-inc {
         width:1040px;
