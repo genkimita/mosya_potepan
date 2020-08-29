@@ -601,7 +601,7 @@
             transform: rotate(45deg);
             padding-left:5px;
           }
-            .class-box-right4:hover {
+            .class-box:hover .class-box-right4  {
               color:rgb(247,147,20);
               transition: 0.5s;
             }
