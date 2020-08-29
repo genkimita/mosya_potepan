@@ -466,6 +466,9 @@
         margin: 0 auto;
         margin-top:60px;
       }
+      .class-box:hover {
+        cursor:pointer;
+      }
       .class-carrier/* class-box */ {
         margin-bottom:40px;
       }
@@ -601,7 +604,7 @@
             transform: rotate(45deg);
             padding-left:10px;
           }
-            .class-box:hover .class-box-right4  {
+            .class-box:hover p.class-box-right4  {
               color:rgb(247,147,20);
               transition: 0.5s;
             }
@@ -942,10 +945,12 @@
         }
         .footer-return-top:hover p.footer-return-btn {
           background-color:rgb(247,146,21);
+          cursor:pointer;
           transition: 0.5s;
         }
         .footer-return-top:hover span.marker-top-sign {
           border-color: rgb(255, 255, 255);
+          cursor:pointer;
           transition: 0.5s;
         }
     .footer-box {
