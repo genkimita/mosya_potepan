@@ -1061,8 +1061,7 @@
                 }
                 .footer-center-list16 {}
       .footer-box-right {
-        width:auto;
-        height:70px;
+        order:3;
         align-self:flex-end;
       }
         .footer-right img{
