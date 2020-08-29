@@ -1061,6 +1061,8 @@
                 }
                 .footer-center-list16 {}
       .footer-box-right {
+        width:auto;
+        height:70px;
         align-self:flex-end;
       }
         .footer-right img{
