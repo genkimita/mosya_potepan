@@ -83,6 +83,7 @@
             margin-left: 15px;
             margin-right: 15px;
             font-weight: bold;
+            cursor:pointer;
           }
             .header-container-list-1 {
               font-weight: 700;
@@ -971,6 +972,12 @@
             }
             .footer-left-list1 {
               margin-bottom:20px;
+              transition: 0.5s;
+            }
+            .footer-left-list1:hover {
+              opacity :.7;
+              cursor:pointer;
+              transition: 0.5s;
             }
             img.footer-left-logo{
               width:285px;
@@ -1031,6 +1038,9 @@
                 line-height: px;
                 padding-bottom:30px;
               }
+              .footer-center-list li:hover {
+                cursor:pointer;
+              }
                 .footer-center-list span{
                   font-weight: 400;
                   font-size: 16px;
@@ -1050,7 +1060,6 @@
                 .footer-center-list16 {}
       .footer-box-right {
         align-self:flex-end;
-        
       }
         .footer-right img{
           width:auto;
