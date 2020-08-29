@@ -828,10 +828,10 @@
 
   .service {
     background-color:rgb(246, 246, 246);
+    text-align: center;
+    padding-bottom:80px;
   }
     .service-container {
-      text-align: center;
-      padding-bottom:80px;
       background-image: url(image/bg-section-top-course.png);
       background-size: 281px 275px;
       background-repeat:no-repeat;
