@@ -503,15 +503,29 @@
           }
         .beginner-left{
           /* border-image:linear-gradient(to right, rgb(28, 179, 137) 0%, rgb(73, 199, 101) 100%); */
-          border:3px solid;
-          border-color: rgb(28, 179, 137);
+          border-left: 3px solid rgb(28, 179, 137);
+          border-right: 3px solid rgb(73, 199, 101);
         }
+          .beginner-left::before,
+          .beginner-left::after {
+            content: "";
+            display: block;
+            height: 3px;
+            background: linear-gradient(to right, rgb(28, 179, 137) 0%, rgb(73, 199, 101) 100%);
+          }
         .open-left {
           /* border-image:linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%); */
-          border:3px solid;
-          border-color: rgb(255, 109, 5);
+          border-left: 3px solid rgb(255, 109, 5);
+          border-right: 3px solid rgb(246, 147, 21);
           padding-top:15px;
         }
+          .open-left::before,
+          .open-left::after {
+            content: "";
+            display: block;
+            height: 3px;
+            background: linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%);
+          }
          .class-box-left0 {
            margin: 0 auto 0 auto;
          }
