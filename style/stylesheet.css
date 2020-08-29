@@ -972,6 +972,7 @@
     }
       .footer-box-left {
         width:500px;
+        order:1;
       }
         .footer-left-text {}
           .footer-left-list {
@@ -1038,6 +1039,7 @@
             }
       .footer-box-center {
         width:400px;
+        order:2;
       }
         .footer-center-text {}
             .footer-center-list {}
@@ -1074,6 +1076,8 @@
         .footer-right img{
           width:auto;
           height:70px;
+          border:0 ;
+          vertical-align : middle;
         }
       .footer-inc {
         width:1040px;
