@@ -21,6 +21,7 @@
   }
   .btn:hover,.btn2:hover {
     opacity :.7;
+    cursor:pointer;
     transition: all 0.5s;
   }
   .btn2 {
