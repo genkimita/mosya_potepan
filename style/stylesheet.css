@@ -945,7 +945,7 @@
           transition: 0.5s;
         }
         .footer-return-top:hover span.marker-top-sign {
-          color:rgb(255, 255, 255);
+          border-color: rgb(255, 255, 255);
           transition: 0.5s;
         }
     .footer-box {
