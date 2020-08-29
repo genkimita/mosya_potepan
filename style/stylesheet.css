@@ -7,9 +7,7 @@
     list-style: none;
   }
   img {
-    max-width: 100%;
-    height: auto;
-    width /***/:auto;
+    vertical-align : middle;
   }
   .btn/* 親用 */ {
     color:rgb(255, 255, 255);
