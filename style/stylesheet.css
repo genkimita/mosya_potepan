@@ -33,6 +33,8 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
+    letter-spacing: 4px;
+    line-height:1.5;
     text-align: center;
   }
   .btn2-text-lower {
