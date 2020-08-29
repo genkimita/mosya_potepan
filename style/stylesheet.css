@@ -474,32 +474,39 @@
       .class-box:hover {
         cursor:pointer;
       }
-      .class-carrier/* class-box */ {
+      .class-carrier {
         margin-bottom:40px;
       }
-      .class-beginner/* class-box */ {
+      .class-beginner {
         margin-bottom:40px;
       }
-      .class-open/* class-box */ {
+      .class-open {
         margin-bottom:60px;
       }
-        .class-box-left {
+        .class-box-left/* 共通 */ {
           flex-basis: 293px;
           margin:0 30px 0 -50px ;
           text-align: center;
           padding-top:20px;
         }
         /* border-image:linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%); */
-        .carrier-left /* class-box-left */{
-          border:3px solid;
-          border-color: rgb(247, 146, 21);
+        .carrier-left{
+          border-left: 3px solid rgb(247, 146, 21);
+          border-right: 3px solid rgb(247, 79, 9);
         }
-        .beginner-left /* class-box-left */{
+          .carrier-left::before,
+          .carrier-left::after {
+            content: "";
+            display: block;
+            height: 3px;
+            background: linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%);
+          }
+        .beginner-left{
           /* border-image:linear-gradient(to right, rgb(28, 179, 137) 0%, rgb(73, 199, 101) 100%); */
           border:3px solid;
           border-color: rgb(28, 179, 137);
         }
-        .open-left /* class-box-left */{
+        .open-left {
           /* border-image:linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%); */
           border:3px solid;
           border-color: rgb(255, 109, 5);
