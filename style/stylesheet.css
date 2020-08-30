@@ -977,12 +977,13 @@
           transform: rotate(-45deg);
           transition: 0.5s;
         }
-        .footer-return-top:hover p.footer-return-btn {
-          background-color: rgb(247,146,21);
+        .footer-return-top:hover  {
+
           transition: 0.5s;
         }
-        .footer-return-top:hover span.marker-top-sign {
+        .footer-return-top:hover span.marker-top-sign,p.footer-return-btn {
           border-color: rgb(255, 255, 255);
+          background-color:rgb(247, 146, 21);
           transition: 0.5s;
         }
     .footer-box {
