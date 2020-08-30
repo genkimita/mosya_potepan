@@ -950,7 +950,7 @@
       p.footer-return-btn {
         width:50px;
         height:50px;
-        background-color:#ffffff;
+        background-color:rgb(255, 255, 255);
         font-weight: 400;
         font-size: 14px;
         line-height: 21px;
@@ -977,7 +977,7 @@
           transition: 0.5s;
         }
         .footer-return-top:hover p.footer-return-btn {
-          background-color:rgb(247,146,21);
+          background-color: rgb(247,146,21);
           transition: 0.5s;
         }
         .footer-return-top:hover span.marker-top-sign {
