@@ -961,6 +961,7 @@
         display: flex;
         justify-content: center;
         align-items: center;/* 真ん中にしたい子の1つ親に */
+        cursor:pointer;
         transition: 0.5s;
       }
         span.marker-top-sign {
@@ -977,12 +978,10 @@
         }
         .footer-return-top:hover p.footer-return-btn {
           background-color:rgb(247,146,21);
-          cursor:pointer;
           transition: 0.5s;
         }
         .footer-return-top:hover span.marker-top-sign {
           border-color: rgb(255, 255, 255);
-          cursor:pointer;
           transition: 0.5s;
         }
     .footer-box {
