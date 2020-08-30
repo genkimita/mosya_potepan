@@ -515,10 +515,7 @@
         }
           .open-left::before,
           .open-left::after {
-            /* content: "";
-            display: block;
-            height: 3px;
-            background:; */
+            /*  */
           }
          .class-box-left0 {
            margin: 0 auto 0 auto;
@@ -971,13 +968,12 @@
           transform: rotate(-45deg);
           transition: 0.5s;
         }
-        .footer-return-top:hover  {
-
+        .footer-return-top:hover p.footer-return-btn {
+          background-color:rgb(247, 146, 21);
           transition: 0.5s;
         }
-        .footer-return-top:hover span.marker-top-sign,p.footer-return-btn {
+        .footer-return-top:hover span.marker-top-sign {
           border-color: rgb(255, 255, 255);
-          background-color:rgb(247, 146, 21);
           transition: 0.5s;
         }
     .footer-box {
