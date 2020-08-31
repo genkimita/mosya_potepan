@@ -492,6 +492,11 @@
         }
         .carrier-left{
           border-color: linear-gradient(to right, #f79214 0%, #f74e06 100%);
+          border-image-source:linear-gradient(to right, rgb(247, 146, 20) 0%, rgb(247, 78, 6) 100%);
+          border-image-width:1;
+          border-image-slice:1;
+          border-image-outset:0;
+          border-image-repeat:stretch;
         }
         .beginner-left {
           border-image:linear-gradient(to right, #1bb289 0%, #49c766 100%);
