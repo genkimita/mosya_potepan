@@ -503,7 +503,8 @@
           border-image-slice: 1;
         }
         .open-left {
-          border-color: linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%);
+          border-image:linear-gradient(to right, rgb(255,109,1) 0%, rgb(247,146,17) 100%);
+          border-image-slice: 1;
         }
           .open-left::before,
           .open-left::after {
