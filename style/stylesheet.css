@@ -962,7 +962,6 @@
         .footer-return-top:hover a.footer-return-btn {
           background-color:rgb(247, 146, 21);
           cursor:pointer;
-          transition: 0.5s;
         }
         .footer-return-top:hover span.marker-top-sign {
           border-color: rgb(255, 255, 255);
