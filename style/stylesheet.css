@@ -959,7 +959,7 @@
           transform: rotate(-45deg);
           transition: 0.5s;
         }
-        .footer-return-top:hover p.footer-return-btn {
+        .footer-return-top:hover a.footer-return-btn {
           background-color:rgb(247, 146, 21);
           cursor:pointer;
           transition: 0.5s;
