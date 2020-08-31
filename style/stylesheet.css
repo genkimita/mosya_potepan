@@ -492,22 +492,10 @@
         .carrier-left{
           border-color: linear-gradient(to right, #f79214 0%, #f74e06 100%);
         }
-          .carrier-left::before,
-          .carrier-left::after {
-            /* content: "";
-            display: block;
-            height: 3px; */
-          }
         .beginner-left {
-          border-color: linear-gradient(to right, rgb(28, 179, 137) 0%, rgb(73, 199, 101) 100%);
+          border-image:linear-gradient(to right, #1bb289 0%, #49c766 100%);
+          border-image-slice: 1;
         }
-          .beginner-left::before,
-          .beginner-left::after {
-            /* content: "";
-            display: block;
-            height: 3px;
-            background:; */
-          }
         .open-left {
           border-color: linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%);
           padding-top:15px;
