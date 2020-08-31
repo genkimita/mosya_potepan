@@ -469,12 +469,12 @@
         display: flex;
         padding:30px;
         margin: 0 auto;
-        margin-top:60px;
       }
       .class-box:hover {
         cursor:pointer;
       }
       .class-carrier {
+        margin-top:60px;
         margin-bottom:40px;
       }
       .class-beginner {
