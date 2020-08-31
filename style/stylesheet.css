@@ -484,11 +484,11 @@
         margin-bottom:60px;
       }
         .class-box-left/* 共通 */ {
-          flex-basis: 293px;
+          width:293px;
           margin:0 30px 0 -50px ;
           text-align: center;
           border: 3px solid;
-          padding-top:20px;
+          padding-top:25px;
         }
         .carrier-left{
           border-color: linear-gradient(to right, rgb(247, 146, 21) 0%, rgb(247, 79, 9) 100%);
@@ -500,7 +500,7 @@
             height: 3px; */
           }
         .beginner-left {
-          border-image: linear-gradient(to right, rgb(28, 179, 137) 0%, rgb(73, 199, 101) 100%);
+          border-color: linear-gradient(to right, rgb(28, 179, 137) 0%, rgb(73, 199, 101) 100%);
         }
           .beginner-left::before,
           .beginner-left::after {
@@ -510,7 +510,7 @@
             background:; */
           }
         .open-left {
-          border-image: linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%);
+          border-color: linear-gradient(to right, rgb(255, 109, 5) 0%, rgb(246, 147, 21) 100%);
           padding-top:15px;
         }
           .open-left::before,
