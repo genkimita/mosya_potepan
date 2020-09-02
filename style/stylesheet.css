@@ -1114,7 +1114,7 @@
 }
 .test::after {
   content: ' ';
-  background-color:rgb(246, 246, 246);
+  background-color:rgb(0, 0, 0);
   position: absolute;
   top: 0;
   right: 0;
