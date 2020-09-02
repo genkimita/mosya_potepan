@@ -1106,7 +1106,7 @@
 
 .test {
   background: url(image/bg-section-top-course.png);
-
+  height:300px;
 }
 .test::after {
   background-color:rgb(246, 246, 246);
