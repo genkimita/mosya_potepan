@@ -452,7 +452,7 @@
     padding-top:10px;
   }
   .course::after {
-    background-color:#F6F6F6;
+    background-color:rgb(246,246,246);
     position: absolute;
     top: 0;
     right: 0;
@@ -839,16 +839,23 @@
 
 
   .service {
-    background-color:rgb(246, 246, 246);
+    background-image: url(image/bg-section-top-course.png);
+    background-size: 281px 275px;
+    background-repeat: no-repeat;
+    background-position: left top;
     text-align: center;
-    position: relative;
     padding-bottom:80px;
   }
+  .service::after {
+    background-color:rgb(246, 246, 246);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
     .service-container {
-      background-image: url(image/bg-section-top-course.png);
-      background-size: 281px 275px;
-      background-repeat: no-repeat;
-      background-position: left top;
+      z-index:1;
     }
       .service-titles/* category-titles */ {
         padding-bottom:60px;
@@ -946,13 +953,13 @@
         line-height: 21px;
         border-radius: 25px;
         float:right;
-        margin: -105px 0px 0px ;
+        position: absolute;
+        top: -105px;
         box-shadow: 0 12px 30px -15px rgba(0,0,0,1);/* box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5) ; */
         display: flex;
         justify-content: center;
         align-items: center;/* 真ん中にしたい子の1つ親に */
         transition: 0.5s;
-        z-index:10;
       }
         span.marker-top-sign {
           content: ' ';
