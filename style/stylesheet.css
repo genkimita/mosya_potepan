@@ -933,7 +933,7 @@
       a.footer-return-btn {
         width:50px;
         height:50px;
-        background-color:rgb(255, 255, 255);
+        background-color:rgb(255, 255, 2  55);
         font-weight: 400;
         font-size: 14px;
         line-height: 21px;
@@ -945,6 +945,7 @@
         justify-content: center;
         align-items: center;/* 真ん中にしたい子の1つ親に */
         transition: 0.5s;
+        z-index:10;
       }
         span.marker-top-sign {
           content: ' ';
