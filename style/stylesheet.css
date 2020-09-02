@@ -835,7 +835,6 @@
     background-color:rgb(246, 246, 246);
     text-align: center;
     position: relative;
-    overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
     padding-bottom:80px;
   }
     .service-container {
