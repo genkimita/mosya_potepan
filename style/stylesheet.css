@@ -937,8 +937,6 @@
     background-color:rgb(247, 147, 20);
   }
   .footer-container {
-    background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/bg-section-top-course.png);
-    background-repeat: no-repeat;
     padding-top:80px;
     padding-bottom:40px;
   }
@@ -1116,7 +1114,7 @@
 }
 .test::after {
   content: ' ';
-  background-color:rgb(0, 0, 0);
+  background-color:rgba(0,0,0,.5);
   position: absolute;
   top: 0;
   right: 0;
