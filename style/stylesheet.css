@@ -695,6 +695,9 @@
             font-size: 14px;
             line-height: 28px;
           }
+            .message-box-left2,.message-box-left3,.message-box-left4 {
+              font-weight: normal;
+            }
         .message-box-right {
           width:400px;
           height:240px;
