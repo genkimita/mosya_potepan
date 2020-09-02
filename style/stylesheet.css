@@ -446,13 +446,14 @@
 
 
   .course {
-    background: url(image/bg-section-top-course.png) ;
-    background-size: 281px 275px;
+    background-color:rgb(246,246,246);
     text-align: center;
     padding-top:10px;
   }
   .course::after {
-    background-color:rgb(246,246,246);
+    background: url(image/bg-section-top-course.png) ;
+    background-size: 281px 275px;
+
     position: absolute;
     top: 0;
     right: 0;
