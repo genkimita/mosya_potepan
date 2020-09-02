@@ -446,17 +446,24 @@
 
 
   .course {
-    width:100%;
-    background-color:#F6F6F6;
+    background: url(image/bg-section-top-course.png) ;
+    background-size: 281px 275px;
     text-align: center;
     padding-top:10px;
   }
+  .course::after {
+    background-color:#F6F6F6;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
     .course-container {
       width:1040px;
-      background: url(image/bg-section-top-course.png) ;
-      background-size: 281px 275px;
       margin: 0 auto;
       padding-bottom:80px;
+      z-index:1;
     }
       /* 共通　■category-titles */
       .course-titles {
