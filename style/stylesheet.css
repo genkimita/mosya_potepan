@@ -843,6 +843,8 @@
 
 
   .service {
+    position: relative;
+    z-index:1;
     background-color:rgb(246, 246, 246);
     text-align: center;
     padding-bottom:80px;
@@ -1102,8 +1104,21 @@
 
 
 
+.test {
+  background: url(image/bg-section-top-course.png);
 
-
+}
+.test::after {
+  background-color:rgb(246, 246, 246);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.test p{
+  text-align: center;
+}
 
 
 
