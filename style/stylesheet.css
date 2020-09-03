@@ -1104,16 +1104,18 @@
 
 
 
-.test {
-  background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/bg-section-top-course.png);
+.test-box {
   width:100%;
   height:500px:
+  color:#ffffff;
+  background-image: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/bg-section-top-course.png);
   background-size:281px 275px;
   background-repeat: no-repeat;
   background-position:center;
-  position: relative;
+  /* 281px 275px */
+
 }
-.test::after {
+.test-box::after {
   content: ' ';
   background-color:rgba(0,0,0,.5);
   position: absolute;
@@ -1121,10 +1123,10 @@
   right: 0;
   bottom: 0;
   left: 0;
+
   height:500px;
 }
-.test p{
-  color:#ffffff;
+.test-box p{
   text-align: center;
   margin: 0;
   padding: .2em;
