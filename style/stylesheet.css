@@ -1117,13 +1117,19 @@
   background-size:281px 275px;
   background-repeat: no-repeat;
   background-position:center;
+
   /* 281px 275px */
+  position: relative;
 
 }
 .test-box::after {
   content: ' ';
   background-color:rgba(0,0,0,.5);
-
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 
   height:500px;
 }
