@@ -856,7 +856,7 @@
       background-image: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/bg-section-top-course.png);
       background-size: 281px 275px;
       background-repeat: no-repeat;
-      background-position:right calc(100% - 40px);
+      background-position:40px right;
       position: relative;
     }
     .service-container::after {
