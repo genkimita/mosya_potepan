@@ -848,6 +848,7 @@
     width:100%;
     background-color:rgb(246, 246, 246);
     text-align: center;
+    padding-top:40px;
     padding-bottom:80px;
   }
     .service-container {
@@ -856,7 +857,7 @@
       background-image: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/bg-section-top-course.png);
       background-size: 281px 275px;
       background-repeat: no-repeat;
-      background-position:40px 0px ;
+      background-position:right top;
       position: relative;
     }
     .service-container::after {
