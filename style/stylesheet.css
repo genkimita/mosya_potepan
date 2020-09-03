@@ -841,25 +841,29 @@
 
   .service {
     width:100%;
-    background-color:rgb(246, 246, 246);
-    position: relative;
     text-align: center;
     padding-bottom:80px;
   }
   .service::after {
-
   }
     .service-container {
-      z-index:1;
-    }
-    .service-container::after {
-      background-image: url(image/bg-section-top-course.png);
+      background-image: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/bg-section-top-course.png);
       background-size: 281px 275px;
       background-repeat: no-repeat;
       background-position:right top;
+      position: relative;
+    }
+    .service-container::after {
+      background-color:rgb(246, 246, 246);
       position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
     }
       .service-titles/* category-titles */ {
+        position: relative;
+        z-index:1;
         padding-bottom:60px;
       }
         .service-title1 {}
@@ -869,6 +873,8 @@
         width:1040px;
         display: flex;
         margin:0 auto 0 auto;
+        position: relative;
+        z-index:1;
       }
         .service-box-org/* 共通 */ {
           width:320px;
