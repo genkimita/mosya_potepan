@@ -841,12 +841,13 @@
 
   .service {
     width:100%;
+    background-color:rgb(246, 246, 246);
     text-align: center;
     padding-bottom:80px;
   }
-  .service::after {
-  }
     .service-container {
+      width:1040px;
+      margin: 0 auto;
       background-image: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/bg-section-top-course.png);
       background-size: 281px 275px;
       background-repeat: no-repeat;
