@@ -451,23 +451,27 @@
     padding-top:10px;
   }
   .course::after {
-    background: url(image/bg-section-top-course.png) ;
-    background-size: 281px 275px;
-
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
   }
     .course-container {
       width:1040px;
       margin: 0 auto;
+      background: url(image/bg-section-top-course.png) ;
+      background-size: 281px 275px;
+      background-repeat: no-repeat;
+      background-position:right top;
       padding-bottom:80px;
-      z-index:1;
+    }
+    .course-container::after {
+      color:rgb(246,246,246);
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
     }
       /* 共通　■category-titles */
       .course-titles {
+        z-index:1;
       }
       .class-box {
         width:1040px;
@@ -477,6 +481,7 @@
         display: flex;
         padding:30px;
         margin: 0 auto;
+        z-index:1;
       }
       .class-box:hover {
         cursor:pointer;
