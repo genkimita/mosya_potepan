@@ -843,23 +843,21 @@
 
 
   .service {
-    background-image: url(image/bg-section-top-course.png);
-    background-size: 281px 275px;
-    background-repeat: no-repeat;
+    width:100%;
+    background-color:rgb(246, 246, 246);
     position: relative;
     text-align: center;
     padding-bottom:80px;
   }
   .service::after {
-    background-color:rgb(246, 246, 246);
-    height:100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+
   }
     .service-container {
+      background-image: url(image/bg-section-top-course.png);
+      background-size: 281px 275px;
+      background-repeat: no-repeat;
+      background-position:right top;
+      position: absolute;
 
     }
       .service-titles/* category-titles */ {
