@@ -455,10 +455,10 @@
     .course-container {
       width:1040px;
       margin: 0 auto;
-      background: url(image/bg-section-top-course.png) ;
+      background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/bg-section-top-course.png) ;
       background-size: 281px 275px;
       background-repeat: no-repeat;
-      background-position:right calc(100% - 40px);
+      background-position:right top;
       padding-bottom:80px;
     }
     .course-container::after {
@@ -1119,43 +1119,6 @@
       }
 
 
-
-.test-box {
-  width:100%;
-  height:500px;
-
-
-  background-image: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/image/bg-section-top-course.png);
-  background-size:281px 275px;
-  background-repeat: no-repeat;
-  background-position:right top;
-  color:#ffffff;
-
-
-  /* 281px 275px */
-  position: relative;
-  height:500px;
-}
-.test-box::after {
-  content: ' ';
-  background-color:rgba(0,0,0,.5);
-
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height:500px;
-}
-.test-box p{
-  text-align: center;
-  margin: 0;
-  padding: .2em;
-  font-size:3.0rem;
-  font-weight: bold;
-  position: relative;
-  z-index: 1;
-}
 
 
 
