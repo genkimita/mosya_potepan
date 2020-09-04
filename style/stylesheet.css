@@ -868,9 +868,10 @@
       bottom: 0;
       left: 0;
     }
-      .service-titles/* category-titles */ {
+      .service-titles {
         position: relative;
         z-index:1;
+        padding-top:40px;
         padding-bottom:60px;
       }
         .service-title1 {}
