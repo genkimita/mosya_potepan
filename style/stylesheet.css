@@ -471,7 +471,6 @@
     }
       /* 共通　■category-titles */
       .course-titles {
-        z-index:1;
         margin-top:50px;
       }
       .class-box {
