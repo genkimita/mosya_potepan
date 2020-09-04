@@ -448,7 +448,7 @@
   .course {
     background-color:rgb(246,246,246);
     text-align: center;
-    padding-top:10px;
+    padding-top:40px;
   }
   .course::after {
   }
