@@ -1,0 +1,12 @@
+
+* {
+margin: 0px;
+padding: 0px;/* 要素同士の隙間を0に */
+box-sizing: border-box;/* スクロールの余白なし */
+}
+li {list-style: none;}
+. btn{}
+.btn:hover {transition: all 0.5s;}
+ body {font-family:"";/* 1ワードの場合は""は無し */}
+.header {}
+.footer {}
