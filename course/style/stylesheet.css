@@ -43,6 +43,9 @@ li {
       .section-container {}
 
   .header {}
+   .header-width {
+     margin: 0 auto;
+   }
     .header-navi-list {
       display: flex;
     }
@@ -83,7 +86,10 @@ li {
         border-radius: 20px;
       }
 
-  .top {}
+  .top {
+    height:200px;
+    background: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
+  }
 
   .about {}
 
