@@ -110,10 +110,7 @@ li {
         font-size: 40px;
         line-height: px;
         margin-left: 470px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
+        vertical-align : middle;
       }
 
   .about {}
