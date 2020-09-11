@@ -46,7 +46,7 @@ li {
     .header-navi-list {
       display: flex;
     }
-      .header-navi-list1 a{
+      .header-navi-list1 {
         max-width: 190px;
         max-width: 20px;
       }
@@ -54,7 +54,18 @@ li {
           width:auto;
           height:100%;
         }
-      .header-navi-list2 {}
+      .header-menu {
+        font-weight: 700;
+        font-size: 10px;
+        line-height: px;
+      }
+        .header-menu span{
+          font-weight: 700;
+          font-size: 14px;
+          line-height: px;
+        }
+      .header-navi-list2 {
+      }
       .header-navi-list3 {}
       .header-navi-list4 {}
       .header-navi-list5 {}
