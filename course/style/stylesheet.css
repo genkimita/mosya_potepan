@@ -67,16 +67,25 @@ li {
           line-height: px;
         }
       .header-nav-list2 {
+        margin-left: 135px;
       }
-      .header-nav-list3 {}
+      .header-nav-list3 {
+        margin-left: 30px;
+      }
       .header-nav-list4 {
         color:rgb(247, 147, 20);
+        margin-left: 30px;
       }
-      .header-nav-list5 {}
-      .header-nav-list6 {}
-      .header-nav-list7 {}
+      .header-nav-list5 {
+        margin-left: 30px;
+      }
+      .header-nav-list6 {
+        margin-left: 30px;
+      }
+      .header-nav-list7 {
+        margin-left: 20px;
+      }
       .header-nav-list8 {
-
       }
       .header-nav-list8 .header-btn{
         width:150px;
