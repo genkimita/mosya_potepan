@@ -91,13 +91,17 @@ li {
     background: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
   }
     .top-title {
-      font-weight: 700;
-      font-size: 40px;
-      line-height: px;
     }
       .top-title a{
+        color:#ffffff;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: px;
         margin-left: 470px;
-        vertical-align : middle;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
       }
 
   .about {}
