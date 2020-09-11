@@ -1,12 +1,77 @@
 
 * {
-margin: 0px;
-padding: 0px;/* 要素同士の隙間を0に */
-box-sizing: border-box;/* スクロールの余白なし */
+  word-break:break-all;
+  margin: 0px;
+  padding: 0px;/* 要素同士の隙間を0に */
+  box-sizing: border-box;/* スクロールの余白なし */
 }
-li {list-style: none;}
+img {
+  border: 0;
+  vertical-align : middle;
+}
+li {
+  list-style: none;
+}
 . btn{}
-.btn:hover {transition: all 0.5s;}
- body {font-family:"";/* 1ワードの場合は""は無し */}
-.header {}
-.footer {}
+.btn:hover {
+  transition: all 0.5s;
+}
+
+
+
+ body {
+ font-family:"";
+}
+  /* 共通 */
+  .main-section {
+    padding-top:90px;
+    padding-bottom:80px;
+  }
+    .content-width {
+      width:1040px;
+      margin: 0 auto;
+    }
+      .section-title {}
+      .section-container {}
+
+  .header {}
+    .header-navi-list {
+      display: flex;
+    }
+
+  .top {}
+
+  .about {}
+
+  .plan {}
+
+  .voice {}
+
+  .footer {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
