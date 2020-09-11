@@ -12,7 +12,14 @@ img {
 li {
   list-style: none;
 }
-. btn{}
+.btn {
+  color:rgb(255, 255, 255);
+  background-color:rgb(247, 147, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
 .btn:hover {
   transition: all 0.5s;
 }
@@ -20,7 +27,8 @@ li {
 
 
  body {
- font-family:"";
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: normal;
 }
   /* 共通 */
   .section-main {
@@ -46,6 +54,23 @@ li {
           width:auto;
           height:100%;
         }
+      .header-navi-list2 {}
+      .header-navi-list3 {}
+      .header-navi-list4 {}
+      .header-navi-list5 {}
+      .header-navi-list6 {}
+      .header-navi-list7 {}
+      .header-navi-list8 {
+
+      }
+      .header-navi-list8 .header-btn{
+        width:150px;
+        height:40px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: px;
+        border-radius: 20px;
+      }
 
   .top {}
 
