@@ -86,10 +86,19 @@ li {
         border-radius: 20px;
       }
 
-  .top {
+  .section-top {
     height:200px;
     background: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
   }
+    .top-title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: px;
+    }
+      .top-title a{
+        margin-left: 470px;
+        vertical-align : middle;
+      }
 
   .about {}
 
