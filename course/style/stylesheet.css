@@ -30,6 +30,7 @@ li {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: normal;
 }
+
   /* 共通 */
   .section-main {
     padding-top:90px;
@@ -39,10 +40,17 @@ li {
       width:1040px;
       margin: 0 auto;
     }
-      .section-title {}
+      .section-title {
+        text-align: center;
+      }
       .section-container {}
 
-  .header {}
+
+
+/* header */
+  .header {
+    height:80px;
+  }
    .header-width {
      margin: 0 auto;
    }
@@ -97,7 +105,7 @@ li {
       }
 
 
-
+/* top */
   .section-top {
     height:200px;
     background: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
@@ -114,12 +122,24 @@ li {
         line-height: px;
       }
 
+
+
+/* about */
   .about {}
 
+
+
+/* plan */
   .plan {}
 
+
+
+/* voice */
   .voice {}
 
+
+
+/* footer */
   .footer {}
 
 
