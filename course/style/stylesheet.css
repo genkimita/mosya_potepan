@@ -23,7 +23,7 @@ li {
  font-family:"";
 }
   /* 共通 */
-  .main-section {
+  .section-main {
     padding-top:90px;
     padding-bottom:80px;
   }
@@ -38,6 +38,14 @@ li {
     .header-navi-list {
       display: flex;
     }
+      .header-navi-list1 a{
+        max-width: 190px;
+        max-width: 20px;
+      }
+        .header-navi-list1 img{
+          width:auto;
+          height:100%;
+        }
 
   .top {}
 
