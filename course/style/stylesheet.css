@@ -154,6 +154,7 @@ li {
           font-weight: 400;
           font-size: 16px;
           line-height: 30px;
+          margin-top:70px;
         }
         .about-explanation2 {
           font-weight: 700;
@@ -161,14 +162,19 @@ li {
           line-height: 30px;
           text-decoration:underline;
           text-decoration-color:rgb(255,247,147);
+          margin-top:35px;
         }
         .about-explanation3 {
           font-weight: 400;
           font-size: 16px;
           line-height: 30px;
+          margin-top:35px;
         }
       .section-container {/* 共通 */}
-        .about-point {}
+        .about-point {
+          background-color:#ffffff;
+          margin-top:55px;
+        }
           .about-point-logo {}
           .about-point-title {
             font-weight: 700;
