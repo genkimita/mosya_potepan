@@ -186,11 +186,12 @@ li {
           ul.about-point-list {
             display: flex;
           }
-            .about-point-list0 {}
-            .about-point-list li{
+            .about-point-list0 {
               text-align: center;
+              display: flex;
+              flex-direction: column
             }
-            .about-point-line1 {
+            .about-point-list-line1 {
               width:300px;
               height:30px;
               color:rgb(255, 255, 255);
@@ -203,15 +204,15 @@ li {
               justify-content: center;
               align-items: center;
             }
-            .about-point-line2 {
+            .about-point-list-line2 {
               width:300px;
               height:200px;
             }
-              .about-point-line2 img{
+              .about-point-list-line2 img{
                 width:auto;
                 height:100%;
               }
-            .about-point-line3 {
+            .about-point-list-line3 {
               font-weight: 700;
               font-size: 16px;
               line-height: 24px;
