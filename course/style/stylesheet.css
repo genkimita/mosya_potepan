@@ -129,7 +129,9 @@ li {
 
 
 /* about */
-  .about-section {}
+  .about-section {
+    background-color:rgb(252,250,244);
+  }
     .content-width {/* 共通 */}
       .section-title {/* 共通 */}
       .about-explanation {}
