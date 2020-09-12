@@ -52,6 +52,11 @@ li {
           font-size: 50px;
           line-height: px;
         }
+        .section-title::after {
+          width:50px;
+          border-bottom:8px solid rgb(247, 147, 20) ;
+          margin: 0 auto;
+        }
       .section-container {}
 
 
