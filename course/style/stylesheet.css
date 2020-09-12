@@ -111,11 +111,10 @@ li {
   .top-section {
     height:200px;
     background: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
+    padding-top:80px;
   }
     .top-title {
       margin-left: 470px;
-      margin-top:auto;
-      margin-bottom:auto;
     }
       .top-title p{
         color:#ffffff;
