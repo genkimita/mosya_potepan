@@ -41,8 +41,16 @@ li {
       margin: 0 auto;
     }
       .section-title {
+        font-weight: 700;
+        font-size: 46px;
+        line-height: px;
         text-align: center;
       }
+        .section-title span{
+          font-weight: 900;
+          font-size: 50px;
+          line-height: px;
+        }
       .section-container {}
 
 
@@ -131,17 +139,34 @@ li {
 /* about */
   .about-section {
     background-color:rgb(252,250,244);
+    text-align: center;
   }
     .content-width {/* 共通 */}
       .section-title {/* 共通 */}
       .about-explanation {}
-        .about-explanation1 {}
-        .about-explanation2 {}
-        .about-explanation3 {}
+        .about-explanation1 {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 30px;
+        }
+        .about-explanation2 {
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 30px;
+        }
+        .about-explanation3 {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 30px;
+        }
       .section-container {/* 共通 */}
         .about-point {}
           .about-point-logo {}
-          .about-point-title {}
+          .about-point-title {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36px;
+          }
           .about-point-list {}
             .about-point-list li{}
             .about-point-list1 {}
