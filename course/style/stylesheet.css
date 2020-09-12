@@ -173,7 +173,7 @@ li {
       .section-container {/* 共通 */}
         .about-point {
           background-color:#ffffff;
-          margin-top:55px;
+          margin-top:100px;
         }
           .about-point-logo {}
           .about-point-title {
@@ -186,6 +186,9 @@ li {
             .about-point-list1 {}
             .about-point-list2 {}
             .about-point-list3 {}
+         .about-course {
+           margin-top:60px;
+         }
           .about-course-list {}
             .about-course-list-box1 {}
             .about-course-list-box2 {}
