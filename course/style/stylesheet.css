@@ -31,7 +31,7 @@ li {
   font-weight: normal;
 }
 
-  /* 共通 */
+  /* main-section */
   .main-section {
     padding-top:90px;
     padding-bottom:80px;
@@ -60,6 +60,7 @@ li {
    .header-nav {}
     .header-nav-list {
       display: flex;
+      text-align: center;
     }
       .header-nav-list1 {
       }
@@ -128,7 +129,37 @@ li {
 
 
 /* about */
-  .about {}
+  .about-section {}
+    .content-width {/* 共通 */}
+      .section-title {/* 共通 */}
+      .about-explanation {}
+        .about-explanation1 {}
+        .about-explanation2 {}
+        .about-explanation3 {}
+      .section-container {/* 共通 */}
+        .about-point {}
+          .about-point-logo {}
+          .about-point-title {}
+          .about-point-list {}
+            .about-point-list li{}
+            .about-point-list1 {}
+            .about-point-list2 {}
+            .about-point-list3 {}
+          .about-course-list {}
+            .about-course-list-box1 {}
+            .about-course-list-box2 {}
+            .about-course-list-box3 {}
+            .about-course-list-box4 {}
+              .about-course-list-box-cell1 {}
+              .about-course-list-box-cell2 {}
+              .about-course-list-box-cell3 {}
+              .about-course-list-box-cell4 {}
+              .about-course-list-box-cell5 {}
+              .about-course-list-box-cell6 {}
+              .about-course-list-box-cell7 {}
+
+
+
 
 
 
