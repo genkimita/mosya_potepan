@@ -159,6 +159,8 @@ li {
           font-weight: 700;
           font-size: 20px;
           line-height: 30px;
+          text-decoration:underline;
+          text-decoration-color:rgb(255,247,147);
         }
         .about-explanation3 {
           font-weight: 400;
