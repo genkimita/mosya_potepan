@@ -173,7 +173,9 @@ li {
       .section-container {/* 共通 */}
         .about-point {
           background-color:#ffffff;
+          padding:30px 40px 23px 23px;
           margin-top:100px;
+
         }
           .about-point-logo {}
           .about-point-title {
@@ -181,11 +183,39 @@ li {
             font-size: 30px;
             line-height: 36px;
           }
-          .about-point-list {}
-            .about-point-list li{}
-            .about-point-list1 {}
-            .about-point-list2 {}
-            .about-point-list3 {}
+          ul.about-point-list {
+            display: flex;
+          }
+            .about-point-list0 {}
+            .about-point-list li{
+              text-align: center;
+            }
+            .about-point-line1 {
+              width:300px;
+              height:30px;
+              color:rgb(255, 255, 255);
+              background-color:rgb(34, 35, 35);
+              font-weight: 700;
+              font-size: 14px;
+              line-height: px;
+              border-radius: 15px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .about-point-line2 {
+              width:300px;
+              height:200px;
+            }
+              .about-point-line2 img{
+                width:auto;
+                height:100%;
+              }
+            .about-point-line3 {
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 24px;
+            }
          .about-course {
            margin-top:60px;
          }
