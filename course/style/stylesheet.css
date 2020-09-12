@@ -32,7 +32,7 @@ li {
 }
 
   /* 共通 */
-  .section-main {
+  .main-section {
     padding-top:90px;
     padding-bottom:80px;
   }
@@ -52,10 +52,12 @@ li {
     height:80px;
   }
    .header-width {
+     width:1045px;
      margin: 0 auto;
    }
    .header-nav {}
     .header-nav-list {
+      margin-top:20px;
       display: flex;
     }
       .header-nav-list1 {
