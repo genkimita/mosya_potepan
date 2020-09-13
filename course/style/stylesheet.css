@@ -251,24 +251,50 @@ li {
               line-height: 24px;
               margin-top:10px;
             }
-            .about-point-list-line3::before {
-              background: url(image/icon-finger.png);
-            }
+              .about-point-list-line3::before {
+                width:25px;
+                height:25px;
+                background: url(image/icon-finger.png);
+                margin-right: 10px;
+              }
          .about-course {
+           width:100%;
            margin-top:60px;
          }
-          .about-course-list {}
-            .about-course-list-box1 {}
-              .about-course-list-box-line1 {}
-              .about-course-list-box-line2 {}
-              .about-course-list-box-line3 {}
-              .about-course-list-box-line4 {}
-              .about-course-list-box-line5 {}
-              .about-course-list-box-line6 {}
-              .about-course-list-box-line7 {}
-            .about-course-list-box2 {}
-            .about-course-list-box3 {}
-            .about-course-list-box4 {}
+          ul.about-course-list {
+            display: flex;
+          }
+            li.about-course-list-box1 {}
+              .about-course-list-box-line1 {
+                height:85px;
+              }
+                .radius-line-left-top {
+                  border-radius: 10px 0 0 0;
+                }
+                .radius-line-left-bottom {
+                  border-radius: 0 0 0 10px;
+                }
+              .about-course-list-box-line2 {
+                height:140px;
+              }
+              .about-course-list-box-line3 {
+                height:70px;
+              }
+              .about-course-list-box-line4 {
+                height:70px;
+              }
+              .about-course-list-box-line5 {
+                height:85px;
+              }
+              .about-course-list-box-line6 {
+                height:110px;
+              }
+              .about-course-list-box-line7 {
+                height:70px;
+              }
+            li.about-course-list-box2 {}
+            li.about-course-list-box3 {}
+            li.about-course-list-box4 {}
               .about-course-list-box-cell1 {}
               .about-course-list-box-cell2 {}
               .about-course-list-box-cell3 {}
