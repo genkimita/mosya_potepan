@@ -322,6 +322,8 @@ li {
                 padding-left:22px;
               }
                 .about-course-list-box-line2 a{
+                  display: inline-block;
+                  vertical-align : middle;
                 }
               .about-course-list-box-line3 {
                 text-align: left;
