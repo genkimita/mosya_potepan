@@ -439,12 +439,27 @@ li {
 
 
 /* voice */
-  .voice-section {}
+  .voice-section {
+    background-color:rgb(246,246,246);
+  }
+    .content-width {/* 共通 */}
+    .voice-width {}
+
 
 
 
 /* footer */
-  .footer {}
+  .footer {
+    background-color:rgb(247,147,20);
+  }
+    .content-width {/* 共通 */}
+    .footer-width {}
+      .footer-content {}
+        . {}
+        . {}
+        . {}
+      .footer-copyright {}
+
 
 
 
