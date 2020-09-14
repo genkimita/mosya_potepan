@@ -364,6 +364,9 @@ li {
                 height:85px;
                 background-color:rgb(247,147,20);
                 color:rgb(255, 255, 255);
+                display: flex;
+                justify-content: center;
+                align-items: center;
               }
               .radius-cell-left-top {
                   border-radius: 10px 0 0 0;
