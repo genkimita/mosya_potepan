@@ -391,6 +391,7 @@ li {
               .about-course-list-box-cell2 {
                 height:140px;
                 background-color:rgb(255, 255, 255);
+                padding-left:20px;
               }
               .about-course-list-box-cell3 {
                 height:70px;
@@ -425,6 +426,7 @@ li {
               .about-course-list-box-cell6 {
                 height:110px;
                 background-color:rgb(255, 255, 255);
+                padding-left:20px;
               }
               .about-course-list-box-cell7 {
                 height:70px;
