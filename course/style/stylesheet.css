@@ -264,7 +264,9 @@ li {
           ul.about-course-list {
             display: flex;
           }
-            li.about-course-list-box1 {}
+            li.about-course-list-box1 {
+              width:220px;
+            }
               .about-course-list-box-line1 {
                 height:85px;
                 padding-left:22px;
@@ -339,9 +341,15 @@ li {
                 background-color:rgb(228,239,244);
                 padding-left:22px;
               }
-            li.about-course-list-box2 {}
-            li.about-course-list-box3 {}
-            li.about-course-list-box4 {}
+            li.about-course-list-box2 {
+              width:270px;
+            }
+            li.about-course-list-box3 {
+              width:270px;
+            }
+            li.about-course-list-box4 {
+              width:270px;
+            }
               .about-course-list-box-cell1 {
                 height:85px;
                 background-color:rgb(247,147,20);
