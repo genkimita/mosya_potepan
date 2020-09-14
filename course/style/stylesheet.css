@@ -391,11 +391,25 @@ li {
               .about-course-list-box-cell3 {
                 height:70px;
                 background-color:rgb(255,248,233);
+                display: flex;
+                justify-content: center;
+                align-items: center;
               }
+                .about-course-list-box-cell3 img{
+                  width:33px;
+                  height:33px;
+                }
               .about-course-list-box-cell4 {
                 height:70px;
                 background-color:rgb(255, 255, 255);
+                display: flex;
+                justify-content: center;
+                align-items: center;
               }
+                .about-course-list-box-cell4 img{
+                  width:33px;
+                  height:33px;
+                }
               .about-course-list-box-cell5 {
                 height:85px;
                 background-color:rgb(255,248,233);
