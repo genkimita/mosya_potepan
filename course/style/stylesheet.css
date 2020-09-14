@@ -396,9 +396,13 @@ li {
                 justify-content: center;
                 align-items: center;
               }
-                .about-course-list-box-cell3 img{
+                img.icon-circle {
                   width:33px;
                   height:33px;
+                }
+                img.icon-border {
+                  width:33px;
+                  height:3px;
                 }
               .about-course-list-box-cell4 {
                 height:70px;
