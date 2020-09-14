@@ -320,10 +320,8 @@ li {
                 height:140px;
                 background-color:rgb(217,233,243);
                 padding-left:22px;
-                display: inline-block;
               }
                 .about-course-list-box-line2 a{
-                  vertical-align : middle;
                 }
               .about-course-list-box-line3 {
                 text-align: left;
