@@ -267,7 +267,6 @@ li {
             li.about-course-list-box1 {}
               .about-course-list-box-line1 {
                 height:85px;
-                background-color:rgb(228,239,244);
               }
                 .radius-line-left-top {
                   border-radius: 10px 0 0 0;
@@ -302,13 +301,34 @@ li {
             li.about-course-list-box2 {}
             li.about-course-list-box3 {}
             li.about-course-list-box4 {}
-              .about-course-list-box-cell1 {}
-              .about-course-list-box-cell2 {}
-              .about-course-list-box-cell3 {}
-              .about-course-list-box-cell4 {}
-              .about-course-list-box-cell5 {}
-              .about-course-list-box-cell6 {}
-              .about-course-list-box-cell7 {}
+              .about-course-list-box-cell1 {
+                height:85px;
+                background-color:rgb(247,147,20);
+              }
+              .about-course-list-box-cell2 {
+                height:140px;
+                background-color:rgb(255, 255, 255);
+              }
+              .about-course-list-box-cell3 {
+                height:70px;
+                background-color:rgb(255,248,233);
+              }
+              .about-course-list-box-cell4 {
+                height:70px;
+                background-color:rgb(255, 255, 255);
+              }
+              .about-course-list-box-cell5 {
+                height:85px;
+                background-color:rgb(255,248,233);
+              }
+              .about-course-list-box-cell6 {
+                height:110px;
+                background-color:rgb(255, 255, 255);
+              }
+              .about-course-list-box-cell7 {
+                height:70px;
+                background-color:rgb(255,248,233);
+              }
 
 
 
