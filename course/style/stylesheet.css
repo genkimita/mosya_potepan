@@ -283,6 +283,7 @@ li {
                     height:50px;
                   }
                 .line1-text {
+                  color:rgb(247,147,20);
                   text-align: center;
                 }
                   p.line1-text1 {
@@ -312,31 +313,37 @@ li {
                   border-radius: 0 0 0 10px;
                 }
               .about-course-list-box-line2 {
+                text-align: left;
                 height:140px;
                 background-color:rgb(217,233,243);
                 padding-left:22px;
               }
               .about-course-list-box-line3 {
+                text-align: left;
                 height:70px;
                 background-color:rgb(228,239,244);
                 padding-left:22px;
               }
               .about-course-list-box-line4 {
+                text-align: left;
                 height:70px;
                 background-color:rgb(217,233,243);
                 padding-left:22px;
               }
               .about-course-list-box-line5 {
+                text-align: left;
                 height:85px;
                 background-color:rgb(228,239,244);
                 padding-left:22px;
               }
               .about-course-list-box-line6 {
+                text-align: left;
                 height:110px;
                 background-color:rgb(217,233,243);
                 padding-left:22px;
               }
               .about-course-list-box-line7 {
+                text-align: left;
                 height:70px;
                 background-color:rgb(228,239,244);
                 padding-left:22px;
@@ -355,6 +362,22 @@ li {
                 background-color:rgb(247,147,20);
                 color:rgb(255, 255, 255);
               }
+              .radius-cell-left-top {
+                  border-radius: 10px 0 0 0;
+                }
+              .radius-cell-right-top {
+                  border-radius: 0 10px 0 0;
+                }
+                .cell1-p1 {
+                  font-weight: 700;
+                  font-size: 24px;
+                  line-height: px;
+                }
+                .cell1-p2 {
+                  font-weight: 700;
+                  font-size: 14px;
+                  line-height: px;
+                }
               .about-course-list-box-cell2 {
                 height:140px;
                 background-color:rgb(255, 255, 255);
