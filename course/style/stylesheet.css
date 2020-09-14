@@ -267,6 +267,7 @@ li {
             li.about-course-list-box1 {}
               .about-course-list-box-line1 {
                 height:85px;
+                padding-left:22px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -311,26 +312,32 @@ li {
               .about-course-list-box-line2 {
                 height:140px;
                 background-color:rgb(217,233,243);
+                padding-left:22px;
               }
               .about-course-list-box-line3 {
                 height:70px;
                 background-color:rgb(228,239,244);
+                padding-left:22px;
               }
               .about-course-list-box-line4 {
                 height:70px;
                 background-color:rgb(217,233,243);
+                padding-left:22px;
               }
               .about-course-list-box-line5 {
                 height:85px;
                 background-color:rgb(228,239,244);
+                padding-left:22px;
               }
               .about-course-list-box-line6 {
                 height:110px;
                 background-color:rgb(217,233,243);
+                padding-left:22px;
               }
               .about-course-list-box-line7 {
                 height:70px;
                 background-color:rgb(228,239,244);
+                padding-left:22px;
               }
             li.about-course-list-box2 {}
             li.about-course-list-box3 {}
