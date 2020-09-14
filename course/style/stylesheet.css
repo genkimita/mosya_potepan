@@ -372,6 +372,19 @@ li {
                 justify-content: center;
                 align-items: center;
               }
+                span.marker-point {
+                  content: ' ';
+                  width:8px;
+                  height:8px;
+                  border-radius: 50%;
+                  background-color:#f79214;
+                  margin:0px 10px;
+                  display: inline-block;
+                  vertical-align : middle;
+                }
+                .about-course-list-box-cell1 p{
+                  text-align: left;
+                }
               .radius-cell-left-top {
                   border-radius: 10px 0 0 0;
                 }
