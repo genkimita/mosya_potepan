@@ -267,11 +267,45 @@ li {
             li.about-course-list-box1 {}
               .about-course-list-box-line1 {
                 height:85px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
               }
-                .radius-line-left-top {
+                .line1-img {
+                  width:90px;
+                  height:50px;
+                }
+                  .line1-img img{
+                    width:90px;
+                    height:50px;
+                  }
+                .line1-text {
+                  text-align: center;
+                }
+                  p.line1-text1 {
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 12px;
+                  }
+                  p.line1-text2 {
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 20px;
+                  }
+                  p.line1-text3 {
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 20px;
+                  }
+                    p.line1-text3 span{
+                      font-weight: 700;
+                      font-size: 30px;
+                      line-height: 30px;
+                    }
+              .radius-line-left-top {
                   border-radius: 10px 0 0 0;
                 }
-                .radius-line-left-bottom {
+              .radius-line-left-bottom {
                   border-radius: 0 0 0 10px;
                 }
               .about-course-list-box-line2 {
