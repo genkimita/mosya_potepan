@@ -427,6 +427,12 @@ li {
                 height:70px;
                 background-color:rgb(255,248,233);
               }
+        .border-left-white {
+          border-left:2px solid #ffffff ;
+        }
+        .border-bottom-white {
+          border-bottom:2px solid #ffffff ;
+        }
 
 
 
