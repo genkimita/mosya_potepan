@@ -490,6 +490,9 @@ li {
               .about-course-list-box-cell7 {
                 height:70px;
                 background-color:rgb(255,248,233);
+                display: flex;
+                justify-content: center;
+                align-items: center;
               }
                 p.about-course-list-box-cell7 {
                   font-weight: 700;
