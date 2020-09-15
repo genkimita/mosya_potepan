@@ -372,16 +372,6 @@ li {
                 justify-content: center;
                 align-items: center;
               }
-                span.marker-point {
-                  content: ' ';
-                  width:8px;
-                  height:8px;
-                  border-radius: 50%;
-                  background-color:#f79214;
-                  margin:0px 10px;
-                  display: inline-block;
-                  vertical-align : middle;
-                }
                 .about-course-list-box-cell1 p{
                   text-align: left;
                 }
@@ -408,8 +398,32 @@ li {
                 padding-top:25px;
                 padding-left:20px;
               }
-                p.cell-text1 {}
-                p.cell-text2 {}
+                p.cell-text1 {
+                  width:13em;
+                }
+                  p.cell-text1::before {
+                    content: ' ';
+                    width:8px;
+                    height:8px;
+                    border-radius: 50%;
+                    background-color:#f79214;
+                    margin:0px 10px;
+                    display: inline-block;
+                    vertical-align : middle;
+                  }
+                p.cell-text2 {
+                  width:13em;
+                }
+                  p.cell-text2::before {
+                    content: ' ';
+                    width:8px;
+                    height:8px;
+                    border-radius: 50%;
+                    background-color:#f79214;
+                    margin:0px 10px;
+                    display: inline-block;
+                    vertical-align : middle;
+                  }
               .about-course-list-box-cell3 {
                 height:70px;
                 background-color:rgb(255,248,233);
