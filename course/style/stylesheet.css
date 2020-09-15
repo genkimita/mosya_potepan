@@ -437,6 +437,7 @@ li {
                 }
                 img.icon-border {
                   width:33px;
+                  height:3px;
                 }
               .about-course-list-box-cell4 {
                 height:70px;
@@ -446,8 +447,6 @@ li {
                 align-items: center;
               }
                 .about-course-list-box-cell4 img{
-                  width:33px;
-                  height:33px;
                 }
               .about-course-list-box-cell5 {
                 height:85px;
