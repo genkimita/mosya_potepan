@@ -402,6 +402,7 @@ li {
                   line-height: px;
                 }
               .about-course-list-box-cell2 {
+                width:13em;
                 height:140px;
                 background-color:rgb(255, 255, 255);
                 text-align: left;
