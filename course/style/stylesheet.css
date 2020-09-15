@@ -368,9 +368,8 @@ li {
                 height:85px;
                 background-color:rgb(247,147,20);
                 color:rgb(255, 255, 255);
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                padding-top:25px;
+                padding-left:20px;
               }
                 span.marker-point {
                   content: ' ';
