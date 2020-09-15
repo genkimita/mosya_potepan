@@ -368,8 +368,9 @@ li {
                 height:85px;
                 background-color:rgb(247,147,20);
                 color:rgb(255, 255, 255);
-                padding-top:25px;
-                padding-left:20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
               }
                 span.marker-point {
                   content: ' ';
@@ -403,6 +404,8 @@ li {
               .about-course-list-box-cell2 {
                 height:140px;
                 background-color:rgb(255, 255, 255);
+                text-align: left;
+                padding-top:25px;
                 padding-left:20px;
               }
               .about-course-list-box-cell3 {
@@ -437,6 +440,8 @@ li {
               .about-course-list-box-cell6 {
                 height:110px;
                 background-color:rgb(255, 255, 255);
+                text-align: left;
+                padding-top:25px;
                 padding-left:20px;
               }
               .about-course-list-box-cell7 {
