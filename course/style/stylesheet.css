@@ -472,10 +472,30 @@ li {
                 padding-top:25px;
                 padding-left:20px;
               }
+                p.about-course-list-box-cell6 {
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 24px;
+                }
+                p.about-course-list-box-cell6::before {
+                  content: ' ';
+                  width:8px;
+                  height:8px;
+                  border-radius: 50%;
+                  background-color:#f79214;
+                  margin:0px 10px;
+                  display: inline-block;
+                  vertical-align : middle;
+                }
               .about-course-list-box-cell7 {
                 height:70px;
                 background-color:rgb(255,248,233);
               }
+                p.about-course-list-box-cell7 {
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 30px;
+                }
         .border-left-white {
           border-left:2px solid #ffffff ;
         }
