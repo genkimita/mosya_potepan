@@ -513,6 +513,43 @@ li {
 
 /* plan */
   .plan-section {}
+    .content-width {
+    /* 共通 */
+  }
+      .section-title {
+      /* 共通 */
+    }
+      .section-container {
+      /* 共通 */
+    }
+        .course-header {}
+        .course-box {}
+        .course-carrier {}
+        .course-beginner {}
+        .course-open {}
+          .course-title {}
+            .course-title-p1 {}
+            .course-title-p2 {}
+          .course-recommend {}
+            ul.course-recommend-list {}
+              li.course-recommend-list1 {}
+              li.course-recommend-list2 {}
+              li.course-recommend-list3 {}
+          .course-overview {}
+            ul.course-overview-list {}
+              li.course-overview-list1 {}
+              li.course-overview-list2 {}
+              li.course-overview-list3 {}
+              li.course-overview-list4 {}
+              li.course-overview-list5 {}
+              li.course-overview-list6 {}
+          .course-flow {}
+            ul.course-flow-list {}
+              li.course-flow-list1 {}
+              li.course-flow-list2 {}
+              li.course-flow-list3 {}
+              li.course-flow-list4 {}
+
 
 
 
