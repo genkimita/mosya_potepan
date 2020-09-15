@@ -436,7 +436,18 @@ li {
               .about-course-list-box-cell5 {
                 height:85px;
                 background-color:rgb(255,248,233);
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
               }
+                .about-course-list-box-cell5 span{
+                  font-weight: 700;
+                  font-size: 30px;
+                  line-height: 45px;
+                }
               .about-course-list-box-cell6 {
                 height:110px;
                 background-color:rgb(255, 255, 255);
