@@ -391,24 +391,25 @@ li {
               .radius-cell-right-top {
                   border-radius: 0 10px 0 0;
                 }
-                .cell1-p1 {
+                .cell1-title-p1 {
                   font-weight: 700;
                   font-size: 24px;
                   line-height: px;
                 }
-                .cell1-p2 {
+                .cell1-title-p2 {
                   font-weight: 700;
                   font-size: 14px;
                   line-height: px;
                 }
               .about-course-list-box-cell2 {
-                width:13em;
                 height:140px;
                 background-color:rgb(255, 255, 255);
                 text-align: left;
                 padding-top:25px;
                 padding-left:20px;
               }
+                p.cell-text1 {}
+                p.cell-text2 {}
               .about-course-list-box-cell3 {
                 height:70px;
                 background-color:rgb(255,248,233);
