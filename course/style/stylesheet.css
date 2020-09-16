@@ -600,10 +600,15 @@ li {
         .course-box {
           width:100%;
           background-color:rgb(252,250,244);
+          padding: 40px;
+          margin-top:60px;
         }
-        .course-carrier {}
-        .course-beginner {}
-        .course-open {}
+        .course-carrier {
+        }
+        .course-beginner {
+        }
+        .course-open {
+        }
           .course-title {
             background-color:rgb(255, 255, 255);
           }
