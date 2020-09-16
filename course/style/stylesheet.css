@@ -1,736 +1,342 @@
+  <!DOCTYPE html>
+  <html>
 
-* {
-  word-break:break-all;
-  margin: 0px;
-  padding: 0px;/* 要素同士の隙間を0に */
-  box-sizing: border-box;/* スクロールの余白なし */
-}
-img {
-  border: 0;
-  vertical-align : middle;
-}
-li {
-  list-style: none;
-}
-.btn {
-  color:rgb(255, 255, 255);
-  background-color:rgb(247, 147, 20);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-}
-.btn:hover {
-  transition: all 0.5s;
-}
+  <head>
+  <title>模写-コースページ</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style/stylesheet.css" type="text/css">
+  <!-- 書式 -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Noto+Sans+JP:wght@700&display=swap');</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/responsive.css"><!-- viewport宣言より下に書く -->
+  </head>
+
+  <!-- テンプレ　
+
+  <section class="section-main about">
+    <div class="content-width">
+      <div class="section-title">
+      </div>
+      <div class="section-container">
+      </div>
+    </div>
+  </section>
+
+   テンプレ　-->
 
 
+  <body>
 
- body {
-  font-family: 'Noto Sans JP', sans-serif;
-  font-weight: normal;
-}
+<!--ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー-->
+    <section class="header">
+      <div class="header-width">
+            <nav class="header-nav">
+              <ul class="header-nav-list">
+                <li class="header-nav-list1"><a><img src="image/header-logo.png" alt="" href=""></a></li>
+                <li class="header-nav-list2 header-menu"><a><span>ABOUT</span><br />初めての方へ</a></li>
+                <li class="header-nav-list3 header-menu"><a><span>FLOW</span><br />卒業までの流れ</a></li>
+                <li class="header-nav-list4 header-menu"><a><span>COURSE</span><br />コース・料金</a></li>
+                <li class="header-nav-list5 header-menu"><a><span>INTERVIEW</span><br />受講者の声</a></li>
+                <li class="header-nav-list6 header-menu"><a><span>FAQ</span><br />よくある質問</a></li>
+                <li class="header-nav-list7 header-menu"><a><span>COMPANY</span><br />会社概要</a></li>
+                <li class="header-nav-list8"><a class="btn header-btn">無料カウンセリング</a></li>
+              </ul>
+            </nav>
+      </div>
+    </section>
 
-/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー main-section ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  .main-section {
-    padding-top:90px;
-    padding-bottom:80px;
-  }
-    .content-width {
-      width:1040px;
-      margin: 0 auto;
-    }
-      .section-title {
-        font-weight: 700;
-        font-size: 46px;
-        line-height: px;
-        text-align: center;
-      }
-        .section-title span{
-          font-family: 'Lato', sans-serif;
-          font-weight: 900;
-          font-size: 50px;
-          line-height: px;
-        }
-        .section-title::after {
-          content: ' ';
-          display: block;
-          width:50px;
-          border-bottom:7px solid rgb(247, 147, 20) ;
-          margin-top:20px;
-          margin-left: auto;
-          margin-right: auto;
-        }
-      .section-container {}
+
+<!--ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー-->
+    <section class="top-section">
+      <div class="top-title"><p>コース・料金</p></div>
+    </section>
 
 
 
-/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  .header {
-    height:60px;
-  }
-   .header-width {
-     width:1045px;
-     margin-top:20px;
-     margin-left:auto;
-     margin-right:auto;
-   }
-   .header-nav {}
-    .header-nav-list {
-      display: flex;
-      text-align: center;
-    }
-      .header-nav-list1 {
-      }
-        .header-nav-list1 img{
-          width:190px;
-          height:20px;
-        }
-      .header-menu {
-        font-weight: 700;
-        font-size: 10px;
-        line-height: px;
-      }
-        .header-menu span{
-          font-weight: 700;
-          font-size: 14px;
-          line-height: px;
-        }
-      .header-nav-list2 {
-        margin-left: 135px;
-      }
-      .header-nav-list3 {
-        margin-left: 30px;
-      }
-      .header-nav-list4 {
-        color:rgb(247, 147, 20);
-        margin-left: 30px;
-      }
-      .header-nav-list5 {
-        margin-left: 30px;
-      }
-      .header-nav-list6 {
-        margin-left: 30px;
-      }
-      .header-nav-list7 {
-        margin-left: 20px;
-      }
-      .header-nav-list8 {
-        margin-left: 20px;
-      }
-      .header-nav-list8 .header-btn{
-        width:150px;
-        height:40px;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: px;
-        border-radius: 20px;
-      }
-
-
-/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  .top-section {
-    height:200px;
-    background: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
-    padding-top:80px;
-  }
-    .top-title {
-      margin-left: 470px;
-    }
-      .top-title p{
-        color:#ffffff;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: px;
-      }
-
-
-
-/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  .about-section {
-    background-color:rgb(252,250,244);
-    text-align: center;
-  }
-    .content-width {/* 共通 */}
-      .section-title {/* 共通 */}
-      .about-explanation {}
-        .about-explanation1 {
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 30px;
-          margin-top:70px;
-        }
-        .about-explanation2 {
-          font-weight: 700;
-          font-size: 20px;
-          line-height: 30px;
-          display: block;
-          margin-top:35px;
-        }
-          .about-explanation2-1 {
-            border-bottom:10px solid rgb(255,247,147) ;
-          }
-          .about-explanation2-2 {
-            border-bottom:10px solid rgb(255,247,147) ;
-            margin-top:30px;
-          }
-          .about-explanation2-3 {
-            border-bottom:10px solid rgb(255,247,147) ;
-            margin-top:30px;
-          }
-        .about-explanation3 {
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 30px;
-          margin-top:35px;
-        }
-      .section-container {/* 共通 */}
-        .about-point {
-          background-color:#ffffff;
-          padding:30px 40px 23px 23px;
-          margin-top:100px;
-        }
-          .about-point-logo {
-            width:100px;
-            height:100px;
-            background-color:rgb(255, 255, 255);
-            margin:-80px auto 0px auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-            .about-point-logo a{
-              max-width:42px;
-              max-height:42px;
-            }
-            .about-point-logo img{
-              width:auto;
-              height:100%;
-            }
-          .about-point-title {
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 36px;
-          }
-          ul.about-point-list {
-            display: flex;
-            margin-top:40px;
-            margin-left: auto;
-            margin-right: auto;
-          }
-            li.about-point-list0 {
-              text-align: center;
-              margin-left: 17px;
-              margin-right: 17px;
-            }
-            .about-point-list-line1 {
-              width:300px;
-              height:30px;
-              color:rgb(255, 255, 255);
-              background-color:rgb(34, 35, 35);
-              font-weight: 700;
-              font-size: 14px;
-              line-height: px;
-              border-radius: 15px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-            }
-            .about-point-list-line2 {
-              width:300px;
-              height:200px;
-              margin-top:15px;
-            }
-              .about-point-list-line2 img{
-                width:auto;
-                height:100%;
-              }
-            .about-point-list-line3 {
-              font-weight: 700;
-              font-size: 16px;
-              line-height: 24px;
-              margin-top:10px;
-            }
-              .about-point-list-line3::before {
-                width:25px;
-                height:25px;
-                background: url(image/icon-finger.png);
-                margin-right: 10px;
-              }
-         .about-course {
-           width:100%;
-           margin-top:60px;
-         }
-          ul.about-course-list {
-            display: flex;
-          }
-            li.about-course-list-box1 {
-              width:220px;
-            }
-              .about-course-list-box1 a{
-                vertical-align : middle;
-              }
-              .about-course-list-box-line1 {
-                height:85px;
-                padding-left:22px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-              }
-                .line1-img {
-                  width:90px;
-                  height:50px;
-                }
-                  .line1-img img{
-                    width:90px;
-                    height:50px;
-                  }
-                .line1-text {
-                  color:rgb(247,147,20);
-                  text-align: center;
-                }
-                  p.line1-text1 {
-                    font-weight: 700;
-                    font-size: 12px;
-                    line-height: 12px;
-                  }
-                  p.line1-text2 {
-                    font-weight: 700;
-                    font-size: 20px;
-                    line-height: 20px;
-                  }
-                  p.line1-text3 {
-                    font-weight: 700;
-                    font-size: 20px;
-                    line-height: 20px;
-                  }
-                    p.line1-text3 span{
-                      font-weight: 700;
-                      font-size: 30px;
-                      line-height: 30px;
-                    }
-              .radius-line-left-top {
-                  border-radius: 10px 0 0 0;
-                }
-              .radius-line-left-bottom {
-                  border-radius: 0 0 0 10px;
-                }
-              .about-course-list-box-line2 {
-                height:140px;
-                background-color:rgb(217,233,243);
-                padding-left:22px;
-                vertical-align : middle;
-              }
-                .about-course-list-box-line2 a{
-                  vertical-align : middle;
-                }
-              .about-course-list-box-line3 {
-                text-align: left;
-                height:70px;
-                background-color:rgb(228,239,244);
-                padding-left:22px;
-              }
-              .about-course-list-box-line4 {
-                text-align: left;
-                height:70px;
-                background-color:rgb(217,233,243);
-                padding-left:22px;
-              }
-              .about-course-list-box-line5 {
-                text-align: left;
-                height:85px;
-                background-color:rgb(228,239,244);
-                padding-left:22px;
-              }
-              .about-course-list-box-line6 {
-                text-align: left;
-                height:110px;
-                background-color:rgb(217,233,243);
-                padding-left:22px;
-              }
-              .about-course-list-box-line7 {
-                text-align: left;
-                height:70px;
-                background-color:rgb(228,239,244);
-                padding-left:22px;
-              }
-            li.about-course-list-box2 {
-              width:270px;
-            }
-            li.about-course-list-box3 {
-              width:270px;
-            }
-            li.about-course-list-box4 {
-              width:270px;
-            }
-              .about-course-list-box-cell1 {
-                height:85px;
-                background-color:rgb(247,147,20);
-                color:rgb(255, 255, 255);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-              }
-                .about-course-list-box-cell1 p{
-                  text-align: left;
-                }
-              .radius-cell-left-top {
-                  border-radius: 10px 0 0 0;
-                }
-              .radius-cell-right-top {
-                  border-radius: 0 10px 0 0;
-                }
-                .cell1-title-p1 {
-                  font-weight: 700;
-                  font-size: 24px;
-                  line-height: px;
-                }
-                .cell1-title-p2 {
-                  font-weight: 700;
-                  font-size: 14px;
-                  line-height: px;
-                }
-              .about-course-list-box-cell2 {
-                height:140px;
-                background-color:rgb(255, 255, 255);
-                text-align: left;
-                padding-top:20px;
-                padding-left:20px;
-              }
-                p.cell-text1 {
-                  width:13em;
-                }
-                  p.cell-text1::before {
-                    content: ' ';
-                    width:8px;
-                    height:8px;
-                    border-radius: 50%;
-                    background-color:#f79214;
-                    margin:0px 10px;
-                    display: inline-block;
-                    vertical-align : middle;
-                  }
-                p.cell-text2 {
-                  width:13em;
-                }
-                  p.cell-text2::before {
-                    content: ' ';
-                    width:8px;
-                    height:8px;
-                    border-radius: 50%;
-                    background-color:#f79214;
-                    margin:0px 10px;
-                    display: inline-block;
-                    vertical-align : middle;
-                  }
-              .about-course-list-box-cell3 {
-                height:70px;
-                background-color:rgb(255,248,233);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-              }
-                img.icon-circle {
-                  width:33px;
-                  height:33px;
-                }
-                img.icon-border {
-                  width:33px;
-                  height:3px;
-                }
-              .about-course-list-box-cell4 {
-                height:70px;
-                background-color:rgb(255, 255, 255);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-              }
-                .about-course-list-box-cell4 img{
-                }
-              .about-course-list-box-cell5 {
-                height:85px;
-                background-color:rgb(255,248,233);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-              }
-                .about-course-list-box-cell5 p{
-                  font-weight: 700;
-                  font-size: 16px;
-                  line-height: 24px;
-                }
-                .about-course-list-box-cell5 span{
-                  font-weight: 700;
-                  font-size: 30px;
-                  line-height: 45px;
-                }
-              .about-course-list-box-cell6 {
-                height:110px;
-                background-color:rgb(255, 255, 255);
-                text-align: left;
-                padding-top:20px;
-                padding-left:20px;
-              }
-                .about-course-list-box-cell6 p{
-                  font-weight: 700;
-                  font-size: 16px;
-                  line-height: 24px;
-                }
-                .about-course-list-box-cell6 p::before {
-                  content: ' ';
-                  width:8px;
-                  height:8px;
-                  border-radius: 50%;
-                  background-color:#f79214;
-                  margin:0px 10px;
-                  display: inline-block;
-                  vertical-align : middle;
-                }
-              .about-course-list-box-cell7 {
-                height:70px;
-                background-color:rgb(255,248,233);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-              }
-                p.about-course-list-box-cell7 {
-                  font-weight: 700;
-                  font-size: 20px;
-                  line-height: 30px;
-                }
-        .border-left-white {
-          border-left:2px solid #ffffff ;
-        }
-        .border-bottom-white {
-          border-bottom:2px solid #ffffff ;
-        }
+<!--ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー-->
+    <section class="main-section about-section">
+      <div class="content-width">
+        <div class="section-title">
+          <p><span>POTEPAN CAMP</span> コースについて</p>
+        </div>
+        <div class="about-explanation">
+          <p class="about-explanation1">POTEPAN CAMPでは複数のコースをご用意しており、
+            <br />受講頂く方のこれまでのご経歴を基に最適なコースをご案内しております。
+          </p>
+          <p class="about-explanation2">
+            <p class="about-explanation2-1">実務経験が無いが、今後エンジニアとしてのキャリアを形成していきたい方</p>
+            <p class="about-explanation2-2">実務経験はあるがブランクが長く、まずは最新の技術動向も思い出したい方</p>
+            <p class="about-explanation2-3">独学で勉強しているが、今一自身のスキルに自信を持つ事が出来ない方</p>
+          </p>
+          <p class="about-explanation3">様々な背景を持った方をこれまで受け入れてきた実績があります。
+            <br />実際のコース決定は社内のカウンセリング担当と行いますのでご安心ください。
+          </p>
+        </div>
+        <div class="section-container">
+          <div class="about-point">
+            <div class="about-point-logo"><a><img class="image/heading-icon.png" src="" alt="" href=""></a></div>
+            <div class="about-point-title"><p>全コースの共通POINT</p></div>
+            <ul class="about-point-list">
+              <li class="about-point-list0 about-point-list-left">
+                <p class="about-point-list-line1">現役のエンジニアがレビューを実施！</p>
+                <div class="about-point-list-line2"><img src="image/detail-cassette-image03.jpg" alt="" href=""></div>
+                <p class="about-point-list-line3">現場で通用する開発スキルを習得</p>
+              </li>
+              <li class="about-point-list0 about-point-list-center">
+                <p class="about-point-list-line1">オンラインで受講できる！</p>
+                <div class="about-point-list-line2"><img src="image/detail-cassette-image01.jpg" alt="" href=""></div>
+                <p class="about-point-list-line3">いつでもどこでも受講可能</p>
+              </li>
+              <li class="about-point-list0 about-point-list-right">
+                <p class="about-point-list-line1">就職支援が充実！</p>
+                <div class="about-point-list-line2"><img src="image/detail-cassette-image02.jpg" alt="" href=""></div>
+                <p class="about-point-list-line3">あなたに合った企業に就業</p>
+              </li>
+            </ul>
+          </div>
+          <div class="about-course">
+            <ul class="about-course-list">
+              <li class="about-course-list-box1">
+                <div class="about-course-list-box-line1 border-white-bottom">
+                  <div class="line1-img">
+                    <img src="image/footer-potepanda.png" alt="" href="">
+                  </div>
+                  <div class="line1-text">
+                    <p class="line1-text1">POTEPANの</p>
+                    <p class="line1-text2">選べる</p>
+                    <p class="line1-text3"><span>3</span>コース</p>
+                  </div>
+                </div>
+                <div class="about-course-list-box-line2 radius-line-left-top border-bottom-white"><a>受講内容</a></div>
+                <div class="about-course-list-box-line3 border-bottom-white"><a>転職支援</a></div>
+                <div class="about-course-list-box-line4 border-bottom-white"><a>受講費キャッシュバック</a></div>
+                <div class="about-course-list-box-line5 border-bottom-white"><a>受講期間</a></div>
+                <div class="about-course-list-box-line6 border-bottom-white"><a>応募条件</a></div>
+                <div class="about-course-list-box-line7 radius-line-left-bottom"><a>価格</a></div>
+              </li>
+              <li class="about-course-list-box2">
+                <div class="about-course-list-box-cell1 radius-cell-left-top border-bottom-white border-left-white">
+                  <p class="cell1-title-p1">選抜クラス</p>
+                  <p class="cell1-title-p2">キャリアコース</p>
+                </div>
+                <div class="about-course-list-box-cell2 border-bottom-white border-left-white">
+                  <p class="cell-text1">エンジニア転職を目指す実践カリキュラム</p>
+                  <p class="cell-text2">転職サポート</p>
+                </div>
+                <div class="about-course-list-box-cell3 border-bottom-white border-left-white"><img class="icon-circle" src="image/icon-circle.png" alt="" href=""></div>
+                <div class="about-course-list-box-cell4 border-bottom-white border-left-white"><img class="icon-circle" src="image/icon-circle.png" alt="" href=""></div>
+                <div class="about-course-list-box-cell5 border-bottom-white border-left-white"><p><span>3</span>ヶ月</p></div>
+                <div class="about-course-list-box-cell6 border-bottom-white border-left-white"><p>エンジニア転職希望者でRailsチュートリアルを学習済みの方</p></div>
+                <div class="about-course-list-box-cell7 border-left-white"><p>￥ 250,000</p></div>
+              </li>
+              <li class="about-course-list-box3">
+                <div class="about-course-list-box-cell1 border-bottom-white border-left-white">
+                  <p class="cell1-title-p1">選抜クラス</p>
+                  <p class="cell1-title-p2">ビギナーコース</p>
+                </div>
+                <div class="about-course-list-box-cell2 border-bottom-white border-left-white">
+                  <p class="cell-text1">エンジニア転職を目指す実践カリキュラム</p>
+                  <p class="cell-text2">Railsチュートリアル動画</p>
+                  <p class="cell-text3">転職サポート</p>
+                </div>
+                <div class="about-course-list-box-cell3 border-bottom-white border-left-white"><img class="icon-circle" src="image/icon-circle.png" alt="" href=""></div>
+                <div class="about-course-list-box-cell4 border-bottom-white border-left-white"><img class="icon-circle" src="image/icon-circle.png" alt="" href=""></div>
+                <div class="about-course-list-box-cell5 border-bottom-white border-left-white"><p><span>4</span>ヶ月</p></div>
+                <div class="about-course-list-box-cell6 border-bottom-white border-left-white"><p>エンジニア転職希望の方</p></div>
+                <div class="about-course-list-box-cell7 border-left-white"><p>￥ 300,000</p></div>
+              </li>
+              <li class="about-course-list-box4">
+                <div class="about-course-list-box-cell1 radius-cell-right-top border-bottom-white border-left-white">
+                  <a class="icon-open"><img src="image/icon_open_link.png" alt="" href=""></a>
+                  <p class="cell1-title-p1">オープンクラス</p>
+                </div>
+                <div class="about-course-list-box-cell2 border-bottom-white border-left-white">
+                  <p class="cell-text1">初学者向けの基礎カリキュラム</p>
+                  <p class="cell-text2">Railsチュートリアル動画</p>
+                  <p class="cell-text3">サイト制作&コードレビュー</p>
+                </div>
+                <div class="about-course-list-box-cell3 border-bottom-white border-left-white"><img class="icon-circle" src="image/icon-circle.png" alt="" href=""></div>
+                <div class="about-course-list-box-cell4 border-bottom-white border-left-white"><img class="icon-border" src="image/icon-line.png" alt="" href=""></div>
+                <div class="about-course-list-box-cell5 border-bottom-white border-left-white"><p><span>2</span>ヶ月</p></div>
+                <div class="about-course-list-box-cell6 border-bottom-white border-left-white"><p>プログラミングスキルを身につけたい方</p></div>
+                <div class="about-course-list-box-cell7 border-left-white"><p>￥ 150,000</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
 
 
 
+<!--ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー-->
+    <section class="main-section plan-section">
+      <div class="content-width">
+        <div class="section-title"><p>コースプラン</p></div>
+        <div class="section-container">
+          <div class="course-header">
+            <ul class="course-header-list">
+              <li class="course-header-list1"><p><span>選抜クラス</span>　キャリアコース</p></li>
+              <li class="course-header-list2"><p><span>選抜クラス</span>　ビギナーコース</p></li>
+              <li class="course-header-list3"><p><img src="image/icon_open_link.png" alt="" href="">　<span>オープンクラス</span></p></li>
+            </ul>
+          </div>
+          <div class="course-box course-carrier">
+            <div class="course-title carrier-title">
+              <p class="course-title-p1 title-color-carrier">選抜クラス キャリアコース</p>
+              <p class="course-title-p2">selection class- carrier course -</p>
+            </div>
+            <div class="course-recommend">
+              <ul class="course-recommend-list">
+                <li class="course-recommend-list1"><p>こんな方にお勧め</p></li>
+                <li class="course-recommend-list2"></li>
+                <li class="course-recommend-list3"></li>
+              </ul>
+            </div>
+            <div class="course-overview">
+              <ul class="course-overview-list">
+                <li class="course-overview-list1"><p>コース概要</p></li>
+                <li class="course-overview-list2"></li>
+                <li class="course-overview-list3"></li>
+                <li class="course-overview-list4"></li>
+                <li class="course-overview-list5"></li>
+                <li class="course-overview-list6"></li>
+              </ul>
+            </div>
+            <div class="course-flow">
+              <ul class="course-flow-list">
+                <li class="course-flow-list1"><p>課題フロー</p></li>
+                <li class="course-flow-list2"></li>
+                <li class="course-flow-list3"></li>
+              </ul>
+            </div>
+          </div>
+          <div class="course-box course-beginner">
+            <div class="course-title beginner-title">
+              <p class="course-title-p1 title-color-beginner">選抜クラス ビギナーコース</p>
+              <p class="course-title-p2">selection class- beginner course -</p>
+            </div>
+            <div class="course-recommend">
+              <ul class="course-recommend-list">
+                <li class="course-recommend-list1"><p><img src="image/heading-icon.png" alt="" href="">こんな方にお勧め</p></li>
+                <li class="course-recommend-list2"><p>Webエンジニアを目指している方</p></li>
+                <li class="course-recommend-list3"><p>Web開発基礎とRailsチュートリアルを学習済みの方</p></li>
+              </ul>
+            </div>
+            <div class="course-overview">
+              <ul class="course-overview-list">
+                <li class="course-overview-list1">
+                  <p><img src="image/heading-icon.png" alt="" href="">コース概要</p>
+                </li>
+                <li class="course-overview-list2">
+                  <p class="course-list-p1"><img src="image/icon-pencil.png" alt="" href="">受講内容</p>
+                  <p class="course-list-p2">
+                    実践的な課題開発を3ヶ月間行なって頂きます。
+                    <br />
+                    Ruby on Railsを使用したアプリケーションを複数構築して、複数の現役エンジニア講師からレビューしてもらい、メンテナビリティを意識した開発を身につけていきます。
+                  </p>
+                </li>
+                <li class="course-overview-list3">
+                  <p class="course-list-p1"></p>
+                  <p class="course-list-p2"></p>
+                </li>
+                <li class="course-overview-list4">
+                  <p class="course-list-p1"></p>
+                  <p class="course-list-p2"></p>
+                </li>
+                <li class="course-overview-list5">
+                  <p class="course-list-p1"></p>
+                  <p class="course-list-p2"></p>
+                </li>
+                <li class="course-overview-list6">
+                  <p class="course-list-p1"></p>
+                  <p class="course-list-p2"></p>
+                </li>
+              </ul>
+            </div>
+            <div class="course-flow">
+              <ul class="course-flow-list">
+                <li class="course-flow-list1">
+                  <p class="course-list-p1"></p>
+                  <p class="course-list-p2"></p>
+                </li>
+                <li class="course-flow-list2"></li>
+                <li class="course-flow-list3"></li>
+                <li class="course-flow-list4"></li>
+              </ul>
+            </div>
+          </div>
+          <div class="course-box course-open">
+            <div class="course-title open-title">
+              <p class="course-title-p1 title-color-open">オープンクラス</p>
+              <p class="course-title-p2">open class</p>
+            </div>
+            <div class="course-recommend">
+              <ul class="course-recommend-list">
+                <li class="course-recommend-list1"><p>こんな方にお勧め</p></li>
+                <li class="course-recommend-list2"></li>
+                <li class="course-recommend-list3"></li>
+                <li class="course-recommend-list4"></li>
+                <li class="course-recommend-list5"></li>
+              </ul>
+            </div>
+            <div class="course-overview">
+              <ul class="course-overview-list">
+                <li class="course-overview-list1"><p>コース概要</p></li>
+                <li class="course-overview-list2"></li>
+                <li class="course-overview-list3"></li>
+                <li class="course-overview-list4"></li>
+                <li class="course-overview-list5"></li>
+                <li class="course-overview-list6"></li>
+              </ul>
+            </div>
+            <div class="course-flow">
+              <ul class="course-flow-list">
+                <li class="course-flow-list1"><p>課題フロー</p></li>
+                <li class="course-flow-list2"></li>
+                <li class="course-flow-list3"></li>
+                <li class="course-flow-list4"></li>
+              </ul>
+            </div>
+            <div class="open-detail-btn">
+              <p><a>オープンクラスの詳細はこちら</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
-/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  .plan-section {
-    padding-bottom:80px;
-  }
-    .content-width {
-    /* 共通 */
-  }
-      .section-title {
-      /* 共通 */
-    }
-      .section-container {
-      /* 共通 */
-    }
-        .course-header {
-          width:100%;
-          margin-top:60px;
-        }
-          ul.course-header-list {
-            display: flex;
-          }
-            .course-header-list li{
-              width:calc(100% / 3);
-              display: flex;
-              justify-content: center;
-              align-items: center;
-            }
-              .course-header-list li p{
-                width:100%;
-                height:60px;
-                color:rgb(247, 147, 20);
-                border:2px solid rgb(247, 147, 20) ;
-                border-radius: 6px;
-              }
-              .course-header-list li p::before {
-                content: ' ';
-                width:10px;
-                height:10px;
-                bottom: 4px;
-                right: -18px;
-                display: inline-block;
-                border-top:3px solid rgb(247, 147, 20) ;
-                border-right:3px solid rgb(247, 147, 20) ;
-                transform: rotate(135deg);
-                padding-left:10px;
-              }
-            li.course-header-list1 {
-              margin-right: 5px;
-            }
-              .course-header-list1 p {
-                font-weight: 700;
-                font-size: 16px;
-                line-height: px;
-              }
-              .course-header-list1 p span {
-                font-weight: 700;
-                font-size: 20px;
-                line-height: px;
-              }
-            li.course-header-list2 {
-              margin-right: 5px;
-            }
-              .course-header-list2 p {
-                font-weight: 700;
-                font-size: 16px;
-                line-height: px;
-              }
-              .course-header-list2 p span {
-                font-weight: 700;
-                font-size: 20px;
-                line-height: px;
-              }
-            li.course-header-list3 {
-            }
-              .course-header-list3 p {
-                font-weight: 700;
-                font-size: 16px;
-                line-height: px;
-              }
-                .course-header-list3 p img {
-                  width:33px;
-                  height:33px;
-                }
-                .course-header-list3 p span {
-                  font-weight: 700;
-                  font-size: 20px;
-                  line-height: px;
-                }
-        .course-box {
-          width:100%;
-          background-color:rgb(252,250,244);
-          padding: 40px;
-          margin-top:60px;
-        }
-        .course-carrier {
-        }
-        .course-beginner {
-        }
-        .course-open {
-        }
-          .course-title {
-            text-align: center;
-          }
-            .course-title-p1 {
-              font-weight: 700;
-              font-size: 36px;
-              line-height: 36px;
-            }
-              .title-color-carrier {
-                background: linear-gradient(to right, #f79214 0%, #f74e06 100%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-              }
-              .title-color-beginner {
-                background: linear-gradient(to right, #1bb289 0%, #49c766 100%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-              }
-              .title-color-open {
-                background: linear-gradient(to right, rgb(255,109,1) 0%, rgb(247,146,17) 100%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-              }
-            .course-title-p2 {
-              font-weight: 700;
-              font-size: 16px;
-              line-height: 26px;
-            }
-          .course-recommend {
-            margin-top:40px;
-            background-color:rgb(255, 255, 255)
-          }
-            ul.course-recommend-list {}
-              li.course-recommend-list1 {
-                font-weight: 700;
-                font-size: 20px;
-                line-height: 26px;
-              }
-              li.course-recommend-list2 {
-                font-weight: 700;
-                font-size: 16px;
-                line-height: px;
-              }
-              li.course-recommend-list3 {
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 24px;
-              }
-          .course-overview {
-            margin-top:40px;
-            background-color:rgb(255, 255, 255)
-          }
-            ul.course-overview-list {}
-              li.course-overview-list1 {
-                font-weight: 700;
-                font-size: 20px;
-                line-height: 26px;
-              }
-              li.course-overview-list2 {
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 24px;
-              }
-              li.course-overview-list3 {}
-              li.course-overview-list4 {}
-              li.course-overview-list5 {}
-              li.course-overview-list6 {}
-          .course-flow {
-            margin-top:40px;
-            background-color:rgb(255, 255, 255)
-          }
-            ul.course-flow-list {}
-              li.course-flow-list1 {
-                font-weight: 700;
-                font-size: 20px;
-                line-height: 26px;
-              }
-              li.course-flow-list2 {}
-              li.course-flow-list3 {}
-              li.course-flow-list4 {}
-          .open-detail-btn {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top:40px;
-          }
-            .open-detail-btn p{
-              width:480px;
-              height:75px;
-              background-color:rgb(247,147,20);
-              color:#ffffff;
-              border-radius: 34.5px;
-              margin: 0 auto;
-            }
-              .open-detail-btn p a{
-                text-align: center;
-              }
+<!--ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー-->
+    <section class="main-section voice-section">
+      <div class="content-width">
+        <div class="section-title"><p>受講生の声</p></div>
+        <div class="section-container"></div>
+      </div>
+    </section>
 
 
 
+<!--ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー-->
+    <section class="footer">
+      <div class="content-width footer-width">
+        <div class="footer-content">
+          <div class=""></div>
+          <div class=""></div>
+          <div class=""></div>
+        </div>
+        <div class="footer-copyright"><p></p></div>
+      </div>
+    </section>
 
-/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  .voice-section {
-    background-color:rgb(246,246,246);
-  }
-    .content-width {/* 共通 */}
-    .voice-width {}
+  </body>
 
 
 
-
-/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  .footer {
-    background-color:rgb(247,147,20);
-  }
-    .content-width {/* 共通 */}
-    .footer-width {}
-      .footer-content {}
-        . {}
-        . {}
-        . {}
-      .footer-copyright {}
+  </html>
 
 
 
@@ -746,16 +352,4 @@ li {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*  */
+  <!-- -->
