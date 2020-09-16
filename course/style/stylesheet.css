@@ -522,6 +522,33 @@ li {
       /* 共通 */
     }
         .course-header {}
+          ul.course-header-list {
+            display: flex;
+          }
+            .course-header-list li{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .course-header-list li::before {
+            content: ' ';
+            width:10px;
+            height:10px;
+            bottom: 4px;
+            right: -18px;
+            display: inline-block;
+            border-top:3px solid rgb(247, 147, 20) ;
+            border-right:3px solid rgb(247, 147, 20) ;
+            transform: rotate(90deg);
+            padding-left:10px;
+            }
+            li.course-header-list1 {
+              margin-right: 5px;
+            }
+            li.course-header-list2 {
+              margin-right: 5px;
+            }
+            li.course-header-list3 {}
         .course-box {}
         .course-carrier {}
         .course-beginner {}
