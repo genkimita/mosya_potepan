@@ -548,10 +548,48 @@ li {
             li.course-header-list1 {
               margin-right: 5px;
             }
+              .course-header-list1 p {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: px;
+              }
+              .course-header-list1 p span {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: px;
+              }
             li.course-header-list2 {
               margin-right: 5px;
             }
-            li.course-header-list3 {}
+              .course-header-list2 p {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: px;
+              }
+              .course-header-list2 p span {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: px;
+              }
+            li.course-header-list3 {
+              font-weight: 700;
+              font-size: 16px;
+              line-height: px;
+            }
+              .course-header-list3 p {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: px;
+              }
+                .course-header-list3 p img {
+                  width:33px;
+                  height:33px;
+                }
+                .course-header-list3 p span {
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: px;
+                }
         .course-box {}
         .course-carrier {}
         .course-beginner {}
