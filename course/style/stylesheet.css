@@ -526,10 +526,10 @@ li {
           margin-top:60px;
         }
           ul.course-header-list {
-            width:calc(100% / 3);
             display: flex;
           }
             .course-header-list li{
+              width:calc(100% / 3);
               color:rgb(247, 147, 20);
               border:2px solid rgb(247, 147, 20) ;
               border-radius: 10%;
