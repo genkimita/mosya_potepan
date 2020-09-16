@@ -619,13 +619,28 @@ li {
         .course-open {
         }
           .course-title {
-            background-color:rgb(255, 255, 255);
+            text-align: center;
           }
             .course-title-p1 {
               font-weight: 700;
               font-size: 36px;
               line-height: 36px;
             }
+              .title-color-carrier {
+                background: linear-gradient(to right, #f79214 0%, #f74e06 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              .title-color-beginner {
+                background: linear-gradient(to right, #1bb289 0%, #49c766 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              .title-color-open {
+                background: linear-gradient(to right, rgb(255,109,1) 0%, rgb(247,146,17) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
             .course-title-p2 {
               font-weight: 700;
               font-size: 16px;
