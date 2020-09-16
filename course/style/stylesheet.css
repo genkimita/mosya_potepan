@@ -472,12 +472,12 @@ li {
                 padding-top:20px;
                 padding-left:20px;
               }
-                p.about-course-list-box-cell6 {
+                .about-course-list-box-cell6 p{
                   font-weight: 700;
                   font-size: 16px;
                   line-height: 24px;
                 }
-                p.about-course-list-box-cell6::before {
+                .about-course-list-box-cell6 p::before {
                   content: ' ';
                   width:8px;
                   height:8px;
