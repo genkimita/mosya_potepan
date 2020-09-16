@@ -690,6 +690,9 @@ li {
               li.course-flow-list3 {}
               li.course-flow-list4 {}
           .open-detail-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             margin-top:40px;
           }
             .open-detail-btn p{
@@ -697,7 +700,7 @@ li {
               height:75px;
               background-color:rgb(247,147,20);
               color:#ffffff;
-              border-radius: 50%;
+              border-radius: 34.5px;
               margin: 0 auto;
             }
               .open-detail-btn p a{
