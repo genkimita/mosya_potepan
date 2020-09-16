@@ -522,6 +522,7 @@ li {
       /* 共通 */
     }
         .course-header {
+          width:100%;
           margin-top:60px;
         }
           ul.course-header-list {
@@ -529,6 +530,9 @@ li {
             display: flex;
           }
             .course-header-list li{
+              color:rgb(247, 147, 20);
+              border:2px solid rgb(247, 147, 20) ;
+              border-radius: 10%;
               display: flex;
               justify-content: center;
               align-items: center;
