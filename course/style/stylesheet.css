@@ -594,29 +594,71 @@ li {
                   font-size: 20px;
                   line-height: px;
                 }
-        .course-box {}
+        .course-box {
+          background-color:rgb(252,250,244);
+        }
         .course-carrier {}
         .course-beginner {}
         .course-open {}
-          .course-title {}
-            .course-title-p1 {}
-            .course-title-p2 {}
-          .course-recommend {}
+          .course-title {
+            background-color:rgb(255, 255, 255);
+          }
+            .course-title-p1 {
+              font-weight: 700;
+              font-size: 36px;
+              line-height: 36px;
+            }
+            .course-title-p2 {
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 26px;
+            }
+          .course-recommend {
+            background-color:rgb(255, 255, 255)
+          }
             ul.course-recommend-list {}
-              li.course-recommend-list1 {}
-              li.course-recommend-list2 {}
-              li.course-recommend-list3 {}
-          .course-overview {}
+              li.course-recommend-list1 {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 26px;
+              }
+              li.course-recommend-list2 {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: px;
+              }
+              li.course-recommend-list3 {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+              }
+          .course-overview {
+            background-color:rgb(255, 255, 255)
+          }
             ul.course-overview-list {}
-              li.course-overview-list1 {}
-              li.course-overview-list2 {}
+              li.course-overview-list1 {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 26px;
+              }
+              li.course-overview-list2 {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+              }
               li.course-overview-list3 {}
               li.course-overview-list4 {}
               li.course-overview-list5 {}
               li.course-overview-list6 {}
-          .course-flow {}
+          .course-flow {
+            background-color:rgb(255, 255, 255)
+          }
             ul.course-flow-list {}
-              li.course-flow-list1 {}
+              li.course-flow-list1 {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 26px;
+              }
               li.course-flow-list2 {}
               li.course-flow-list3 {}
               li.course-flow-list4 {}
