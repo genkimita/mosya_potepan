@@ -595,6 +595,7 @@ li {
                   line-height: px;
                 }
         .course-box {
+          width:100%;
           background-color:rgb(252,250,244);
         }
         .course-carrier {}
