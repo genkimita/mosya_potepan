@@ -521,8 +521,11 @@ li {
       .section-container {
       /* 共通 */
     }
-        .course-header {}
+        .course-header {
+          margin-top:60px;
+        }
           ul.course-header-list {
+            width:calc(100% / 3);
             display: flex;
           }
             .course-header-list li{
