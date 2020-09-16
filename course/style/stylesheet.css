@@ -31,7 +31,7 @@ li {
   font-weight: normal;
 }
 
-  /* main-section */
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー main-section ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .main-section {
     padding-top:90px;
     padding-bottom:80px;
@@ -65,7 +65,7 @@ li {
 
 
 
-/* header */
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .header {
     height:60px;
   }
@@ -128,7 +128,7 @@ li {
       }
 
 
-/* top */
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .top-section {
     height:200px;
     background: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
@@ -146,7 +146,7 @@ li {
 
 
 
-/* about */
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .about-section {
     background-color:rgb(252,250,244);
     text-align: center;
@@ -510,7 +510,7 @@ li {
 
 
 
-/* plan */
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .plan-section {
     padding-bottom:80px;
   }
@@ -710,7 +710,7 @@ li {
 
 
 
-/* voice */
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .voice-section {
     background-color:rgb(246,246,246);
   }
@@ -720,7 +720,7 @@ li {
 
 
 
-/* footer */
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .footer {
     background-color:rgb(247,147,20);
   }
