@@ -511,7 +511,9 @@ li {
 
 
 /* plan */
-  .plan-section {}
+  .plan-section {
+    padding-bottom:80px;
+  }
     .content-width {
     /* 共通 */
   }
