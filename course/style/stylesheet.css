@@ -641,7 +641,9 @@ li {
             margin-top:40px;
             background-color:rgb(255, 255, 255)
           }
-            ul.course-recommend-list {}
+            ul.course-recommend-list {
+              padding: 20px;
+            }
               li.course-recommend-list1 {
                 font-weight: 700;
                 font-size: 20px;
@@ -661,7 +663,9 @@ li {
             margin-top:40px;
             background-color:rgb(255, 255, 255)
           }
-            ul.course-overview-list {}
+            ul.course-overview-list {
+              padding: 20px;
+            }
               li.course-overview-list1 {
                 font-weight: 700;
                 font-size: 20px;
@@ -680,7 +684,9 @@ li {
             margin-top:40px;
             background-color:rgb(255, 255, 255)
           }
-            ul.course-flow-list {}
+            ul.course-flow-list {
+              padding: 20px;
+            }
               li.course-flow-list1 {
                 font-weight: 700;
                 font-size: 20px;
