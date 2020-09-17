@@ -654,14 +654,14 @@ li {
                 line-height: 26px;
               }
               li.course-recommend-list2 {
-                font-weight: 700;
+                font-weight: 400;
                 font-size: 16px;
-                line-height: px;
+                line-height: 26px;
               }
               li.course-recommend-list3 {
                 font-weight: 400;
                 font-size: 16px;
-                line-height: 24px;
+                line-height: 26px;
               }
           .course-overview {
             margin-top:40px;
@@ -696,7 +696,12 @@ li {
                 font-size: 20px;
                 line-height: 26px;
               }
-              li.course-flow-list2 {}
+              li.course-flow-list2 {
+                border:2px solid rgb(247,147,20);
+                display: flex;
+              }
+                p.flow-list-p1 {}
+                p.flow-list-p2 {}
               li.course-flow-list3 {}
               li.course-flow-list4 {}
           .open-detail-btn {
