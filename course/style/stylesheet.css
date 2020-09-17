@@ -641,6 +641,10 @@ li {
             margin-top:40px;
             background-color:rgb(255, 255, 255)
           }
+            img.icon-heading {
+              width:25px;
+              height:25px;
+            }
             ul.course-recommend-list {
               padding: 20px;
             }
