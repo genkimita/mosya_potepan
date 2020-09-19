@@ -705,7 +705,10 @@ li {
                   height:130px;
                   position: relative;
                 }
-                  p.flow-list-p1 img{}
+                  p.flow-list-p1 img{
+                    width:250px;
+                    height:130px;
+                  }
                   p.flow-list-p1 p{
                     font-weight: 700;
                     font-size: 14px;
