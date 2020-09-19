@@ -700,7 +700,30 @@ li {
                 border:2px solid rgb(247,147,20);
                 display: flex;
               }
-                p.flow-list-p1 {}
+                p.flow-list-p1 {
+                  width:250px;
+                  height:130px;
+                  position: relative;
+                }
+                  p.flow-list-p1 img{}
+                  p.flow-list-p1 p{
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 14px;
+                    color:#ffffff;
+                    text-align: center;
+                    width:120px;
+                    height:30px;
+                    background-color:rgb(247,147,20);
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                  }
+                    .flow-list-p1 p span{
+                      font-weight: 700;
+                      font-size: 20px;
+                      line-height: 20px;
+                    }
                 p.flow-list-p2 {}
               li.course-flow-list3 {}
               li.course-flow-list4 {}
