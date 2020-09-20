@@ -705,37 +705,34 @@ li {
                 display: flex;
                 margin-bottom:20px;
               }
+                p.flow-list-number {
+                  font-weight: 700;
+                  font-size: 14px;
+                  line-height: 14px;
+                  color:#ffffff;
+                  text-align: center;
+                  width:120px;
+                  height:30px;
+                  background-color:rgb(247,147,20);
+                  z-index:1;
+                  position: absolute;
+                  left: 0px;
+                  top: 0px;
+                }
+                  p.flow-list-number span{
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 20px;
+                    margin-right: 5px;
+                  }
                 p.flow-list-p1 {
                   width:250px;
                   height:130px;
-                  position: relative;
                 }
                   .flow-list-p1 img{
                     width:250px;
                     height:130px;
-                    margin-right: 10px;
                   }
-                  .flow-list-p1 p{
-                    width:120px;
-                    height:30px;
-                    background-color:rgb(247,147,20);
-                    position: absolute;
-                    top: 0px;
-                    left: 0px;
-                  }
-                    p.flow-list-number {
-                      font-weight: 700;
-                      font-size: 14px;
-                      line-height: 14px;
-                      color:#ffffff;
-                      text-align: center;
-                    }
-                    p.flow-list-number span{
-                      font-weight: 700;
-                      font-size: 20px;
-                      line-height: 20px;
-                      margin-right: 5px;
-                    }
                 p.flow-list-p2 {
                   font-weight: 400;
                   font-size: 16px;
