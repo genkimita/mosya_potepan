@@ -653,27 +653,18 @@ li {
                 font-size: 20px;
                 line-height: 26px;
               }
-              li.course-recommend-list2 {
+              li.course-recommend-list2,
+              li.course-recommend-list3,
+              li.course-recommend-list4,
+              li.course-recommend-list5 {
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 26px;
               }
-                .course-recommend-list2 p::before {
-                  content: ' ';
-                  width:8px;
-                  height:8px;
-                  border-radius: 50%;
-                  background-color:#f79214;
-                  margin:0px 10px;
-                  display: inline-block;
-                  vertical-align : middle;
-                }
-              li.course-recommend-list3 {
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 26px;
-              }
-                .course-recommend-list3 p::before {
+                .course-recommend-list2 p::before,
+                .course-recommend-list3 p::before,
+                .course-recommend-list4 p::before,
+                .course-recommend-list5 p::before, {
                   content: ' ';
                   width:8px;
                   height:8px;
