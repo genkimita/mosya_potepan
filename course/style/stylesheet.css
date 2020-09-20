@@ -694,8 +694,6 @@ li {
                 font-weight: 700;
                 font-size: 20px;
                 line-height: 26px;
-                color:rgb(247,147,20);
-                text-align: center;
               }
               .overview-category {
                 width:140px;
@@ -712,6 +710,17 @@ li {
               li.course-overview-list4 {}
               li.course-overview-list5 {}
               li.course-overview-list6 {}
+                .course-list-p1 {
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: px;
+                  color:rgb(247,147,20);
+                }
+                .course-list-p2 {
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 24px;
+                }
           .course-flow {
             margin-top:40px;
             background-color:rgb(255, 255, 255)
