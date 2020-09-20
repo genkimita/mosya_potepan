@@ -710,8 +710,9 @@ li {
                   p.flow-list-p1 img{
                     width:250px;
                     height:130px;
+                    margin-right: 10px;
                   }
-                  p.flow-list-p1 p{
+                  .flow-list-number p{
                     font-weight: 700;
                     font-size: 14px;
                     line-height: 14px;
@@ -724,10 +725,11 @@ li {
                     top: 0px;
                     left: 0px;
                   }
-                    .flow-list-p1 p span{
+                    .flow-list-number span{
                       font-weight: 700;
                       font-size: 20px;
                       line-height: 20px;
+                      margin-right: 5px;
                     }
                 p.flow-list-p2 {
                   font-weight: 400;
