@@ -715,7 +715,12 @@ li {
                   font-size: 16px;
                   line-height: px;
                   color:rgb(247,147,20);
+                  text-align: center;
                 }
+                  .course-list-p1 img{
+                    width:20px;
+                    height:20px;
+                  }
                 .course-list-p2 {
                   font-weight: 400;
                   font-size: 16px;
