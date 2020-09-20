@@ -694,6 +694,14 @@ li {
                 font-weight: 700;
                 font-size: 20px;
                 line-height: 26px;
+                color:rgb(247,147,20);
+                text-align: center;
+              }
+              .overview-category {
+                width:140px;
+                height:30px;
+                border-radius: 15px;
+                background-color:rgb(252,250,244);
               }
               li.course-overview-list2 {
                 font-weight: 400;
