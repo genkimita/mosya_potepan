@@ -658,7 +658,7 @@ li {
                 font-size: 16px;
                 line-height: 26px;
               }
-                .course-recommend-list2::before {
+                .course-recommend-list2 p::before {
                   content: ' ';
                   width:8px;
                   height:8px;
@@ -673,7 +673,7 @@ li {
                 font-size: 16px;
                 line-height: 26px;
               }
-                .course-recommend-list3::before {
+                .course-recommend-list3 p::before {
                   content: ' ';
                   width:8px;
                   height:8px;
