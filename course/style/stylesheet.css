@@ -735,6 +735,10 @@ li {
                   font-weight: 400;
                   font-size: 16px;
                   line-height: 36px;
+                  padding-top:25px;
+                  padding-bottom:25px;
+                  padding-left:30px;
+                  padding-right:30px;
                 }
               li.course-flow-list3 {
                 border:2px solid rgb(247,147,20);
