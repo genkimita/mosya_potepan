@@ -728,22 +728,9 @@ li {
                       line-height: 20px;
                     }
                 p.flow-list-p2 {
-                  font-weight: 700;
-                  font-size: 14px;
-                  line-height: 14px;
-                  color:#ffffff;
-                  text-align: center;
-                  width:120px;
-                  height:30px;
-                  background-color:rgb(247,147,20);
-                  position: absolute;
-                  top: 0px;
-                  left: 0px;
-                }
-                .flow-list-p2 p span{
-                  font-weight: 700;
-                  font-size: 20px;
-                  line-height: 20px;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 36px;
                 }
               li.course-flow-list3 {}
               li.course-flow-list4 {}
