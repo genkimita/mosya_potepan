@@ -658,11 +658,31 @@ li {
                 font-size: 16px;
                 line-height: 26px;
               }
+                .course-recommend-list2::before {
+                  content: ' ';
+                  width:8px;
+                  height:8px;
+                  border-radius: 50%;
+                  background-color:#f79214;
+                  margin:0px 10px;
+                  display: inline-block;
+                  vertical-align : middle;
+                }
               li.course-recommend-list3 {
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 26px;
               }
+                .course-recommend-list3::before {
+                  content: ' ';
+                  width:8px;
+                  height:8px;
+                  border-radius: 50%;
+                  background-color:#f79214;
+                  margin:0px 10px;
+                  display: inline-block;
+                  vertical-align : middle;
+                }
           .course-overview {
             margin-top:40px;
             background-color:rgb(255, 255, 255)
