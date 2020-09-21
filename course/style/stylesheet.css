@@ -885,12 +885,12 @@ li {
             margin-left: 40px;
           }
             p.interviewer-photo {
-              width:auto;
-              height:190px;
+              width:100%;
+              height:auto;
             }
               .interviewer-photo img {
-                width:auto;
-                height:190px;
+                width:100%;
+                height:auto;
               }
             p.interviewer-text {
               font-weight: 700;
