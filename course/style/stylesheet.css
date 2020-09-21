@@ -558,6 +558,9 @@ li {
                 padding-left:10px;
               }
             li.course-header-list1 {
+              display: flex;
+              justify-content: center;
+              align-items: center;
               margin-right: 5px;
             }
               .course-header-list1 p {
@@ -570,7 +573,22 @@ li {
                 font-size: 20px;
                 line-height: px;
               }
+                .course-header-list1 p::before {
+                  content: ' ';
+                  width:10px;
+                  height:10px;
+                  bottom: 4px;
+                  right: -18px;
+                  display: inline-block;
+                  border-top:3px solid rgb(247, 147, 20) ;
+                  border-right:3px solid rgb(247, 147, 20) ;
+                  transform: rotate(135deg);
+                  padding-left:10px;
+                }
             li.course-header-list2 {
+              display: flex;
+              justify-content: center;
+              align-items: center;
               margin-right: 5px;
             }
               .course-header-list2 p {
@@ -583,7 +601,22 @@ li {
                 font-size: 20px;
                 line-height: px;
               }
+              .course-header-list2 p::before {
+                content: ' ';
+                width:10px;
+                height:10px;
+                bottom: 4px;
+                right: -18px;
+                display: inline-block;
+                border-top:3px solid rgb(247, 147, 20) ;
+                border-right:3px solid rgb(247, 147, 20) ;
+                transform: rotate(135deg);
+                padding-left:10px;
+              }
             li.course-header-list3 {
+              display: flex;
+              justify-content: center;
+              align-items: center;
             }
               .course-header-list3 p {
                 font-weight: 700;
@@ -598,6 +631,18 @@ li {
                   font-weight: 700;
                   font-size: 20px;
                   line-height: px;
+                }
+                .course-header-list3 p::before {
+                  content: ' ';
+                  width:10px;
+                  height:10px;
+                  bottom: 4px;
+                  right: -18px;
+                  display: inline-block;
+                  border-top:3px solid rgb(247, 147, 20) ;
+                  border-right:3px solid rgb(247, 147, 20) ;
+                  transform: rotate(135deg);
+                  padding-left:10px;
                 }
         .course-box {
           width:100%;
