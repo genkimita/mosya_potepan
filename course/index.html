@@ -1,454 +1,521 @@
   <!DOCTYPE html>
   <html>
 
+
+
   <head>
-  <title>模写-コースページ</title>
+  <title>模写-ポテパン</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style/stylesheet.css" type="text/css">
   <!-- 書式 -->
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
-  <style>@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Noto+Sans+JP:wght@700&display=swap');</style>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap');</style>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/responsive.css"><!-- viewport宣言より下に書く -->
   </head>
 
-  <!-- テンプレ　
-
-  <section class="section-main about">
-    <div class="content-width">
-      <div class="section-title">
-      </div>
-      <div class="section-container">
-      </div>
-    </div>
-  </section>
-
-   テンプレ　-->
-
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
   <body>
 
-<!--ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー-->
-    <section class="header">
-      <div class="header-width">
-            <nav class="header-nav">
-              <ul class="header-nav-list">
-                <li class="header-nav-list1"><a><img src="image/header-logo.png" alt="" href=""></a></li>
-                <li class="header-nav-list2 header-menu"><a><span>ABOUT</span><br />初めての方へ</a></li>
-                <li class="header-nav-list3 header-menu"><a><span>FLOW</span><br />卒業までの流れ</a></li>
-                <li class="header-nav-list4 header-menu"><a><span>COURSE</span><br />コース・料金</a></li>
-                <li class="header-nav-list5 header-menu"><a><span>INTERVIEW</span><br />受講者の声</a></li>
-                <li class="header-nav-list6 header-menu"><a><span>FAQ</span><br />よくある質問</a></li>
-                <li class="header-nav-list7 header-menu"><a><span>COMPANY</span><br />会社概要</a></li>
-                <li class="header-nav-list8"><a class="btn header-btn">無料カウンセリング</a></li>
-              </ul>
-            </nav>
+  <div class="top">
+    <div class="header">
+      <div class="header-container">
+        <img class="header-container-logo" src="image/header-logo.png" alt="ぽてぱん" href="#">
+        <ul class="header-container-list">
+          <li  class="header-container-list-about" href="#">
+            <p class="header-container-list-1">ABOUT</p><p class="header-container-list-2">初めての方へ</p>
+          </li>
+          <li class="header-container-list-flow" href="#">
+            <p class="header-container-list-1">FLOW</p><p class="header-container-list-2">卒業までの流れ</p>
+          </li>
+          <li class="header-container-list-course" href="#">
+            <p class="header-container-list-1">COURSE</p><p class="header-container-list-2">コース・料金</p>
+          </li>
+          <li class="header-container-list-interview" href="#">
+            <p class="header-container-list-1">INTERVIEW</p><p class="header-container-list-2">受講者の声</p>
+          </li>
+          <li class="header-container-list-faq" href="#">
+            <p class="header-container-list-1">FAQ</p><p class="header-container-list-2">よくある質問</p>
+          </li>
+          <li class="header-container-list-company" href="#">
+            <p class="header-container-list-1">COMPANY</p><p class="header-container-list-2">会社概要</p>
+          </li>
+        </ul>
+        <a class="header-container-btn btn" href="#">無料カウンセリング</a>
       </div>
-    </section>
-
-
-<!--ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー-->
-    <section class="top-section">
-      <div class="top-title"><p>コース・料金</p></div>
-    </section>
-
-
-
-<!--ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー-->
-    <section class="main-section about-section">
-      <div class="content-width">
-        <div class="section-title">
-          <p><span>POTEPAN CAMP</span> コースについて</p>
+    </div>
+    <div class="main">
+      <div class="main-counseling">
+        <div class="main-counseling-left">
+          <img class="main-counseling-left-logo" src="image/top-hero-logo.png" alt="ぽてぱん" href="">
+          <p class="main-counseling-left-text">本気で<span>Webエンジニア</span>を目指すなら、<br />本気のプログラミング学習。</p>
         </div>
-        <div class="about-explanation">
-          <p class="about-explanation1">POTEPAN CAMPでは複数のコースをご用意しており、
-            <br />受講頂く方のこれまでのご経歴を基に最適なコースをご案内しております。
-          </p>
-          <p class="about-explanation2">
-            <p class="about-explanation2-1">実務経験が無いが、今後エンジニアとしてのキャリアを形成していきたい方</p>
-            <p class="about-explanation2-2">実務経験はあるがブランクが長く、まずは最新の技術動向も思い出したい方</p>
-            <p class="about-explanation2-3">独学で勉強しているが、今一自身のスキルに自信を持つ事が出来ない方</p>
-          </p>
-          <p class="about-explanation3">様々な背景を持った方をこれまで受け入れてきた実績があります。
-            <br />実際のコース決定は社内のカウンセリング担当と行いますのでご安心ください。
-          </p>
+        <div class="main-counseling-right">
+          <img  class="main-counseling-right-image" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/badge-number1.svg" alt="" href="">
         </div>
-        <div class="section-container">
-          <div class="about-point">
-            <div class="about-point-logo"><a><img class="image/heading-icon.png" src="" alt="" href=""></a></div>
-            <div class="about-point-title"><p>全コースの共通POINT</p></div>
-            <ul class="about-point-list">
-              <li class="about-point-list0 about-point-list-left">
-                <p class="about-point-list-line1">現役のエンジニアがレビューを実施！</p>
-                <div class="about-point-list-line2"><img src="image/detail-cassette-image03.jpg" alt="" href=""></div>
-                <p class="about-point-list-line3">現場で通用する開発スキルを習得</p>
-              </li>
-              <li class="about-point-list0 about-point-list-center">
-                <p class="about-point-list-line1">オンラインで受講できる！</p>
-                <div class="about-point-list-line2"><img src="image/detail-cassette-image01.jpg" alt="" href=""></div>
-                <p class="about-point-list-line3">いつでもどこでも受講可能</p>
-              </li>
-              <li class="about-point-list0 about-point-list-right">
-                <p class="about-point-list-line1">就職支援が充実！</p>
-                <div class="about-point-list-line2"><img src="image/detail-cassette-image02.jpg" alt="" href=""></div>
-                <p class="about-point-list-line3">あなたに合った企業に就業</p>
-              </li>
+      </div>
+      <div class="btn main-counseling-btn">
+        <p>無料カウンセリング</p>
+      </div>
+      <div class="main-annotation">
+        <p class="main-annotation-text">※ショッパーズアイ「プログラミングスクール10社を対象にしたサイト比較イメージ調査（2020 年 5 月 22 日～25 日）」より全国の22～49歳の男女691名へのインターネット調査</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="about">
+    <div class="about-container">
+      <div class="about-left">
+        <p class="about-left-1">POTEPAN CAMP<span>とは</span></p>
+        <p class="about-left-2">卒業生の多くがWebエンジニアに転職成功している、実績豊富なプログラミングスクール。優秀なレビュアー陣と実践的なカリキュラムで、現場で求められる開発スキルを身につけることが可能です。</p>
+      </div>
+      <div class="about-right">
+        <div class="btn2 about-right-btn" href="#">
+          <p class="btn2-text-upper">ABOUT</p>
+          <p class="btn2-text-lower">はじめての方へ</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="future">
+    <div class="future-container">
+      <div class="category-titles future-titles">
+        <p class="category-title1 future-title1">POTEPAN CAMP<span>の特徴</span></p>
+        <p class="category-title2 future-title2">POTEPAN CAMPが選ばれる理由</p>
+        <p class="orange-border future-title3"></p>
+      </div>
+      <!-- 01豊富な転職実績　-->
+      <div class="future-01 future-box">
+        <div class="f01-number f-number"><a>01</a></div>
+        <div class="f01-subtitle f-subtitle"><a>豊富な転職実績</a></div>
+        <div class="f01-explanation f-explanation">
+          <a>転職サポート希望者の多くが Web系エンジニアとして転職成功しております。<br />
+            10000人以上の利用者を抱える転職サポートサービスを運営する当社だからこそ、<br />
+            企業の求めている人材像に即した教育カリキュラムを反映できます。
+          </a>
+        </div>
+        <div class="f01-images">
+          <div class="f01-example">
+            <p class="f01-example-text">
+              <a>転職先企業の例 </a>
+              <img src="image/desc-list-example-title.png" alt="" href="">
+            </p>
+            <p class="f01-example-text-border"></p>
+          </div>
+          <div class="f01-logos-upper">
+            <div class="f01-logos-upper-image">
+              <img src="image/example-company01.png" alt="" href="">
+            </div>
+            <div class="f01-logos-upper-image">
+              <img class="f01-logos-upper2" src="image/example-company02.png" alt="" href="">
+            </div>
+            <div class="f01-logos-upper-image">
+              <img class="f01-logos-upper3" src="image/example-company03.png" alt="" href="">
+            </div>
+            <div class="f01-logos-upper-image">
+              <img class="f01-logos-upper4" src="image/example-company04.png" alt="" href="">
+            </div>
+          </div>
+          <div class="f01-logos-lower">
+            <div class="f01-logos-lower-image">
+              <img class="f01-logos-lower1" src="image/example-company05.png" alt="" href="">
+            </div>
+            <div class="f01-logos-lower-image">
+              <img class="f01-logos-lower2" src="image/example-company06.png" alt="" href="">
+            </div>
+            <div class="f01-logos-lower-image">
+              <img class="f01-logos-lower3" src="image/example-company07.png" alt="" href="">
+            </div>
+            <div class="f01-logos-lower-image">
+              <img class="f01-logos-lower4" src="image/example-company08.png" alt="" href="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 02多くの受講者受入実績　-->
+      <div class="future-02 future-box">
+        <div class="f-number">02</div>
+        <div class="f-subtitle">多くの受講者受入実績</div>
+        <div class="f-explanation">サービス開始以降、累計<span>550</span>人以上がポテパンキャンプを受講。</div>
+        <div class="f02-images">
+          <div class="f02-image">
+            <img src="image/example-data01.png" alt="" href="">
+          </div>
+          <div class="f02-image">
+            <img src="image/example-data02.png" alt="" href="">
+          </div>
+          <div class="f02-image">
+            <img src="image/example-data03.png" alt="" href="">
+          </div>
+        </div>
+      </div>
+      <!-- 03現役エンジニアが講師　-->
+      <div class="future-03 future-box">
+        <div class="f03-number f-number">03</div>
+        <div class="f03-subtitle f-subtitle">現役エンジニアが講師</div>
+        <div class="f03-explanation f-explanation">サービス開始以降、<span>50</span>人以上の現役エンジニアが講師として活躍中。</div>
+        <div class="f03-cases">
+          <div class="f03-case f03-case1">
+            <div class="f03-case-logo">
+              <img src="image/engineer-conpany-logo01.png" alt="" href="">
+            </div>
+            <div class="f03-case-belonging">
+              <div class="f03-case-belonging-icon">
+                <img src="image/engineer-logo01.png" alt="" href="">
+              </div>
+              <div class="f03-case-belonging-texts">
+                <div class="f03-case-belonging-text1">株式会社grooves</div>
+                <div class="f03-case-belonging-text2">Railsエンジニア</div>
+              </div>
+            </div>
+            <div class="f03-case-comment">
+              <p>現場のように細かくレビューしていきますので、ただ動くだけではなく、保守性の高いコードが書けるように一緒に頑張っていきましょう。</p>
+            </div>
+          </div>
+          <div class="f03-case f03-case2">
+            <div class="f03-case-logo">
+              <img src="image/engineer-conpany-logo02.png" alt="" href="">
+            </div>
+            <div class="f03-case-belonging">
+              <div class="f03-case-belonging-icon">
+                <img src="image/engineer-logo02.png" alt="" href="">
+              </div>
+              <div class="f03-case-belonging-texts">
+                <div class="f03-case-belonging-text1">株式会社freee</div>
+                <div class="f03-case-belonging-text2">Railsエンジニア</div>
+              </div>
+            </div>
+            <div class="f03-case-comment">
+              <p>現役Webエンジニアにレビューしてもらえる機会は貴重です。貰ったフィードバックをしっかりと身につけて自分の糧にしていきましょう。</p>
+            </div>
+          </div>
+          <div class="f03-case f03-case3">
+            <div class="f03-case-logo">
+              <img src="image/engineer-conpany-logo03.png" alt="" href="">
+            </div>
+            <div class="f03-case-belonging">
+              <div class="f03-case-belonging-icon">
+                <img src="image/engineer-logo03.png" alt="" href="">
+              </div>
+              <div class="f03-case-belonging-texts">
+                <div class="f03-case-belonging-text1">株式会社Readyfor</div>
+                <div class="f03-case-belonging-text2">Railsエンジニア</div>
+              </div>
+            </div>
+            <div class="f03-case-comment">
+              <p>プログラミングの上達には根気強くプログラミングを書くしかありません。わからない点はサポートしますので一緒に頑張っていきましょう。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="course">
+    <div class="course-container">
+      <div class="course-titles">
+        <p class="category-title1 course-title1">POTEPAN CAMP<span>の選べるコース</span></p>
+        <p class="category-title2 course-title2">POTEPAN CAMPでは複数のコースから目的別で選べる</p>
+        <p class="orange-border course-title3"></p>
+      </div>
+      <!-- キャリア-->
+      <div class="class-box class-carrier">
+        <div class="class-box-left carrier-left">
+          <div class="class-box-left0">
+            <p class="class-box-left1 carrier-left1">選抜クラス</p>
+            <p class="class-box-left2 carrier-left2">キャリアコース</p>
+          </div>
+        </div>
+        <div class="class-box-right">
+          <div class="class-box-right0">
+            <p class="class-box-right1 carrier-right1">Railsチュートリアルレベルの内容を既に学習済みの方向けのコース</p>
+            <p class="class-box-right2">応募条件</p>
+            <p class="class-box-right3"><span class="marker-point"></span>Railsチュートリアルと他Web開発の基礎を学習済みの方</p>
+            <p class="class-box-right4">詳しくはこちら<span class="marker-right-sign"></span></p>
+          </div>
+        </div>
+      </div>
+      <!-- ビギナー-->
+      <div class="class-box class-beginner">
+        <div class="class-box-left beginner-left">
+         <div class="class-box-left0">
+           <p class="class-box-left1 beginner-left1">選抜クラス</p>
+           <p class="class-box-left2 beginner-left2">ビギナークラス</p>
+         </div>
+        </div>
+        <div class="class-box-right">
+          <div class="class-box-right0">
+            <p class="class-box-right1 beginner-right1">分かりやすい動画教材を用いてRailsチュートリアルから一緒に進めていくコース</p>
+            <p class="class-box-right2">応募条件</p>
+            <p class="class-box-right3"><span class="marker-point"></span>Web開発の基礎を学習済みの方</p>
+            <p class="class-box-right4">詳しくはこちら<span class="marker-right-sign"></span></p>
+          </div>
+        </div>
+      </div>
+      <!-- オープン-->
+      <div class="class-box class-open">
+        <div class="class-box-left open-left">
+          <div class="class-box-left0">
+            <p class="class-box-left1 open-left1">オープンクラス</p>
+          </div>
+        </div>
+        <div c1lass="class-box-right">
+          <div class="class-box-right0">
+            <p class="class-box-right1">プログラミングの基礎ができるようになる事をゴールとしたクラス</p>
+            <p class="class-box-right2">応募条件</p>
+            <p class="class-box-right3"><span class="marker-point"></span>MacBookを持っている方</p>
+            <p class="class-box-right4">詳しくはこちら<span class="marker-right-sign"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="btn2 course-btn">
+        <p class="btn2-text-upper">COURSE</p>
+        <p class="btn2-text-lower">コース・料金</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="message">
+    <div class="message-container">
+      <div class="category-titles message-titles">
+        <p class="category-title1 message-title1"><span>サービスの想い</span></p>
+        <p class="category-title2 message-title2">ポテパンのプログラミング学習についてかける想い</p>
+        <p class="orange-border message-title3"></p>
+      </div>
+      <div class="message-box">
+        <div class="message-box-left">
+          <div class="message-box-left1">
+            <p>MESSAGE</p>
+          </div>
+          <div class="message-box-left2">
+            <p>ポテパンエンジニア転職支援サービスを運営しており、8000名以上のエンジニア様と1500社以上の採用企業様と取引がございます。開発がしっかりとできるエンジニアを育て、エンジニア不足を解決できないかと考えスクール事業を始めました。</p>
+          </div>
+          <div class="message-box-left3">
+            <p>エンジニア転職のノウハウと、企業側から随時フィードバックをもらうことで、エンジニアになる上での最適なカリキュラムをご用意することができました。ゴールに向かい無駄なものをそぎ落とす事で高品質で、低価格なスクールとなっております。</p>
+          </div>
+          <div class="message-box-left4">
+            <p>「エンジニアになりたい」「サービスを作りたい」など本気でプログラミングを勉強したいという方に、是非ご利用いただければと思っております。</p>
+          </div>
+        </div>
+        <div class="message-box-right">
+          <div class="message-box-right1">
+            <img src="image/message-thumbnail.png" alt="" href="">
+            <p >株式会社ポテパン<br />代表取締役<span>宮崎</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="interview">
+  <div class="interview-container">
+      <div class="category-titles interview-titles">
+        <p class="category-title1 interview-title1"><span>受講生の声</span></p>
+        <p class="category-title2 interview-title2">当スクールの卒業生にインタビュー</p>
+        <p class="orange-border interview-title3"></p>
+      </div>
+    <div class="interview-box">
+      <!-- 左 -->
+      <div class="interviewer interview-box-left">
+        <div class="interviewer-profile">
+            <img src="image/武野さん.jpg" alt="" href="">
+            <div class="interviewer-profile0">
+              <div class="interviewer-profile1">
+                <p>選抜クラス ビギナーコース</p>
+              </div>
+              <div class="interviewer-profile2">
+                <p>
+                  <span class="interviewer-profile2-span1">T.S</span>
+                  <span class="interviewer-profile2-span2">さん</span>
+                  <span class="interviewer-profile2-span3">前職：自動制御機器メーカー勤務</span>
+                </p>
+              </div>
+            </div>
+        </div>
+        <div class="interviewer-text">
+          <p>8年間の自動制御機器のメーカー勤務から急成長中のFinTechスタートアップに転職成功されたT.Sさん。ポテパンキャンプ受講の感想や今後のキャリアについて伺いました！</p>
+        </div>
+      </div>
+      <!-- 中 -->
+      <div class="interviewer interview-box-center">
+        <div class="interviewer-profile">
+            <img src="image/川渕さん.jpg" alt="" href="">
+            <div class="interviewer-profile0">
+              <div class="interviewer-profile1">
+                <p>選抜クラス キャリアコース</p>
+              </div>
+              <div class="interviewer-profile2">
+                <p>
+                  <span class="interviewer-profile2-span1">K.Y</span>
+                  <span class="interviewer-profile2-span2">さん</span>
+                  <span class="interviewer-profile2-span3">前職：区役所勤務</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="interviewer-text">
+            <p>公務員からSaaS企業のWebエンジニアとして転職成功されたK.Yさん。異業種からWebエンジニアを目指す際にポテパンキャンプを選んでいただいた理由など伺いました！</p>
+          </div>
+        </div>
+      <!-- 右 -->
+      <div class="interviewer interview-box-right">
+        <div class="interviewer-profile">
+          <img src="image/松村さん.jpg" alt="" href="">
+          <div class="interviewer-profile0">
+            <div class="interviewer-profile1">
+              <p>選抜クラス ビギナーコース</p>
+            </div>
+            <div class="interviewer-profile2">
+              <p>
+                <span class="interviewer-profile2-span1">M.S</span>
+                <span class="interviewer-profile2-span2">さん</span>
+                <span class="interviewer-profile2-span3">前職：アフターサービス職</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="interviewer-text">
+          <p>全くの異業種であるアフターサービス職からRailsエンジニアに転職されたM.Sさん。転職成功された秘訣などを伺いました。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="btn2 interview-btn">
+      <p class="btn2-text-upper">INTERVIEW</p>
+      <p class="btn2-text-lower">受講者の声</p>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+  <div class="service">
+    <div class="service-container">
+      <div class="service-titles">
+        <p class="category-title1 service-title1">POTEPAN<span>が運用するサービス</span></p>
+        <p class="category-title2 service-title2">ポテパンのサイトをチェック</p>
+        <p class="orange-border service-title3"></p>
+      </div>
+      <div class="service-box">
+        <!-- 左 -->
+        <div class="service-box-org service-box-left">
+          <div class="service-logo service-left-logo">
+              <img src="image/service-media-thumbnail01.png" alt="" href="">
+          </div>
+          <div class="service-text service-left-text">
+            <p>ポテパンフリーランスは、フリーランス初心者のエンジニアに案件情報を紹介するサービスです。</p>
+          </div>
+        </div>
+        <!-- 中 -->
+        <div class="service-box-org service-box-center">
+          <div class="service-logo service-center-logo">
+                <img src="image/service-media-thumbnail02.png" alt="" href="">
+          </div>
+          <div class="service-text service-center-text">
+            <p>技術のわかるエージェントがあなたの転職をサポートするサービスです。</p>
+          </div>
+        </div>
+        <!-- 右 -->
+        <div class="service-box-org service-box-right">
+          <div class="service-logo service-right-logo">
+              <img src="image/service-media-thumbnail04.png" alt="" href="">
+          </div>
+          <div class="service-text service-right-text">
+            <p>エンジニアのためのお役立ちコンテンツを厳選してお送りしているサービスです。</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="footer">
+    <div class="footer-container">
+      <div class="footer-return-top">
+        <a class="footer-return-btn">
+          <span class="marker-top-sign"></span>
+        </a>
+      </div>
+      <div class="footer-box">
+        <!-- 左 -->
+        <div class="footer-box-left">
+          <div class="footer-left-text">
+            <ul class="footer-left-list">
+              <li class="footer-left-list1"><img class="footer-left-logo" src="image/footer-logo.png" alt="" href=""></li>
+              <li class="footer-left-list2">株式会社ポテパン</li>
+              <li class="footer-left-list3">〒150-0002</li>
+              <li class="footer-left-list4">東京都渋谷区渋谷2－2－5</li>
+              <li class="footer-left-list5">クルスビル7階</li>
             </ul>
           </div>
-          <div class="about-course">
-            <ul class="about-course-list">
-              <li class="about-course-list-box1">
-                <div class="about-course-list-box-line1 border-white-bottom">
-                  <div class="line1-img">
-                    <img src="image/footer-potepanda.png" alt="" href="">
-                  </div>
-                  <div class="line1-text">
-                    <p class="line1-text1">POTEPANの</p>
-                    <p class="line1-text2">選べる</p>
-                    <p class="line1-text3"><span>3</span>コース</p>
-                  </div>
-                </div>
-                <div class="about-course-list-box-line2 radius-line-left-top border-bottom-white"><a>受講内容</a></div>
-                <div class="about-course-list-box-line3 border-bottom-white"><a>転職支援</a></div>
-                <div class="about-course-list-box-line4 border-bottom-white"><a>受講費キャッシュバック</a></div>
-                <div class="about-course-list-box-line5 border-bottom-white"><a>受講期間</a></div>
-                <div class="about-course-list-box-line6 border-bottom-white"><a>応募条件</a></div>
-                <div class="about-course-list-box-line7 radius-line-left-bottom"><a>価格</a></div>
-              </li>
-              <li class="about-course-list-box2">
-                <div class="about-course-list-box-cell1 radius-cell-left-top border-bottom-white border-left-white">
-                  <p class="cell1-title-p1">選抜クラス</p>
-                  <p class="cell1-title-p2">キャリアコース</p>
-                </div>
-                <div class="about-course-list-box-cell2 border-bottom-white border-left-white">
-                  <p class="cell-text1">エンジニア転職を目指す実践カリキュラム</p>
-                  <p class="cell-text2">転職サポート</p>
-                </div>
-                <div class="about-course-list-box-cell3 border-bottom-white border-left-white"><img class="icon-circle" src="image/icon-circle.png" alt="" href=""></div>
-                <div class="about-course-list-box-cell4 border-bottom-white border-left-white"><img class="icon-circle" src="image/icon-circle.png" alt="" href=""></div>
-                <div class="about-course-list-box-cell5 border-bottom-white border-left-white"><p><span>3</span>ヶ月</p></div>
-                <div class="about-course-list-box-cell6 border-bottom-white border-left-white"><p>エンジニア転職希望者でRailsチュートリアルを学習済みの方</p></div>
-                <div class="about-course-list-box-cell7 border-left-white"><p>￥ 250,000</p></div>
-              </li>
-              <li class="about-course-list-box3">
-                <div class="about-course-list-box-cell1 border-bottom-white border-left-white">
-                  <p class="cell1-title-p1">選抜クラス</p>
-                  <p class="cell1-title-p2">ビギナーコース</p>
-                </div>
-                <div class="about-course-list-box-cell2 border-bottom-white border-left-white">
-                  <p class="cell-text1">エンジニア転職を目指す実践カリキュラム</p>
-                  <p class="cell-text2">Railsチュートリアル動画</p>
-                  <p class="cell-text3">転職サポート</p>
-                </div>
-                <div class="about-course-list-box-cell3 border-bottom-white border-left-white"><img class="icon-circle" src="image/icon-circle.png" alt="" href=""></div>
-                <div class="about-course-list-box-cell4 border-bottom-white border-left-white"><img class="icon-circle" src="image/icon-circle.png" alt="" href=""></div>
-                <div class="about-course-list-box-cell5 border-bottom-white border-left-white"><p><span>4</span>ヶ月</p></div>
-                <div class="about-course-list-box-cell6 border-bottom-white border-left-white"><p>エンジニア転職希望の方</p></div>
-                <div class="about-course-list-box-cell7 border-left-white"><p>￥ 300,000</p></div>
-              </li>
-              <li class="about-course-list-box4">
-                <div class="about-course-list-box-cell1 radius-cell-right-top border-bottom-white border-left-white">
-                  <a class="icon-open"><img src="image/icon_open_link.png" alt="" href=""></a>
-                  <p class="cell1-title-p1">オープンクラス</p>
-                </div>
-                <div class="about-course-list-box-cell2 border-bottom-white border-left-white">
-                  <p class="cell-text1">初学者向けの基礎カリキュラム</p>
-                  <p class="cell-text2">Railsチュートリアル動画</p>
-                  <p class="cell-text3">サイト制作&コードレビュー</p>
-                </div>
-                <div class="about-course-list-box-cell3 border-bottom-white border-left-white"><img class="icon-circle" src="image/icon-circle.png" alt="" href=""></div>
-                <div class="about-course-list-box-cell4 border-bottom-white border-left-white"><img class="icon-border" src="image/icon-line.png" alt="" href=""></div>
-                <div class="about-course-list-box-cell5 border-bottom-white border-left-white"><p><span>2</span>ヶ月</p></div>
-                <div class="about-course-list-box-cell6 border-bottom-white border-left-white"><p>プログラミングスキルを身につけたい方</p></div>
-                <div class="about-course-list-box-cell7 border-left-white"><p>￥ 150,000</p></div>
-              </li>
+          <div class="footer-left-sns">
+            <div class="footer-sns-btn footer-sns-facebook">
+              <img src="image/footer-social-facebook.png" alt="" href="">
+            </div>
+            <div class="footer-sns-btn footer-sns-twitter">
+              <img src="image/footer-social-twitter.png" alt="" href="">
+            </div>
+          </div>
+        </div>
+        <!-- 中 -->
+        <div class="footer-box-center">
+          <div class="footer-center-text">
+            <ul class="footer-center-list">
+              <li class="footer-center-list1">ABOUT<span>初めての方へ</span></li>
+              <li class="footer-center-list2">FLOW<span>卒業までの流れ</span></li>
+              <li class="footer-center-list3">COURSE<span>コース・料金</span></li>
+              <li class="footer-center-list4">INTERVIEW<span>受講者の声</span></li>
+              <li class="footer-center-list5">FAQ<span>よくある質問</span></li>
+              <li class="footer-center-list6">COMPANY<span>会社概要</span></li>
             </ul>
           </div>
         </div>
+        <!-- 右 -->
+        <div class="footer-box-right">
+          <img src="image/footer-potepanda.png" alt="" href="">
         </div>
       </div>
-    </section>
-
-
-
-<!--ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー-->
-    <section class="main-section plan-section">
-      <div class="content-width">
-        <div class="section-title"><p>コースプラン</p></div>
-        <div class="section-container">
-          <div class="course-header">
-            <ul class="course-header-list">
-              <li class="course-header-list1"><p><span>選抜クラス</span>　キャリアコース</p></li>
-              <li class="course-header-list2"><p><span>選抜クラス</span>　ビギナーコース</p></li>
-              <li class="course-header-list3"><p><img src="image/icon_open_link.png" alt="" href="">　<span>オープンクラス</span></p></li>
-            </ul>
-          </div>
-          <div class="course-box course-carrier">
-            <div class="course-title carrier-title">
-              <p class="course-title-p1 title-color-carrier">選抜クラス キャリアコース</p>
-              <p class="course-title-p2">selection class- carrier course -</p>
-            </div>
-            <div class="course-recommend">
-              <ul class="course-recommend-list">
-                <li class="course-recommend-list1"><p><img class="icon-heading" src="image/heading-icon.png" alt="" href="">こんな方にお勧め</p></li>
-                <li class="course-recommend-list2"><p>Webエンジニアを目指している方</p></li>
-                <li class="course-recommend-list3"><p>Web開発基礎とRailsチュートリアルを学習済みの方</p></li>
-              </ul>
-            </div>
-            <div class="course-overview">
-              <ul class="course-overview-list">
-                <li class="course-overview-list1"><p><img class="icon-heading" src="image/heading-icon.png" alt="" href="">コース概要</p></li>
-                <li class="course-overview-list2">
-                  <p class="overview-list-p1 overview-category"><img class="icon-heading" src="image/icon-pencil.png" alt="" href="">受講内容</p>
-                  <p class="overview-list-p2">
-                    実践的な課題開発を3ヶ月間行なって頂きます。<br />
-                    Ruby on Railsを使用したアプリケーションを複数構築して、複数の現役エンジニア講師からレビューしてもらい、メンテナビリティを意識した開発を身につけていきます。
-                  </p>
-                </li>
-                <li class="course-overview-list3">
-                  <p class="overview-list-p1 overview-category"><img class="icon-heading" src="image/icon-pencil.png" alt="" href="">受講期間</p>
-                  <p class="overview-list-p2">3ヶ月間（13週）</p>
-                </li>
-                <li class="course-overview-list4">
-                  <p class="overview-list-p1 overview-category"><img class="icon-heading" src="image/icon-pencil.png" alt="" href="">応募条件</p>
-                  <p class="overview-list-p2">Railsチュートリアルと他Web開発の基礎を学習済みの方</p>
-                </li>
-                <li class="course-overview-list5">
-                  <p class="overview-list-p1 overview-category"><img class="icon-heading" src="image/icon-pencil.png" alt="" href="">受講料金</p>
-                  <p class="overview-list-p2">
-                    250,000円（税抜）<br />
-                    ※ポテパン経由で仕事が決まると全額キャッシュバック！
-                  </p>
-                </li>
-                <li class="course-overview-list6">
-                  <p class="overview-list-p1 overview-category"><img class="icon-heading" src="image/icon-pencil.png" alt="" href="">開発環境</p>
-                  <p class="overview-list-p2">HTML CSS JavaScript Ruby Ruby on Rails Rspec Docker heroku rubocop PostgreSQL Solidus Git Bitbucket Slack</p>
-                </li>
-              </ul>
-            </div>
-            <div class="course-flow">
-              <ul class="course-flow-list">
-                <li class="course-flow-list1">
-                  <p><img class="icon-heading" src="image/heading-icon.png" alt="" href="">課題フロー</p>
-                </li>
-                <li class="course-flow-list2">
-                  <p class="flow-list-number"><span>01</span>サブ課題</p>
-                  <p class="flow-list-p1"><img src="image/course-2.png" alt="" href=""></p>
-                  <p class="flow-list-p2">開発要件を記載したドキュメントを見て、実際にゼロからRailsアプリケーションを作成して頂きます。基本的な形でエラーのないWebアプリケーションが作成できているかレビュアーがチェックしていきます。</p>
-                </li>
-                <li class="course-flow-list3">
-                  <p class="flow-list-p1">
-                    <img src="image/course-1.png" alt="" href="">
-                    <p class="flow-list-number"><span>02</span>本課題</p>
-                  </p>
-                  <p class="flow-list-p2">
-                    Rails製のOSSを用いてECサイトを開発していきます。OSSのコードを読み、仕様を把握してECサイトを構築していきます。ただ動くだけではなく、メンテナビリティを意識した開発を行なっていきます。
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="course-box course-beginner">
-            <div class="course-title beginner-title">
-              <p class="course-title-p1 title-color-beginner">選抜クラス ビギナーコース</p>
-              <p class="course-title-p2">selection class- beginner course -</p>
-            </div>
-            <div class="course-recommend">
-              <ul class="course-recommend-list">
-                <li class="course-recommend-list1"><p><img class="icon-heading" src="image/heading-icon.png" alt="" href="">こんな方にお勧め</p></li>
-                <li class="course-recommend-list2"><p>Webエンジニアを目指している方</p></li>
-                <li class="course-recommend-list3"><p>Web開発基礎とRailsチュートリアルを学習済みの方</p></li>
-              </ul>
-            </div>
-            <div class="course-overview">
-              <ul class="course-overview-list">
-                <li class="course-overview-list1"><p><img class="icon-heading" src="image/heading-icon.png" alt="" href="">コース概要</p></li>
-                <li class="course-overview-list2">
-                  <p class="overview-list-p1 overview-category"><img src="image/icon-pencil.png" alt="" href="">受講内容</p>
-                  <p class="overview-list-p2">
-                    キャリアコースの内容に加え1ヶ月間Ruby on Railsチュートリアルの学習が付いているコースになります。
-                    <br />動画教材が非常にわかりやすくRailsの理解を深めるのに非常におすすめです。
-                    <br />※POTEPAN CAMPは、Ruby on Rails チュートリアルと正式に提携しております。
-                  </p>
-                </li>
-                <li class="course-overview-list3">
-                  <p class="overview-list-p1 overview-category"><img src="" alt="" href="">受講期間</p>
-                  <p class="overview-list-p2">4ヶ月間（17週）</p>
-                </li>
-                <li class="course-overview-list4">
-                  <p class="overview-list-p1 overview-category">応募条件</p>
-                  <p class="overview-list-p2">Web開発の基礎を学習済みの方</p>
-                </li>
-                <li class="course-overview-list5">
-                  <p class="overview-list-p1 overview-category">受講料金</p>
-                  <p class="overview-list-p2">300,000円（税抜）
-                    <br />※ポテパン経由で仕事が決まると全額キャッシュバック！
-                  </p>
-                </li>
-                <li class="course-overview-list6">
-                  <p class="overview-list-p1 overview-category">開発環境</p>
-                  <p class="overview-list-p2">HTML CSS JavaScript Ruby Ruby on Rails Rspec Docker heroku rubocop PostgreSQL Solidus Git Bitbucket Slack</p>
-                </li>
-              </ul>
-            </div>
-            <div class="course-flow">
-              <ul class="course-flow-list">
-                <li class="course-flow-list1"><p><img class="icon-heading" src="image/heading-icon.png" alt="" href="">課題フロー</p></li>
-                <li class="course-flow-list2">
-                  <p class="flow-list-p1">
-                    <img src="image/course-3.png" alt="" href="">
-                    <p class="flow-list-number"><span>01</span>Rails学習</p>
-                  </p>
-                  <p class="flow-list-p2">
-                    Ruby on Railsチュートリアルの動画教材を用いて学習を行なっていきます。動画でわからない点があれば質問をご利用ください。Railsアプリの基本をマスターしましょう。
-                  </p>
-                </li>
-                <li class="course-flow-list3">
-                  <p class="flow-list-p1">
-                    <img src="image/course-2.png" alt="" href="">
-                    <p class="flow-list-number"><span>02</span>サブ課題</p>
-                  </p>
-                  <p class="flow-list-p2">
-                    開発要件を記載したドキュメントを見て、実際にゼロからRailsアプリケーションを作成して頂きます。基本的な形でエラーのないWebアプリケーションが作成できているかレビュアーがチェックしていきます。
-                  </p>
-                </li>
-                <li class="course-flow-list4">
-                  <p class="flow-list-p1">
-                    <img src="image/course-1.png" alt="" href="">
-                    <p class="flow-list-number"><span>03</span>本課題</p>
-                  </p>
-                  <p class="flow-list-p2">
-                    Rails製のOSSを用いてECサイトを開発していきます。OSSのコードを読み、仕様を把握してECサイトを構築していきます。ただ動くだけではなく、メンテナビリティを意識した開発を行なっていきます。
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="course-box course-open">
-            <div class="course-title open-title">
-              <p class="course-title-p1 title-color-open">オープンクラス</p>
-              <p class="course-title-p2">open class</p>
-            </div>
-            <div class="course-recommend">
-              <ul class="course-recommend-list">
-                <li class="course-recommend-list1"><p><img class="icon-heading" src="image/heading-icon.png" alt="" href="">こんな方にお勧め</p></li>
-                <li class="course-recommend-list2"><p>これからプログラミングを初めたい方</p></li>
-                <li class="course-recommend-list3"><p>プログラミングの基礎を身につけたい方</p></li>
-                <li class="course-recommend-list4"><p>自分でサイトを作れるようになりたい方</p></li>
-                <li class="course-recommend-list5"><p>プログラミングに自信をつけたい方</p></li>
-              </ul>
-            </div>
-            <div class="course-overview">
-              <ul class="course-overview-list">
-                <li class="course-overview-list1"><p><img class="icon-heading" src="image/heading-icon.png" alt="" href="">コース概要</p></li>
-                <li class="course-overview-list2">
-                  <p class="overview-list-p1 overview-category">受講内容</p>
-                  <p class="overview-list-p2">Webアプリ開発に必要な要素を全体的に学び、実践的な開発まで行います。
-                    <br />分かりやすい教材を用いているのでオンラインでも非常に学びやすくなっております。
-                    <br />最後は実際にWebアプリを開発しレビュアーにチェックしてもらいます。
-                  </p>
-                </li>
-                <li class="course-overview-list3">
-                  <p class="overview-list-p1 overview-category">受講期間</p>
-                  <p class="overview-list-p2">2ヶ月（9週間）</p>
-                </li>
-                <li class="course-overview-list4">
-                  <p class="overview-list-p1 overview-category">応募条件</p>
-                  <p class="overview-list-p2">MacBookを持っている方</p>
-                </li>
-                <li class="course-overview-list5">
-                  <p class="overview-list-p1 overview-category">受講料金</p>
-                  <p class="overview-list-p2">
-                    150,000円（税抜）
-                  </p>
-                </li>
-                <li class="course-overview-list6">
-                  <p class="overview-list-p1 overview-category">開発環境</p>
-                  <p class="overview-list-p2">HTML CSS JavaScript Ruby Ruby on Rails</p>
-                </li>
-              </ul>
-            </div>
-            <div class="course-flow">
-              <ul class="course-flow-list">
-                <li class="course-flow-list1"><p><img class="icon-heading" src="image/heading-icon.png" alt="" href="">課題フロー</p></p></li>
-                <li class="course-flow-list2">
-                  <p class="flow-list-p1">
-                    <img src="image/course-4.png" alt="" href="">
-                    <p class="flow-list-number"><span>01</span>基礎学習</p>
-                  </p>
-                  <p class="flow-list-p2">
-                    分かりやすい教材を用いてWeb開発の基礎を学習します。HTML,CSS,JavaScript,Ruby,Ruby on Rails Git コマンドラインを触るところから始まります。特にマークアップやRubyのスキルを高めていきます。
-                  </p>
-                </li>
-                <li class="course-flow-list3">
-                  <p class="flow-list-p1">
-                    <img src="image/course-3.png" alt="" href="">
-                    <p class="flow-list-number"><span>02</span>Rails学習</p>
-                  </p>
-                  <p class="flow-list-p2">
-                    Ruby on Railsチュートリアルの動画教材を用いて学習を行なっていきます。動画でわからない点があれば質問をご利用ください。Railsアプリの基本をマスターしましょう。
-                  </p>
-                </li>
-                <li class="course-flow-list4">
-                  <p class="flow-list-p1">
-                    <img src="image/course-2.png" alt="" href="">
-                    <p class="flow-list-number"><span>03</span>実践課題</p>
-                  </p>
-                  <p class="flow-list-p2">
-                    開発要件を記載したドキュメントを見て、実際にゼロからRailsアプリケーションを作成して頂きます。基本的な形でエラーのないWebアプリケーションが作成できているかレビュアーがチェックしていきます。
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <div class="open-detail-btn">
-              <p><a>オープンクラスの詳細はこちら</a></p>
-            </div>
-          </div>
-        </div>
+      <div class="footer-inc">
+        <p>©2016-2019 POTEPAN.INC.</p>
       </div>
-    </section>
+    </div>
+  </div>
 
 
-
-<!--ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー-->
-    <section class="main-section voice-section">
-      <div class="content-width">
-        <div class="section-title"><p>受講生の声</p></div>
-        <div class="section-container"></div>
-      </div>
-    </section>
-
-
-
-<!--ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー-->
-    <section class="footer">
-      <div class="content-width footer-width">
-        <div class="footer-content">
-          <div class=""></div>
-          <div class=""></div>
-          <div class=""></div>
-        </div>
-        <div class="footer-copyright"><p></p></div>
-      </div>
-    </section>
 
   </body>
 
 
 
+
   </html>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
