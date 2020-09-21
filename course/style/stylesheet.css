@@ -161,12 +161,14 @@ li {
           margin-top:70px;
         }
         .about-explanation2 {
-          font-weight: 700;
-          font-size: 20px;
-          line-height: 30px;
           display: block;
           margin-top:35px;
         }
+          .about-explanation2 p {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+          }
           .about-explanation2-1 {
             border-bottom:10px solid rgb(255,247,147) ;
           }
