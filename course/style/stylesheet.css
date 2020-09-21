@@ -666,7 +666,7 @@ li {
                 .course-recommend-list2 p::before,
                 .course-recommend-list3 p::before,
                 .course-recommend-list4 p::before,
-                .course-recommend-list5 p::before, {
+                .course-recommend-list5 p::before {
                   content: ' ';
                   width:8px;
                   height:8px;
