@@ -884,12 +884,19 @@ li {
           li.interviewer-list3 {
             margin-left: 40px;
           }
-            p.interviewer-photo {}
-              .interviewer-photo img {}
+            p.interviewer-photo {
+              width:auto;
+              height:190px;
+            }
+              .interviewer-photo img {
+                width:auto;
+                height:190px;
+              }
             p.interviewer-text {
               font-weight: 700;
               font-size: 16px;
               line-height: 29px;
+              color:#222222;
             }
 
 
