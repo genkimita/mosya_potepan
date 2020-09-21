@@ -861,8 +861,36 @@ li {
   .voice-section {
     background-color:rgb(246,246,246);
   }
-    .content-width {/* 共通 */}
-    .voice-width {}
+    .content-width {
+      /* 共通 */
+    }
+      .section-title {
+        /* 共通 */
+      }
+      .section-container {
+        /* 共通 */
+      }
+        ul.interviewer-list {
+          margin-top:80px;
+          display: flex;
+        }
+          li.interviewer-list0 {
+            width:320px;
+          }
+          li.interviewer-list1 {}
+          li.interviewer-list2 {
+            margin-left: 40px;
+          }
+          li.interviewer-list3 {
+            margin-left: 40px;
+          }
+            p.interviewer-photo {}
+              .interviewer-photo img {}
+            p.interviewer-text {
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 29px;
+            }
 
 
 
