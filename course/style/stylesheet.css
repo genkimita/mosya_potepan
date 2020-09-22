@@ -665,7 +665,7 @@ li {
               top: -84px;
               left: 0px;
               right: 0px;
-              
+
               background: url(image/icon-openclass_plan.png);
             }
             .course-title-p1 {
@@ -847,9 +847,6 @@ li {
                 display: flex;
               }
           .open-detail-btn {
-            display: flex;
-            justify-content: center;
-            align-items: center;
             margin-top:40px;
           }
             .open-detail-btn p{
@@ -859,6 +856,9 @@ li {
               color:#ffffff;
               border-radius: 34.5px;
               margin: 0 auto;
+              display: flex;
+              justify-content: center;
+              align-items: center;
             }
               .open-detail-btn p a{
                 text-align: center;
