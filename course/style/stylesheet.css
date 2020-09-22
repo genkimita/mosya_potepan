@@ -909,11 +909,39 @@ li {
   }
     .content-width {/* 共通 */}
     .footer-width {}
-      .footer-content {}
-        . {}
-        . {}
-        . {}
-      .footer-copyright {}
+      .footer-container {
+        width:calc(100% / 3);
+        display: flex;
+      }
+        ul.footer-list-left {}
+          li.footer-list-left1 {}
+          li.footer-list-left2 {}
+          li.footer-list-left3 {}
+          li.footer-list-left4 {}
+          li.footer-list-left5 {}
+          li.footer-list-left6 {}
+        ul.footer-list-center {}
+          li.footer-list-center1 {}
+          li.footer-list-center2 {}
+          li.footer-list-center3 {}
+          li.footer-list-center4 {}
+          li.footer-list-center5 {}
+          li.footer-list-center6 {}
+        ul.footer-list-right {}
+          li.footer-list-right1 {}
+            .footer-list-right1 p {
+              width:125px;
+              height:75px;
+            }
+              .footer-list-right1 p img {
+                width:125px;
+                height:75px;
+              }
+      .footer-copyright {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: px;
+      }
 
 
 
