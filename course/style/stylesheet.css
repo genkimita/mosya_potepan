@@ -656,6 +656,18 @@ li {
           .course-title {
             text-align: center;
           }
+          .open-title {}
+            .open-title::before {
+              content: ' ';
+              width:84px;
+              height:74px;
+              position: absolute;
+              top: -84px;
+              left: 0px;
+              right: 0px;
+              
+              background: url(image/icon-openclass_plan.png);
+            }
             .course-title-p1 {
               font-weight: 700;
               font-size: 36px;
