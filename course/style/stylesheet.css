@@ -646,6 +646,7 @@ li {
           background-color:rgb(252,250,244);
           padding: 40px;
           margin-top:60px;
+          border-radius: 20px;
         }
         .course-carrier {
         }
