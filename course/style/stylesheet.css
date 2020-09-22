@@ -666,8 +666,10 @@ li {
               top: -84px;
               left: 0px;
               right: 0px;
-
+              margin: auto;
               background: url(image/icon-openclass_plan.png);
+              background-repeat: no-repeat;
+              background-size: cover;
             }
             .course-title-p1 {
               font-weight: 700;
