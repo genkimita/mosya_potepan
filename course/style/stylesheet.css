@@ -658,7 +658,7 @@ li {
             text-align: center;
           }
           .open-title {}
-            .open-title::before {
+            .open-title p::before {
               content: ' ';
               width:84px;
               height:74px;
