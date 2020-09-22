@@ -688,6 +688,7 @@ li {
             img.icon-heading {
               width:25px;
               height:25px;
+              margin-right: 7px;
             }
             ul.course-recommend-list {
               padding: 20px;
