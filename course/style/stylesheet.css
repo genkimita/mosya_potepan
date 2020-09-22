@@ -534,9 +534,6 @@ li {
           }
             .course-header-list li{
               width:340px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
             }
               .course-header-list li p{
                 width:100%;
@@ -558,6 +555,9 @@ li {
                 padding-left:10px;
               }
             li.course-header-list1 {
+              display: flex;
+              justify-content: center;
+              align-items: center;
             }
               .course-header-list1 p {
                 font-weight: 700;
@@ -582,6 +582,9 @@ li {
                   padding-left:10px;
                 }
             li.course-header-list2 {
+              display: flex;
+              justify-content: center;
+              align-items: center;
               margin-left: 5px;
             }
               .course-header-list2 p {
@@ -607,6 +610,9 @@ li {
                 padding-left:10px;
               }
             li.course-header-list3 {
+              display: flex;
+              justify-content: center;
+              align-items: center;
               margin-left: 5px;
             }
               .course-header-list3 p {
