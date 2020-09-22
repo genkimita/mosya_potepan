@@ -530,10 +530,10 @@ li {
           margin-top:60px;
         }
           ul.course-header-list {
+            width:calc(100% / 3);
             display: flex;
           }
             .course-header-list li{
-              width:calc(100% / 3);
               display: flex;
               justify-content: center;
               align-items: center;
@@ -898,6 +898,7 @@ li {
               font-size: 16px;
               line-height: 29px;
               color:#222222;
+              margin-top:15px;
             }
 
 
