@@ -432,6 +432,11 @@ li {
                 padding-top:20px;
                 padding-left:20px;
               }
+                .about-course-list-box-cell2 p{
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 24px;
+                }
                 p.cell-text1 {
                   width:13em;
                 }
@@ -528,7 +533,7 @@ li {
                 justify-content: center;
                 align-items: center;
               }
-                p.about-course-list-box-cell7 {
+                .about-course-list-box-cell7 p{
                   font-weight: 700;
                   font-size: 20px;
                   line-height: 30px;
