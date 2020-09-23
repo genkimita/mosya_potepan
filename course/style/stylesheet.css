@@ -544,15 +544,13 @@ li {
               }
               .course-header-list li p::before {
                 content: ' ';
-                width:10px;
+                width:16px;
                 height:10px;
-                bottom: 4px;
-                right: -18px;
-                display: inline-block;
+                right: -16px;
+                display: block;
                 border-top:3px solid rgb(247, 147, 20) ;
                 border-right:3px solid rgb(247, 147, 20) ;
                 transform: rotate(135deg);
-                padding-left:10px;
               }
             li.course-header-list1 {
             }
