@@ -850,6 +850,9 @@ li {
                 display: flex;
               }
           .open-detail-btn {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: px;
             margin-top:40px;
           }
             .open-detail-btn p{
