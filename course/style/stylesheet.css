@@ -953,12 +953,29 @@ li {
         display: flex;
       }
         ul.footer-list-left {}
+          .footer-list-left p{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+          }
           li.footer-list-left1 {}
+            li.footer-list-left1 p img {
+              width:283px;
+              height:30px;
+            }
           li.footer-list-left2 {}
           li.footer-list-left3 {}
           li.footer-list-left4 {}
           li.footer-list-left5 {}
           li.footer-list-left6 {}
+            .footer-list-left6 img {
+              width:65px;
+              height:65px;
+            }
+            img.icon-footer-facebook {}
+            img.icon-footer-twitter {
+              margin-left: 20px;
+            }
         ul.footer-list-center {}
           li.footer-list-center1 {}
           li.footer-list-center2 {}
