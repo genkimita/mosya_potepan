@@ -295,8 +295,10 @@ li {
                     height:50px;
                   }
                 .line1-text {
+                  letter-spacing: 2px;
                   color:rgb(247,147,20);
                   text-align: center;
+                  margin-left: 15px;
                 }
                   p.line1-text1 {
                     font-weight: 700;
