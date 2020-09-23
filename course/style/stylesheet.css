@@ -812,10 +812,10 @@ li {
                   width:120px;
                   height:30px;
                   background-color:rgb(247,147,20);
-                  z-index:1;
                   position: absolute;
                   left: 0px;
                   top: 0px;
+                  z-index:1;
                 }
                   p.flow-list-number span{
                     font-weight: 700;
