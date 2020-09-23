@@ -165,22 +165,25 @@ li {
           margin-top:35px;
         }
           .about-explanation2 p {
-            font-weight: 700;
-            font-size: 20px;
-            line-height: 30px;
           }
             .under-line-yellow {
               background: linear-gradient(transparent 70%, rgb(255, 248, 157) 70%, rgb(255, 248, 157) 100%);
             }
           .about-explanation2-1 {
-            border-bottom:10px solid rgb(255,247,147) ;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
           }
           .about-explanation2-2 {
-            border-bottom:10px solid rgb(255,247,147) ;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
             margin-top:30px;
           }
           .about-explanation2-3 {
-            border-bottom:10px solid rgb(255,247,147) ;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
             margin-top:30px;
           }
         .about-explanation3 {
