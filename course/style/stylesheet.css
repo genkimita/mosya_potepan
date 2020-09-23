@@ -335,42 +335,35 @@ li {
                 font-weight: 700;
                 font-size: 16px;
                 line-height: 30px;
+                text-align: left;
+                align-items:　center;
               }
               .about-course-list-box-line2 {
                 height:140px;
                 background-color:rgb(217,233,243);
                 padding-left:22px;
-                vertical-align : middle;
               }
-                .about-course-list-box-line2 a{
-                  vertical-align : middle;
-                }
               .about-course-list-box-line3 {
-                text-align: left;
                 height:70px;
                 background-color:rgb(228,239,244);
                 padding-left:22px;
               }
               .about-course-list-box-line4 {
-                text-align: left;
                 height:70px;
                 background-color:rgb(217,233,243);
                 padding-left:22px;
               }
               .about-course-list-box-line5 {
-                text-align: left;
                 height:85px;
                 background-color:rgb(228,239,244);
                 padding-left:22px;
               }
               .about-course-list-box-line6 {
-                text-align: left;
                 height:110px;
                 background-color:rgb(217,233,243);
                 padding-left:22px;
               }
               .about-course-list-box-line7 {
-                text-align: left;
                 height:70px;
                 background-color:rgb(228,239,244);
                 padding-left:22px;
