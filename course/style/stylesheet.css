@@ -399,20 +399,13 @@ li {
                   font-size: 24px;
                   line-height: px;
                 }
-                  .open-cell1-title-p1 {}
-                  .open-cell1-title-p1::before {
-                    content: ' ';
-                    width:75px;
-                    height:auto;
-                    position: absolute;
-                    top: -74.5px;
-                    left: 0;
-                    right: 0;
-                    margin: auto;
-                    background: url(image/icon-openclass_table.png);
-                    background-repeat: no-repeat;
-                    background-size: contain;
+                  .open-class-icon {
+                    margin:-38px 0px 0px 0px;
                   }
+                    .open-class-icon img {
+                      width:75px;
+                      height:auto;
+                    }
                 .cell1-title-p2 {
                   font-weight: 700;
                   font-size: 14px;
