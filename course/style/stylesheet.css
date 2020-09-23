@@ -169,6 +169,9 @@ li {
             font-size: 20px;
             line-height: 30px;
           }
+            .under-line-yellow {
+              background: linear-gradient(transparent 70%, rgb(255, 248, 157) 70%, rgb(255, 248, 157) 100%);
+            }
           .about-explanation2-1 {
             border-bottom:10px solid rgb(255,247,147) ;
           }
