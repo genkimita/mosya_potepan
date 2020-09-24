@@ -377,6 +377,19 @@ li {
             li.about-course-list-box4 {
               width:270px;
             }
+              .about-course-list-box4 .about-course-list-box-cell1::before {
+                content: ' ';
+                position: absolute;
+                top: 38px;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width:76px;
+                height:62px;
+                background: url(image/icon-openclass_table.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+              }
               .about-course-list-box-cell1 {
                 height:85px;
                 background-color:rgb(247,147,20);
