@@ -966,6 +966,7 @@ li {
     .content-width {/* 共通 */}
     .footer-width {}
       .footer-container {
+        color:rgb(255, 255, 255);
         width:calc(100% / 3);
         display: flex;
       }
@@ -993,13 +994,26 @@ li {
             img.icon-footer-twitter {
               margin-left: 20px;
             }
-        ul.footer-list-center {}
+        ul.footer-list-center {
+          width:200px;
+        }
           li.footer-list-center1 {}
           li.footer-list-center2 {}
           li.footer-list-center3 {}
           li.footer-list-center4 {}
           li.footer-list-center5 {}
           li.footer-list-center6 {}
+            .footer-list-center p{
+              font-weight: 400;
+              font-size: 16px;
+              line-height: px;
+            }
+              .footer-list-center p span{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: px;
+                margin-right: 1em;
+              }
         ul.footer-list-right {}
           li.footer-list-right1 {}
             .footer-list-right1 p {
