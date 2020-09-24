@@ -326,12 +326,12 @@ li {
               .radius-line-left-bottom {
                   border-radius: 0 0 0 10px;
                 }
-              .about-course-list-box-line2 a,
-              .about-course-list-box-line3 a,
-              .about-course-list-box-line4 a,
-              .about-course-list-box-line5 a,
-              .about-course-list-box-line6 a,
-              .about-course-list-box-line7 a {
+              .about-course-list-box-line2,
+              .about-course-list-box-line3,
+              .about-course-list-box-line4,
+              .about-course-list-box-line5,
+              .about-course-list-box-line6,
+              .about-course-list-box-line7 {
                 font-weight: 700;
                 font-size: 16px;
                 line-height: 30px;
