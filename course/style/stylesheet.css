@@ -437,7 +437,8 @@ li {
                   line-height: 24px;
                 }
                 p.cell-text1 {
-                  width:13em;
+                  position: relative;
+                  padding-left:18px;
                 }
                   p.cell-text1::before {
                     content: ' ';
@@ -450,7 +451,8 @@ li {
                     vertical-align : middle;
                   }
                 p.cell-text2 {
-                  width:13em;
+                  position: relative;
+                  padding-left:18px;
                 }
                   p.cell-text2::before {
                     content: ' ';
