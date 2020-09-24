@@ -970,7 +970,9 @@ li {
         width:calc(100% / 3);
         display: flex;
       }
-        ul.footer-list-left {}
+        ul.footer-list-left {
+          order: 1;
+        }
           .footer-list-left p{
             font-weight: 700;
             font-size: 16px;
@@ -996,6 +998,7 @@ li {
             }
         ul.footer-list-center {
           width:200px;
+          order: 2;
         }
           li.footer-list-center1 {}
           li.footer-list-center2 {}
@@ -1014,11 +1017,14 @@ li {
                 line-height: px;
                 margin-right: 1em;
               }
-        ul.footer-list-right {}
+        ul.footer-list-right {
+          order: 3;
+        }
           li.footer-list-right1 {}
             .footer-list-right1 p {
               width:125px;
               height:75px;
+              align-self:flex-end;
             }
               .footer-list-right1 p img {
                 width:125px;
