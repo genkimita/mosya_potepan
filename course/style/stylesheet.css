@@ -962,6 +962,8 @@ li {
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .footer {
     background-color:rgb(247,147,20);
+    padding-top:80px;
+    padding-bottom:40px;
   }
     .content-width {/* 共通 */}
     .footer-width {}
@@ -983,11 +985,17 @@ li {
               width:283px;
               height:30px;
             }
-          li.footer-list-left2 {}
-          li.footer-list-left3 {}
+          li.footer-list-left2 {
+            margin-top:30px;
+          }
+          li.footer-list-left3 {
+            margin-top:20px;
+          }
           li.footer-list-left4 {}
           li.footer-list-left5 {}
-          li.footer-list-left6 {}
+          li.footer-list-left6 {
+            margin-top:35px;
+          }
             .footer-list-left6 img {
               width:65px;
               height:65px;
@@ -999,9 +1007,14 @@ li {
         ul.footer-list-center {
           order: 2;
           width:200px;
+          margin-left: 210px;
         }
+          .footer-list-center li{
+            margin-top:30px;
+          }
           li.footer-list-center1 {}
-          li.footer-list-center2 {}
+          li.footer-list-center2 {
+          }
           li.footer-list-center3 {}
           li.footer-list-center4 {}
           li.footer-list-center5 {}
@@ -1031,6 +1044,7 @@ li {
         font-size: 12px;
         line-height: px;
         color:#ffffff;
+        margin-top:60px;
       }
 
 
