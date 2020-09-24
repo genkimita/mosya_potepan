@@ -1030,7 +1030,7 @@ li {
                 line-height: px;
                 margin-right: 1em;
               }
-        ul.footer-list-right {
+        .footer-list-right {
           order: 3;
           align-self:flex-end;
         }
