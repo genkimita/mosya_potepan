@@ -967,6 +967,33 @@ li {
   }
     .content-width {/* 共通 */}
     .footer-width {}
+      .footer-return-btn {
+        width:50px;
+        height:50px;
+        background-color:rgb(255, 255, 255);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        border-radius: 25px;
+        margin: -105px 0px 0px;
+        box-shadow: 0 12px 30px -15px rgba(0,0,0,1);/* box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5) ; */
+        display: flex;
+        justify-content: center;
+        align-items: center;/* 真ん中にしたい子の1つ親に */
+        transition: 0.5s;
+      }
+        .footer-return-btn span {
+          content: ' ';
+          display: block;
+          width:10px;
+          height:10px;
+          bottom: 4px;
+          top: -21px;
+          border-top:3px solid rgb(247, 146, 21) ;
+          border-right:3px solid rgb(247, 146, 21) ;
+          transform: rotate(-45deg);
+          transition: 0.5s;
+        }
       .footer-container {
         color:rgb(255, 255, 255);
         display: flex;
