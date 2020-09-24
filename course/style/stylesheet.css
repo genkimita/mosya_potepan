@@ -394,27 +394,17 @@ li {
               .radius-cell-right-top {
                   border-radius: 0 10px 0 0;
                 }
+                .open-class-icon {
+                  margin:-38px 0 0 0;
+                }
+                  .open-class-icon img{
+                    width:75px;
+                  }
                 .cell1-title-p1 {
                   font-weight: 700;
                   font-size: 24px;
                   line-height: px;
                 }
-                .open-cell1-title-p1::before {
-                  content: ' ';
-                  position: absolute;
-                  top: 38px;
-                  left: 0;
-                  right: 0;
-                  margin: auto;
-                  width:76px;
-                  height:62px;
-                  background: url(image/icon-openclass_table.png);
-                  background-size: contain;
-                  background-repeat: no-repeat;
-                }
-                  .open-class-icon {
-                    margin:-38px 0px 0px 0px;
-                  }
                     .open-class-icon img {
                       width:75px;
                       height:auto;
@@ -982,7 +972,7 @@ li {
         align-items: center;/* 真ん中にしたい子の1つ親に */
         transition: 0.5s;
       }
-        .footer-return-btn span {
+        span.marker-top-sign {
           content: ' ';
           display: block;
           width:10px;
