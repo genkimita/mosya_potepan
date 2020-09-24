@@ -541,24 +541,30 @@ li {
           justify-content: center;
           align-items: center;
         }
-        .course-cell-1-2 {
-          line-height: 85px;
-        }
-        .course-cell-1-3 {
-          line-height: 85px;
-        }
-        .course-cell-1-4 {
-          line-height: 85px;
-        }
-        .course-cell-1-5 {
-          line-height: 85px;
-        }
-        .course-cell-1-6 {
-          line-height: 85px;
-        }
-        .course-cell-1-7 {
-          line-height: 85px;
-        }
+        .course-cell-1-2 {}
+          .course-cell-1-2 p{
+            line-height: 85px;
+          }
+        .course-cell-1-3 {}
+          .course-cell-1-3 p{
+            line-height: 85px;
+          }
+        .course-cell-1-4 {}
+          .course-cell-1-4 p{
+            line-height: 85px;
+          }
+        .course-cell-1-5 {}
+          .course-cell-1-5 p{
+            line-height: 85px;
+          }
+        .course-cell-1-6 {}
+            .course-cell-1-6 p{
+              line-height: 85px;
+            }
+        .course-cell-1-7 {}
+          .course-cell-1-7 p{
+            line-height: 85px;
+          }
         .course-cell-2-1 {}
         .course-cell-2-2 {}
         .course-cell-2-3 {}
