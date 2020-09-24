@@ -942,11 +942,11 @@ li {
             p.interviewer-photo {
               width:100%;
               height:auto;
-              border-radius: 10px;
             }
               .interviewer-photo img {
                 width:100%;
                 height:auto;
+                border-radius: 10px;
               }
             p.interviewer-text {
               font-weight: 700;
