@@ -1041,6 +1041,14 @@ li {
           transform: rotate(-45deg);
           transition: 0.5s;
         }
+        .footer-return-btn:hover .footer-return-btn a {
+          background-color:rgb(247,147,20);
+          cursor:pointer;
+        }
+        .footer-return-btn:hover span.marker-top-sign {
+          border-color: rgb(255, 255, 255);
+          transition: 0.5s;
+        }
       .footer-container {
         color:rgb(255, 255, 255);
         display: flex;
