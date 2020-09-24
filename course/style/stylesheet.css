@@ -516,6 +516,8 @@ li {
                   font-weight: 700;
                   font-size: 16px;
                   line-height: 24px;
+                  position: relative;
+                  padding-left:18px;
                 }
                 .about-course-list-box-cell6 p::before {
                   content: ' ';
