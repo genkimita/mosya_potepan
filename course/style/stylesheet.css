@@ -967,11 +967,11 @@ li {
     .footer-width {}
       .footer-container {
         color:rgb(255, 255, 255);
-        width:calc(100% / 3);
         display: flex;
       }
         ul.footer-list-left {
           order: 1;
+          width:300px;
         }
           .footer-list-left p{
             font-weight: 700;
@@ -997,8 +997,8 @@ li {
               margin-left: 20px;
             }
         ul.footer-list-center {
-          width:200px;
           order: 2;
+          width:200px;
         }
           li.footer-list-center1 {}
           li.footer-list-center2 {}
@@ -1019,21 +1019,18 @@ li {
               }
         ul.footer-list-right {
           order: 3;
+          align-self:flex-end;
         }
-          li.footer-list-right1 {}
-            .footer-list-right1 p {
-              width:125px;
-              height:75px;
-              align-self:flex-end;
-            }
-              .footer-list-right1 p img {
-                width:125px;
-                height:75px;
-              }
+          .footer-list-right img{
+            width:auto;
+            height:70px;
+          }
+
       .footer-copyright {
         font-weight: 400;
         font-size: 12px;
         line-height: px;
+        color:#ffffff;
       }
 
 
