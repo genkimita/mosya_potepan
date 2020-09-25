@@ -908,6 +908,8 @@
                     position: relative;
                   }
                     .flow-list-p1 img{
+                      width:auto;
+                      height:139px;
                     }
                     .flow-list-p1 p{
                       font-weight: 700;
