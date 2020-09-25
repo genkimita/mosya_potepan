@@ -637,16 +637,20 @@
                   border:2px solid rgb(247, 147, 20) ;
                   border-radius: 6px;
                 }
-                .course-header-list li p::before {
-                  content: ' ';
-                  width:10px;
-                  height:10px;
-                  right: -10px;
-                  display: block;
-                  border-top:3px solid rgb(247, 147, 20) ;
-                  border-right:3px solid rgb(247, 147, 20) ;
-                  transform: rotate(135deg);
-                }
+                  .marker-under {
+                    content: ' ';
+                    width:10px;
+                    height:10px;
+                    right: -10px;
+                    display: block;
+                    border-top:3px solid rgb(247, 147, 20) ;
+                    border-right:3px solid rgb(247, 147, 20) ;
+                    transform: rotate(135deg);
+                  }
+                  .course-header-list p:hover .marker-under{
+                    border-color: rgb(255, 255, 255);
+                    transition: 0.5s;
+                  }
               li.course-header-list1 {
               }
                 .course-header-list1 p {
@@ -662,18 +666,6 @@
                   font-size: 20px;
                   line-height: px;
                 }
-                  .course-header-list1 p::before {
-                    content: ' ';
-                    width:10px;
-                    height:10px;
-                    bottom: 4px;
-                    right: -18px;
-                    display: inline-block;
-                    border-top:3px solid rgb(247, 147, 20) ;
-                    border-right:3px solid rgb(247, 147, 20) ;
-                    transform: rotate(135deg);
-                    padding-left:10px;
-                  }
               li.course-header-list2 {
                 margin-left: 5px;
               }
@@ -762,7 +754,6 @@
             .course-title {
               text-align: center;
             }
-            .open-title {}
               .open-title p::before {
                 content: ' ';
                 width:84px;
