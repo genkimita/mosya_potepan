@@ -702,10 +702,17 @@
                   content: ' ';
                   width:10px;
                   height:10px;
-                  display: inline-block;
+                  bottom: 4px;
+                  top: -21px;
+                  display: block;
                   border-left:3px solid rgb(247, 147, 20) ;
                   border-bottom:3px solid rgb(247, 147, 20) ;
                   transform: rotate(45deg);
+                  transition: 0.5s;
+                }
+                .course-header-list1 p:hover .course-header-list2 p::before {
+                  border-color: rgb(255, 255, 255);
+                  transition: 0.5s;
                 }
               li.course-header-list3 {
                 margin-left: 5px;
