@@ -686,10 +686,9 @@
                   width:10px;
                   height:10px;
                   display: inline-block;
-                  border-top:3px solid rgb(247, 147, 20) ;
                   border-left:3px solid rgb(247, 147, 20) ;
+                  border-bottom:3px solid rgb(247, 147, 20) ;
                   transform: rotate(45deg);
-                  padding-left:10px;
                 }
               li.course-header-list3 {
                 margin-left: 5px;
