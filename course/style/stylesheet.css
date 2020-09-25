@@ -677,6 +677,14 @@
               li.course-header-list2 {
                 margin-left: 5px;
               }
+                .hover-course-header {
+                  transition: all 0.5s;
+                }
+                .hover-course-header p:hover {
+                  color:rgb(255, 255, 255);
+                  background-color:rgb(247,147,20);
+                  transition: all 0.5s;
+                }
                 .course-header-list2 p {
                   font-weight: 700;
                   font-size: 16px;
