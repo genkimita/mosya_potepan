@@ -911,14 +911,12 @@
                   display: flex;
                   margin-bottom:20px;
                 }
-                  p.flow-list-p1 {
+                  .flow-list-p1 {
                     width:250px;
                     height:130px;
                     position: relative;
                   }
                     .flow-list-p1 img{
-                      width:250px;
-                      height:130px;
                     }
                     .flow-list-p1 p{
                       font-weight: 700;
@@ -930,8 +928,8 @@
                       height:30px;
                       background-color:rgb(247,147,20);
                       position: absolute;
-                      left: 0px;
                       top: 0px;
+                      left: 0px;
                     }
                       .flow-list-p1 p span{
                         font-weight: 700;
@@ -939,14 +937,11 @@
                         line-height: 20px;
                         margin-right: 5px;
                       }
-                  p.flow-list-p2 {
+                  .flow-list-p2 {
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 36px;
-                    padding-top:25px;
-                    padding-bottom:25px;
-                    padding-left:30px;
-                    padding-right:30px;
+                    padding:25px 30px 25px 30px;
                   }
                 li.course-flow-list3 {
                   border:2px solid rgb(247,147,20);
