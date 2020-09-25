@@ -1007,14 +1007,15 @@
               margin-left: 40px;
             }
               p.interviewer-photo {
-                height:190;
+                width:100%;
+                height:190px;
                 border-radius: 10px;
                 overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
               }
                 .interviewer-photo img {
                   width:100%;
-                  height:auto;
-                  overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
+                  height:145%;
+                  object-fit: cover;
                   transition: .3s;
                 }
                   .interviewer-list0:hover .interviewer-photo img{
