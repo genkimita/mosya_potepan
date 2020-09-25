@@ -983,12 +983,12 @@
             }
               p.interviewer-photo {
                 height:190;
+                border-radius: 10px;
                 overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
               }
                 .interviewer-photo img {
                   width:100%;
                   height:auto;
-                  border-radius: 10px;
                   transition: .3s;
                 }
                   .interviewer-list0:hover .interviewer-photo img{
