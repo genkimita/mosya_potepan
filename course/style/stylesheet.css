@@ -959,6 +959,11 @@
                 .open-detail-btn p a{
                   text-align: center;
                 }
+              .open-detail-btn p:hover {
+                opacity :.7;
+                cursor:pointer;
+                transition: all 0.5s;
+              }
 
 
 
