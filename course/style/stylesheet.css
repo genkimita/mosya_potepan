@@ -982,14 +982,12 @@
               margin-left: 40px;
             }
               p.interviewer-photo {
-                width:320px;
                 height:190;
+                overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
               }
                 .interviewer-photo img {
                   width:100%;
                   height:auto;
-                  object-fit: cover;
-                  overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
                   border-radius: 10px;
                   transition: .3s;
                 }
