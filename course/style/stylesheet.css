@@ -955,11 +955,19 @@
 
 
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+    .main-section {/* 共通 */}
     .voice-section {
       background-color:rgb(246,246,246);
     }
       .content-width {
         /* 共通 */
+      }
+      .voice-width {
+        background: url(image/bg-section-top-course.png);
+        background-size: 281px 275px;
+        background-repeat: no-repeat;
+        background-position:right top;
+        padding-bottom:40px;
       }
         .section-title {
           /* 共通 */
