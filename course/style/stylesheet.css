@@ -1053,11 +1053,12 @@
             transform: rotate(-45deg);
             transition: 0.5s;
           }
-          .footer-return-btn:hover .footer-return-btn a {
+          .footer-return-btn a:hover .footer-return-btn a {
             background-color:rgb(247,147,20);
+            transition: 0.5s;
             cursor:pointer;
           }
-          .footer-return-btn:hover span.marker-top-sign {
+          .footer-return-btn a:hover span.marker-top-sign {
             border-color: rgb(255, 255, 255);
             transition: 0.5s;
           }
