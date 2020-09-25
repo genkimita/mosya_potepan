@@ -677,10 +677,10 @@
               li.course-header-list2 {
                 margin-left: 5px;
               }
-                .hover-course-header {
+                .course-header-list p{
                   transition: all 0.5s;
                 }
-                .hover-course-header p:hover {
+                .course-header-list p:hover {
                   color:rgb(255, 255, 255);
                   background-color:rgb(247,147,20);
                   transition: all 0.5s;
@@ -710,7 +710,7 @@
                   transform: rotate(45deg);
                   transition: 0.5s;
                 }
-                .course-header-list1 p:hover .course-header-list2 p::before {
+                .course-header-list p:hover .course-header-list2 p::before{
                   border-color: rgb(255, 255, 255);
                   transition: 0.5s;
                 }
