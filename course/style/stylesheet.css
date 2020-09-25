@@ -688,12 +688,10 @@
                   content: ' ';
                   width:10px;
                   height:10px;
-                  bottom: 4px;
-                  right: -18px;
                   display: inline-block;
                   border-top:3px solid rgb(247, 147, 20) ;
-                  border-right:3px solid rgb(247, 147, 20) ;
-                  transform: rotate(135deg);
+                  border-left:3px solid rgb(247, 147, 20) ;
+                  transform: rotate(45deg);
                   padding-left:10px;
                 }
               li.course-header-list3 {
