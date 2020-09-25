@@ -21,8 +21,17 @@
     text-decoration: none;
   }
   .btn:hover {
+    opacity :.7;
+    cursor:pointer;
     transition: all 0.5s;
   }
+  .link-hover {}
+  .link-hover:hover {
+    opacity :.7;
+    cursor:pointer;
+    transition: all 0.5s;
+  }
+
 
 
 
