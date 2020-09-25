@@ -994,8 +994,9 @@
                 overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
               }
                 .interviewer-photo img {
-                  width:320px;
-                  height:190px;
+                  width:100%;
+                  height:auto;
+                  overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
                   transition: .3s;
                 }
                   .interviewer-list0:hover .interviewer-photo img{
