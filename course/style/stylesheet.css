@@ -630,12 +630,22 @@
               .course-header-list li{
                 width:340px;
               }
+              li.course-header-list1 {
+              }
                 .course-header-list li p{
                   width:100%;
                   height:60px;
                   color:rgb(247, 147, 20);
                   border:2px solid rgb(247, 147, 20) ;
                   border-radius: 6px;
+                }
+                .course-header-list1 p {
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
                 }
                   .marker-under {
                     content: ' ';
@@ -651,21 +661,11 @@
                     border-color: rgb(255, 255, 255);
                     transition: 0.5s;
                   }
-              li.course-header-list1 {
-              }
-                .course-header-list1 p {
-                  font-weight: 700;
-                  font-size: 16px;
-                  line-height: px;
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                }
-                .course-header-list1 p span {
-                  font-weight: 700;
-                  font-size: 20px;
-                  line-height: px;
-                }
+                  .course-header-list1 p span {
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: px;
+                  }
               li.course-header-list2 {
                 margin-left: 5px;
               }
