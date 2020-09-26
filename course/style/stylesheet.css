@@ -702,11 +702,12 @@
                   justify-content: center;
                   align-items: center;
                 }
-                  .course-header-list3 p img {
+                  .course-header-list3 img {
                     width:33px;
                     height:33px;
+                    margin-left: 30px;
                   }
-                  .course-header-list3 p span {
+                  .course-header-list3 span {
                     font-weight: 700;
                     font-size: 20px;
                     line-height: px;
