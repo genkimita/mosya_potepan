@@ -857,9 +857,6 @@
               ul.course-flow-list {
                 padding: 20px;
               }
-                .course-flow-list0 {
-                  display: flex;
-                }
                 li.course-flow-list1 {
                   font-weight: 700;
                   font-size: 20px;
@@ -871,21 +868,24 @@
                     height:20px;
                     margin-right: 10px;
                   }
+                li.course-flow-list0 {
+                  display: flex;
+                }
                 li.course-flow-list2 {
                   border:2px solid rgb(247,147,20);
                   display: flex;
                   margin-bottom:20px;
                 }
-                  .flow-list-p1 {
+                  .flow-list-left {
                     width:250px;
                     height:130px;
                     position: relative;
                   }
-                    .flow-list-p1 img{
+                    .flow-list-left img{
                       width:auto;
                       height:139px;
                     }
-                    .flow-list-p1 p{
+                    .flow-list-left p{
                       font-weight: 700;
                       font-size: 14px;
                       line-height: 14px;
@@ -898,13 +898,13 @@
                       top: 0px;
                       left: 0px;
                     }
-                      .flow-list-p1 p span{
+                      .flow-list-left p span{
                         font-weight: 700;
                         font-size: 20px;
                         line-height: 20px;
                         margin-right: 5px;
                       }
-                  .flow-list-p2 {
+                  .flow-list-right {
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 36px;
