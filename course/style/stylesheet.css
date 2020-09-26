@@ -656,13 +656,12 @@
                     border-top:3px solid rgb(247, 147, 20) ;
                     border-right:3px solid rgb(247, 147, 20) ;
                     transform: rotate(135deg);
-                    padding-right:15px;
                   }
                   .course-header-list p:hover .marker-under{
                     border-color: rgb(255, 255, 255);
                     transition: 0.5s;
                   }
-                  .course-header-list1 p span {
+                  .course-header-list0 p span {
                     font-weight: 700;
                     font-size: 20px;
                     line-height: px;
