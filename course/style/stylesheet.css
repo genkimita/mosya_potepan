@@ -690,22 +690,6 @@
                   font-size: 20px;
                   line-height: px;
                 }
-                .course-header-list2 p::before {
-                  content: ' ';
-                  width:10px;
-                  height:10px;
-                  bottom: 4px;
-                  top: -21px;
-                  display: block;
-                  border-left:3px solid rgb(247, 147, 20) ;
-                  border-bottom:3px solid rgb(247, 147, 20) ;
-                  transform: rotate(45deg);
-                  transition: 0.5s;
-                }
-                .course-header-list p:hover .course-header-list2 p::before{
-                  border-color: rgb(255, 255, 255);
-                  transition: 0.5s;
-                }
               li.course-header-list3 {
                 margin-left: 5px;
               }
@@ -725,18 +709,6 @@
                     font-weight: 700;
                     font-size: 20px;
                     line-height: px;
-                  }
-                  .course-header-list3 p::before {
-                    content: ' ';
-                    width:10px;
-                    height:10px;
-                    bottom: 4px;
-                    right: -18px;
-                    display: inline-block;
-                    border-top:3px solid rgb(247, 147, 20) ;
-                    border-right:3px solid rgb(247, 147, 20) ;
-                    transform: rotate(135deg);
-                    padding-left:10px;
                   }
           .course-box {
             width:100%;
