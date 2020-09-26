@@ -882,7 +882,7 @@
                   }
                     .flow-list-left img{
                       width:auto;
-                      height:139px;
+                      height:130px;
                     }
                     .flow-list-left p{
                       font-weight: 700;
@@ -904,6 +904,7 @@
                         margin-right: 5px;
                       }
                   .flow-list-right {
+                    height:130px;
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 36px;
