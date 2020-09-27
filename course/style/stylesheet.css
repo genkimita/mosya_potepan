@@ -958,6 +958,8 @@
         /* 共通 */
       }
       .voice-width {
+        width:1040px;
+        margin: 0 auto;
         background: url(image/bg-section-top-course.png);
         background-size: 281px 275px;
         background-repeat: no-repeat;
