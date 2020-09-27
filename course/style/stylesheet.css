@@ -287,7 +287,11 @@
                 .about-course-list-box-line1 {
                   height:85px;
                   padding-left:22px;
-
+                }
+                .course-cell-1-1 {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
                 }
                   .line1-img {
                     width:90px;
@@ -347,35 +351,55 @@
                   .about-course-list-box-line6 a,
                   .about-course-list-box-line7 a{
                   }
+
+                  /* 2〜7で高さが異なる */
                 .about-course-list-box-line2 {
                   height:140px;
                   background-color:rgb(217,233,243);
                   padding-left:22px;
                 }
+                .course-cell-1-2 {}
+                  .course-cell-1-2 a{
+                  }
                 .about-course-list-box-line3 {
                   height:70px;
                   background-color:rgb(228,239,244);
                   padding-left:22px;
                 }
+                .course-cell-1-3 {}
+                  .course-cell-1-3 a{
+                  }
                 .about-course-list-box-line4 {
                   height:70px;
                   background-color:rgb(217,233,243);
                   padding-left:22px;
                 }
+                .course-cell-1-4 {}
+                  .course-cell-1-4 a{
+                  }
                 .about-course-list-box-line5 {
                   height:85px;
                   background-color:rgb(228,239,244);
                   padding-left:22px;
                 }
+                .course-cell-1-5 {}
+                  .course-cell-1-5 a{
+                  }
                 .about-course-list-box-line6 {
                   height:110px;
                   background-color:rgb(217,233,243);
                   padding-left:22px;
                 }
+                .course-cell-1-6 {}
+                    .course-cell-1-6 a{
+                }
                 .about-course-list-box-line7 {
                   height:70px;
                   background-color:rgb(228,239,244);
                   padding-left:22px;
+                }
+                .course-cell-1-7 {}
+                  .course-cell-1-7 a{
                 }
               li.about-course-list-box2 {
                 width:270px;
@@ -540,35 +564,6 @@
                     font-size: 20px;
                     line-height: 30px;
                   }
-          .course-cell-1-1 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-          .course-cell-1-2 {}
-            .course-cell-1-2 p{
-
-            }
-          .course-cell-1-3 {}
-            .course-cell-1-3 p{
-
-            }
-          .course-cell-1-4 {}
-            .course-cell-1-4 p{
-
-            }
-          .course-cell-1-5 {}
-            .course-cell-1-5 p{
-
-            }
-          .course-cell-1-6 {}
-              .course-cell-1-6 p{
-
-              }
-          .course-cell-1-7 {}
-            .course-cell-1-7 p{
-
-            }
           .course-cell-2-1 {}
           .course-cell-2-2 {}
           .course-cell-2-3 {}
