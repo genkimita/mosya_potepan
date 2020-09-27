@@ -728,23 +728,17 @@
             .course-title {
               text-align: center;
             }
-              .open-title p::before {
-                content: ' ';
-                width:84px;
-                height:74px;
-                position: absolute;
-                top: -84px;
-                left: 0px;
-                right: 0px;
-                margin: auto;
-                background: url(image/icon-openclass_plan.png);
-                background-repeat: no-repeat;
-                background-size: cover;
+              .open-title-img {
+                margin: 0 auto;
               }
+                .open-title-img img{
+                  width:85px;
+                }
               .course-title-p1 {
                 font-weight: 700;
                 font-size: 36px;
                 line-height: 36px;
+                margin-top:10px;
               }
                 .title-color-carrier {
                   background: linear-gradient(to right, #f79214 0%, #f74e06 100%);
