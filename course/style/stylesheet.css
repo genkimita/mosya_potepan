@@ -1080,8 +1080,8 @@
           display: flex;
         }
           ul.footer-list-left {
-            order: 1;
             width:300px;
+            order: 1;
           }
             .footer-list-left p{
               font-weight: 700;
@@ -1154,27 +1154,6 @@
           color:#ffffff;
           margin-top:60px;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
