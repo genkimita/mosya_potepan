@@ -140,10 +140,22 @@
     .top-section {
       height:200px;
       padding-top:80px;
+      background-color:rgb(247,147,20);
     }
       .main-section {/* 共通 */}
       .top-width {
         background: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        position: relative;
+      }
+      .top-width::after {
+        background-color:rgb(247,147,20);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
       }
         .top-title {
           margin-left: 150px;
