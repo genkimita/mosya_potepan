@@ -1139,7 +1139,7 @@
                 }
           .footer-list-right {
             order: 3;
-            margin-right: 0px;
+            float:right;
           }
             .footer-list-right img{
               width:auto;
