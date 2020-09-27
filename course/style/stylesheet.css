@@ -139,18 +139,21 @@
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
     .top-section {
       height:200px;
-      background: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
       padding-top:80px;
     }
-      .top-title {
-        margin-left: 470px;
+      .main-section {/* 共通 */}
+      .top-width {
+        background: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
       }
-        .top-title p{
-          color:#ffffff;
-          font-weight: 700;
-          font-size: 40px;
-          line-height: px;
+        .top-title {
+          margin-left: 150px;
         }
+          .top-title p{
+            color:#ffffff;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: px;
+          }
 
 
 
