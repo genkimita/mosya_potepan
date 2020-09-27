@@ -6,7 +6,6 @@
     box-sizing: border-box;/* スクロールの余白なし */
   }
   img {
-    border: 0;
     vertical-align : middle;
   }
   li {
