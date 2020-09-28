@@ -146,7 +146,7 @@
       .top-width {
         background: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
         background-repeat: no-repeat;
-        background-size: 100% auto;
+        background-size: 100% 100%;
         position: relative;
       }
       .top-width::after {
