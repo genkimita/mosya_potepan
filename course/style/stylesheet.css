@@ -523,7 +523,7 @@
                     position: relative;
                     padding-left:18px;
                   }
-                    p.cell-text::before  {
+                    p.cell-text3::before  {
                       content: ' ';
                       width:8px;
                       height:8px;
