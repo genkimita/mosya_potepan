@@ -1174,7 +1174,7 @@
                 }
           .footer-list-right {
             order: 3;
-            float:right;
+            align-self: flex-end;
           }
             .footer-list-right img{
               width:auto;
