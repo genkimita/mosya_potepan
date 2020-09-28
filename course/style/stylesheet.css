@@ -519,6 +519,22 @@
                       margin:0px 10px 0px 0px;
                       display: inline-block;
                     }
+                  p.cell-text3  {
+                    position: relative;
+                    padding-left:18px;
+                  }
+                    p.cell-text::before  {
+                      content: ' ';
+                      width:8px;
+                      height:8px;
+                      border-radius: 50%;
+                      background-color:#f79214;
+                      position: absolute;
+                      top: 8px;
+                      left: 0px;
+                      margin:0px 10px 0px 0px;
+                      display: inline-block;
+                    }
                 .about-course-list-box-cell3 {
                   height:70px;
                   background-color:rgb(255,248,233);
