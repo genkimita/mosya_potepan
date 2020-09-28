@@ -1098,10 +1098,10 @@
           }
         .footer-container {
           color:rgb(255, 255, 255);
-          display: flex;
+          position: relative;
+          justify-content: space-between;
         }
           ul.footer-list-left {
-            width:300px;
             order: 1;
           }
             .footer-list-left p{
@@ -1148,10 +1148,9 @@
                 }
           ul.footer-list-center {
             order: 2;
-            width:200px;
-            margin-left: 210px;
           }
             .footer-list-center li{
+              width: 200px;
               margin-bottom:30px;
             }
             li.footer-list-center1 {}
