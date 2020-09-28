@@ -496,9 +496,11 @@
                       height:8px;
                       border-radius: 50%;
                       background-color:#f79214;
-                      margin:0px 10px;
+                      position: absolute;
+                      top: 8px;
+                      left: 0px;
+                      margin:0px 10px 0 0;
                       display: inline-block;
-                      vertical-align : middle;
                     }
                   p.cell-text2 {
                     position: relative;
