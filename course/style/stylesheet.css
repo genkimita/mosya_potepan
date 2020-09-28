@@ -513,9 +513,11 @@
                       height:8px;
                       border-radius: 50%;
                       background-color:#f79214;
-                      margin:0px 10px;
+                      position: absolute;
+                      top: 8px;
+                      left: 0px;
+                      margin:0px 10px 0px 0px;
                       display: inline-block;
-                      vertical-align : middle;
                     }
                 .about-course-list-box-cell3 {
                   height:70px;
