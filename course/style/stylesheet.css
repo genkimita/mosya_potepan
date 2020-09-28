@@ -1101,12 +1101,7 @@
           }
         .footer-container {
           color:rgb(255, 255, 255);
-          max-width: 1140px;
-          padding-left:50px;
-          padding-right:50px;
-          margin-left: auto;
-          margin-right: auto;
-          position: relative;
+          display: flex;
           justify-content: space-between;
         }
           ul.footer-list-left {
