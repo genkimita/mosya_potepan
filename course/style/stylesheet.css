@@ -436,8 +436,7 @@
                   background-color:rgb(247,147,20);
                   color:rgb(255, 255, 255);
                   display: flex;
-                  justify-content: center;
-                  align-items: center;
+                  flex-direction: column;
                 }
                   .about-course-list-box-cell1 p{
                     text-align: left;
@@ -600,8 +599,6 @@
           .course-cell-3-6 {}
           .course-cell-3-7 {}
           .course-cell-4-1 {
-            display: flex;
-            flex-direction: column;
           }
           .course-cell-4-2 {}
           .course-cell-4-3 {}
