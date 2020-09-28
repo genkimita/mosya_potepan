@@ -284,8 +284,9 @@
                 margin-top:10px;
               }
                 .about-point-list-line3 img{
-                  width:25px;
-                  height:25px;
+                  width:24px;
+                  height:24px;
+                  display: block;
                   margin-left: 10px;
                 }
            .about-course {
