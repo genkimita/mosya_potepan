@@ -1141,7 +1141,7 @@
                 transition: 0.5s;
                 margin-left: 17px;
               }
-                img.icon-footer-twitter {
+                img.icon-footer-twitter:hover {
                   opacity :.7;
                   transition: 0.5s;
                   cursor:pointer;
