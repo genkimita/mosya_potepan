@@ -14,9 +14,26 @@
 
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー 共通 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  a.link-text:link,a.link-text:visited,a.link-text:hover,a.link-text:active  {
+  a.link-text-black:link,
+  a.link-text-black:visited,
+  a.link-text-black:hover,
+  a.link-text-black:active {
     text-decoration: none;
+    color:rgb(0, 0, 0);
+  }
+  a.link-text-orange:link,
+  a.link-text-orange:visited,
+  a.link-text-orange:hover,
+  a.link-text-orange:active {
+    text-decoration:none;
     color:rgb(247,147,20);
+  }
+  a.link-text-white:link,
+  a.link-text-white:visited,
+  a.link-text-white:hover,
+  a.link-text-white:active {
+    text-decoration:none;
+    color:rgb(255, 255, 255);
   }
   .btn {
     color:rgb(255, 255, 255);
