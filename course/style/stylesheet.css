@@ -1128,7 +1128,14 @@
               font-size: 16px;
               line-height: 24px;
             }
-            li.footer-list-left1 {}
+            li.footer-list-left1 {
+              transition: 0.5s;
+            }
+            li.footer-list-left1:hover  {
+              opacity :.7;
+              transition: 0.5s;
+              cursor:pointer;
+            }
               li.footer-list-left1 p img {
                 width:283px;
                 height:30px;
