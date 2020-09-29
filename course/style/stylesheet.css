@@ -12,17 +12,11 @@
     list-style: none;
   }
 
-  a:link {
-    text-decoration:none;
-  }
-  a:visited {
-    text-decoration:none;
-  }
-  a:hover {
-    text-decoration:none;
-  }
-  a:active {
-    text-decoration:none;
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー 共通 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  a.link-text:link,a.link-text:visited,a.link-text:hover,a.link-text:active  {
+    text-decoration: none;
+    color:rgb(247,147,20);
   }
   .btn {
     color:rgb(255, 255, 255);
