@@ -717,6 +717,7 @@
                   color:rgb(255, 255, 255);
                   background-color:rgb(247,147,20);
                   transition: all 0.5s;
+                  cursor:pointer;
                 }
                 .course-header-list2 p {
                   font-weight: 700;
