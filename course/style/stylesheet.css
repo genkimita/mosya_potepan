@@ -11,6 +11,19 @@
   li {
     list-style: none;
   }
+
+  a:link {
+    color:#0000ff; text-decoration:none
+  }
+  a:visited {
+    color:#0000ff; text-decoration:none
+  }
+  a:hover {
+    color:#0000ff; text-decoration:none
+  }
+  a:active {
+    color:#0000ff; text-decoration:none
+  }
   .btn {
     color:rgb(255, 255, 255);
     background-color:rgb(247, 147, 20);
