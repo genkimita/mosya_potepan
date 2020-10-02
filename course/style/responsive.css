@@ -1,0 +1,21 @@
+
+/* タブレット用 */
+@media all and (max-width: 1000px){
+
+  .header-nav-list {
+    display: none;
+  }
+  .res-header-icon-hamburger {
+    display: block;
+  }
+
+
+
+  
+
+}
+
+/* スマホ用 */
+@media all and (max-width: 670px){
+
+}
