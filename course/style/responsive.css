@@ -8,17 +8,17 @@
     .content-width {
 
     }
-
-
-  .header-nav-list {
-    display: none;
-  }
-  .res-header-icon-hamburger {
-    display: block;
-  }
-
-
-
+  /* header */
+  .header {}
+    .header-width {}
+      .header-nav {}
+        .header-logo {}
+        .header-nav-list {
+          display: none;
+        }
+        .res-header-icon-hamburger {
+          display: block;
+        }
 
 
 }
