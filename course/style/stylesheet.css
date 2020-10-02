@@ -69,8 +69,12 @@
       padding-bottom:80px;
     }
       .content-width {
-        width:1040px;
-        margin: 0 auto;
+        max-width: 1140px;
+        padding-left:50px;
+        padding-right:50px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
       }
         .section-title {
           font-weight: 700;
