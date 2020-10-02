@@ -2,6 +2,14 @@
 /* タブレット用 */
 @media screen and (max-width: 1000px){
 
+  .main-section {
+    width:100%;
+  }
+    .content-width {
+
+    }
+
+
   .header-nav-list {
     display: none;
   }
