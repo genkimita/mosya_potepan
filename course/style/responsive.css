@@ -1,6 +1,6 @@
 
 /* タブレット用 */
-@media all and (max-width: 1000px){
+@media screen and (max-width: 1000px){
 
   .header-nav-list2,
   .header-nav-list3,
@@ -22,6 +22,6 @@
 }
 
 /* スマホ用 */
-@media all and (max-width: 670px){
+@media screen and (max-width: 670px){
 
 }
