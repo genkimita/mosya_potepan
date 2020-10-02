@@ -65,6 +65,7 @@
 
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー main-section ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
     .main-section {
+      width:100%;
       padding-top:90px;
       padding-bottom:80px;
     }
