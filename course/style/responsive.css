@@ -2,13 +2,7 @@
 /* タブレット用 */
 @media screen and (max-width: 1000px){
 
-  .header-nav-list2,
-  .header-nav-list3,
-  .header-nav-list4,
-  .header-nav-list5,
-  .header-nav-list6,
-  .header-nav-list7,
-  .header-nav-list8, {
+  .header-nav-list {
     display: none;
   }
   .res-header-icon-hamburger {
@@ -24,13 +18,7 @@
 /* スマホ用 */
 @media screen and (max-width: 670px){
 
-  .header-nav-list2,
-  .header-nav-list3,
-  .header-nav-list4,
-  .header-nav-list5,
-  .header-nav-list6,
-  .header-nav-list7,
-  .header-nav-list8, {
+  .header-nav-list {
     display: none;
   }
   .res-header-icon-hamburger {
