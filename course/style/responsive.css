@@ -2,7 +2,9 @@
 /* タブレット用 */
 @media screen and (max-width: 1080px){
 
-  body {}
+  body {
+    width:100%;
+  }
   .main-section {
     width:100%;
   }
