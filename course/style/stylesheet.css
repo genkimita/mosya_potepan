@@ -59,10 +59,10 @@
 
 
    body {
-    font-family: 'Noto Sans JP', sans-serif;
-    color:#222222;
-  }
-
+     width:100%;
+     font-family: 'Noto Sans JP', sans-serif;
+     color:#222222;
+   }
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー main-section ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
     .main-section {
       width:100%;
