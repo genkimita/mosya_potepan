@@ -63,6 +63,9 @@
      font-family: 'Noto Sans JP', sans-serif;
      color:#222222;
    }
+   .wrap {
+     overflow: hidden;
+   }
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー main-section ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
     .main-section {
       width:100%;
@@ -169,7 +172,7 @@
       .res-header-icon-hamburger {
         display: none;
       }
-        
+
 
 
 
