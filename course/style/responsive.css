@@ -26,7 +26,6 @@
     background-color:rgb(255, 255, 255);
     position: fixed;
     z-index:10;
-    display: inline-flex;
   }
     .header-width {
     }
@@ -42,6 +41,7 @@
           cursor:pointer;
           position: relative;
           z-index:20;
+          display: inline-flex;
         }
           span.hamburger-line:first-child {
             top: 0;
