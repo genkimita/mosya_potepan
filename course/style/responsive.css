@@ -41,7 +41,7 @@
             border-radius: 10px;
             transition: top 0.2s, transform 0.2s, opacity 0.3s;
           }
-          span.hamburger-liner:last-child  {
+          span.hamburger-line:last-child  {
             top: 100%;
           }
 
