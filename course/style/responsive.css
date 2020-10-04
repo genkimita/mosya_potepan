@@ -60,6 +60,34 @@
           span.hamburger-line:last-child  {
             top: 100%;
           }
+　.about-course {}
+    .res-about-course-title {
+      display: block;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+      .res-about-course-title-text1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 32px;
+      }
+      .res-about-course-title-text2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 32px;
+      }
+        .res-about-course-title-text2 span{
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 32px;
+        }
+      .line1-text {
+        display: none;
+      }
+
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
