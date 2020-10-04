@@ -80,6 +80,10 @@
         margin-right: auto;
         position: relative;
       }
+      .content-tidy {
+        display: flex;
+        justify-content: space-between;
+      }
         .section-title {
           font-weight: 700;
           font-size: 46px;
