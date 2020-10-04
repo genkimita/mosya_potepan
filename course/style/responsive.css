@@ -26,6 +26,8 @@
         }
         .res-header-icon-hamburger {
           display: block;
+          width:30px;
+          height:21px;
         }
           span.hamburger-line:first-child {
             top: 0;
