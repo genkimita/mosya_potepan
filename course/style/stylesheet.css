@@ -109,12 +109,11 @@
     .header {
       height:60px;
     }
-     .header-width {
-       width:1045px;
-       margin-top:20px;
-       margin-left:auto;
-       margin-right:auto;
-     }
+    .content-width {
+      /* 共通 */
+    }
+    .header-width {
+    }
      .header-nav {
        display: flex;
      }
