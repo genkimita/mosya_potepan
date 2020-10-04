@@ -111,7 +111,8 @@
 
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
     .header {
-      height:60px;
+      padding-top:20px;
+      padding-bottom:20px;
     }
     .content-width {
       /* 共通 */
@@ -119,9 +120,6 @@
     .header-width {
     }
      .header-nav {
-       display: flex;
-       justify-content: center;
-       align-items: center;
      }
       .header-logo {
         width:190px;
