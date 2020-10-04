@@ -16,6 +16,9 @@
       margin-right: auto;
       position: relative;
     }
+      .section-title p{
+        text-align: left;
+      }
 
   /* header */
   .header {
