@@ -290,18 +290,15 @@
               line-height: 36px;
             }
             ul.about-point-list {
-              display: flex;
               margin-top:40px;
               margin-left: auto;
               margin-right: auto;
             }
               li.about-point-list0 {
+                width:31%;
                 text-align: center;
-                margin-left: 17px;
-                margin-right: 17px;
               }
               .about-point-list-line1 {
-                width:300px;
                 height:30px;
                 color:rgb(255, 255, 255);
                 background-color:rgb(34, 35, 35);
@@ -314,7 +311,6 @@
                 align-items: center;
               }
               .about-point-list-line2 {
-                width:300px;
                 height:200px;
                 margin-top:15px;
               }
@@ -337,6 +333,7 @@
                   width:24px;
                   height:24px;
                 }
+
            .about-course {
              width:100%;
              margin-top:60px;
