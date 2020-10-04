@@ -20,6 +20,7 @@
   /* header */
   .header {
     width:100%;
+    background-color:rgb(255, 255, 255);
     position: fixed;
     z-index:10;
   }
