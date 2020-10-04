@@ -16,13 +16,15 @@
       margin-right: auto;
       position: relative;
     }
+
   /* header */
   .header {
     width:100%;
     position: fixed;
     z-index:10;
   }
-    .header-width {}
+    .header-width {
+    }
       .header-nav {}
         .header-logo {}
         .header-nav-list {
