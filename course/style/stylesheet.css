@@ -518,11 +518,13 @@
                     line-height: px;
                   }
                 .about-course-list-box-cell2 {
+                  font-weight: bold;
+                  font-size: 16px;
+                  line-height: 30px;
                   height:140px;
                   background-color:rgb(255, 255, 255);
                   text-align: left;
-                  padding-top:20px;
-                  padding-left:20px;
+                  padding: 20px;
                 }
                   .about-course-list-box-cell2 p{
                     font-weight: 700;
