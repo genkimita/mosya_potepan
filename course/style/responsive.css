@@ -69,12 +69,14 @@
       align-items: center;
       flex-direction: column;
     }
-      .res-about-course-title-text1 {
-        font-weight: 700;
-        font-size: 40px;
+      p.res-about-course-title-text1 {
+        color:rgb(247,147,20);
+        font-size: 20px;
+        font-weight: bold;
         line-height: 32px;
+        letter-spacing: 4px;
       }
-      .res-about-course-title-text2 {
+      p.res-about-course-title-text2 {
         font-weight: 700;
         font-size: 30px;
         line-height: 32px;
