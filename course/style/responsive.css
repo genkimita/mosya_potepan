@@ -40,7 +40,7 @@
           display: none;
         }
         .res-header-icon-hamburger {
-          display: block;
+          display: inline-flex;
           width:30px;
           height:21px;
           cursor:pointer;
