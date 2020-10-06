@@ -14,6 +14,12 @@
   li {
     list-style: none;
   }
+  table {
+    border-collapse: collapse;
+  }
+  table th,table td {
+    border:2px solid rgb(255, 255, 255) ;
+  }
 
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー 共通 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
@@ -364,6 +370,7 @@
                   height:24px;
                 }
 
+           /* 3コース */
            .about-course {
              width:100%;
              margin-top:60px;
@@ -714,6 +721,21 @@
             border-bottom:2px solid #ffffff ;
           }
 
+         /* 3コース工事中 */
+         .three-course-table {
+           width:100%;
+         }
+          .tr1 {}
+            .table1-1 {}
+              .table1-1-left {}
+                .table1-1-left img{}
+              .table1-1-right {}
+                .table1-1-right p:nth-child(1) {}
+                .table1-1-right p:nth-child(2) {}
+                .table1-1-right p:nth-child(3) {}
+          .tr2 {}
+          .tr3 {}
+          .tr4 {}
 
 
 
