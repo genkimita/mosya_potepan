@@ -5,6 +5,9 @@
     padding: 0px;/* 要素同士の隙間を0に */
     box-sizing: border-box;/* スクロールの余白なし */
   }
+  div {
+    display: block;
+  }
   img {
     vertical-align : middle;
   }
