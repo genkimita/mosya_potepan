@@ -39,14 +39,15 @@
         .header-nav-list {
           display: none;
         }
-        .res-header-icon-hamburger {
+        .header-nav *:last-child {
           display: inline-flex;
+        }
+        .res-header-icon-hamburger {
           width:30px;
           height:21px;
           cursor:pointer;
           position: relative;
           z-index:20;
-          display: inline-flex;
         }
           span.hamburger-line:first-child {
             top: 0;
