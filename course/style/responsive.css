@@ -29,7 +29,6 @@
   .header {
     width:100%;
     background-color:rgb(255, 255, 255);
-    position: fixed;
     z-index:10;
   }
     .header-width {
@@ -39,7 +38,8 @@
         .header-nav-list {
           display: none;
         }
-        .header-nav *:last-child {
+
+        /* .header-nav *:last-child {
           display: inline-flex;
         }
         .res-header-icon-hamburger {
@@ -65,7 +65,11 @@
           }
           span.hamburger-line:last-child  {
             top: 100%;
-          }
+          } */
+
+  /* top */
+
+  /* about */
 　.about-course {}
     .res-about-course-title {
       color:rgb(247,147,20);
