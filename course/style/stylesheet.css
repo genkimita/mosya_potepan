@@ -727,13 +727,24 @@
            min-width: 680px;
            border-collapse: separate;
          }
+          tr {}
+            .tbl-sub-head {
+              font-weight: ;font-size: px;line-height: px;
+            }
+            .tbl-col:first-child  {
+              width:21%;
+            }
+            .tbl-col {
+              width:26%;
+            }
+
           .tr1 {}
             .table1-1 {}
               .table1-1-left {
                 width:90px;
               }
                 .table1-1-left img{
-                  width:auto;
+                  width:100%;
                 }
               .table1-1-right {}
                 .table1-1-right p:nth-child(1) {}
