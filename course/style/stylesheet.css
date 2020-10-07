@@ -746,13 +746,10 @@
               color:rgb(255, 255, 255);
               background-color:rgb(247,147,20);
             }
-
-              .tbl-icon-img {
-                width:30px;
-              }
-                .tbl-icon-img img{
-                  width:100%;
-                }
+            .tbl-head:nth-child(1),.tbl-head:nth-child(2),.tbl-head:nth-child(3) {
+              display: flex;
+              flex-direction: column;
+            }
             .tbl-sub-head {
               font-weight: 700;
               font-size: 16px;
@@ -775,6 +772,12 @@
                 font-size: 30px;
                 line-height: 45px;
               }
+            .tbl-icon-img {
+              width:30px;
+            }
+              .tbl-icon-img img{
+                width:100%;
+              }
             .tbl-price {
               font-weight: 700;
               font-size: 20px;
@@ -791,6 +794,7 @@
             }
               .table1-1-left {
                 flex-basis: 90px;
+                align-items: center;
               }
                 .table1-1-left img{
                   width:100%;
