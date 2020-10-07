@@ -722,6 +722,13 @@
           }
 
          /* 3コース工事中 */
+    .test-section {
+      background-color:rgb(252,250,244);
+    }
+      .test-width {
+        width:1040px;
+        margin: 0 auto;
+      }
          .three-course-table {
            width:100%;
            min-width: 680px;
