@@ -738,7 +738,37 @@
             }
             .tbl-col {
               width:26%;
+              padding: 20px;
             }
+            .tbl-content {
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 24px;
+            }
+              .tbl-content span{
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 45px;
+              }
+            .tbl-price {
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 30px;
+            }
+            .tbl-head:first-child  {
+              background-color: transparent;
+            }
+            .tbl-head {
+              font-weight: 700;
+              font-size: 14px;
+              line-height: px;
+              background-color:rgb(247,147,20);
+            }
+              .tbl-head span{
+                font-weight: 700;
+                font-size: 24px;
+                line-height: px;
+              }
               .tbl-icon-img {
                 width:30px;
               }
