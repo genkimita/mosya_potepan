@@ -724,11 +724,17 @@
          /* 3コース工事中 */
          .three-course-table {
            width:100%;
+           min-width: 680px;
+           border-collapse: separate;
          }
           .tr1 {}
             .table1-1 {}
-              .table1-1-left {}
-                .table1-1-left img{}
+              .table1-1-left {
+                width:90px;
+              }
+                .table1-1-left img{
+                  width:auto;
+                }
               .table1-1-right {}
                 .table1-1-right p:nth-child(1) {}
                 .table1-1-right p:nth-child(2) {}
@@ -736,6 +742,9 @@
           .tr2 {}
           .tr3 {}
           .tr4 {}
+          .tr5 {}
+          .tr6 {}
+          .tr7 {}
 
 
 
