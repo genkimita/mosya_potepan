@@ -744,7 +744,9 @@
                   width:100%;
                 }
           .tr1 {}
-            .table1-1 {}
+            .table1-1 {
+              display: flex;
+            }
               .table1-1-left {
                 width:90px;
               }
