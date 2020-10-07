@@ -725,7 +725,7 @@
          .three-course-table {
            width:100%;
            min-width: 680px;
-           border-collapse: separate;
+           border-collapse: collapse;
          }
           tr {}
             th.tbl-sub-head {
