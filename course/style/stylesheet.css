@@ -733,6 +733,9 @@
         margin-right: auto;
         position: relative;
       }
+        .res-about-course-title {
+          display: none;
+        }
          .three-course-table {
            width:100%;
            min-width: 680px;
