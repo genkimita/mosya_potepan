@@ -776,6 +776,7 @@
               }
             .tbl-icon-img {
               width:30px;
+              text-align: center;
             }
               .tbl-icon-img img{
                 width:100%;
@@ -824,10 +825,25 @@
                 font-size: 24px;
                 line-height: px;
               }
+          /* 背景色 */
+            .tr2 th,.tr4 th,.tr6 th, {
+              background-color:rgb(228,239,244);
+            }
+            .tr3 th,.tr5 th,.tr7 th, {
+              background-color:rgb(217,233,243);
+            }
+            .tr2 td,.tr4 td,.tr6 td, {
+              background-color:rgb(255, 255, 255);
+            }
+            .tr3 td,.tr5 td,.tr7 td, {
+              background-color:rgb(255,248,233);
+            }
           .tr2 {}
           .tr3 {}
           .tr4 {}
-          .tr5 {}
+          .tr5 {
+            text-align: center;
+          }
           .tr6 {}
           .tr7 {}
 
