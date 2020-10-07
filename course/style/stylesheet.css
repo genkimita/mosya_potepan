@@ -728,8 +728,10 @@
            border-collapse: separate;
          }
           tr {}
-            .tbl-sub-head {
-              font-weight: ;font-size: px;line-height: px;
+            th.tbl-sub-head {
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 30px;
             }
             .tbl-col:first-child  {
               width:21%;
