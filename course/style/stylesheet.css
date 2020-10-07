@@ -737,7 +737,12 @@
             .tbl-col {
               width:26%;
             }
-
+              .tbl-icon-img {
+                width:30px;
+              }
+                .rbl-icon-img img{
+                  width:100%;
+                }
           .tr1 {}
             .table1-1 {}
               .table1-1-left {
