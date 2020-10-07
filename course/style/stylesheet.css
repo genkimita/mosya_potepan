@@ -743,16 +743,10 @@
               font-weight: 700;
               font-size: 14px;
               line-height: px;
+              color:rgb(255, 255, 255);
               background-color:rgb(247,147,20);
             }
-            .tbl-head:first-child  {
-              background-color: transparent;
-            }
-              .tbl-head span{
-                font-weight: 700;
-                font-size: 24px;
-                line-height: px;
-              }
+
               .tbl-icon-img {
                 width:30px;
               }
@@ -786,9 +780,14 @@
               font-size: 20px;
               line-height: 30px;
             }
+
           .tr1 {}
             .table1-1 {
               display: flex;
+            }
+            .tbl-head:first-child  {
+              color:rgb(247,147,20);
+              background-color: transparent;
             }
               .table1-1-left {
                 width:90px;
@@ -796,7 +795,29 @@
                 .table1-1-left img{
                   width:100%;
                 }
-              .table1-1-right {}
+              .table1-1-right {
+              }
+                .table1-1-right p:first-child {
+                  font-weight: 700;
+                  font-size: 12px;
+                  line-height: 12px;
+                }
+                .table1-1-right p {
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 20px;
+                }
+                .table1-1-right p:last-child {
+                  font-weight: 700;
+                  font-size: 30px;
+                  line-height: 30px;
+                }
+              .tbl-head span{
+                font-weight: 700;
+                font-size: 24px;
+                line-height: px;
+              }
+
                 .table1-1-right p:nth-child(1) {}
                 .table1-1-right p:nth-child(2) {}
                 .table1-1-right p:nth-child(3) {}
