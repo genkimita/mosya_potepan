@@ -72,8 +72,8 @@
   /* about */
 　.about-course {}
     .res-about-course-title {
-      color:rgb(247,147,20);
       display: block;
+      color:rgb(247,147,20);
       text-align: center;
       display: flex;
       justify-content: center;
