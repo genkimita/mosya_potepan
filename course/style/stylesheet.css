@@ -726,8 +726,12 @@
       background-color:rgb(252,250,244);
     }
       .test-width {
-        width:1040px;
-        margin: 0 auto;
+        max-width: 1140px;
+        padding-left:50px;
+        padding-right:50px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
       }
          .three-course-table {
            width:100%;
