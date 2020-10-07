@@ -790,12 +790,14 @@
               background-color: transparent;
             }
               .table1-1-left {
-                width:90px;
+                flex-basis: 90px;
               }
                 .table1-1-left img{
                   width:100%;
                 }
               .table1-1-right {
+                flex-grow: 1;
+                text-align: center;
               }
                 .table1-1-right p:first-child {
                   font-weight: 700;
