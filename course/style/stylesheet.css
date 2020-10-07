@@ -748,6 +748,8 @@
             }
             .tbl-head:nth-child(1),.tbl-head:nth-child(2),.tbl-head:nth-child(3) {
               display: flex;
+              justify-content: center;
+              align-items: center;
               flex-direction: column;
             }
             .tbl-sub-head {
@@ -822,10 +824,6 @@
                 font-size: 24px;
                 line-height: px;
               }
-
-                .table1-1-right p:nth-child(1) {}
-                .table1-1-right p:nth-child(2) {}
-                .table1-1-right p:nth-child(3) {}
           .tr2 {}
           .tr3 {}
           .tr4 {}
