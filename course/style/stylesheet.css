@@ -829,24 +829,27 @@
                 line-height: px;
               }
           /* 背景色 */
-            .tr2  {
+            .tr2:nth-child(1),.tr4:nth-child(1),.tr6:nth-child(1) {
               background-color:rgb(228,239,244);
             }
-            .tr3 th,.tr5 th,.tr7 th, {
+            .tr3:nth-child(1),.tr5:nth-child(1),.tr7:nth-child(1) {
               background-color:rgb(217,233,243);
             }
-            .tr2 td,.tr4 td,.tr6 td, {
+            .tr2:nth-child(n+2),.tr4:nth-child(n+2),.tr6:nth-child(n+2) {
               background-color:rgb(255, 255, 255);
             }
-            .tr3 td,.tr5 td,.tr7 td, {
+            .tr3:nth-child(n+2),.tr5:nth-child(n+2),.tr7:nth-child(n+2) {
               background-color:rgb(255,248,233);
             }
-          .tr3:nth-child(1n),.tr4:nth-child(1n) {
-            justify-content: center;
-          }
           .tr2 {}
           .tr3 {}
+            .tr3:nth-child(1n) {
+              justify-content: center;
+            }
           .tr4 {}
+            .tr4:nth-child(1n) {
+              justify-content: center;
+            }
           .tr5 {
             text-align: center;
           }
