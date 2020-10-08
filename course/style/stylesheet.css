@@ -749,7 +749,10 @@
               color:rgb(255, 255, 255);
               background-color:rgb(247,147,20);
             }
-            .tbl-head:nth-child(2),.tbl-head:nth-child(3),.tbl-head:nth-child()  {}
+            .tbl-head:nth-child(2),.tbl-head:nth-child(3),.tbl-head:nth-child(4)  {
+              display: flex;
+              flex-direction: column;
+            }
             .tbl-sub-head {
               font-weight: 700;
               font-size: 16px;
