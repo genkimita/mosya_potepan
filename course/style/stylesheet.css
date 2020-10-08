@@ -736,7 +736,6 @@
         .res-about-course-title {
           display: none;
         }
-
          .three-course-table {
            width:100%;
            min-width: 680px;
@@ -756,18 +755,15 @@
               justify-content: center;
             }
             .tr1 th:nth-child(2),.tr1 th:nth-child(3),.tr1 th:nth-child(4) {
-              display: flex;
               justify-content: center;
               text-align: center;
               flex-direction: column;
             }
             .tr3 td {
-              display: flex;
               justify-content: center;
               align-items: center;
             }
             .tr4 td {
-              display: flex;
               justify-content: center;
               align-items: center;
             }
@@ -832,7 +828,7 @@
             }
             /* 個別 */
               .table1-1-left {
-                width:90px;
+                width:40%;
               }
                 .table1-1-left img{
                   width:100%;
