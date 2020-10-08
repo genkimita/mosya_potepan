@@ -762,9 +762,9 @@
                 display: inline-block;
                 vertical-align: center;
               }
-            .tr1 th:nth-child(2),.tr1 th:nth-child(3),.tr1 th:nth-child(4) {
+            .tr1 th:nth-child(n+2) {
               justify-content: center;
-              text-align: center;
+              align-items: center;
               flex-direction: column;
             }
             .tr3 td {
@@ -807,8 +807,8 @@
             .tr:nth-child(even) .tbl-content {
               background-color:rgb(255, 255, 255);
             }
-            .tr:nth-child(odd) .tbl-content {
-              background-color:rgb(217,233,243);
+            .tr:nth-child(odd) .tbl {
+              background-color:rgb(255,248,233);
             }
             .tbl-content {
               font-weight: 700;
