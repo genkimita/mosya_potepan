@@ -750,7 +750,10 @@
               background-color:rgb(247,147,20);
             }
             .tr1:nth-child(1),.tr1:nth-child(2),.tr1:nth-child(3),.tr1:nth-child(4) {
-              
+              display: flex;
+              justify-content: center;
+              text-align: center;
+              flex-direction: column;
             }
             .tbl-sub-head {
               font-weight: 700;
