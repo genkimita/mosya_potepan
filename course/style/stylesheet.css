@@ -842,6 +842,9 @@
             .tr3 td,.tr5 td,.tr7 td, {
               background-color:rgb(255,248,233);
             }
+          .tr3:nth-child(1n),.tr4:nth-child(1n) {
+            justify-content: center;
+          }
           .tr2 {}
           .tr3 {}
           .tr4 {}
