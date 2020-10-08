@@ -749,12 +749,7 @@
               color:rgb(255, 255, 255);
               background-color:rgb(247,147,20);
             }
-            .tbl-head:nth-child(1),.tbl-head:nth-child(2),.tbl-head:nth-child(3) {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              flex-direction: column;
-            }
+            .tbl-head:nth-child(2),.tbl-head:nth-child(3),.tbl-head:nth-child()  {}
             .tbl-sub-head {
               font-weight: 700;
               font-size: 16px;
