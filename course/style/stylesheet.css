@@ -736,36 +736,75 @@
         .res-about-course-title {
           display: none;
         }
+
          .three-course-table {
            width:100%;
            min-width: 680px;
-           border-collapse: collapse;
          }
           tr {}
-            .tbl-head {
+            /* 幅 */
+            .tbl-col:nth-child(1)  {
+              width:21%;
+            }
+            .tbl-col:nth-child(n+2) {
+              width:26%;
+              padding: 20px;
+            }
+            /* 配置 */
+            .tr1 th:nth-child(1) {
+              flex-direction: row;
+              justify-content: center;
+            }
+            .tr1 th:nth-child(2),.tr1 th:nth-child(3),.tr1 th:nth-child(4) {
+              display: flex;
+              justify-content: center;
+              text-align: center;
+              flex-direction: column;
+            }
+            .tr3 td {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .tr4 td {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            /* 文字、色 */
+            .tr1 th:nth-child(1) {
+              color:rgb(247,147,20);
+              background-color: transparent;
+            }
+            .tr1 th:nth-child(2),.tr1 th:nth-child(3),.tr1 th:nth-child(4)  {
               font-weight: 700;
               font-size: 14px;
               line-height: px;
               color:rgb(255, 255, 255);
               background-color:rgb(247,147,20);
             }
-            .tr1:nth-child(1),.tr1:nth-child(2),.tr1:nth-child(3),.tr1:nth-child(4) {
-              justify-content: center;
-              text-align: center;
-              flex-direction: column;
-            }
+            .tr1 th:nth-child(2),.tr1 th:nth-child(3),.tr1 th:nth-child(4) span{
+                font-weight: 700;
+                font-size: 24px;
+                line-height: px;
+              }
             .tbl-sub-head {
               font-weight: 700;
               font-size: 16px;
               line-height: 30px;
               text-align: left;
             }
-            .tbl-col:first-child  {
-              width:21%;
+            .rbl-sub-headn:nth-child(odd) {
+              background-color:rgb(228,239,244);
             }
-            .tbl-col {
-              width:26%;
-              padding: 20px;
+            .rbl-sub-headn:nth-child(even) {
+              background-color:rgb(217,233,243);
+            }
+            .tr2 .tbl-col:nth-child(n+2),.tr4 .tbl-col:nth-child(n+2),.tr6 .tbl-col:nth-child(n+2) {
+              background-color:rgb(255, 255, 255);
+            }
+            .tr3 .tbl-col:nth-child(n+2),.tr5 .tbl-col:nth-child(n+2),.tr7 .tbl-col:nth-child(n+2) {
+              background-color:rgb(255,248,233);
             }
             .tbl-content {
               font-weight: 700;
@@ -779,28 +818,21 @@
               }
             .tbl-icon-img {
               width:30px;
-              text-align: center;
             }
               .tbl-icon-img img{
                 width:100%;
               }
+            .tr5 td{
+              text-align: center;
+            }
             .tbl-price {
               font-weight: 700;
               font-size: 20px;
               line-height: 30px;
             }
-
-          .tr1 {}
-            .table1-1 {
-              flex-direction: row;
-              justify-content: center;
-            }
-            .tbl-head:first-child  {
-              color:rgb(247,147,20);
-              background-color: transparent;
-            }
+            /* 個別 */
               .table1-1-left {
-                flex-basis: 90px;
+                width:90px;
               }
                 .table1-1-left img{
                   width:100%;
@@ -824,59 +856,21 @@
                   font-size: 30px;
                   line-height: 30px;
                 }
-              .tbl-head span{
-                font-weight: 700;
-                font-size: 24px;
-                line-height: px;
-              }
-            .tr1:nth-child(2) {
+            .tr1 th:nth-child(2) {
               border-radius: 10px 0px 0px 0px;
             }
-            .tr1:nth-child(4) {
+            .tr1 th:nth-child(4) {
               border-radius: 0px 10px 0px 0px;
             }
-          .tr2 {}
-            .tr2:nth-child(1) {
+            .tr2 th:nth-child(1) {
               border-radius: 10px 0px 0px 0px;
             }
-          .tr3 {}
-            .tr3:nth-child(n+2) {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-            }
-          .tr4 {}
-            .tr4:nth-child(n+2) {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-            }
-          .tr5 {
-            text-align: center;
-          }
-          .tr6 {}
-          .tr7 {}
-            .tr7:nth-child(1) {
-              border-radius: 0px 0px 0px 10px;
-            }
-            .tr7:nth-child(4) {
+            .tr7 th{
               border-radius: 0px 0px 10px 0px;
             }
-            /* 背景色 */
-              .tr2:nth-child(1),.tr4:nth-child(1),.tr6:nth-child(1) {
-                background-color:rgb(228,239,244);
-              }
-              .tr3:nth-child(1),.tr5:nth-child(1),.tr7:nth-child(1) {
-                background-color:rgb(217,233,243);
-              }
-              .tr2:nth-child(n+2),.tr4:nth-child(n+2),.tr6:nth-child(n+2) {
-                background-color:rgb(255, 255, 255);
-              }
-              .tr3:nth-child(n+2),.tr5:nth-child(n+2),.tr7:nth-child(n+2) {
-                background-color:rgb(255,248,233);
-              }
-
-
+            .tr7 td:nth-child(3) {
+              border-radius: 0px 0px 0px 10px;
+            }
 
 
 
