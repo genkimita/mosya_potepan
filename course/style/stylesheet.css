@@ -825,7 +825,7 @@
                 line-height: px;
               }
           /* 背景色 */
-            .tr2 th,.tr4 th,.tr6 th, {
+            .tr2  {
               background-color:rgb(228,239,244);
             }
             .tr3 th,.tr5 th,.tr7 th, {
