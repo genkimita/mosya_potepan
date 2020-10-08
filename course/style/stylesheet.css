@@ -798,16 +798,16 @@
               line-height: 30px;
               text-align: left;
             }
-            .tbl-sub-head:nth-child(odd) {
+            .tr:nth-child(even) .tbl-sub-head {
               background-color:rgb(228,239,244);
             }
-            .tbl-sub-head:nth-child(even) {
+            .tr:nth-child(odd) .tbl-sub-head {
               background-color:rgb(217,233,243);
             }
-            .tr2 .tbl-col:nth-child(n+2),.tr4 .tbl-col:nth-child(n+2),.tr6 .tbl-col:nth-child(n+2) {
+            .tr:nth-child(even) .tbl-content {
               background-color:rgb(255, 255, 255);
             }
-            .tr3 .tbl-col:nth-child(n+2),.tr5 .tbl-col:nth-child(n+2),.tr7 .tbl-col:nth-child(n+2) {
+            .tr:nth-child(odd) .tbl-content {
               background-color:rgb(255,248,233);
             }
             .tbl-content {
