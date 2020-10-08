@@ -758,6 +758,7 @@
               font-weight: 700;
               font-size: 16px;
               line-height: 30px;
+              text-align: left;
             }
             .tbl-col:first-child  {
               width:21%;
@@ -839,12 +840,16 @@
               border-radius: 10px 0px 0px 0px;
             }
           .tr3 {}
-            .tr3:nth-child(1n) {
+            .tr3:nth-child(n+2) {
+              display: flex;
               justify-content: center;
+              align-items: center;
             }
           .tr4 {}
-            .tr4:nth-child(1n) {
+            .tr4:nth-child(n+2) {
+              display: flex;
               justify-content: center;
+              align-items: center;
             }
           .tr5 {
             text-align: center;
