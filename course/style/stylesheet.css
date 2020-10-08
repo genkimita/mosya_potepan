@@ -749,16 +749,22 @@
               width:26%;
               padding: 20px;
             }
+              .tr1-1-left {
+                width:40%;
+              }
+                .tr1-1-left img{
+                  width:100%;
+                }
             /* 配置 */
             .tr1 th:nth-child(1) {
               flex-direction: row;
               justify-content: center;
             }
-              .tr1-logo-left {
+              .tr1-1-left {
                 display: inline-block;
                 vertical-align: center;
               }
-              .tr1-logo-right {
+              .tr1-1-right {
                 display: inline-block;
                 vertical-align: center;
               }
