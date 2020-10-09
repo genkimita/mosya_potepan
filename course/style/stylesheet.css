@@ -810,14 +810,14 @@
                   font-size: 30px;
                   line-height: 30px;
                 }
-            .tr1 th:nth-child(2),.tr1 th:nth-child(3),.tr1 th:nth-child(4)  {
+            .tbl-head:nth-child(n+2)  {
               font-weight: 700;
               font-size: 14px;
               line-height: px;
               color:rgb(255, 255, 255);
               background-color:rgb(247,147,20);
             }
-            .tr1 th:nth-child(2),.tr1 th:nth-child(3),.tr1 th:nth-child(4) span{
+            .tbl-head:nth-child(n+2) span{
                 font-weight: 700;
                 font-size: 24px;
                 line-height: px;
