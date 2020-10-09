@@ -908,12 +908,12 @@
               position: absolute;
               top: 8px;
               left: 0px;
+              display: inline-block;
               width:8px;
               height:8px;
               border-radius: 50%;
               background-color:#f79214;
               margin:0 10px 0 0;
-              display: inline-block;
             }
             .tr1 th:nth-child(2) {
               border-radius: 10px 0 0 0;
