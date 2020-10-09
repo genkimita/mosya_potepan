@@ -897,13 +897,11 @@
                   font-size: 30px;
                   line-height: 30px;
                 }
-            tr:nth-child(2) p::before,
-            tr:nth-child(6) p::before {
+            .td-bf-p {
               position: relative;
               padding-left:18px;
             }
-            tr:nth-child(2) p::before,
-            tr:nth-child(6) p::before {
+             .td-bf-p {
               content: ' ';
               position: absolute;
               top: 8px;
