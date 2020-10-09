@@ -887,6 +887,24 @@
                   font-size: 30px;
                   line-height: 30px;
                 }
+            tr:nth-child(2) p::before,
+            tr:nth-child(6) p::before {
+              content: ' ';
+              width:8px;
+              height:8px;
+              border-radius: 50%;
+              background-color:#f79214;
+              position: absolute;
+              top: 8px;
+              left: 0px;
+              margin:0px 10px 0px 0px;
+              display: inline-block;
+            }
+            tr:nth-child(2) p::before,
+            tr:nth-child(6) p::before {
+              position: relative;
+              padding-left:18px;
+            }
             .tr1 th:nth-child(2) {
               border-radius: 10px 0 0 0;
             }
