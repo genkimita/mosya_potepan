@@ -925,10 +925,10 @@
             .tr2 th:nth-child(1) {
               border-radius: 10px 0 0 0;
             }
-            .tr7 th{
+            .tr7-1 {
               border-radius: 0 0 0 10px;
             }
-            .tr7 td:nth-child(3) {
+            .tr7-4 {
               border-radius: 0 0 10px 0;
             }
 
