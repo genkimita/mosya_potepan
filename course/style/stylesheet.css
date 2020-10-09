@@ -899,21 +899,21 @@
                 }
             tr:nth-child(2) p::before,
             tr:nth-child(6) p::before {
+              position: relative;
+              padding-left:18px;
+            }
+            tr:nth-child(2) p::before,
+            tr:nth-child(6) p::before {
               content: ' ';
+              position: absolute;
+              top: 8px;
+              left: 0px;
               width:8px;
               height:8px;
               border-radius: 50%;
               background-color:#f79214;
-              position: absolute;
-              top: 8px;
-              left: 0px;
               margin:0 10px 0 0;
               display: inline-block;
-            }
-            tr:nth-child(2) p::before,
-            tr:nth-child(6) p::before {
-              position: relative;
-              padding-left:18px;
             }
             .tr1 th:nth-child(2) {
               border-radius: 10px 0 0 0;
