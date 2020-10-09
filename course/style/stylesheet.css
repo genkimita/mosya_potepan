@@ -814,7 +814,7 @@
               background-color:rgb(255, 255, 255);
             }
             .tr:nth-child(odd) .tbl {
-              background-color:rgb(255,248,233);
+              background-color:rgb(255, 248, 232);
             }
             .tbl-content {
               font-weight: 700;
