@@ -102,6 +102,9 @@
       }
 
       /* 3コース工事中 */
+      .tr1-1-left {
+        width:65%;
+      }
       .tr1-1-right {
         display: none;
       }
