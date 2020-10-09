@@ -891,19 +891,19 @@
                   line-height: 30px;
                 }
             .tr1 th:nth-child(2) {
-              border-radius: 10px 0px 0px 0px;
+              border-radius: 10px 0 0 0;
             }
             .tr1 th:nth-child(4) {
-              border-radius: 0px 10px 0px 0px;
+              border-radius: 0 10px 0 0;
             }
             .tr2 th:nth-child(1) {
-              border-radius: 10px 0px 0px 0px;
+              border-radius: 10px 0 0 0;
             }
             .tr7 th{
-              border-radius: 0px 0px 10px 0px;
+              border-radius: 0 0 0 10px;
             }
             .tr7 td:nth-child(3) {
-              border-radius: 0px 0px 0px 10px;
+              border-radius: 0 0 0 10px;
             }
 
 
