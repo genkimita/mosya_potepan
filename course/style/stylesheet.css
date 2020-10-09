@@ -780,10 +780,16 @@
               justify-content: center;
               align-items: center;
             }
+              .tr3 td img {
+                text-align: center;
+              }
             .tr4 td {
               justify-content: center;
               align-items: center;
             }
+              .tr4 td img {
+                text-align: center;
+              }
             /* 文字、色 */
             .tr1 th:nth-child(1) {
               color:rgb(247,147,20);
@@ -863,6 +869,7 @@
               font-weight: 700;
               font-size: 20px;
               line-height: 30px;
+              text-align: center;
             }
             /* 個別 */
               .table1-1-left {
