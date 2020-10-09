@@ -830,7 +830,7 @@
             .tr:nth-child(odd) .tbl-sub-head {
               background-color:rgb(217,233,243);
             }
-            .tr:nth-child(even) .tbl-content {
+            .tr:nth-child(even) td {
               background-color:rgb(255, 255, 255);
             }
             .tr:nth-child(odd) td {
