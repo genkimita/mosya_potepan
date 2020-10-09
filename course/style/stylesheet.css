@@ -190,6 +190,7 @@
           width:30px;
           height:21px;
           cursor:pointer;
+          display: inline-block;
           position: relative;
           z-index:20;
         }
