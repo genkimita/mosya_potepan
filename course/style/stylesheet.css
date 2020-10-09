@@ -780,8 +780,9 @@
               flex-direction: column;
             }
             .tr1-4-img {
-              width:36%;
+              width:33%;
               margin:-40px 0 0 0;
+              text-align: center;
             }
               .tr1-4-img img {
                 width:100%;
