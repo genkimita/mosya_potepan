@@ -776,6 +776,14 @@
               align-items: center;
               flex-direction: column;
             }
+            .tr1-4 p {
+              width:36%;
+              margin:-40px 0 0 0;
+              text-align: center;
+            }
+              .tr1-4 p img {
+                width:100%;
+              }
             .tbl-icon-img {
               margin: 0 auto;
               text-align: center;
