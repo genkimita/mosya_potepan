@@ -762,11 +762,11 @@
             }
               .tr1-1-left {
                 display: inline-block;
-                vertical-align: center;
+                vertical-align : middle;
               }
               .tr1-1-right {
                 display: inline-block;
-                vertical-align: center;
+                vertical-align: middle;
               }
             .tr1 th:nth-child(n+2) {
               justify-content: center;
