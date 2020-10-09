@@ -901,7 +901,7 @@
               position: relative;
               padding-left:18px;
             }
-             .td-bf-p {
+             .td-bf-p::before {
               content: ' ';
               position: absolute;
               top: 8px;
