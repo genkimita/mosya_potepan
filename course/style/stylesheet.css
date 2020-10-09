@@ -843,7 +843,7 @@
             .tr:nth-child(even) .tbl-content {
               background-color:rgb(255, 255, 255);
             }
-            .tr:nth-child(odd) .tbl {
+            .tr:nth-child(odd) .tbl-content {
               background-color:rgb(255, 248, 232);
             }
             .tbl-content {
