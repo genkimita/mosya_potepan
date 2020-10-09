@@ -926,7 +926,7 @@
               border-radius: 0 0 0 10px;
             }
             .tr7 td:nth-child(3) {
-              border-radius: 0 0 0 10px;
+              border-radius: 0 0 10px 0;
             }
 
 
