@@ -737,11 +737,13 @@
         .res-about-course-title {
           display: none;
         }
+        table {
+          border-spacing: 2px;
+        }
          .three-course-table {
            width:100%;
            min-width: 680px;
            border-collapse: separate;
-           border-spacing: 2px;
          }
           tr {}
             /* 幅、間隔 */
