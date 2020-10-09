@@ -741,13 +741,12 @@
            min-width: 680px;
          }
           tr {}
-            /* 幅 */
+            /* 幅、間隔 */
             .tbl-col:nth-child(1)  {
               width:21%;
             }
             .tbl-col:nth-child(n+2) {
               width:26%;
-              padding: 20px;
             }
               .tr1-1-left {
                 width:40%;
@@ -755,6 +754,10 @@
                 .tr1-1-left img{
                   width:100%;
                 }
+            .tr1 th:not(:nth-child(1)),
+            tr:nth-child(n+2) .tbl-col {
+              padding: 20px;
+            }
             /* 配置 */
             .tr1 th:nth-child(1) {
               flex-direction: row;
@@ -768,6 +771,7 @@
                 display: inline-block;
                 vertical-align: middle;
               }
+            . {}
             .tr1 th:nth-child(n+2) {
               justify-content: center;
               align-items: center;
