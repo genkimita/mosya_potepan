@@ -771,7 +771,6 @@
                 display: inline-block;
                 vertical-align: middle;
               }
-            . {}
             .tr1 th:nth-child(n+2) {
               justify-content: center;
               align-items: center;
@@ -821,6 +820,7 @@
                 font-weight: 700;
                 font-size: 24px;
                 line-height: px;
+                display: block;
               }
             .tbl-sub-head {
               font-weight: 700;
