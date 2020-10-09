@@ -189,6 +189,7 @@
         .res-header-icon-hamburger {
           width:30px;
           height:21px;
+          text-align: right;
           cursor:pointer;
           display: inline-block;
           position: relative;
