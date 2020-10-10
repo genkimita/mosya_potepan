@@ -926,15 +926,16 @@
           }
             ul.course-header-list {
               display: flex;
+              justify-content: space-between;
             }
-              .course-header-list li{
-                width:340px;
+              .course-header-list0 {
+                width:32.6%;
+                position: relative;
               }
-              li.course-header-list1 {
-              }
-                .course-header-list li p{
+                .course-header-list0 p{
                   width:100%;
-                  height:60px;
+                  padding-top:15px;
+                  padding-bottom:15px;
                   color:rgb(247, 147, 20);
                   border:2px solid rgb(247, 147, 20) ;
                   border-radius: 6px;
@@ -947,28 +948,27 @@
                   justify-content: center;
                   align-items: center;
                 }
-                  .marker-under {
+                  .course-header-list0 p::before {
                     content: ' ';
                     width:10px;
                     height:10px;
-                    right: -10px;
                     display: block;
                     border-top:3px solid rgb(247, 147, 20) ;
                     border-right:3px solid rgb(247, 147, 20) ;
                     transform: rotate(135deg);
                   }
-                  .course-header-list p:hover .marker-under{
+                  .course-header-list p:hover .course-header-list0 p::before{
                     border-color: rgb(255, 255, 255);
                     transition: 0.5s;
                   }
                   .course-header-list0 p span {
+                    display: block;
                     font-weight: 700;
                     font-size: 20px;
                     line-height: px;
                     padding-left:15px;
                   }
               li.course-header-list2 {
-                margin-left: 5px;
               }
                 .course-header-list p{
                   transition: all 0.5s;
@@ -993,7 +993,6 @@
                   line-height: px;
                 }
               li.course-header-list3 {
-                margin-left: 5px;
               }
                 .course-header-list3 p {
                   font-weight: 700;
