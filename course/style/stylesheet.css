@@ -1513,6 +1513,7 @@
   text-align: center;
   background-color:linear-gradient(to right, blue 0%, purple 100%);
   color:#ffffff;
+  margin-top:50px;
 }
   .kaizen-mae p{
     font-weight: 700;
