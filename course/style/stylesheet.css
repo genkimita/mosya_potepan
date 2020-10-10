@@ -126,6 +126,8 @@
     .header-width {
     }
      .header-nav {
+       display: flex;
+       justify-content: space-between;
      }
       .header-logo {
         width:190px;
@@ -178,12 +180,6 @@
           line-height: px;
           border-radius: 20px;
         }
-      .header-nav *:last-child {
-        display: none;
-      }
-      .header-nav *:last-child {
-        display: inline-flex;
-      }
         .res-header-icon-hamburger {
           display: none;
         }
