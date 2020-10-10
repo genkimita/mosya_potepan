@@ -39,6 +39,7 @@
           display: none;
         }
         .res-header-icon-hamburger {
+          display: block;
           width:30px;
           height:21px;
           cursor:pointer;
