@@ -1509,6 +1509,15 @@
 
 
 
-
+.kaizen-mae {
+  text-align: center;
+  background-color:blue;
+  color:#ffffff;
+}
+  .kaizen-mae p{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+  }
 
   /*  */
