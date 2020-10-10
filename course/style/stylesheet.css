@@ -723,7 +723,7 @@
          /* 3コース工事中 */
     .test-section {
       background-color:rgb(252,250,244);
-      margin-bottom:80px;
+      padding-bottom:80px;
     }
       .test-width {
         max-width: 1140px;
