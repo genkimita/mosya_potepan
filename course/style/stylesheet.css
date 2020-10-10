@@ -305,7 +305,7 @@
                 text-align: center;
               }
               .about-point-list-line1 {
-                height:30px;
+                padding: 5px;
                 color:rgb(255, 255, 255);
                 background-color:rgb(34, 35, 35);
                 font-weight: 700;
