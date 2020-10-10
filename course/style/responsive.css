@@ -149,6 +149,13 @@
                   .course-header-list0 p span {
                     display: block;
                   }
+                  .course-header-list3 p img {
+                    display: none;
+                  }
+                  .res-open-img {
+                    display: block;
+                    margin:-62px auto 0 auto;
+                  }
 
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
