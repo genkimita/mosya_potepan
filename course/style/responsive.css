@@ -149,7 +149,7 @@
                   .course-header-list0 p::before {
                     position: absolute;
                     top: 50%;
-                    left: 20%;
+                    left: 10%;
                   }
                   .course-header-list0 p span {
                     display: block;
