@@ -1511,7 +1511,7 @@
 
 .kaizen-mae {
   text-align: center;
-  background-color:blue;
+  background-color:linear-gradient(to right, blue 0%, purple 100%);
   color:#ffffff;
 }
   .kaizen-mae p{
