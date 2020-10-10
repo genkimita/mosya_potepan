@@ -952,7 +952,10 @@
                     content: ' ';
                     width:10px;
                     height:10px;
-                    display: block;
+                    position: absolute;
+                    top: 10px;
+                    left: 0px;
+                    margin:0 10px 0 0;
                     border-top:3px solid rgb(247, 147, 20) ;
                     border-right:3px solid rgb(247, 147, 20) ;
                     transform: rotate(135deg);
@@ -962,7 +965,6 @@
                     transition: 0.5s;
                   }
                   .course-header-list0 p span {
-                    display: block;
                     font-weight: 700;
                     font-size: 20px;
                     line-height: px;
