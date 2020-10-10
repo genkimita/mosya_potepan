@@ -720,7 +720,7 @@
             border-bottom:2px solid #ffffff ;
           }
 
-         /* 3コース工事中 */
+         /* 3コース */
     .test-section {
       background-color:rgb(252,250,244);
       padding-bottom:80px;
@@ -791,6 +791,10 @@
             .tbl-icon-img {
               margin: 0 auto;
               text-align: center;
+            }
+            .tr2 td,
+            .tr6 td {
+              align-items: flex-start;
             }
             /* 文字、色 */
             .tr1 th:nth-child(1) {
