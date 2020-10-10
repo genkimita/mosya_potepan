@@ -1510,7 +1510,7 @@
 
 .kaizen-mae {
   text-align: center;
-  background-color:linear-gradient(to right, blue 0%, purple 100%);
+  background-color:linear-gradient(to right, rgb(22,1,255) 0%, rgb(167, 87, 168) 100%);
   color:#ffffff;
   margin-top:50px;
 }
