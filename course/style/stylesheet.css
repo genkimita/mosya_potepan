@@ -765,7 +765,7 @@
             }
             .tr2 td,
             .tr6 td {
-              align-items: flex-start;
+              align-items:start;
             }
             /* 文字、色 */
             .tr1 th:nth-child(1) {
