@@ -935,9 +935,11 @@
                 li.course-header-list0 {
                   display: table-cell;
                   width:32.6%;
-                  position: relative;
                   border:2px solid rgb(247, 147, 20) ;
                   border-radius: 6px;
+                  position: relative;
+                  justify-content: center;
+                  align-items: center;
                 }
                   .course-header-list0 p{
                     width:100%;
