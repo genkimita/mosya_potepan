@@ -954,7 +954,7 @@
                     content: ' ';
                     width:10px;
                     height:10px;
-                    
+
                     margin:0 10px 0 0;
                     border-top:3px solid rgb(247, 147, 20) ;
                     border-right:3px solid rgb(247, 147, 20) ;
@@ -1180,6 +1180,7 @@
                     position: relative;
                   }
                     .flow-list-left img{
+                      position: relative;
                       width:100%;
                       top: 50%;
                       left: 50%;
