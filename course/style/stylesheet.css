@@ -767,7 +767,6 @@
             }
             .tr2 td p,
             .tr6 td p {
-              align-items: start;
             }
             /* 文字、色 */
             .tr1 th:nth-child(1) {
