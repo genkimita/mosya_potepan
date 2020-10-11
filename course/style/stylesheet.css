@@ -928,10 +928,12 @@
             margin-top:60px;
           }
             ul.course-header-list {
+              display:table;
               display: flex;
               justify-content: space-between;
             }
               .course-header-list0 {
+                display: table-cell;
                 width:32.6%;
                 position: relative;
               }
