@@ -159,7 +159,7 @@
                     display: none;
                   }
                   .res-open-img {
-                    display: block;
+                    display: none;
                     margin:-62px auto 0 auto;
                   }
                     .res-open-img img{
