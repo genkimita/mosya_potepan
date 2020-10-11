@@ -155,13 +155,16 @@
                   .course-header-list0 p span {
                     display: block;
                   }
-                  .course-header-list3 p img {
+                  .course-header-list3-img {
                     display: none;
                   }
-                  .res-open-img {
+                  span.res-open-img {
                     display: block;
                     margin:-62px auto 0 auto;
                   }
+                    .res-open-img img{
+                      text-align: center;
+                    }
 
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
