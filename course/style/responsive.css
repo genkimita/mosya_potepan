@@ -159,11 +159,12 @@
                     display: none;
                   }
                   .res-open-img {
-                    display: none;
-                    margin:-62px auto 0 auto;
+                    display: block;
+                    margin:-52px auto 0 auto;
+                    text-align: center;
                   }
                     .res-open-img img{
-                      text-align: center;
+                      width:100%;
                     }
                   .course-recommend {}
                   .course-overview {}
