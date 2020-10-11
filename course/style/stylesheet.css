@@ -1334,7 +1334,8 @@
       .content-width {/* 共通 */}
       .footer-width {}
         .footer-return-btn {
-          width:1040px;
+          padding-left:50px;
+          padding-right:50px;
           margin: 0 auto;
         }
         .footer-return-btn a {
