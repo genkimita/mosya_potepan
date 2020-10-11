@@ -165,6 +165,14 @@
                     .res-open-img img{
                       text-align: center;
                     }
+                  .course-recommend {}
+                  .course-overview {}
+                  .course-flow {}
+                    .course-flow-left {}
+                      .course-flow-left img {
+                        align-items: center;
+                      }
+                    .course-flow-right {}
 
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
