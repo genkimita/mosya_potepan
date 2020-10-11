@@ -124,6 +124,8 @@
       /* 共通 */
     }
     .header-width {
+      display: flex;
+      justify-content: space-between;
     }
      .header-nav {
        display: flex;
@@ -299,6 +301,8 @@
               margin-top:40px;
               margin-left: auto;
               margin-right: auto;
+              display: flex;
+              justify-content: space-between;
             }
               li.about-point-list0 {
                 width:31%;
