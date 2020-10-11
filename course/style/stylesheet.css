@@ -767,6 +767,7 @@
             }
             .tr2 td p,
             .tr6 td p {
+              vertical-align : top;
             }
             /* 文字、色 */
             .tr1 th:nth-child(1) {
