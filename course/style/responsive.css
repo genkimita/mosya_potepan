@@ -192,7 +192,15 @@
     display: block;
     display: inline-flex;
   }
-
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  .top-section {}
+    .content-width {
+    /* 共通 */
+  }
+    .top-width {
+      background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/course-hero-sp.png);
+    }
+      .top-title {}
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
