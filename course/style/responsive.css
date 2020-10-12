@@ -184,7 +184,16 @@
 
 /* スマホ用 */
 @media screen and (max-width:767px){
-
+  .header-logo {
+    display: none;
+  }
+  .sp-header-logo {
+    display: block;
+  }
+    .sp-header-logo img{
+      width:auto;
+      height:16px;
+    }
   .header-nav-list {
     display: none;
   }
