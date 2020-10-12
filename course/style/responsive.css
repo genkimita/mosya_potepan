@@ -184,6 +184,12 @@
 
 /* スマホ用 */
 @media screen and (max-width:767px){
+
+html {
+  font-size: 15px;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .header-logo {
     display: none;
   }
@@ -208,6 +214,17 @@
   }
     .top-width {
       background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/course-hero-sp.png);
+      background-size:contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    .top-width::after {
+      background-color:rgb(247,147,20);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
     }
       .top-title {}
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
