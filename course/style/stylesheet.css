@@ -138,6 +138,9 @@
             width:auto;
             height:20px;
           }
+        .sp-header-logo {
+          display: none;
+        }
         .header-nav-list {
           display: flex;
           text-align: center;
