@@ -191,6 +191,8 @@ html {
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 .header {
+  padding-top:initial;
+  padding-bottom:initial;
   height:50px;
 }
   .header-logo {
