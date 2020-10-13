@@ -286,6 +286,15 @@ html {
           font-size: 15px;
           text-align: left;
         }
+      .about-point {}
+      .about-point-logo {}
+      .about-point-title {}
+        ul.about-point-list {
+          flex-wrap: wrap
+        }
+          li.about-point-list0 {
+            width:100%;
+          }
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
