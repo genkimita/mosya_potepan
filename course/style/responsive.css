@@ -212,7 +212,11 @@ html {
   }
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー main-section ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .main-section {}
-    .content-width {}
+    .content-width {
+      max-width: none;
+      padding-left:20px;
+      padding-right:20px;
+    }
     .content-tidy {}
       .section-title {
         margin-top:50px;
