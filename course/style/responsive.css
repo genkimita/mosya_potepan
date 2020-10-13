@@ -247,8 +247,6 @@ html {
       background-size:contain;
       background-repeat: no-repeat;
       background-position: center center;
-      padding-top:45px;
-      vertical-align : top;
     }
     .top-width::after {
       background-color:rgb(247,147,20);
@@ -260,6 +258,7 @@ html {
     }
       .top-title {
         width:150px;
+        margin-top:0px;
         margin-left: auto;
         margin-right: auto;
       }
