@@ -190,6 +190,9 @@ html {
 }
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+.header {
+  height:50px;
+}
   .header-logo {
     display: none;
   }
