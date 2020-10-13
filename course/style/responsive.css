@@ -233,6 +233,9 @@ html {
         .section-title span{
           font-size: 22px;
         }
+          .section-title br {
+            display: block;
+          }
       .section-container {}
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
@@ -276,6 +279,9 @@ html {
           font-size: 15px;
           text-align: left;
         }
+          .about-explanation1 br{
+            display: none;
+          }
         .about-explanation3 {
           font-size: 15px;
           text-align: left;
