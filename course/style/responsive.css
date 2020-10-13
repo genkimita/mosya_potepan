@@ -155,6 +155,9 @@
                   .course-header-list0 p span {
                     display: block;
                   }
+                  .course-header-list3 {
+                    flex-direction: column
+                  }
                   .course-header-list3-img {
                     display: none;
                   }
