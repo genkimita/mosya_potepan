@@ -207,6 +207,15 @@ html {
     display: block;
     display: inline-flex;
   }
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー main-section ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  .main-section {}
+    .content-width {}
+    .content-tidy {}
+      .section-title {
+        margin-top:50px;
+      }
+      .section-container {}
+
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .top-section {}
     .content-width {
