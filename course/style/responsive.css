@@ -191,8 +191,8 @@ html {
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 .header {
-  padding-top:initial;
-  padding-bottom:initial;
+  padding-top:10px;
+  padding-bottom:10px;
   height:50px;
 }
 .content-width {}
@@ -259,7 +259,7 @@ html {
       right: 0;
     }
       .top-title {
-        width:145px;
+        width:150px;
         margin-left: auto;
         margin-right: auto;
       }
