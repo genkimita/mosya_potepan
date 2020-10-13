@@ -217,7 +217,9 @@ html {
       .section-container {}
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  .top-section {}
+  .top-section {
+    height:160px;
+  }
     .content-width {
     /* 共通 */
   }
