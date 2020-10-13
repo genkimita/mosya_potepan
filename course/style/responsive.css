@@ -273,9 +273,11 @@ html {
       .section-title {}
       .about-explanation {}
         .about-explanation1 {
+          font-size: 15px;
           text-align: left;
         }
         .about-explanation3 {
+          font-size: 15px;
           text-align: left;
         }
 
