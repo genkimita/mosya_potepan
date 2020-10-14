@@ -298,7 +298,9 @@ html {
           .about-explanation3 br{
             display: none;
           }
-      .about-point {}
+      .about-point {
+        padding:30px 20px 40px 20px;
+      }
       .about-point-logo {
       }
         .about-point-logo a {
