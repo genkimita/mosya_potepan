@@ -387,6 +387,13 @@ body {
                   font-size: 10px;
                   line-height: 12px;
                 }
+                  .tr2 td p,
+                  .tr6 td p {
+                    display: inline-block;
+                    vertical-align : top;
+                    display: flex;
+                    flex-direction: column;
+                  }
                   .td-bf-p {
                     padding-left:8px;
                   }
