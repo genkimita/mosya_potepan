@@ -387,7 +387,7 @@ body {
                   .td-bf-p::before {
                     width:5px;
                     height:5px;
-                    margin-right: 3px;
+                    margin:0 3px 0 0;
                   }
                 .tr5 td {
                   font-size: 10px;
