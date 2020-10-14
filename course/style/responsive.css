@@ -202,7 +202,10 @@ body {
   padding-bottom:10px;
   height:50px;
 }
-.content-width {}
+.content-width {
+  padding-left:20px;
+  padding-right:20px;
+}
 .header-width {
   display: flex;
   justify-content: space-between;
