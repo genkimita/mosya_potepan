@@ -331,13 +331,13 @@ body {
         .about-point-list-right {}
       /* 3コース */
       .test-section {
-        overflow-x: auto;
         padding-left:20px;
         padding-right:20px;
       }
         .test-width {
           padding-left:initial;
           padding-right:initial;
+          overflow-x: scroll;
         }
           .res-about-course-title {}
           table.three-course-table {}
