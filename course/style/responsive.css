@@ -302,7 +302,9 @@ html {
       .about-point-logo {
         width:32px;
       }
-      .about-point-title {}
+      .about-point-title {
+        font-size: 20px;
+      }
         ul.about-point-list {
           flex-wrap: wrap
         }
