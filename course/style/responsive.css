@@ -376,10 +376,10 @@ body {
                   font-size: 12px;
                   line-height: 15px;
                 }
-                .sp-tr1-4 {
+                span.sp-tr1-4 {
                   display: block;
                 }
-                .tr1-4span {
+                span.tr1-4span {
                   display: none;
                 }
                 .tr2 td,
