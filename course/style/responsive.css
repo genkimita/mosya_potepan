@@ -300,8 +300,11 @@ html {
           }
       .about-point {}
       .about-point-logo {
-        width:32px;
       }
+        .about-point-logo a {
+          width:32px;
+          height:auto;
+        }
       .about-point-title {
         font-size: 20px;
       }
