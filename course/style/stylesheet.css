@@ -706,12 +706,6 @@
         padding-bottom:80px;
       }
         .test-width {
-          max-width: 1140px;
-          padding-left:50px;
-          padding-right:50px;
-          margin-left: auto;
-          margin-right: auto;
-          position: relative;
         }
           .res-about-course-title {
             display: none;
