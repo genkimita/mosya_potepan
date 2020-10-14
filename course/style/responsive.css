@@ -373,6 +373,9 @@ body {
                 .sp-tr1-4 {
                   display: block;
                 }
+                .tr1-4span {
+                  display: none;
+                }
                 .tr2 td,
                 .tr6 td {
                   font-size: 10px;
