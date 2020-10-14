@@ -287,6 +287,10 @@ html {
           .about-explanation1 br{
             display: none;
           }
+        .about-explanation2 {}
+          .under-line-yellow {
+            font-size: 16px;
+          }
         .about-explanation3 {
           font-size: 15px;
           text-align: left;
