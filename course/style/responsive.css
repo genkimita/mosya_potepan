@@ -362,7 +362,7 @@ body {
               .tr5 {}
               .tr6 {}
               .tr7 {}
-                .rbl-head:nth-child(n+2) {
+                .tbl-head:nth-child(n+2) {
                   font-size: 10px;
                   line-height: 15px;
                 }
