@@ -381,6 +381,14 @@ body {
                   font-size: 10px;
                   line-height: 12px;
                 }
+                  .td-bf-p {
+                    padding-left:8px;
+                  }
+                  .td-bf-p::before {
+                    width:5px;
+                    height:5px;
+                    margin-right: 3px;
+                  }
                 .tr5 {
                   font-size: 10px;
                   line-height: 15px;
