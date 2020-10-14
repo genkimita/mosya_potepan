@@ -295,6 +295,9 @@ html {
           font-size: 15px;
           text-align: left;
         }
+          .about-explanation3 br{
+            display: none;
+          }
       .about-point {}
       .about-point-logo {}
       .about-point-title {}
