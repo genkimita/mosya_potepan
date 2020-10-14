@@ -349,6 +349,12 @@ body {
                   width:100%;
                 }
             tr.tr {}
+              .tbl-col:nth-child(1) {
+                width:23.6%;
+              }
+              .tbl-col:nth-child(n+2) {
+                width:25.4%;
+              }
               th {}
                 .tbl-sub-head {
                   font-size: 10px;
