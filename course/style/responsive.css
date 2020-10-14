@@ -385,6 +385,7 @@ body {
                     padding-left:8px;
                   }
                   .td-bf-p::before {
+                    top: 5px;
                     width:5px;
                     height:5px;
                     margin:0 3px 0 0;
