@@ -291,12 +291,12 @@
                 align-items: center;
               }
                 .about-point-logo a{
-                  width:auto;
-                  height:42px;
+                  width:42px;
+                  height:auto;
                 }
                 .about-point-logo img{
-                  width:auto;
-                  height:42px;
+                  width:100%;
+                  height:auto;
                 }
               .about-point-title {
                 font-weight: 700;
