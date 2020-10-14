@@ -768,6 +768,9 @@
                 .tr1-4-img img {
                   width:100%;
                 }
+              .sp-tr1-4 {
+                display: none;
+              }
               .tbl-icon-img {
                 margin: 0 auto;
                 text-align: center;
