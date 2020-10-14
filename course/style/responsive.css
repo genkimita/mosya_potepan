@@ -390,6 +390,9 @@ body {
                     height:5px;
                     margin:0 3px 0 0;
                   }
+                  .tbl-icon-img {
+                    width:20px;
+                  }
                 .tr5 td {
                   font-size: 10px;
                   line-height: 15px;
