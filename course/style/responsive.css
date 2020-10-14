@@ -324,6 +324,10 @@ html {
         }
         .about-point-list-right {}
 
+      .test-section {
+        overflow-x: auto;
+      }
+
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
 
