@@ -299,7 +299,9 @@ html {
             display: none;
           }
       .about-point {}
-      .about-point-logo {}
+      .about-point-logo {
+        width:32px;
+      }
       .about-point-title {}
         ul.about-point-list {
           flex-wrap: wrap
