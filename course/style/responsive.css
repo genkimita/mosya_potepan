@@ -327,6 +327,16 @@ html {
       .test-section {
         overflow-x: auto;
       }
+        .test--width {}
+          .res-about-course-title {}
+          table.three-course-table {}
+            .tr1 {}
+              .tr1-1 {
+                padding: 5px;
+              }
+                .tr1-1-left {
+                  width:100%;
+                }
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
