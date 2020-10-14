@@ -193,7 +193,9 @@
 html {
   font-size: 15px;
 }
-
+body {
+  overflow-x: hidden;
+}
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 .header {
   padding-top:10px;
