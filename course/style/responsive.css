@@ -316,6 +316,13 @@ html {
           li.about-point-list0 {
             width:100%;
           }
+        .about-point-list-left {
+          margin-bottom:35px;
+        }
+        .about-point-list-center {
+          margin-bottom:35px;
+        }
+        .about-point-list-right {}
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
