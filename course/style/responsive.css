@@ -398,7 +398,10 @@ body {
                     padding-left:8px;
                   }
                   .td-bf-p::before {
+                    position: absolute;
                     top: 5px;
+                    left: 0;
+                    display: inline-block;
                     width:5px;
                     height:5px;
                     margin:0 3px 0 0;
