@@ -554,13 +554,25 @@
               margin-top:initial;
             }
               li.course-flow-list1 {/* 1だけタイトル */
-                margin: 0 auto;
               }
                 .course-flow-list1 p {
+                  margin-left: auto;
+                  margin-right: auto;
                 }
-                .course-flow-list0 {}
-                  .flow-list-left {}
-                  .flow-list-right {}
+                .course-flow-list0 {
+                  flex-direction: column;
+                }
+                  .flow-list-left {
+                    width:100%;
+                  }
+                  .flow-list-right {
+                    width:100%;
+                  }
+                    .flow-list-left img {
+                      top: initial;
+                      left: initial;
+                      transform: initial;
+                    }
                     .flow-list-right a {
                       font-size: 15px;
                       line-height: 22px;
