@@ -483,7 +483,12 @@
               .course-header-list0 p {
                 font-size: 15px;
               }
-            . {}
+            .course-header-list1 {
+              margin-bottom:9px;
+            }
+            .course-header-list2 {
+              margin-bottom:9px;
+            }
             .course-header-list3-img {
               display: none;
             }
