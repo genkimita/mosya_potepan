@@ -145,6 +145,9 @@
                 ul.course-header-list {}
                   li.course-header-list0 {
                   }
+                    .res-open-img {
+                      display: none;
+                    }
                     .course-header-list0 p {
                       font-size: 15px;
                     }
