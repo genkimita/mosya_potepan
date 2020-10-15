@@ -481,8 +481,18 @@
               width:100%;
             }
               .course-header-list0 p {
-
               }
+            .course-header-list0:nth-child(3) .course-header-list3-img {
+              display: none;
+            }
+            .course-header-list0:nth-child(3) p::before {
+              content: ' ';
+              width:35px;
+              height:35px;
+              margin-left:40px;
+              background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/icon_open_link.png);
+              background-size: 100% 100%;
+            }
         .course-box {}
           .course-title {}
             .course-title-p1 {
