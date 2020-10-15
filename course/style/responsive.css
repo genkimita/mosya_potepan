@@ -303,6 +303,9 @@
           font-size: 26px;
           line-height: 31px;
         }
+        .plan-title::after {
+          border-bottom:5px solid rgb(247, 147, 20) ;
+        }
         .about-explanation {}
           .about-explanation1 {
             font-size: 15px;
