@@ -510,7 +510,9 @@
                 display: block;
               }
             .course-title-p2 {}
-          .course-recommend {}
+          .course-recommend {
+            margin-top:20px;
+          }
             ul.course-recommend-list {}
               li.course-recommend-list1 {
                 text-align: center;
@@ -527,17 +529,27 @@
             margin-top:20px;
           }
             ul.course-overview-list {}
-              li.course-overview-list1 {}
+              li.course-overview-list1 {
+                text-align: center;
+              }
               li.course-overview-list2 {}
               li.course-overview-list3 {}
               li.course-overview-list4 {}
               li.course-overview-list5 {}
               li.course-overview-list6 {}
+                .overview-category {
+                  margin: 0 auto;
+                }
           .course-flow {
             margin-top:20px;
           }
-            ul.course-flow-list {}
+            ul.course-flow-list {
+              margin-top:initial;
+            }
               li.course-flow-list1 {/* 1だけタイトル */}
+                .course-flow-list1 p {
+                  margin: 0 auto;
+                }
                 .course-flow-list0 {}
                 .course-flow-list2 {}
                 .course-flow-list3 {}
