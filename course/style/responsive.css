@@ -404,11 +404,11 @@ body {
                 .tr6 td {
                   font-size: 10px;
                   line-height: 12px;
+                  vertical-align : top;
                 }
                   .tr2 td p,
                   .tr6 td p {
                     display: inline-block;
-                    vertical-align : top;
                     display: flex;
                     flex-direction: column;
                   }
