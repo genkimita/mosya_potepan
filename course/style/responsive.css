@@ -139,11 +139,6 @@
           .content-width {}
             .section-title {}
             .sp-plan-title {
-              display: block;
-              font-weight: 700px;
-              font-size: 26px;
-              line-height: 31px;
-              text-align: center;
             }
             .section-container {}
               .course-header {}
@@ -206,7 +201,7 @@
   body {
     overflow-x: hidden;
   }
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .header {
     padding-top:10px;
     padding-bottom:10px;
@@ -238,7 +233,7 @@
       display: block;
       display: inline-flex;
     }
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー main-section ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-main-section ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
     .main-section {}
       .content-width {
         max-width: none;
@@ -261,7 +256,7 @@
             }
         .section-container {}
 
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
     .top-section {
       height:160px;
     }
@@ -293,7 +288,7 @@
             font-size: 23px;
             line-height: px;
           }
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
     .about-section {}
       .content-title {}
         .plan-section .section-title {
@@ -464,12 +459,25 @@
                     line-height: 18px;
                   }
 
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  .plan-section {}
+    .content-width {}
+      .section-title {}
+      .sp-plan-title {
+        display: block;
+        font-weight: 700px;
+        font-size: 26px;
+        line-height: 31px;
+        text-align: center;
+      }
+      .sp-plan-title::after {
+        border-bottom:5px solid rgb(247, 147, 20) ;
+      }
 
 
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
 
 
