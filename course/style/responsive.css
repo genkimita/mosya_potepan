@@ -540,15 +540,23 @@
                 .overview-category {
                   margin: 0 auto;
                 }
+                .overview-list-p2 {
+                  font-size: 15px;
+                  line-height: 23px;
+                }
+                .course-overview-list li:nth-child(n+3) .overview-list-p2 {
+                  text-align: center;
+                }
           .course-flow {
             margin-top:20px;
           }
             ul.course-flow-list {
               margin-top:initial;
             }
-              li.course-flow-list1 {/* 1だけタイトル */}
+              li.course-flow-list1 {/* 1だけタイトル */
+                margin: 0 auto;
+              }
                 .course-flow-list1 p {
-                  margin: 0 auto;
                 }
                 .course-flow-list0 {}
                 .course-flow-list2 {}
