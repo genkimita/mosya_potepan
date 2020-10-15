@@ -424,8 +424,6 @@
                   .tr6 td {
                     font-size: 10px;
                     line-height: 12px;
-                    display: flex;
-                    flex-direction: column;
                     vertical-align : top;
                   }
                     .tr2 td p,
