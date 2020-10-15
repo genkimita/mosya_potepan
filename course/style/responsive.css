@@ -497,7 +497,9 @@
               width:35px;
               height:35px;
             }
-        .course-box {}
+        .course-box {
+          padding: 20px;
+        }
           .course-title {}
             .course-title-p1 {
               font-size: 24px;
