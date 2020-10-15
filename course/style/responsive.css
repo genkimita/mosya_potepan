@@ -559,8 +559,18 @@
                 .course-flow-list1 p {
                 }
                 .course-flow-list0 {}
-                .course-flow-list2 {}
+                  .flow-list-left {}
+                  .flow-list-right {}
+                    .flow-list-right a {
+                      font-size: 15px;
+                      line-height: 22px;
+                    }
+                .course-flow-list2 {
+                  margin-top:20px;
+                  padding-bottom:20px;
+                }
                 .course-flow-list3 {}
+                .course-flow-list4 {}
 
 
 
