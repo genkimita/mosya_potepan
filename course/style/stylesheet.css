@@ -927,6 +927,15 @@
         .sp-plan-title {
           display: none;
         }
+        .sp-plan-title::after {
+          content: ' ';
+          display: block;
+          width:50px;
+          border-bottom:7px solid rgb(247, 147, 20) ;
+          margin-top:20px;
+          margin-left: auto;
+          margin-right: auto;
+        }
           .section-container {
           /* 共通 */
         }
