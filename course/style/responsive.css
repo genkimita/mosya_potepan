@@ -156,14 +156,6 @@
                       top: 50%;
                       left: 10%;
                     }
-                    .course-header-list1 {
-                      margin-bottom:9px;
-                    }
-                    .course-header-list2 {
-                      padding-bottom:9px;
-                    }
-                    .course-header-list3 {
-                    }
                     .course-header-list3-img {
                       display: none;
                     }
@@ -177,13 +169,6 @@
                         width:100%;
                         height:auto;
                       }
-                    .course-recommend {}
-                    .course-overview {
-                      margin-top:20px;
-                    }
-                    .course-flow {
-                      margin-top:20px;
-                    }
                       .course-flow-left {}
                         .course-flow-left img {
                           align-items: center;
@@ -498,6 +483,7 @@
               .course-header-list0 p {
                 font-size: 15px;
               }
+            . {}
             .course-header-list3-img {
               display: none;
             }
@@ -526,8 +512,16 @@
             .course-title-p2 {}
           .course-recommend {}
             ul.course-recommend-list {}
-              li.course-recommend-list1 {}
-          .course-explanation {}
+              li.course-recommend-list1 {
+                text-align: center;
+              }
+              img.icon-heading {
+                width:21px;
+                height:21px;
+              }
+          .course-overview {
+            margin-top:20px;
+          }
             ul.course-overview-list {}
               li.course-overview-list1 {}
               li.course-overview-list2 {}
@@ -535,12 +529,16 @@
               li.course-overview-list4 {}
               li.course-overview-list5 {}
               li.course-overview-list6 {}
-          .course-flow {}
+          .course-flow {
+            margin-top:20px;
+          }
             ul.course-flow-list {}
               li.course-flow-list1 {/* 1だけタイトル */}
                 .course-flow-list0 {}
                 .course-flow-list2 {}
                 .course-flow-list3 {}
+
+
 
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
