@@ -149,6 +149,8 @@
               .course-header {}
                 ul.course-header-list {}
                   li.course-header-list0 {
+                    flex-wrap: wrap;
+                    width:100%;
                   }
                     .course-header-list0 p {
                       display: flex;
