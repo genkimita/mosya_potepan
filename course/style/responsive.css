@@ -149,12 +149,11 @@
               .course-header {}
                 ul.course-header-list {}
                   li.course-header-list0 {
+                    justify-content: none;
                     flex-wrap: wrap;
                     width:100%;
                   }
                     .course-header-list0 p {
-                      display: flex;
-                      flex-direction: column;
                     }
                     .course-header-list0 p::before {
                       font-size: 15px;
