@@ -474,7 +474,7 @@
         /* 共通 */
       }
         .course-header {}
-          ul.course-list {
+          ul.course-header-list {
             flex-wrap: wrap
           }
             li.course-header-list0 {
