@@ -156,8 +156,13 @@
                       top: 50%;
                       left: 10%;
                     }
+                    .course-header-list1 {
+                      margin-bottom:9px;
+                    }
+                    .course-header-list2 {
+                      padding-bottom:9px;
+                    }
                     .course-header-list3 {
-                      flex-direction: column
                     }
                     .course-header-list3-img {
                       display: none;
@@ -515,6 +520,23 @@
                 display: block;
               }
             .course-title-p2 {}
+          .course-recommend {}
+            ul.course-recommend-list {}
+              li.course-recommend-list1 {}
+          .course-explanation {}
+            ul.course-overview-list {}
+              li.course-overview-list1 {}
+              li.course-overview-list2 {}
+              li.course-overview-list3 {}
+              li.course-overview-list4 {}
+              li.course-overview-list5 {}
+              li.course-overview-list6 {}
+          .course-flow {}
+            ul.course-flow-list {}
+              li.course-flow-list1 {/* 1だけタイトル */}
+                .course-flow-list0 {}
+                .course-flow-list2 {}
+                .course-flow-list3 {}
 
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
