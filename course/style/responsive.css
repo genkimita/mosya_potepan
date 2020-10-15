@@ -20,7 +20,7 @@
           text-align: center;
         }
 
-    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
     .header#float-header {
       position: sticky;
       top: 0;
@@ -92,9 +92,9 @@
               top: 100%;
             } */
 
-    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
-    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   　.about-course {}
       .res-about-course-title {
         display: block;
@@ -134,7 +134,7 @@
           display: none;
         }2
 
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
         .plan-section {}
           .content-width {}
             .section-title {}
@@ -144,9 +144,6 @@
               .course-header {}
                 ul.course-header-list {}
                   li.course-header-list0 {
-                    justify-content: none;
-                    flex-wrap: wrap;
-                    width:100%;
                   }
                     .course-header-list0 p {
                     }
@@ -186,8 +183,8 @@
                       .course-flow-right {}
 
 
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
 
   }
@@ -473,7 +470,32 @@
       .sp-plan-title::after {
         border-bottom:5px solid rgb(247, 147, 20) ;
       }
+      .section-container {
+        /* 共通 */
+      }
+        .course-header {}
+          ul.course-list {
+            flex-wrap: wrap
+          }
+            li.course-header-list0 {
+              width:100%;
+            }
+              .course-header-list0 p {
 
+              }
+        .course-box {}
+          .course-title {}
+            .course-title-p1 {
+              font-size: 24px;
+              line-height: 27px;
+            }
+              .mgr-15 {
+                display: none;
+              }
+              .course-title-p1 br {
+                display: block;
+              }
+            .course-title-p2 {}
 
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
