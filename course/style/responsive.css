@@ -146,16 +146,15 @@
                   li.course-header-list0 {
                   }
                     .course-header-list0 p {
+                      font-size: 15px;
+                    }
+                    .course-header-list0 p span {
+                      font-size: 20px;
                     }
                     .course-header-list0 p::before {
-                      font-size: 15px;
                       position: absolute;
                       top: 50%;
                       left: 10%;
-                    }
-                    .course-header-list0 p span {
-                      display: block;
-                      font-size: 20px;
                     }
                     .course-header-list3 {
                       flex-direction: column
