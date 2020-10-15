@@ -766,7 +766,7 @@
                 display: none;
               }
               .tbl-icon-img {
-                margin: 0 auto; 
+                margin: 0 auto;
                 text-align: center;
               }
               .tr2 td,
@@ -923,6 +923,9 @@
       }
           .section-title {
           /* 共通 */
+        }
+        .sp-plan-title {
+          display: none;
         }
           .section-container {
           /* 共通 */
