@@ -368,6 +368,11 @@ body {
               .tr5 {}
               .tr6 {}
               .tr7 {}
+                .tbl-sub-head,
+                .tr2 td,
+                .tr6 td {
+                  padding:10px 12px 20px 10px;
+                }
                 .tbl-head:nth-child(n+2) {
                   font-size: 10px;
                   line-height: 15px;
