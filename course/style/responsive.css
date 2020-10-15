@@ -132,12 +132,19 @@
       }
       .tr1-1-right {
         display: none;
-      }
+      }2
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
       .plan-section {}
         .content-width {}
           .section-title {}
+          .sp-plan-title {
+            display: block;
+            font-weight: 700px;
+            font-size: 26px;
+            line-height: 31px;
+            text-align: center;
+          }
           .section-container {}
             .course-header {}
               ul.course-header-list {}
@@ -284,6 +291,10 @@ body {
   .about-section {}
     .content-title {}
       .section-title {}
+      .plan-title {
+        font-size: 26px;
+        line-height: 31px;
+      }
       .about-explanation {}
         .about-explanation1 {
           font-size: 15px;
