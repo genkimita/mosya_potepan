@@ -1030,10 +1030,13 @@
                     justify-content: center;
                     align-items: center;
                   }
-                    .course-header-list3 img {
+                    .course-header-list3-img {
                       width:33px;
                       height:33px;
                       margin-left: 30px;
+                    }
+                    .sp-course-header-list3-img {
+                      display: none;
                     }
                     .course-header-list3 span {
                       font-weight: 700;
