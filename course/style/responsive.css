@@ -348,6 +348,10 @@ body {
                 .tr1-1-left {
                   width:100%;
                 }
+              .tr1-4 {}
+                .tr1-4-img {
+                  margin:-77px auto 0 auto;
+                }
             tr.tr {}
               .tbl-col:nth-child(1) {
                 width:23.6%;
