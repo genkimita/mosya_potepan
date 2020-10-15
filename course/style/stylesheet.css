@@ -1067,6 +1067,9 @@
                   line-height: 36px;
                   margin-top:15px;
                 }
+                  .sp-course-title {
+                    display: none;
+                  }
                   .course-title-p1 br {
                     display: none;
                   }
