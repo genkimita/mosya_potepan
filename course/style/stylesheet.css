@@ -935,12 +935,10 @@
               margin-top:60px;
             }
               ul.course-header-list {
-                display:table;
                 display: flex;
                 justify-content: space-between;
               }
                 li.course-header-list0 {
-                  display: table-cell;
                   width:32.6%;
                   border:2px solid rgb(247, 147, 20) ;
                   border-radius: 6px;
