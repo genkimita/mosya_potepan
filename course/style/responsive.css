@@ -178,8 +178,12 @@
                         height:auto;
                       }
                     .course-recommend {}
-                    .course-overview {}
-                    .course-flow {}
+                    .course-overview {
+                      margin-top:20px;
+                    }
+                    .course-flow {
+                      margin-top:20px;
+                    }
                       .course-flow-left {}
                         .course-flow-left img {
                           align-items: center;
