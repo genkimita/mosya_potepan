@@ -145,12 +145,6 @@
                 ul.course-header-list {}
                   li.course-header-list0 {
                   }
-                    .res-open-img {
-                      display: none;
-                    }
-                    .mgr-10 {
-                      display: block;
-                    }
                     .course-header-list0 p {
                       font-size: 15px;
                     }
@@ -486,7 +480,14 @@
             li.course-header-list0 {
               width:100%;
             }
+              .res-open-img {
+                display: none;
+              }
+              .mgr-10 {
+                display: block;
+              }
               .course-header-list0 p {
+                font-size: 15px;
               }
             .course-header-list3-img {
               display: none;
