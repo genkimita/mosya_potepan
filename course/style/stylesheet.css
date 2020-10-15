@@ -18,6 +18,7 @@
       border-collapse: collapse;
     }
     span.mgr-15 {
+      content: ' ';
       margin-right: 15px;
     }
 
@@ -986,7 +987,7 @@
                       border-color: rgb(255, 255, 255);
                       transition: 0.5s;
                     }
-                    .course-header-list0 p span {
+                    .course-header-span1 {
                       font-weight: 700;
                       font-size: 20px;
                       line-height: px;
