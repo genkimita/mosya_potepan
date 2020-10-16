@@ -550,7 +550,7 @@
               li.course-overview-list5 {}
               li.course-overview-list6 {}
                 .overview-category {
-                  margin: 0 auto;
+                  margin: 0 auto 15px auto;
                 }
                 .overview-list-p2 {
                   font-size: 15px;
