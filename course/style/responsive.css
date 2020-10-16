@@ -531,6 +531,10 @@
                 width:17px;
                 height:17px;
               }
+              .course-recommend-list li:nth-child(n+2) {
+                text-align: left;
+                margin-bottom:5px;
+              }
           .course-overview {
             margin-top:20px;
           }
