@@ -1081,9 +1081,6 @@
                   .sp-course-title {
                     display: none;
                   }
-                  .course-title-p1 br {
-                    display: none;
-                  }
                   .title-color-carrier {
                     background: linear-gradient(to right, #f79214 0%, #f74e06 100%);
                     -webkit-background-clip: text;
