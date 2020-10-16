@@ -1,0 +1,189 @@
+
+  /* タブレット用 */
+  @media screen and (max-width: 1080px) {
+
+    body {
+      width:100%;
+    }
+    .main-section {
+      width:100%;
+    }
+      .content-width {
+        max-width: 1140px;
+        padding-left:50px;
+        padding-right:50px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+      }
+        .section-title p{
+          text-align: center;
+        }
+
+    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+    .header#float-header {
+      position: sticky;
+      top: 0;
+      left: 0;
+    }
+    .header {
+      width:100%;
+      background-color:rgb(255, 255, 255);
+      z-index:10;
+    }
+      .header-width {
+      }
+        .header-nav {}
+          .header-logo {}
+          .header-nav-list {
+            display: none;
+          }
+          .res-header-icon-hamburger {
+            display: block;
+            width:30px;
+            height:21px;
+            display: inline-flex;
+            cursor:pointer;
+            position: relative;
+          }
+            span.hamburger-line:first-child {
+              top: 0;
+            }
+            span.hamburger-line  {
+              position: absolute;
+              top: 50%;
+              display: block;
+              width: 100%;
+              height: 3px;
+              background-color: #222;
+              transform: translate(0, -50%);
+              border-radius: 10px;
+              transition: top 0.2s, transform 0.2s, opacity 0.3s;
+            }
+            span.hamburger-line:last-child  {
+              top: 100%;
+            }
+
+          /* .header-nav *:last-child {
+            display: inline-flex;
+          }
+          .res-header-icon-hamburger {
+            width:30px;
+            height:21px;
+            cursor:pointer;
+            position: relative;
+            z-index:20;
+          }
+            span.hamburger-line:first-child {
+              top: 0;
+            }
+            span.hamburger-line  {
+              position: absolute;
+              top: 50%;
+              display: block;
+              width: 100%;
+              height: 3px;
+              background-color: #222;
+              transform: translate(0, -50%);
+              border-radius: 10px;
+              transition: top 0.2s, transform 0.2s, opacity 0.3s;
+            }
+            span.hamburger-line:last-child  {
+              top: 100%;
+            } */
+
+    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+
+    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  　.about-course {}
+      .res-about-course-title {
+        display: block;
+        color:rgb(247,147,20);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom:10px;
+      }
+        p.res-about-course-title-text1 {
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 32px;
+          letter-spacing: 4px;
+        }
+        p.res-about-course-title-text2 {
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 32px;
+        }
+          .res-about-course-title-text2 span{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 32px;
+          }
+        .line1-text {
+          display: none;
+        }
+
+        /* 3コース工事中 */
+        .tr1-1-left {
+          width:65%;
+        }
+        .tr1-1-right {
+          display: none;
+        }2
+
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+        .plan-section {}
+          .content-width {}
+            .section-title {}
+            .sp-plan-title {
+            }
+            .section-container {}
+              .course-header {}
+                ul.course-header-list {}
+                  li.course-header-list0 {
+                  }
+                    .course-header-list0 p {
+                      font-size: 15px;
+                    }
+                    .course-header-list0 p span {
+                      font-size: 20px;
+                    }
+                    .course-header-list0 p::before {
+                      position: absolute;
+                      top: 50%;
+                      left: 10%;
+                    }
+                    .course-header-list3-img {
+                      display: none;
+                    }
+                    .res-open-img {
+                      display: block;
+                      position: absolute;
+                      margin:-52px auto 0 auto;
+                      text-align: center;
+                    }
+                      .res-open-img img{
+                        width:100%;
+                        height:auto;
+                      }
+                      .course-flow-left {}
+                        .course-flow-left img {
+                          align-items: center;
+                        }
+                      .course-flow-right {}
+
+
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+
+
+  }
+
+
+
+
+
+  /*  */
