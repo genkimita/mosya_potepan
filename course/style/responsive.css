@@ -505,14 +505,15 @@
               font-size: 24px;
               line-height: 27px;
             }
-              .mgr-15 {
+              .course-title-p1 a:nth-child(1) {
                 display: none;
+              }
+              .course-title-p1 a:nth-child(2) {
+                display: block;
               }
               .sp-course-title {
                 display: block;
-              }
-              .course-title-p1 br {
-                display: block;
+                margin-bottom:3px;
               }
             .course-title-p2 {}
           .course-recommend {
