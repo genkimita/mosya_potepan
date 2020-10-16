@@ -606,7 +606,15 @@
                   margin-bottom:20px;
                 }
                 .course-flow-list4 {}
-
+          .open-detail-btn {
+            width:100%;
+          }
+            .open-detail-btn p {
+              font-size: 15px;
+              width:100%;
+              margin-top:25px;
+              margin-bottom:25px;
+            }
 
 
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
