@@ -1,679 +1,495 @@
+/* スマホ用 */
+@media screen and (max-width:767px){
 
-  /* タブレット用 */
-  @media screen and (max-width: 1080px) {
+html {
+  font-size: 15px;
+}
+body {
+  overflow-x: hidden;
+}
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+.header {
+  padding-top:10px;
+  padding-bottom:10px;
+  height:50px;
+}
+.content-width {
+  padding-left:20px;
+  padding-right:20px;
+}
+.header-width {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  .header-logo {
+    display: none;
+  }
+  .sp-header-logo {
+    display: block;
+  }
+    .sp-header-logo img{
+      width:auto;
+      height:16px;
+    }
+  .header-nav-list {
+    display: none;
+  }
+  .res-header-icon-hamburger {
+    display: block;
+    display: inline-flex;
+  }
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-main-section ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  .main-section {}
+    .content-width {
+      max-width: none;
+      padding-left:20px;
+      padding-right:20px;
+    }
+    .content-tidy {}
+      .section-title {
+        font-size: 22px;
+        margin-top:50px;
+      }
+      .section-title::after {
+        border-bottom:5px solid rgb(247, 147, 20) ;
+      }
+        .section-title span{
+          font-size: 22px;
+        }
+          .section-title br {
+            display: block;
+          }
+      .section-container {}
 
-    body {
-      width:100%;
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  .top-section {
+    height:160px;
+  }
+    .content-width {
+    /* 共通 */
+  }
+    .top-width {
+      background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/course-hero-sp.png);
+      background-size:contain;
+      background-repeat: no-repeat;
+      background-position: center center;
     }
-    .main-section {
-      width:100%;
+    .top-width::after {
+      background-color:rgb(247,147,20);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
     }
-      .content-width {
-        max-width: 1140px;
-        padding-left:50px;
-        padding-right:50px;
+      .top-title {
+        width:150px;
+        margin-top:0px;
         margin-left: auto;
         margin-right: auto;
-        position: relative;
       }
-        .section-title p{
-          text-align: center;
+        .top-title p{
+          font-weight: ;
+          font-size: 23px;
+          line-height: px;
         }
-
-    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-    .header#float-header {
-      position: sticky;
-      top: 0;
-      left: 0;
-    }
-    .header {
-      width:100%;
-      background-color:rgb(255, 255, 255);
-      z-index:10;
-    }
-      .header-width {
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  .about-section {}
+    .content-title {}
+      .plan-section .section-title {
+        display: none;
       }
-        .header-nav {}
-          .header-logo {}
-          .header-nav-list {
+      .plan-title {
+        font-size: 26px;
+        line-height: 31px;
+      }
+      .plan-title::after {
+        border-bottom:5px solid rgb(247, 147, 20) ;
+      }
+      .about-explanation {}
+        .about-explanation1 {
+          font-size: 15px;
+          text-align: left;
+        }
+          .about-explanation1 br{
             display: none;
           }
-          .res-header-icon-hamburger {
-            display: block;
-            width:30px;
-            height:21px;
-            display: inline-flex;
-            cursor:pointer;
-            position: relative;
+        .about-explanation2 {}
+          .under-line-yellow {
+            font-size: 16px;
           }
-            span.hamburger-line:first-child {
-              top: 0;
-            }
-            span.hamburger-line  {
-              position: absolute;
-              top: 50%;
-              display: block;
-              width: 100%;
-              height: 3px;
-              background-color: #222;
-              transform: translate(0, -50%);
-              border-radius: 10px;
-              transition: top 0.2s, transform 0.2s, opacity 0.3s;
-            }
-            span.hamburger-line:last-child  {
-              top: 100%;
-            }
-
-          /* .header-nav *:last-child {
-            display: inline-flex;
+        .about-explanation3 {
+          font-size: 15px;
+          text-align: left;
+        }
+          .about-explanation3 br{
+            display: none;
           }
-          .res-header-icon-hamburger {
-            width:30px;
-            height:21px;
-            cursor:pointer;
-            position: relative;
-            z-index:20;
-          }
-            span.hamburger-line:first-child {
-              top: 0;
-            }
-            span.hamburger-line  {
-              position: absolute;
-              top: 50%;
-              display: block;
-              width: 100%;
-              height: 3px;
-              background-color: #222;
-              transform: translate(0, -50%);
-              border-radius: 10px;
-              transition: top 0.2s, transform 0.2s, opacity 0.3s;
-            }
-            span.hamburger-line:last-child  {
-              top: 100%;
-            } */
-
-    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-
-    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  　.about-course {}
-      .res-about-course-title {
-        display: block;
-        color:rgb(247,147,20);
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-bottom:10px;
+      /* 共通ポイント */
+      .about-point {
+        padding:30px 20px 40px 20px;
       }
-        p.res-about-course-title-text1 {
-          font-size: 20px;
-          font-weight: bold;
-          line-height: 32px;
-          letter-spacing: 4px;
-        }
-        p.res-about-course-title-text2 {
-          font-weight: 700;
-          font-size: 30px;
-          line-height: 32px;
-        }
-          .res-about-course-title-text2 span{
-            font-weight: 700;
-            font-size: 40px;
-            line-height: 32px;
-          }
-        .line1-text {
-          display: none;
-        }
-
-        /* 3コース工事中 */
-        .tr1-1-left {
-          width:65%;
-        }
-        .tr1-1-right {
-          display: none;
-        }2
-
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-        .plan-section {}
-          .content-width {}
-            .section-title {}
-            .sp-plan-title {
-            }
-            .section-container {}
-              .course-header {}
-                ul.course-header-list {}
-                  li.course-header-list0 {
-                  }
-                    .course-header-list0 p {
-                      font-size: 15px;
-                    }
-                    .course-header-list0 p span {
-                      font-size: 20px;
-                    }
-                    .course-header-list0 p::before {
-                      position: absolute;
-                      top: 50%;
-                      left: 10%;
-                    }
-                    .course-header-list3-img {
-                      display: none;
-                    }
-                    .res-open-img {
-                      display: block;
-                      position: absolute;
-                      margin:-52px auto 0 auto;
-                      text-align: center;
-                    }
-                      .res-open-img img{
-                        width:100%;
-                        height:auto;
-                      }
-                      .course-flow-left {}
-                        .course-flow-left img {
-                          align-items: center;
-                        }
-                      .course-flow-right {}
-
-
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-
-
-  }
-
-  /* スマホ用 */
-  @media screen and (max-width:767px){
-
-  html {
-    font-size: 15px;
-  }
-  body {
-    overflow-x: hidden;
-  }
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  .header {
-    padding-top:10px;
-    padding-bottom:10px;
-    height:50px;
-  }
-  .content-width {
-    padding-left:20px;
-    padding-right:20px;
-  }
-  .header-width {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-    .header-logo {
-      display: none;
-    }
-    .sp-header-logo {
-      display: block;
-    }
-      .sp-header-logo img{
-        width:auto;
-        height:16px;
+      .about-point-logo {
       }
-    .header-nav-list {
-      display: none;
-    }
-    .res-header-icon-hamburger {
-      display: block;
-      display: inline-flex;
-    }
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-main-section ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-    .main-section {}
-      .content-width {
-        max-width: none;
+        .about-point-logo a {
+          width:32px;
+          height:auto;
+        }
+      .about-point-title {
+        font-size: 20px;
+      }
+        ul.about-point-list {
+          flex-wrap: wrap
+        }
+          li.about-point-list0 {
+            width:100%;
+          }
+        .about-point-list-left {
+          margin-bottom:35px;
+        }
+        .about-point-list-center {
+          margin-bottom:35px;
+        }
+        .about-point-list-right {}
+      /* 3コース */
+      .test-section {
         padding-left:20px;
         padding-right:20px;
       }
-      .content-tidy {}
-        .section-title {
-          font-size: 22px;
-          margin-top:50px;
+        .test-width {
+          padding-left:initial;
+          padding-right:initial;
+          overflow-x: scroll;
         }
-        .section-title::after {
-          border-bottom:5px solid rgb(247, 147, 20) ;
-        }
-          .section-title span{
-            font-size: 22px;
-          }
-            .section-title br {
-              display: block;
-            }
-        .section-container {}
-
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-    .top-section {
-      height:160px;
-    }
-      .content-width {
-      /* 共通 */
-    }
-      .top-width {
-        background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/course-hero-sp.png);
-        background-size:contain;
-        background-repeat: no-repeat;
-        background-position: center center;
-      }
-      .top-width::after {
-        background-color:rgb(247,147,20);
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-      }
-        .top-title {
-          width:150px;
-          margin-top:0px;
-          margin-left: auto;
-          margin-right: auto;
-        }
-          .top-title p{
-            font-weight: ;
-            font-size: 23px;
-            line-height: px;
-          }
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-    .about-section {}
-      .content-title {}
-        .plan-section .section-title {
-          display: none;
-        }
-        .plan-title {
-          font-size: 26px;
-          line-height: 31px;
-        }
-        .plan-title::after {
-          border-bottom:5px solid rgb(247, 147, 20) ;
-        }
-        .about-explanation {}
-          .about-explanation1 {
-            font-size: 15px;
-            text-align: left;
-          }
-            .about-explanation1 br{
-              display: none;
-            }
-          .about-explanation2 {}
-            .under-line-yellow {
-              font-size: 16px;
-            }
-          .about-explanation3 {
-            font-size: 15px;
-            text-align: left;
-          }
-            .about-explanation3 br{
-              display: none;
-            }
-        /* 共通ポイント */
-        .about-point {
-          padding:30px 20px 40px 20px;
-        }
-        .about-point-logo {
-        }
-          .about-point-logo a {
-            width:32px;
-            height:auto;
-          }
-        .about-point-title {
-          font-size: 20px;
-        }
-          ul.about-point-list {
-            flex-wrap: wrap
-          }
-            li.about-point-list0 {
-              width:100%;
-            }
-          .about-point-list-left {
-            margin-bottom:35px;
-          }
-          .about-point-list-center {
-            margin-bottom:35px;
-          }
-          .about-point-list-right {}
-        /* 3コース */
-        .test-section {
-          padding-left:20px;
-          padding-right:20px;
-        }
-          .test-width {
-            padding-left:initial;
-            padding-right:initial;
-            overflow-x: scroll;
-          }
-            .res-about-course-title {}
-            table.three-course-table {}
+          .res-about-course-title {}
+          table.three-course-table {}
+            .tr1 {}
+              .tr1-1 {
+                padding: 5px;
+              }
+                .tr1-1-left {
+                  width:100%;
+                }
+              .tr1-4 {}
+                .tr1-4-img {
+                  margin:-77px auto 0 auto;
+                }
+            tr.tr {}
+              .tbl-col:nth-child(1) {
+                width:23.6%;
+              }
+              .tbl-col:nth-child(n+2) {
+                width:25.4%;
+              }
+              th {}
+                .tbl-sub-head {
+                  font-size: 10px;
+                  line-height: 11px;
+                }
+              td {}
               .tr1 {}
-                .tr1-1 {
-                  padding: 5px;
+              .tr2 {}
+              .tr3 {}
+              .tr4 {}
+              .tr5 {}
+              .tr6 {}
+              .tr7 {}
+                .tbl-sub-head,
+                .tr2 td,
+                .tr6 td {
+                  padding:10px 12px 20px 10px;
                 }
-                  .tr1-1-left {
-                    width:100%;
-                  }
-                .tr1-4 {}
-                  .tr1-4-img {
-                    margin:-77px auto 0 auto;
-                  }
-              tr.tr {}
-                .tbl-col:nth-child(1) {
-                  width:23.6%;
+                .tr3 td,
+                .tr4 td {
+                  margin-top:20px;
+                  margin-bottom:20px;
                 }
-                .tbl-col:nth-child(n+2) {
-                  width:25.4%;
+                .tr5 td {
+                  margin-top:25px;
+                  margin-bottom:20px;
                 }
-                th {}
-                  .tbl-sub-head {
-                    font-size: 10px;
-                    line-height: 11px;
-                  }
-                td {}
-                .tr1 {}
-                .tr2 {}
-                .tr3 {}
-                .tr4 {}
-                .tr5 {}
-                .tr6 {}
-                .tr7 {}
-                  .tbl-sub-head,
-                  .tr2 td,
-                  .tr6 td {
-                    padding:10px 12px 20px 10px;
-                  }
-                  .tr3 td,
-                  .tr4 td {
-                    margin-top:20px;
-                    margin-bottom:20px;
-                  }
-                  .tr5 td {
-                    margin-top:25px;
-                    margin-bottom:20px;
-                  }
-                  .tr7 td {
-                    margin-top:10px;
-                    margin-bottom:8px;
-                  }
-                  .tbl-head:nth-child(n+2) {
-                    font-size: 10px;
-                    line-height: 15px;
-                  }
-                  .tbl-head:nth-child(n+2) span {
-                    font-size: 12px;
-                    line-height: 15px;
-                  }
-                  span.sp-tr1-4 {
-                    display: block;
-                  }
-                  .tbl-head:nth-child(4) span:nth-child(2) {
-                    display: none;
-                  }
-                  .tr2 td,
-                  .tr6 td {
-                    font-size: 10px;
-                    line-height: 12px;
-                    vertical-align : top;
-                  }
-                    .tr2 td p,
-                    .tr6 td p {
-                      display: inline-block;
-                    }
-                    .td-bf-p {
-                      padding-left:8px;
-                    }
-                    .td-bf-p::before {
-                      position: absolute;
-                      top: 5px;
-                      left: 0;
-                      display: inline-block;
-                      width:5px;
-                      height:5px;
-                      margin:0 3px 0 0;
-                    }
-                    .tbl-icon-img {
-                      width:20px;
-                    }
-                  .tr5 td {
-                    font-size: 10px;
-                    line-height: 15px;
-                  }
-                  .tr5 span {
-                    font-size: 15px;
-                    line-height: 23px;
-                  }
-                  .tbl-price {
-                    font-size: 12px;
-                    line-height: 18px;
-                  }
-
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  .plan-section {}
-    .content-width {}
-      .section-title {}
-      .sp-plan-title {
-        display: block;
-        font-weight: 700px;
-        font-weight: bold;
-        font-size: 26px;
-        line-height: 31px;
-        text-align: center;
-      }
-      .sp-plan-title::after {
-        border-bottom:5px solid rgb(247, 147, 20) ;
-      }
-      .section-container {
-        /* 共通 */
-      }
-        .course-header {}
-          ul.course-header-list {
-            flex-wrap: wrap
-          }
-            li.course-header-list0 {
-              width:100%;
-            }
-              .res-open-img {
-                display: none;
-              }
-              .mgr-10 {
-                display: block;
-              }
-              .course-header-list0 p {
-                font-size: 15px;
-              }
-            .course-header-list1 {
-              margin-bottom:9px;
-            }
-            .course-header-list2 {
-              margin-bottom:9px;
-            }
-            .course-header-list3-img {
-              display: none;
-            }
-            .sp-course-header-list3-img {
-              display: block;
-              width:35px;
-              height:35px;
-            }
-        .course-box {
-          padding: 20px;
-        }
-          .course-title {}
-          .open-title {}
-            .open-title img{
-              width:60px;
-            }
-            .course-title-p1 {
-              font-size: 24px;
-              line-height: 27px;
-            }
-              .course-title-p1 a:nth-child(1) {
-                display: none;
-              }
-              .course-title-p1 a:nth-child(2) {
-                display: block;
-              }
-              .sp-course-title {
-                display: block;
-                margin-bottom:3px;
-              }
-            .course-title-p2 {}
-          .course-recommend {
-            margin-top:20px;
-          }
-            ul.course-recommend-list {}
-              li.course-recommend-list1 {
-                text-align: center;
-                margin-bottom:10px;
-              }
-              img.icon-heading {
-                width:21px;
-                height:21px;
-              }
-              img.icon-heading2 {
-                width:17px;
-                height:17px;
-                margin-right: 15px;
-              }
-              .course-recommend-list li:nth-child(n+2) {
-                text-align: left;
-                margin-bottom:5px;
-              }
-          .course-overview {
-            margin-top:20px;
-          }
-            ul.course-overview-list {}
-              li.course-overview-list1 {
-                text-align: center;
-              }
-              li.course-overview-list2 {}
-              li.course-overview-list3 {}
-              li.course-overview-list4 {}
-              li.course-overview-list5 {}
-              li.course-overview-list6 {}
-                .overview-category {
-                  margin: 0 auto 15px auto;
+                .tr7 td {
+                  margin-top:10px;
+                  margin-bottom:8px;
                 }
-                .overview-list-p2 {
+                .tbl-head:nth-child(n+2) {
+                  font-size: 10px;
+                  line-height: 15px;
+                }
+                .tbl-head:nth-child(n+2) span {
+                  font-size: 12px;
+                  line-height: 15px;
+                }
+                span.sp-tr1-4 {
+                  display: block;
+                }
+                .tbl-head:nth-child(4) span:nth-child(2) {
+                  display: none;
+                }
+                .tr2 td,
+                .tr6 td {
+                  font-size: 10px;
+                  line-height: 12px;
+                  vertical-align : top;
+                }
+                  .tr2 td p,
+                  .tr6 td p {
+                    display: inline-block;
+                  }
+                  .td-bf-p {
+                    padding-left:8px;
+                  }
+                  .td-bf-p::before {
+                    position: absolute;
+                    top: 5px;
+                    left: 0;
+                    display: inline-block;
+                    width:5px;
+                    height:5px;
+                    margin:0 3px 0 0;
+                  }
+                  .tbl-icon-img {
+                    width:20px;
+                  }
+                .tr5 td {
+                  font-size: 10px;
+                  line-height: 15px;
+                }
+                .tr5 span {
                   font-size: 15px;
                   line-height: 23px;
                 }
-                .overview-list-p2 span:nth-child(-n+2) {
-                  margin-bottom:10px;
+                .tbl-price {
+                  font-size: 12px;
+                  line-height: 18px;
                 }
-                .course-overview-list li:nth-child(n+3) .overview-list-p2 {
-                  text-align: center;
-                }
-          .course-flow {
-            margin-top:20px;
-          }
-            ul.course-flow-list {
-              margin-top:initial;
-            }
-              li.course-flow-list1 {/* 1だけタイトル */
-                width:100%;
-                margin-top:0px;
-                margin-bottom:20px;
-              }
-                .course-flow-list1 p {
-                  text-align: center;
-                }
-                .course-flow-list0 {
-                  flex-direction: column;
-                }
-                  .flow-list-left {
-                    width:100%;
-                  }
-                    .flow-list-number {
-                      text-align: left;
-                    }
-                  .flow-list-right {
-                    width:100%;
-                    padding: 20px;
-                  }
-                    .flow-list-left img {
-                      top: initial;
-                      left: initial;
-                      transform: initial;
-                    }
-                    .flow-list-right a {
-                      font-size: 15px;
-                      line-height: 22px;
-                    }
-                .course-flow-list2 {
-                  margin-top:20px;
-                  padding-bottom:20px;
-                }
-                .course-flow-list3 {
-                }
-                .course-flow-list4 {
-                  margin-top:20px;
-                }
-          .open-detail-btn {
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+.plan-section {}
+  .content-width {}
+    .section-title {}
+    .sp-plan-title {
+      display: block;
+      font-weight: 700px;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 31px;
+      text-align: center;
+    }
+    .sp-plan-title::after {
+      border-bottom:5px solid rgb(247, 147, 20) ;
+    }
+    .section-container {
+      /* 共通 */
+    }
+      .course-header {}
+        ul.course-header-list {
+          flex-wrap: wrap
+        }
+          li.course-header-list0 {
             width:100%;
           }
-            .open-detail-btn p {
-              font-size: 15px;
-              width:100%;
-              margin-top:25px;
-              margin-bottom:25px;
+            .res-open-img {
+              display: none;
             }
-
-
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  .footer {
-    padding-left:20px;
-    padding-right:20px;
-  }
-    .content-width {}
-    .footer-width {}
-      .footer-return-btn {}
-      .footer-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: initial;
+            .mgr-10 {
+              display: block;
+            }
+            .course-header-list0 p {
+              font-size: 15px;
+            }
+          .course-header-list1 {
+            margin-bottom:9px;
+          }
+          .course-header-list2 {
+            margin-bottom:9px;
+          }
+          .course-header-list3-img {
+            display: none;
+          }
+          .sp-course-header-list3-img {
+            display: block;
+            width:35px;
+            height:35px;
+          }
+      .course-box {
+        padding: 20px;
       }
-        ul.footer-list-left {
-          order: 3;
+        .course-title {}
+        .open-title {}
+          .open-title img{
+            width:60px;
+          }
+          .course-title-p1 {
+            font-size: 24px;
+            line-height: 27px;
+          }
+            .course-title-p1 a:nth-child(1) {
+              display: none;
+            }
+            .course-title-p1 a:nth-child(2) {
+              display: block;
+            }
+            .sp-course-title {
+              display: block;
+              margin-bottom:3px;
+            }
+          .course-title-p2 {}
+        .course-recommend {
+          margin-top:20px;
+        }
+          ul.course-recommend-list {}
+            li.course-recommend-list1 {
+              text-align: center;
+              margin-bottom:10px;
+            }
+            img.icon-heading {
+              width:21px;
+              height:21px;
+            }
+            img.icon-heading2 {
+              width:17px;
+              height:17px;
+              margin-right: 15px;
+            }
+            .course-recommend-list li:nth-child(n+2) {
+              text-align: left;
+              margin-bottom:5px;
+            }
+        .course-overview {
+          margin-top:20px;
+        }
+          ul.course-overview-list {}
+            li.course-overview-list1 {
+              text-align: center;
+            }
+            li.course-overview-list2 {}
+            li.course-overview-list3 {}
+            li.course-overview-list4 {}
+            li.course-overview-list5 {}
+            li.course-overview-list6 {}
+              .overview-category {
+                margin: 0 auto 15px auto;
+              }
+              .overview-list-p2 {
+                font-size: 15px;
+                line-height: 23px;
+              }
+              .overview-list-p2 span:nth-child(-n+2) {
+                margin-bottom:10px;
+              }
+              .course-overview-list li:nth-child(n+3) .overview-list-p2 {
+                text-align: center;
+              }
+        .course-flow {
+          margin-top:20px;
+        }
+          ul.course-flow-list {
+            margin-top:initial;
+          }
+            li.course-flow-list1 {/* 1だけタイトル */
+              width:100%;
+              margin-top:0px;
+              margin-bottom:20px;
+            }
+              .course-flow-list1 p {
+                text-align: center;
+              }
+              .course-flow-list0 {
+                flex-direction: column;
+              }
+                .flow-list-left {
+                  width:100%;
+                }
+                  .flow-list-number {
+                    text-align: left;
+                  }
+                .flow-list-right {
+                  width:100%;
+                  padding: 20px;
+                }
+                  .flow-list-left img {
+                    top: initial;
+                    left: initial;
+                    transform: initial;
+                  }
+                  .flow-list-right a {
+                    font-size: 15px;
+                    line-height: 22px;
+                  }
+              .course-flow-list2 {
+                margin-top:20px;
+                padding-bottom:20px;
+              }
+              .course-flow-list3 {
+              }
+              .course-flow-list4 {
+                margin-top:20px;
+              }
+        .open-detail-btn {
           width:100%;
         }
-          li.footer-list-left1  {}
-          li.footer-list-left2  {}
-          li.footer-list-left3  {}
-          li.footer-list-left4  {}
-          li.footer-list-left5  {}
-          li.footer-list-left6  {}
-        ul.footer-list-center {
-          order: 1;
-          width:100%;
-        }
-          li.footer-list-center1 {}
-          li.footer-list-center2 {}
-          li.footer-list-center3 {}
-          li.footer-list-center4 {}
-          li.footer-list-center5 {}
-          li.footer-list-center6 {}
-        .footer-list-right {
-          order: 2;
-          width:100%;
-          margin-left: auto;
-          margin-right: auto;
-        }
-          .footer-list-right img {}
-        .footer-copyright {
-          margin-left: auto;
-          margin-right: auto;
-        }
+          .open-detail-btn p {
+            font-size: 15px;
+            width:100%;
+            margin-top:25px;
+            margin-bottom:25px;
+          }
+
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+.footer {
+  padding-left:20px;
+  padding-right:20px;
+}
+  .content-width {}
+  .footer-width {}
+    .footer-return-btn {}
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: initial;
+    }
+      ul.footer-list-left {
+        order: 3;
+        width:100%;
+        margin-top:26px;
+        text-align: center;
+      }
+        li.footer-list-left1  {}
+        li.footer-list-left2  {}
+        li.footer-list-left3  {}
+        li.footer-list-left4  {}
+        li.footer-list-left5  {}
+        li.footer-list-left6  {}
+      ul.footer-list-center {
+        order: 1;
+        width:100%;
+      }
+        li.footer-list-center1 {}
+        li.footer-list-center2 {}
+        li.footer-list-center3 {}
+        li.footer-list-center4 {}
+        li.footer-list-center5 {}
+        li.footer-list-center6 {}
+      .footer-list-right {
+        order: 2;
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:26px;
+        text-align: center;
+        border-bottom:1px solid #ffffff ;
+      }
+        .footer-list-right img {}
+      .footer-copyright {
+        margin-left: auto;
+        margin-right: auto;
+      }
 
 
 
-  }
-
-
-
-
-  /*  */
+}
