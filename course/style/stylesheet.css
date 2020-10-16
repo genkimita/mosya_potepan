@@ -1209,7 +1209,6 @@
                   li.course-flow-list2 {
                     border:2px solid rgb(247,147,20);
                     display: flex;
-                    margin-bottom:20px;
                   }
                     .flow-list-left {
                       width:27%;
@@ -1253,6 +1252,7 @@
                   li.course-flow-list3 {
                     border:2px solid rgb(247,147,20);
                     display: flex;
+                    margin-top:20px;
                   }
                   li.course-flow-list4 {
                     border:2px solid rgb(247,147,20);
