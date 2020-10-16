@@ -530,6 +530,7 @@
               img.icon-heading2 {
                 width:17px;
                 height:17px;
+                margin-right: 15px;
               }
               .course-recommend-list li:nth-child(n+2) {
                 text-align: left;
