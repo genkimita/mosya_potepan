@@ -501,6 +501,10 @@
           padding: 20px;
         }
           .course-title {}
+          .open-title {}
+            .open-title img{
+              width:60px;
+            }
             .course-title-p1 {
               font-size: 24px;
               line-height: 27px;
