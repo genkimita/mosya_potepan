@@ -573,7 +573,9 @@
               margin-top:initial;
             }
               li.course-flow-list1 {/* 1だけタイトル */
-                margin: 0 auto 20px auto;
+                width:100%;
+                margin-top:0px;
+                margin-bottom:20px;
               }
                 .course-flow-list1 p {
                   margin-left: auto;
