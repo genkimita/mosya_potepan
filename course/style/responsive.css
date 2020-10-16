@@ -522,6 +522,7 @@
             ul.course-recommend-list {}
               li.course-recommend-list1 {
                 text-align: center;
+                margin-bottom:10px;
               }
               img.icon-heading {
                 width:21px;
