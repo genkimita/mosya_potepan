@@ -595,7 +595,9 @@
                   margin-top:20px;
                   padding-bottom:20px;
                 }
-                .course-flow-list3 {}
+                .course-flow-list3 {
+                  margin-bottom:20px;
+                }
                 .course-flow-list4 {}
 
 
