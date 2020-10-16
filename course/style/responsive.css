@@ -486,8 +486,7 @@ body {
       }
         .footer-list-right img {}
       .footer-copyright {
-        margin-left: auto;
-        margin-right: auto;
+        text-align: center;
       }
 
 
