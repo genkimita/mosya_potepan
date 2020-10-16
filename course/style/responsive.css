@@ -560,6 +560,9 @@
                   font-size: 15px;
                   line-height: 23px;
                 }
+                .overview-list-p2 span:nth-child(-n+2) {
+                  margin-bottom:10px;
+                }
                 .course-overview-list li:nth-child(n+3) .overview-list-p2 {
                   text-align: center;
                 }
