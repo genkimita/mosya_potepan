@@ -606,9 +606,10 @@
                   padding-bottom:20px;
                 }
                 .course-flow-list3 {
-                  margin-bottom:20px;
                 }
-                .course-flow-list4 {}
+                .course-flow-list4 {
+                  margin-top:20px;
+                }
           .open-detail-btn {
             width:100%;
           }
