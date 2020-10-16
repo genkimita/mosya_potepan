@@ -622,6 +622,49 @@
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  .footer {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+    .content-width {}
+    .footer-width {}
+      .footer-return-btn {}
+      .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: initial;
+      }
+        ul.footer-list-left {
+          order: 3;
+          width:100%;
+        }
+          li.footer-list-left1  {}
+          li.footer-list-left2  {}
+          li.footer-list-left3  {}
+          li.footer-list-left4  {}
+          li.footer-list-left5  {}
+          li.footer-list-left6  {}
+        ul.footer-list-center {
+          order: 1;
+          width:100%;
+        }
+          li.footer-list-center1 {}
+          li.footer-list-center2 {}
+          li.footer-list-center3 {}
+          li.footer-list-center4 {}
+          li.footer-list-center5 {}
+          li.footer-list-center6 {}
+        ul.footer-list-right {
+          order: 2;
+          width:100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+          .footer-list-right img {}
+        .footer-copyright {
+          margin-left: auto;
+          margin-right: auto;
+        }
 
 
 
