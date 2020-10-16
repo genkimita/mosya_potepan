@@ -566,6 +566,7 @@
               margin-top:initial;
             }
               li.course-flow-list1 {/* 1だけタイトル */
+                margin: 0 auto 20 auto;
               }
                 .course-flow-list1 p {
                   margin-left: auto;
