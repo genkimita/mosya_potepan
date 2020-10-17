@@ -467,8 +467,18 @@ body {
                 .slide-picture img {
                   width:100%;
                 }
-              .slide-text {}
-              .slide-position {}
+              .slide-text {
+                margin-top:20px;
+              }
+                .slide-text p {
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 29px;
+                  font-weight: bold;
+                }
+              .slide-position {
+                margin-top:25px;
+              }
 
 /* jQuery */
 
