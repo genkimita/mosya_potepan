@@ -491,8 +491,10 @@ body {
       }
         .footer-list-right img {}
       .footer-copyright {
-        text-align: center;
       }
+        .footer-copyright p {
+          text-align: center;
+        }
 
 
 
