@@ -478,11 +478,13 @@ body {
       .footer-list-right {
         order: 2;
         width:100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom:26px;
-        text-align: center;
-        border-bottom:1px solid #ffffff ;
+        padding-top:30px;
+        padding-bottom:30px;
+        border-bottom:2px solid rgb(255, 255, 255) ;
+        align-self: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
         .footer-list-right img {}
       .footer-copyright {
