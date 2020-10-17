@@ -456,7 +456,12 @@ body {
       ul.footer-list-left {
         order: 3;
         width:100%;
+        margin-top:26px;
       }
+        .footer-list-left p,
+        .footer-list-left6 {
+          justify-content: center;
+        }
         li.footer-list-left1  {}
         li.footer-list-left2  {}
         li.footer-list-left3  {}
@@ -476,14 +481,20 @@ body {
       .footer-list-right {
         order: 2;
         width:100%;
-        margin-left: auto;
-        margin-right: auto;
+        padding-top:30px;
+        padding-bottom:30px;
+        border-bottom:2px solid rgb(255, 255, 255) ;
+        align-self: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
         .footer-list-right img {}
       .footer-copyright {
-        margin-left: auto;
-        margin-right: auto;
       }
+        .footer-copyright p {
+          text-align: center;
+        }
 
 
 
