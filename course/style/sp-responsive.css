@@ -455,6 +455,7 @@ body {
           .sp-interviewer {
             display: block;
             background-color:rgb(246,246,246);
+            margin-top:50px;
           }
             .interviewer-slide {
               display: flex;
