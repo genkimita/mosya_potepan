@@ -1359,7 +1359,14 @@
                     transition: .3s;
                   }
 
+
       /* jQuery */
+      .sp-interviewer {
+        display: none;
+      }
+
+
+
       .sp-slide-voice {
         display: none;
       }
