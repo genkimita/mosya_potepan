@@ -1359,7 +1359,10 @@
                     transition: .3s;
                   }
 
-
+      /* jQuery */
+      .sp-slide-voice {
+        display: none;
+      }
 
 
     /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
