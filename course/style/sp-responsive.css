@@ -437,11 +437,44 @@ body {
 
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-
+.main-section {/* 共通 */}
+.voice-section {}
+  .content-width {/* 共通 */}
+  .voice-width {}
+    .section-title {/* 共通 */}
+    .section-container {/* 共通 */}
+    .voice-container {
+      padding-left:20px;
+      padding-right:20px;
+    }
+        ul.interviewer-list {
+            display: none;
+          }
+          .sp-interviewer {
+            display: block;
+          }
+            .interviewer-slide {
+              display: flex;
+              flex-direction: column;
+            }
+              .slide-picture {
+                width:100%;
+                height:166%;
+              }
+                .slide-picture img {
+                  width:100%;
+                }
+              .slide-text {}
+              .slide-position {}
 
 /* jQuery */
+
+
+
+
+
 .sp-slide-voice {
-  display: block;
+  display: none;
 }
 #jquery-cycle-wrap {
     position: relative;
