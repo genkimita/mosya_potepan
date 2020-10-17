@@ -440,7 +440,9 @@ body {
 .main-section {/* 共通 */}
 .voice-section {}
   .content-width {/* 共通 */}
-  .voice-width {}
+  .voice-width {
+    background-size: 132px auto;
+  }
     .section-title {/* 共通 */}
     .section-container {/* 共通 */}
     .voice-container {
