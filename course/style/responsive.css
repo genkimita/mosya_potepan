@@ -457,8 +457,11 @@ body {
         order: 3;
         width:100%;
         margin-top:26px;
-        text-align: center;
       }
+        .footer-list-left p,
+        .footer-list-left6 {
+          justify-content: center;
+        }
         li.footer-list-left1  {}
         li.footer-list-left2  {}
         li.footer-list-left3  {}
