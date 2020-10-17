@@ -582,6 +582,11 @@ body {
           text-align: center;
         }
 
+/* メモ */
+.kaizen-mae {
+  display: none;
+}
+
 
 
 }
