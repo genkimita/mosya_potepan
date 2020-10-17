@@ -438,6 +438,61 @@ body {
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
+
+/* jQuery */
+.sp-slide-voice {
+  display: block;
+}
+#jquery-cycle-wrap {
+    position: relative;
+    width: 300px;
+    height: 198px;
+}
+#jquery-cycle {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 198px;
+}
+#jquery-cycle img {
+    width: 300px;
+    height: 198px;
+}
+#jquery-cycle-nav {
+    display: none;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 198px;
+    text-align: center;
+}
+#jquery-cycle-nav a {
+    float: left;
+    width: 150px;
+    height: 198px;
+    display: block;
+    text-decoration: none;
+}
+#jquery-cycle-prev {
+    font-size: 20px;
+    text-align: left;
+}
+#jquery-cycle-next {
+    font-size: 20px;
+    text-align: right;
+}
+#jquery-cycle-prev span, #jquery-cycle-next span {
+    padding: 0 10px;
+    background: #ffffff;
+    filter: alpha( opacity=50 );
+    -moz-opacity: 0.50;
+    opacity: 0.50;
+}
+
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 .footer {
   padding-left:20px;
