@@ -461,9 +461,32 @@ body {
             margin-top:50px;
           }
             .interviewer-slide {
-              display: flex;
-              flex-direction: column;
+              position: relative;
             }
+              a.change-btn {
+                width:30px;
+                height:30px;
+                transition: 0.5s;
+              }
+              .change-btn:hover {
+                opacity :.7;
+                transition: 0.5s;
+              }
+              .change-btn img {
+                width:100%;
+              }
+              .prev-btn {
+                position: absolute;
+                left: 0;
+                top: 162px;
+                margin-left: -15px;
+              }
+              .next-btn {
+                position: absolute;
+                right: 0px;
+                top: 162px;
+                margin-right: -15px;
+              }
               ul.slides {
                 width:100%;
               }
