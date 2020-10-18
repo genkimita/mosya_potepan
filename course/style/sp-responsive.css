@@ -490,11 +490,11 @@ body {
               ul.slides {
                 width:100%;
               }
-                li.active {
-                  display: block;
-                }
-                li.slide {
+                .slide {
                   display: none;
+                }
+                .active {
+                  display: block;
                 }
                   .slide img {
                     width:100%;
