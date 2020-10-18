@@ -464,10 +464,10 @@ body {
               .slide-picture {
                 width:100%;
                 height:166%;
-                border-radius: 10px;
               }
                 .slide-picture img {
                   width:100%;
+                  border-radius: 10px;
                 }
               .slide-text {
                 margin-top:20px;
