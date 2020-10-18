@@ -464,27 +464,30 @@ body {
               display: flex;
               flex-direction: column;
             }
-              .slide-picture {
+              ul.slides {
                 width:100%;
-                height: width*166%;
               }
-                .slide-picture img {
-                  width:100%;
-                  object-fit: cover;
-                  border-radius: 10px;
+                li.active {
+                  display: block;
                 }
-              .slide-text {
-                margin-top:20px;
-              }
-                .slide-text p {
-                  font-weight: 700;
-                  font-size: 16px;
-                  line-height: 29px;
-                  font-weight: bold;
+                li.slide {
+                  display: none;
                 }
-              .slide-position {
-                margin-top:25px;
-              }
+                  .slide img {
+                    width:100%;
+                    object-fit: cover;
+                    border-radius: 10px;
+                  }
+                  .slide p {
+                    margin-top:20px;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 29px;
+                    font-weight: bold;
+                  }
+                  .slide-position {
+                    margin-top:25px;
+                  }
 
 /* jQuery */
 
