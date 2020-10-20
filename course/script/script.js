@@ -7,6 +7,7 @@ $('.slides').slick({
     autoplaySpeed: 3000,
     speed: 400,
     dots: true,
+    dotsClass: 'slide-dots',
     arrows: true,
     infinite: true,
     initialSlide: 0,
