@@ -1,19 +1,14 @@
 $(function(){
 
-$('.change-btn').click(function(){
-  var $displaySlide = $('.active');
-  $displaySlide.removeClass('active');
-
-if ($(this).hasClass('next-btn')) {
-  $displaySlide.next().addClass('active');
-} else {
-  $displaySlide.prev().addClass('active');
-}
-
-});
-
-
-
-
+$('.slides').slick({
+    autoplay: false,
+    autoplaySpeed: 3000,
+    speed: 400,
+    dots: false,
+    arrows: true,
+    infinite: true,
+    initialSlide: 0,
+    swipe: true,
+  });
 
 });
