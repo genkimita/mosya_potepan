@@ -6,7 +6,7 @@ $('.slides').slick({
     autoplay: false,
     autoplaySpeed: 3000,
     speed: 400,
-    dots: false,
+    dots: true,
     arrows: true,
     infinite: true,
     initialSlide: 0,
