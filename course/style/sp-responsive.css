@@ -491,13 +491,20 @@ body {
               ul.slides {
                 width:100%;
               }
-                  .prev-arrow {
+                li.slide {}
+                  img.prev-arrow {
                     width:30px;
                     height:30px;
+                    position: absolute;
+                    left: -15px;
+                    top: 162px;
                   }
-                  .next-arrow {
+                  img.next-arrow {
                     width:30px;
                     height:30px;
+                    position: absolute;
+                    right: -15px;
+                    top: 162px;
                   }
                   .slide img {
                     width:100%;
