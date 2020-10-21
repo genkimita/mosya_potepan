@@ -439,7 +439,7 @@ body {
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 .main-section {/* 共通 */}
 .voice-section {
-  padding-top:40px;
+  padding-top:40px !important;
 }
   .content-width {/* 共通 */}
   .voice-width {
