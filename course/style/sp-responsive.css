@@ -523,8 +523,9 @@ body {
                     right: -15px;
                     top: 162px;
                   }
-                  .slide-dots {
+                  ul.slide-dots {
                     text-align: center;
+                    margin-top:20px;
                   }
                     .slide-dots li{
                       display: inline-block;
