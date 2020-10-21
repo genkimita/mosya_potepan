@@ -535,7 +535,7 @@ body {
                       text-indent: -9999px;
                     }
                     .slide-dots li button::before {
-                      content: '●';
+                      content: '';
                       width:12px;
                       height:12px;
                       border-radius: 50%;
@@ -547,7 +547,7 @@ body {
                       opacity :.25;
                     }
                     .slick-active button::before {
-                      content: '●';
+                      content: '';
                       width:15px;
                       height:15px;
                       border-radius: 50%;
