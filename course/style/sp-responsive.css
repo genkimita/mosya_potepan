@@ -558,9 +558,9 @@ body {
                       left: 0;
                     }
                     .slick-active button::before {
-                      width:15px;
-                      height:15px;
-                      background-color:rgb(247,147,20);
+                      width:15px !important;
+                      height:15px !important;
+                      background-color:rgb(247,147,20) !important;
                     }
 
 /* jQuery */
