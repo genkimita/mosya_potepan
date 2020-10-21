@@ -339,7 +339,9 @@ body {
         .course-recommend {
           margin-top:20px;
         }
-          ul.course-recommend-list {}
+          ul.course-recommend-list {
+            text-align: left;
+          }
             li.course-recommend-list1 {
               text-align: center;
               margin-bottom:10px;
@@ -377,7 +379,7 @@ body {
                 line-height: 23px;
               }
               .overview-list-p2 span:nth-child(-n+2) {
-                margin-bottom:10px;
+                margin-bottom:10px !important;
               }
               .course-overview-list li:nth-child(n+3) .overview-list-p2 {
                 text-align: center;
