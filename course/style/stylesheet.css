@@ -1292,6 +1292,7 @@
     /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
       .main-section {/* 共通 */}
       .voice-section {
+        padding-top:37px !important;
         background-color:rgb(246,246,246);
       }
         .content-width {
@@ -1301,7 +1302,7 @@
           background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/bg-section-top-course.png);
           background-size: 281px 275px;
           background-repeat: no-repeat;
-          background-position:right top;
+          background-position:calc(100% - 50px) top;
           position: relative;
         }
         .voice-width::after {
