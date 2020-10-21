@@ -444,7 +444,7 @@ body {
   .content-width {/* 共通 */}
   .voice-width {
     background-size: 132px auto;
-    background-position:calc(100% - 20px) top;
+    background-position:calc(100% - 40px) top;
   }
     .section-title {/* 共通 */}
     .section-container {/* 共通 */}
