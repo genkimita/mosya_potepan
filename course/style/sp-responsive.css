@@ -561,6 +561,7 @@ body {
                       width:15px !important;
                       height:15px !important;
                       background-color:rgb(247,147,20) !important;
+                      opacity:1 !important;
                     }
 
 /* jQuery */
