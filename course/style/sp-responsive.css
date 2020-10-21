@@ -530,6 +530,17 @@ body {
                       display: inline-block;
                       margin:0 15px;
                     }
+                    button {
+                      margin: 0;
+                      padding: 0;
+                      background: none;
+                      border: none;
+                      border-radius: 0;
+                      outline: none;
+                      -webkit-appearance: none;
+                      -moz-appearance: none;
+                      appearance: none;
+                    }
                     .slide-dots li button{
                       position: relative;
                       text-indent: -9999px;
