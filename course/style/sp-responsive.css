@@ -543,13 +543,14 @@ body {
                       top: 0;
                       left: 0;
                       text-indent: 0px;
+                      background-color:;
                     }
                     .slick-active button::before {
                       content: ' ';
                       width:15px;
                       height:15px;
                       border-radius: 50%;
-                      color:color:rgb(247,147,20);
+                      background-color:rgb(247,147,20);
                     }
 
 /* jQuery */
