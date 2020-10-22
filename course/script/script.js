@@ -2,6 +2,7 @@ $(function(){
 
   $('.res-header-icon-hamburger').click(function(){
     $('.bar1, .bar2, .bar3').toggleClass('open');
+    $('.drawer').toggleClass('open');
    });
 
 $('.slides').slick({
