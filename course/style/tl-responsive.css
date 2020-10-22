@@ -66,6 +66,7 @@
             /* メニュークリック時 */
             .bar1.open {
               top: 8.5px;
+              left: 50%;
               transform: rotate(45deg);
             }
             .bar2.open {
@@ -73,6 +74,7 @@
             }
             .bar3.open {
               top: 8.5px;
+              left: 50%; 
               transform: rotate(-45deg);
             }
             /* メニュー引き出し */
