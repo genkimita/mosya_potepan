@@ -64,16 +64,16 @@
               top: 100%;
             }
             /* メニュークリック時 */
-            .bar1 .open {
-              top: 50% !important;
-              transform: rotate(45deg) !important;
+            .bar1.open {
+              top: 50%;
+              transform: rotate(45deg);
             }
-            .bar2 .open {
-              opacity:0 !important;
+            .bar2.open {
+              opacity:0;
             }
-            .bar3 .open {
-              top: 50px !important;
-              transform: rotate(-45deg) !important;
+            .bar3.open {
+              top: 50px;
+              transform: rotate(-45deg);
             }
 
           /* .header-nav *:last-child {
