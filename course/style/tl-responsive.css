@@ -78,17 +78,14 @@
             }
             /* メニュー引き出し */
             .drawer {
-              width:100vw;
-              height:100%;
+              width:100%;
               position: fixed;
               top: 0;
               right: -100%;
               -webkit-transition: .7s;
               transition: .5;
               background:rgba(0,0,0,.7);
-              display:-webkit-box;
               display: flex;
-              -webkit-box-pack: center;
               justify-content: center;
             }
             .drawer.open {
@@ -97,6 +94,7 @@
               ul.drawer-menu {
                 padding: 0;
                 margin: 0;
+                text-align: center;
               }
                 li.drawer-list {
                   margin-top:30px;
