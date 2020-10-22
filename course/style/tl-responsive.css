@@ -47,7 +47,7 @@
             position: relative;
           }
             span.hamburger-line:first-child {
-              top: 2px;
+              top: 0;
             }
             span.hamburger-line  {
               position: absolute;
@@ -62,7 +62,7 @@
             }
             span.hamburger-line:last-child  {
               top: initial;
-              bottom: 2px;
+              bottom: 0;
             }
             /* メニュークリック時 */
             .bar1.open {
