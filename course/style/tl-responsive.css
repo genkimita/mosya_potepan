@@ -47,11 +47,11 @@
             position: relative;
           }
             span.hamburger-line:first-child {
-              top: 2.5px;
+              top: 2px;
             }
             span.hamburger-line  {
               position: absolute;
-              top: 8px;
+              top: 8.5px;
               display: block;
               width: 30px;
               height: 3px;
@@ -62,18 +62,18 @@
             }
             span.hamburger-line:last-child  {
               top: initial;
-              bottom: 2.5px;
+              bottom: 2px;
             }
             /* メニュークリック時 */
             .bar1.open {
-              top: 8px;
+              top: 8.5px;
               transform: rotate(45deg);
             }
             .bar2.open {
               opacity:0;
             }
             .bar3.open {
-              top: 8px;
+              top: 8.5px;
               transform: rotate(-45deg);
             }
             /* メニュー引き出し */
