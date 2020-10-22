@@ -72,7 +72,7 @@
               opacity:0;
             }
             .bar3.open {
-              top: 50px;
+              top: 50%;
               transform: rotate(-45deg);
             }
 
