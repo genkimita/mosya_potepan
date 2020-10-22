@@ -58,10 +58,22 @@
               background-color: #222;
               transform: translate(0, -50%);
               border-radius: 10px;
-              transition: top 0.2s, transform 0.2s, opacity 0.3s;
+              transition: all 0.5s ease;
             }
             span.hamburger-line:last-child  {
               top: 100%;
+            }
+            /* メニュークリック時 */
+            .bar1 .open {
+              top: 50%;
+              transform: rotate(45deg);ease
+            }
+            .bar2 .open {
+              opacity:0;
+            }
+            .bar3 .open {
+              top: 50px;
+              transform: rotate(-45deg);
             }
 
           /* .header-nav *:last-child {
