@@ -53,7 +53,7 @@
               position: absolute;
               top: 8px;
               display: block;
-              width: 100%;
+              width: 30px;
               height: 3px;
               background-color: #222;
               transform: translate(0, -50%);
