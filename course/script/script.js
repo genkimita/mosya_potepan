@@ -1,7 +1,7 @@
 $(function(){
 
   $('.res-header-icon-hamburger').click(function(){
-    $('.bar1,.bar2,.bar3').toggleClass('open');
+    $('.bar1, .bar2, .bar3').toggleClass('open');
    });
 
 $('.slides').slick({
