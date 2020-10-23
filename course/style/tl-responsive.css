@@ -38,20 +38,19 @@
             display: none;
           }
           .res-header-icon-hamburger {
-            display: block;
+            position: relative;
             width:30px;
             height:20px;
-            display: inline-flex;
-            cursor:pointer;
-            position: relative;
+            box-sizing: border-box;
+            z-index:100;
           }
             span.hamburger-line  {
               display: block;
               width: 30px;
               height: 3px;
-              position: absolute;
-              left: 0;
               background-color: #222;
+              position: absolute;
+              left: 0px;
               transition: all 0.5s ease;
             }
             span.hamburger-line:first-child {
