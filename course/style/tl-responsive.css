@@ -101,17 +101,20 @@
                 }
                 li.drawer-list {
                 }
-                  .drawer-list p {
-                    font-weight: 700;
-                    font-size: 12px;
-                    line-height: px;
-                    color:#f79314;
-                  }
                   .drawer-list p span {
                     font-weight: 700;
                     font-size: 16px;
                     line-height: px;
+                    letter-spacing: 5px;
+                    margin-bottom:7px;
                     color:rgb(255, 255, 255);
+                  }
+                  .drawer-list p {
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: px;
+                    letter-spacing: 2px;
+                    color:#f79314;
                   }
                 p.drawer-btn {
                   width:250px;
