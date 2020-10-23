@@ -635,13 +635,14 @@ body {
   .footer-width {}
     .footer-return-btn {}
     .footer-return-btn a:hover {
-      background-color:initial;
+      background-color:rgb(255, 255, 255);
       transition: initial;
       cursor:initial;
     }
     .footer-return-btn a:hover span.marker-top-sign {
-      border-color: initial;
+      border-color: rgb(247, 146, 21);
       transition: initial;
+      cursor:initial;
     }
     .footer-container {
       display: flex;
