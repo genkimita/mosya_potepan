@@ -634,7 +634,7 @@ body {
   .content-width {}
   .footer-width {}
     .footer-return-btn {}
-    .footer-return-btn a:not(:hover) {}
+    .footer-return-btn a:not(:hover,:active,:visited) {}
     .footer-container {
       display: flex;
       flex-wrap: wrap;
