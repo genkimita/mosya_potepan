@@ -634,15 +634,7 @@ body {
   .content-width {}
   .footer-width {}
     .footer-return-btn {}
-    .footer-return-btn a:not(:hover) {
-      background-color:rgb(247,147,20);
-      transition: 0.5s;
-      cursor:pointer;
-    }
-    .footer-return-btn a:not(:hover span.marker-top-sign) {
-      border-color: rgb(255, 255, 255);
-      transition: 0.5s;
-    }
+    .footer-return-btn a:not(:hover) {}
     .footer-container {
       display: flex;
       flex-wrap: wrap;
