@@ -45,17 +45,21 @@
             cursor:pointer;
             position: relative;
           }
-            span.hamburger-line:first-child {
-              top: 0;
-            }
             span.hamburger-line  {
               display: block;
               width: 30px;
               height: 3px;
               position: absolute;
               top: 50%;
+              left: 0;
               background-color: #222;
               transition: all 0.5s ease;
+            }
+            span.hamburger-line:first-child {
+              top: 0;
+            }
+            span.hamburger-line:nth-child(2) {
+              top: 50%;
             }
             span.hamburger-line:last-child  {
               top: 100%;
