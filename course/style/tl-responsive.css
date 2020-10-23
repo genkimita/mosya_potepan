@@ -114,10 +114,12 @@
                     color:rgb(255, 255, 255);
                   }
                 p.drawer-btn {
+                  width:250px;
                   height:60px;
                   border-radius: 30px;
                   background-color:rgb(247,147,20);
-                  text-align: center;
+                  display: flex;
+                  justify-content: center;
                   align-items: center;
                 }
 
