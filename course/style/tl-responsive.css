@@ -117,6 +117,7 @@
                     color:#f79314;
                   }
                 p.drawer-btn {
+                  letter-spacing: initial;
                   width:250px;
                   height:60px;
                   border-radius: 30px;
