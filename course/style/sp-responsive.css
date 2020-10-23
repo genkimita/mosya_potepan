@@ -634,7 +634,15 @@ body {
   .content-width {}
   .footer-width {}
     .footer-return-btn {}
-    .footer-return-btn a:not(:hover,:active,:visited) {}
+    .footer-return-btn a:hover {
+      background-color:initial;
+      transition: initial;
+      cursor:initial;
+    }
+    .footer-return-btn a:hover span.marker-top-sign {
+      border-color: initial;
+      transition: initial;
+    }
     .footer-container {
       display: flex;
       flex-wrap: wrap;
