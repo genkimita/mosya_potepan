@@ -53,23 +53,23 @@
               width: 30px;
               height: 3px;
               position: absolute;
-              top: 13.5px;
+              top: 50%;
               background-color: #222;
               transition: all 0.5s ease;
             }
             span.hamburger-line:last-child  {
-              top: 27px;
+              top: 100%;
             }
             /* メニュークリック時 */
             .bar1.open {
-              top: 13.5px;
+              top: 50%;
               transform: rotate(45deg);
             }
             .bar2.open {
               opacity:0;
             }
             .bar3.open {
-              top: 13.5px;
+              top: 50%;
               transform: rotate(-45deg);
             }
             /* メニュー引き出し */
