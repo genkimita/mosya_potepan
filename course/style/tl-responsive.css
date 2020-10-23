@@ -65,16 +65,16 @@
             }
             /* メニュークリック時 */
             .bar1.open {
-              top: 50%;
-              left: 50%;
+              top: 50% !important;
+              left: 50% !important;
               transform: rotate(45deg);
             }
             .bar2.open {
               opacity:0;
             }
             .bar3.open {
-              top: 50%;
-              left: 50%; 
+              top: 50% !important;
+              left: 50% !important; 
               transform: rotate(-45deg);
             }
             /* メニュー引き出し */
