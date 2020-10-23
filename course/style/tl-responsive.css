@@ -41,7 +41,6 @@
             position: relative;
             width:30px;
             height:20px;
-            box-sizing: border-box;
           }
             span.hamburger-line  {
               display: block;
