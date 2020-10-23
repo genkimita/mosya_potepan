@@ -41,7 +41,7 @@
           .res-header-icon-hamburger {
             display: block;
             width:30px;
-            height:20px;
+            height:30px;
             display: inline-flex;
             cursor:pointer;
             position: relative;
@@ -50,29 +50,27 @@
               top: 0;
             }
             span.hamburger-line  {
-              position: absolute;
-              top: 8.5px;
               display: block;
               width: 30px;
               height: 3px;
+              position: absolute;
+              top: 13.5px;
               background-color: #222;
-              transform: translate(0, -50%);
-              border-radius: 10px;
               transition: all 0.5s ease;
             }
             span.hamburger-line:last-child  {
-              top: 17px;
+              top: 27px;
             }
             /* メニュークリック時 */
             .bar1.open {
-              top: 8.5px;
+              top: 13.5px;
               transform: rotate(45deg);
             }
             .bar2.open {
               opacity:0;
             }
             .bar3.open {
-              top: 8.5px;
+              top: 13.5px;
               transform: rotate(-45deg);
             }
             /* メニュー引き出し */
