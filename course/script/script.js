@@ -19,8 +19,9 @@ $('.slides').slick({
     swipe: true,
   });
 
-  $('#top-btn').click(function(){ 
-    $('html,body').scrollTop(0);
+  $('#top-btn').click(function(){
+    $('html,body').animate({'scrollTop':0},1000);
+
   });
 
 });
