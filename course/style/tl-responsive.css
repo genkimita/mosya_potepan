@@ -61,7 +61,7 @@
               transition: all 0.5s ease;
             }
             span.hamburger-line:last-child  {
-              top: 100%;
+              top: 17px;
             }
             /* メニュークリック時 */
             .bar1.open {
