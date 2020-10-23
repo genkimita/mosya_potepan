@@ -130,6 +130,7 @@
       .header {
         padding-top:20px;
         padding-bottom:20px;
+        z-index:100;
       }
       .content-width {
         /* 共通 */
