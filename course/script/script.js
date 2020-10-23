@@ -19,4 +19,8 @@ $('.slides').slick({
     swipe: true,
   });
 
+  $('#top-btn').click(function(){ 
+    $('html,body').scrollTop(0);
+  });
+
 });
