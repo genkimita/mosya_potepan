@@ -176,7 +176,7 @@
           display: none;
         }2
 
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tl-plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
         .plan-section {}
           .content-width {}
             .section-title {}
@@ -211,11 +211,22 @@
                         width:100%;
                         height:auto;
                       }
-                      .course-flow-left {}
-                        .course-flow-left img {
-                          align-items: center;
-                        }
-                      .course-flow-right {}
+                  .course-flow {}
+                    ul.course-flow-list {}
+                      li.course-flow-list1 {}
+                      li.course-flow-list0 {}
+                          .flow-list-left {}
+                            .flow-list-left img {
+                              position: relative;
+                              top: 50%;
+                              left: 50%;
+                              transform: translate(-50%, -50%);
+                            }
+                            .flow-list-left p {}
+                          .flow-list-right {}
+                      li.course-flow-list2 {}
+                      li.course-flow-list3 {}
+                      li.course-flow-list4 {}
 
 
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
