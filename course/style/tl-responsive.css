@@ -103,17 +103,14 @@
                 }
                 li.drawer-list {
                 }
-                  .drawer-list p span {
+                  .drawer-list p:nth-child(1) {
                     font-weight: 700;
                     font-size: 16px;
                     line-height: px;
                     letter-spacing: 5px;
                     color:rgb(255, 255, 255);
                   }
-                  .drawer-list p span:nth-child(-n+6) {
-                    margin-bottom:7px;
-                  }
-                  .drawer-list p {
+                  .drawer-list p:nth-child(2) {
                     font-weight: 700;
                     font-size: 12px;
                     line-height: px;
@@ -121,7 +118,6 @@
                     color:#f79314;
                   }
                 p.drawer-btn {
-                  letter-spacing:initial !important;
                   width:250px;
                   height:60px;
                   border-radius: 30px;
