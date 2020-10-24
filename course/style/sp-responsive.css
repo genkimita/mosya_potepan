@@ -442,6 +442,9 @@ body {
 }
   ul.drawer {}
     li.drawer-list {}
+      .drawer-list span {
+        line-height: 23px;
+      }
 
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
