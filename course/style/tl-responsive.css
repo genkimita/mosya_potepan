@@ -200,6 +200,9 @@
                   }
                     .course-header-list0 p {
                       font-size: 15px;
+                      text-align: center;
+                      margin-left: auto;
+                      margin-right: auto;
                     }
                     .course-header-list0 p span {
                       font-size: 20px;
@@ -215,7 +218,7 @@
                     .res-open-img {
                       display: block !important;
                       position: absolute;
-                      margin:-85px auto 0 auto;
+                      margin:-100px auto 0 auto;
                       text-align: center;
                     }
                       .res-open-img img{
