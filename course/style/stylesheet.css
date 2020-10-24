@@ -976,9 +976,6 @@
                     font-weight: 700;
                     font-size: 16px;
                     line-height: px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
                   }
                     .course-header-list0 p::before {
                       content: ' ';
@@ -993,7 +990,7 @@
                       border-color: rgb(255, 255, 255);
                       transition: 0.5s;
                     }
-                    .course-header-span1 {
+                    span.course-header-span1 {
                       font-weight: 700;
                       font-size: 20px;
                       line-height: px;
@@ -1017,28 +1014,9 @@
                     cursor:pointer;
                   }
                   .course-header-list2 p {
-                    font-weight: 700;
-                    font-size: 16px;
-                    line-height: px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                  }
-                  .course-header-list2 p span {
-                    font-weight: 700;
-                    font-size: 20px;
-                    line-height: px;
                   }
                 li.course-header-list3 {
                 }
-                  .course-header-list3 p {
-                    font-weight: 700;
-                    font-size: 16px;
-                    line-height: px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                  }
                     .course-header-list3-img {
                       width:33px;
                       height:33px;
