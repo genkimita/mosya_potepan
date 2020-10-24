@@ -78,7 +78,7 @@
             /* メニュー引き出し */
             .drawer {
               display: block;
-              z-index:99;
+              z-index:80;
               width:100%;
               position: fixed;
               top: 0;
@@ -96,6 +96,7 @@
                 padding: 0;
                 margin-top:103px;
                 text-align: center;
+                z-index:90;
               }
                 li.drawer-list:nth-child(n+2) {
                   margin-top:38px;
