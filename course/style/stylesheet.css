@@ -968,9 +968,8 @@
                 }
                   .course-header-list0 p{
                     width:100%;
-                    padding-top:15px;
-                    padding-bottom:15px;
                     color:rgb(247, 147, 20);
+                    padding-left:15px;
                   }
                   .course-header-list1 p {
                     font-weight: 700;
@@ -994,7 +993,6 @@
                       font-weight: 700;
                       font-size: 20px;
                       line-height: px;
-                      padding-left:15px;
                     }
                     .res-open-img {
                       display: none;
