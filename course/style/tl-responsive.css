@@ -178,7 +178,7 @@
         .tr1-4-img {
           margin-top:-60px;
         }
-        
+
 
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tl-plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
         .plan-section {}
@@ -190,6 +190,13 @@
               .course-header {}
                 ul.course-header-list {}
                   li.course-header-list0 {
+                  }
+                  .course-header-list0 .mgr-10 {
+                    display: none !important;
+                  }
+                  span.sp-br::before {
+                    content: "\A" ;
+                    white-space: pre ;
                   }
                     .course-header-list0 p {
                       font-size: 15px;
