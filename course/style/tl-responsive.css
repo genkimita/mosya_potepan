@@ -168,13 +168,17 @@
           display: none;
         }
 
-        /* 3コース工事中 */
+        /* 3コース */
         .tr1-1-left {
           width:65%;
         }
         .tr1-1-right {
           display: none;
-        }2
+        }
+        .tr1-4-img {
+          margin-top:-60px;
+        }
+        
 
   /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tl-plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
         .plan-section {}
