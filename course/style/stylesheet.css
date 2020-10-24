@@ -23,7 +23,7 @@
     }
     span.mgr-10 {
       content: ' ';
-      margin-right: 10px;
+      margin-right: 10px !important;
     }
 
 
@@ -1207,7 +1207,6 @@
                     }
                   li.course-flow-list0 {
                     display: flex;
-                    display:table;
                   }
                   li.course-flow-list2 {
                     border:2px solid rgb(247,147,20);
@@ -1220,7 +1219,6 @@
                     border:2px solid rgb(247,147,20);
                   }
                     .flow-list-left {
-                      display: table-cell;
                       width:27%;
                     }
                       .flow-list-left img{
@@ -1247,7 +1245,6 @@
                           margin-right: 5px;
                         }
                     .flow-list-right {
-                      display: table-cell;
                       width:73%;
                       padding:20px 30px 20px 30px;
                     }
