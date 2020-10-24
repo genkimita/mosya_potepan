@@ -439,7 +439,7 @@ body {
 }
   ul.drawer {}
     li.drawer-list {}
-      .drawer-list:nth-child(-n+6) span {
+      .drawer-list p span:nth-child(-n+6) {
         margin-bottom:7px;
       }
 
