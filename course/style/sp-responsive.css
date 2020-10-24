@@ -18,9 +18,6 @@ body {
   padding-right:20px;
 }
 .header-width {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
   .header-logo {
     display: none;
