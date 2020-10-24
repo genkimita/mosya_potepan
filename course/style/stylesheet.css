@@ -1220,12 +1220,13 @@
                   }
                     .flow-list-left {
                       width:27%;
+                      position: relative;
                     }
                       .flow-list-left img{
                         width:100%;
                         object-fit: contain;
                       }
-                      .flow-list-left p{
+                      .flow-list-left p{/* 01 */
                         font-weight: 700;
                         font-size: 14px;
                         line-height: 14px;
