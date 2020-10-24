@@ -209,11 +209,11 @@
                       top: 50%;
                       left: 10%;
                     }
-                    .course-header-list3-img {
-                      display: none;
+                    img.course-header-list3-img {
+                      display: none !important;
                     }
                     .res-open-img {
-                      display: block;
+                      display: block !important;
                       position: absolute;
                       margin:-85px auto 0 auto;
                       text-align: center;
