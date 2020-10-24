@@ -77,6 +77,7 @@
             }
             /* メニュー引き出し */
             .drawer {
+              display: block;
               z-index:99;
               width:100%;
               position: fixed;
