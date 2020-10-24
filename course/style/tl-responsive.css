@@ -34,8 +34,8 @@
       }
         .header-nav {}
           .header-logo {}
-          .header-nav-list {
-            display: none;
+          ul.header-nav-list {
+            display: none !important;
           }
           .res-header-icon-hamburger {
             display: inline-flex;
@@ -215,7 +215,9 @@
                     ul.course-flow-list {}
                       li.course-flow-list1 {}
                       li.course-flow-list0 {}
-                          .flow-list-left {}
+                          .flow-list-left {
+                            position: relative;
+                          }
                             .flow-list-left img {
                               position: relative;
                               top: 50%;
