@@ -772,8 +772,8 @@
                 .tr1-4-img img {
                   width:100%;
                 }
-              span.sp-tr1-4 {
-                display: none;
+              .sp-tr1-4 {
+                display: none !important;
               }
               .tbl-icon-img {
                 margin: 0 auto;
