@@ -136,12 +136,8 @@
         /* 共通 */
       }
       .header-width {
-        display: flex;
-        justify-content: space-between;
       }
        .header-nav {
-         display: flex;
-         justify-content: space-between;
        }
         .header-logo {
           width:190px;
