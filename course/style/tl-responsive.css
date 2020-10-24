@@ -1,262 +1,711 @@
+/* スマホ用 */
+@media screen and (max-width:767px){
 
-  /* タブレット用 */
-  @media screen and (max-width: 1080px) {
+html {
+  font-size: 15px;
+}
+body {
+  overflow-x: hidden;
+}
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+.header {
+  padding-top:10px;
+  padding-bottom:10px;
+  height:50px;
+}
+.content-width {
+  padding-left:20px;
+  padding-right:20px;
+}
+.header-width {
+}
+  .header-logo {
+    display: none;
+  }
+  .sp-header-logo {
+    display: block;
+  }
+    .sp-header-logo img{
+      width:auto;
+      height:16px;
+    }
+  .header-nav-list {
+    display: none;
+  }
+  .res-header-icon-hamburger {
+    display: block;
+    display: inline-flex;
+  }
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-main-section ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  .main-section {}
+    .content-width {
+      max-width: none;
+      padding-left:20px;
+      padding-right:20px;
+    }
+    .content-tidy {}
+      .section-title {
+        font-size: 22px;
+        margin-top:50px;
+      }
+      .section-title::after {
+        border-bottom:5px solid rgb(247, 147, 20) ;
+      }
+        .section-title span{
+          font-size: 22px;
+        }
+          .section-title br {
+            display: block;
+          }
+      .section-container {}
 
-    body {
-      width:100%;
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  .top-section {
+    height:160px;
+  }
+    .content-width {
+    /* 共通 */
+  }
+    .top-width {
+      background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/course-hero-sp.png);
+      background-size:contain;
+      background-repeat: no-repeat;
+      background-position: center center;
     }
-    .main-section {
-      width:100%;
+    .top-width::after {
+      background-color:rgb(247,147,20);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
     }
-      .content-width {
-        max-width: 1140px;
-        padding-left:50px;
-        padding-right:50px;
+      .top-title {
+        width:150px;
+        margin-top:0px;
         margin-left: auto;
         margin-right: auto;
-        position: relative;
       }
-        .section-title p{
-          text-align: center;
+        .top-title p{
+          font-weight: ;
+          font-size: 23px;
+          line-height: px;
         }
-
-    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-header ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-    .header#float-header {
-      position: sticky;
-      top: 0;
-      left: 0;
-    }
-    .header {
-      width:100%;
-      background-color:rgb(255, 255, 255);
-    }
-      .header-width {
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+  .about-section {}
+    .content-title {}
+      .plan-section .section-title {
+        display: none;
       }
-        .header-nav {}
-          .header-logo {}
-          ul.header-nav-list {
-            display: none !important;
+      .plan-title {
+        font-size: 26px;
+        line-height: 31px;
+      }
+      .plan-title::after {
+        border-bottom:5px solid rgb(247, 147, 20) ;
+      }
+      .about-explanation {}
+        .about-explanation1 {
+          font-size: 15px;
+          text-align: left;
+        }
+          .about-explanation1 br{
+            display: none;
           }
-          .res-header-icon-hamburger {
-            display: inline-flex;
-            display: block;
-            position: relative;
-            width:30px;
-            height:20px;
-            cursor:pointer;
+        .about-explanation2 {}
+          .under-line-yellow {
+            font-size: 16px;
           }
-            span.hamburger-line  {
-              display: block;
-              width: 30px;
-              height: 3px;
-              background-color: #222;
-              position: absolute;
-              left: 0;
-              transition: all 0.5s ease;
-            }
-            span.hamburger-line:first-child {
-              top: 0;
-            }
-            span.hamburger-line:nth-child(2) {
-              top: 50%;
-            }
-            span.hamburger-line:last-child  {
-              top: 100%;
-            }
-            /* メニュークリック時 */
-            .bar1.open {
-              top: 50% !important;
-              transform: rotate(45deg);
-            }
-            .bar2.open {
-              opacity:0;
-            }
-            .bar3.open {
-              top: 50% !important;
-              transform: rotate(-45deg);
-            }
-            /* メニュー引き出し */
-            .drawer {
-              display: block;
-              z-index:80;
-              width:100%;
-              position: fixed;
-              top: 0;
-              right: -100%;
-              -webkit-transition: .7s;
-              transition: .5;
-              background:rgba(0,0,0,.8);
-              display: flex;
-              justify-content: center;
-            }
-            .drawer.open {
-              right: 0;
-            }
-              ul.drawer-menu {
-                padding: 0;
-                margin-top:103px;
-                text-align: center;
-                z-index:90;
+        .about-explanation3 {
+          font-size: 15px;
+          text-align: left;
+        }
+          .about-explanation3 br{
+            display: none;
+          }
+      /* 共通ポイント */
+      .about-point {
+        padding:30px 20px 40px 20px;
+      }
+      .about-point-logo {
+      }
+        .about-point-logo a {
+          width:32px;
+          height:auto;
+        }
+      .about-point-title {
+        font-size: 20px;
+      }
+        ul.about-point-list {
+          flex-wrap: wrap
+        }
+          li.about-point-list0 {
+            width:100%;
+          }
+        .about-point-list-left {
+          margin-bottom:35px;
+        }
+        .about-point-list-center {
+          margin-bottom:35px;
+        }
+        .about-point-list-right {}
+      /* 3コース */
+      .test-section {
+        padding-left:20px;
+        padding-right:20px;
+      }
+        .test-width {
+          padding-left:initial;
+          padding-right:initial;
+          overflow-x: scroll;
+        }
+          .res-about-course-title {}
+          table.three-course-table {}
+            .tr1 {}
+              .tr1-1 {
+                padding: 5px;
               }
-                li.drawer-list:nth-child(n+2) {
-                  margin-top:38px;
+                .tr1-1-left {
+                  width:100%;
                 }
-                li.drawer-list {
+              .tr1-4 {}
+                .tr1-4-img {
+                  margin:-77px auto 0 auto;
                 }
-                  .drawer-list p span {
+            tr.tr {}
+              .tbl-col:nth-child(1) {
+                width:23.6%;
+              }
+              .tbl-col:nth-child(n+2) {
+                width:25.4%;
+              }
+              th {}
+                .tbl-sub-head {
+                  font-size: 10px;
+                  line-height: 11px;
+                }
+              td {}
+              .tr1 {}
+              .tr2 {}
+              .tr3 {}
+              .tr4 {}
+              .tr5 {}
+              .tr6 {}
+              .tr7 {}
+                .tbl-sub-head,
+                .tr2 td,
+                .tr6 td {
+                  padding:10px 12px 20px 10px;
+                }
+                .tr3 td,
+                .tr4 td {
+                  margin-top:20px;
+                  margin-bottom:20px;
+                }
+                .tr5 td {
+                  margin-top:25px;
+                  margin-bottom:20px;
+                }
+                .tr7 td {
+                  margin-top:10px;
+                  margin-bottom:8px;
+                }
+                .tbl-head:nth-child(n+2) {
+                  font-size: 10px;
+                  line-height: 15px;
+                }
+                .tbl-head:nth-child(n+2) span {
+                  font-size: 12px;
+                  line-height: 15px;
+                }
+                span.sp-tr1-4 {
+                  display: block;
+                }
+                .tbl-head:nth-child(4) span:nth-child(2) {
+                  display: none;
+                }
+                .tr2 td,
+                .tr6 td {
+                  font-size: 10px;
+                  line-height: 12px;
+                  vertical-align : top;
+                }
+                  .tr2 td p,
+                  .tr6 td p {
+                    display: inline-block;
+                  }
+                  .td-bf-p {
+                    padding-left:8px;
+                  }
+                  .td-bf-p::before {
+                    position: absolute;
+                    top: 5px;
+                    left: 0;
+                    display: inline-block;
+                    width:5px;
+                    height:5px;
+                    margin:0 3px 0 0;
+                  }
+                  .tbl-icon-img {
+                    width:20px;
+                  }
+                .tr5 td {
+                  font-size: 10px;
+                  line-height: 15px;
+                }
+                .tr5 span {
+                  font-size: 15px;
+                  line-height: 23px;
+                }
+                .tbl-price {
+                  font-size: 12px;
+                  line-height: 18px;
+                }
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+.plan-section {}
+  .content-width {}
+    .section-title {}
+    .sp-plan-title {
+      display: block;
+      font-weight: 700px;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 31px;
+      text-align: center;
+    }
+    .sp-plan-title::after {
+      border-bottom:5px solid rgb(247, 147, 20) ;
+    }
+    .section-container {
+      /* 共通 */
+    }
+      .course-header {}
+        ul.course-header-list {
+          flex-wrap: wrap
+        }
+          li.course-header-list0 {
+            width:100%;
+          }
+            .res-open-img {
+              display: none;
+            }
+            .mgr-10 {
+              display: block;
+            }
+            .course-header-list0 p {
+              font-size: 15px;
+            }
+          .course-header-list1 {
+            margin-bottom:9px;
+          }
+          .course-header-list2 {
+            margin-bottom:9px;
+          }
+          .course-header-list3-img {
+            display: none;
+          }
+          .sp-course-header-list3-img {
+            display: block;
+            width:35px;
+            height:35px;
+          }
+      .course-box {
+        padding: 20px;
+      }
+        .course-title {}
+        .open-title {}
+          .open-title img{
+            width:60px;
+          }
+          .course-title-p1 {
+            font-size: 24px;
+            line-height: 27px;
+          }
+            .course-title-p1 a:nth-child(1) {
+              display: none;
+            }
+            .course-title-p1 a:nth-child(2) {
+              display: block;
+            }
+            .sp-course-title {
+              display: block;
+              margin-bottom:3px;
+            }
+          .course-title-p2 {}
+        .course-recommend {
+          margin-top:20px;
+        }
+          ul.course-recommend-list {
+            text-align: left;
+          }
+            li.course-recommend-list1 {
+              text-align: center;
+              margin-bottom:10px;
+            }
+            img.icon-heading {
+              width:21px;
+              height:21px;
+            }
+            img.icon-heading2 {
+              width:17px;
+              height:17px;
+              margin-right: 15px;
+            }
+            .course-recommend-list li:nth-child(n+2) {
+              text-align: left;
+              margin-bottom:5px;
+            }
+        .course-overview {
+          margin-top:20px;
+        }
+          ul.course-overview-list {}
+            li.course-overview-list1 {
+              text-align: center;
+            }
+            li.course-overview-list2 {}
+            li.course-overview-list3 {}
+            li.course-overview-list4 {}
+            li.course-overview-list5 {}
+            li.course-overview-list6 {}
+              .overview-category {
+                margin: 0 auto 15px auto;
+              }
+              .overview-list-p2 {
+                font-size: 15px;
+                line-height: 23px;
+              }
+              .overview-list-p2 span:nth-child(-n+2) {
+                margin-bottom:10px !important;
+              }
+              .course-overview-list li:nth-child(n+3) .overview-list-p2 {
+                text-align: center;
+              }
+        .course-flow {
+          margin-top:20px;
+        }
+          ul.course-flow-list {
+            margin-top:initial;
+          }
+            li.course-flow-list1 {/* 1だけタイトル */
+              width:100%;
+              margin-top:0px;
+              margin-bottom:20px;
+            }
+              .course-flow-list1 p {
+                text-align: center;
+              }
+              .course-flow-list0 {
+                flex-direction: column;
+              }
+                .flow-list-left {
+                  width:100%;
+                }
+                  .flow-list-number {
+                    text-align: left;
+                  }
+                .flow-list-right {
+                  width:100%;
+                  padding: 20px;
+                }
+                  .flow-list-left img {
+                    top: initial;
+                    left: initial;
+                    transform: initial;
+                  }
+                  .flow-list-right a {
+                    font-size: 15px;
+                    line-height: 22px;
+                  }
+              .course-flow-list2 {
+                margin-top:20px;
+                padding-bottom:20px;
+              }
+              .course-flow-list3 {
+              }
+              .course-flow-list4 {
+                margin-top:20px;
+              }
+        .open-detail-btn {
+          width:100%;
+          font-size: 15px;
+        }
+          .open-detail-btn p {
+            width:100%;
+          }
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-drawer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+.drawer {
+  height:100%;
+}
+  ul.drawer {}
+    li.drawer-list {}
+      .drawer-list:nth-child(-n+6) span {
+        margin-bottom:7px;
+      }
+
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+.main-section {/* 共通 */}
+.voice-section {
+  padding-top:40px !important;
+}
+  .content-width {/* 共通 */}
+  .voice-width {
+    background-size: 132px auto;
+    background-position:calc(100% - 40px) top;
+  }
+    .section-title {/* 共通 */}
+    .section-container {/* 共通 */}
+    .voice-container {
+      padding-left:20px;
+      padding-right:20px;
+    }
+        ul.interviewer-list {
+            display: none;
+          }
+          .sp-interviewer {
+            display: block;
+            background-color:rgb(246,246,246);
+            margin-top:50px;
+          }
+            .interviewer-slide {
+              display: flex;
+              position: relative;
+            }
+              .change-btn {
+                width:30px;
+                height:30px;
+                transition: 0.5s;
+              }
+              .change-btn:hover {
+                opacity :.7;
+                transition: 0.5s;
+              }
+              .change-btn img {
+                width:100%;
+              }
+              .prev-btn {
+                position: absolute;
+                left: 0;
+                top: 162px;
+                margin-left: -15px;
+              }
+              .next-btn {
+                position: absolute;
+                right: 0px;
+                top: 162px;
+                margin-right: -15px;
+              }
+              ul.slides {
+                width:100%;
+                border-radius: 10px;
+              }
+                li.slide {}
+                  .slide img {
+                    width:100%;
+                    height:200px;
+                    object-fit: cover;
+                    border-radius: 10px;
+                  }
+                  .slide p {
+                    margin-top:20px;
                     font-weight: 700;
                     font-size: 16px;
-                    line-height: px;
-                    letter-spacing: 5px;
-                    color:rgb(255, 255, 255);
+                    line-height: 29px;
+                    font-weight: bold;
                   }
-                  .drawer-list p span:nth-child(-n+6) {
-                    margin-bottom:7px;
+                  /* slickのclass */
+                  img.prev-arrow {
+                    z-index:1;
+                    width:30px;
+                    height:30px;
+                    position: absolute;
+                    left: -15px;
+                    top: 162px;
                   }
-                  .drawer-list p {
-                    font-weight: 700;
-                    font-size: 12px;
-                    line-height: px;
-                    letter-spacing: 2px;
-                    color:#f79314;
+                  img.next-arrow {
+                    z-index:1;
+                    width:30px;
+                    height:30px;
+                    position: absolute;
+                    right: -15px;
+                    top: 162px;
                   }
-                p.drawer-btn {
-                  letter-spacing:initial !important;
-                  width:250px;
-                  height:60px;
-                  border-radius: 30px;
-                  background-color:rgb(247,147,20);
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  margin-bottom:75px;
-                }
+                  ul.slide-dots {
+                    text-align: center;
+                    margin-top:20px;
+                  }
+                    .slide-dots li{
+                      display: inline-block;
+                      margin:0 15px;
+                    }
+                    .slide-dots li button {
+                      margin: 0;
+                      padding: 0;
+                      background: none;
+                      border: none;
+                      border-radius: 0;
+                      outline: none;
+                      -webkit-appearance: none;
+                      -moz-appearance: none;
+                      appearance: none;
+                    }
+                    .slide-dots li button{
+                      position: relative;
+                      text-indent: -9999px;
+                    }
+                    .slide-dots li button::before {
+                      content: '';
+                      background-color:rgb(0, 0, 0);
+                      opacity :.1;
+                      width:12px;
+                      height:12px;
+                      border-radius: 50%;
+                      text-indent: 0px;
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                    }
+                    .slick-active button::before {
+                      width:15px !important;
+                      height:15px !important;
+                      background-color:rgb(247,147,20) !important;
+                      opacity:1 !important;
+                    }
+
+/* jQuery */
 
 
 
 
-    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
-    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  　.about-course {}
-      .res-about-course-title {
-        display: block;
-        color:rgb(247,147,20);
-        text-align: center;
+.sp-slide-voice {
+  display: none;
+}
+#jquery-cycle-wrap {
+    position: relative;
+    width: 300px;
+    height: 198px;
+}
+#jquery-cycle {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 198px;
+}
+#jquery-cycle img {
+    width: 300px;
+    height: 198px;
+}
+#jquery-cycle-nav {
+    display: none;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 198px;
+    text-align: center;
+}
+#jquery-cycle-nav a {
+    float: left;
+    width: 150px;
+    height: 198px;
+    display: block;
+    text-decoration: none;
+}
+#jquery-cycle-prev {
+    font-size: 20px;
+    text-align: left;
+}
+#jquery-cycle-next {
+    font-size: 20px;
+    text-align: right;
+}
+#jquery-cycle-prev span, #jquery-cycle-next span {
+    padding: 0 10px;
+    background: #ffffff;
+    filter: alpha( opacity=50 );
+    -moz-opacity: 0.50;
+    opacity: 0.50;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+.footer {
+  padding-left:20px;
+  padding-right:20px;
+}
+  .content-width {}
+  .footer-width {}
+    .footer-return-btn {}
+    .footer-return-btn a:hover {
+      background-color:rgb(255, 255, 255);
+      transition: initial;
+      cursor:initial;
+    }
+    .footer-return-btn a:hover span.marker-top-sign {
+      border-color: rgb(247, 146, 21);
+      transition: initial;
+      cursor:initial;
+    }
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: initial;
+    }
+      ul.footer-list-left {
+        order: 3;
+        width:100%;
+        margin-top:26px;
+      }
+        .footer-list-left p,
+        .footer-list-left6 {
+          text-align: center;
+        }
+        li.footer-list-left1  {}
+        li.footer-list-left2  {}
+        li.footer-list-left3  {}
+        li.footer-list-left4  {}
+        li.footer-list-left5  {}
+        li.footer-list-left6  {}
+      ul.footer-list-center {
+        order: 1;
+        width:100%;
+      }
+        li.footer-list-center1 {}
+        li.footer-list-center2 {}
+        li.footer-list-center3 {}
+        li.footer-list-center4 {}
+        li.footer-list-center5 {}
+        li.footer-list-center6 {}
+      .footer-list-right {
+        order: 2;
+        width:100%;
+        padding-top:30px;
+        padding-bottom:30px;
+        border-bottom:1px solid rgb(255, 255, 255) ;
+        align-self: initial;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-        margin-bottom:10px;
       }
-        p.res-about-course-title-text1 {
-          font-size: 20px;
-          font-weight: bold;
-          line-height: 32px;
-          letter-spacing: 4px;
-        }
-        p.res-about-course-title-text2 {
-          font-weight: 700;
-          font-size: 30px;
-          line-height: 32px;
-        }
-          .res-about-course-title-text2 span{
-            font-weight: 700;
-            font-size: 40px;
-            line-height: 32px;
-          }
-        .line1-text {
-          display: none;
+        .footer-list-right img {}
+      .footer-copyright {
+      }
+        .footer-copyright p {
+          text-align: center;
         }
 
-        /* 3コース */
-        .tr1-1-left {
-          width:65%;
-        }
-        .tr1-1-right {
-          display: none;
-        }
-        .tr1-4-img {
-          margin-top:-55px;
-        }
-
-
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tl-plan ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-        .plan-section {}
-          .content-width {}
-            .section-title {}
-            .sp-plan-title {
-            }
-            .section-container {}
-              .course-header {}
-                ul.course-header-list {}
-                  li.course-header-list0 {
-                  }
-                  .course-header-list0 .mgr-10 {
-                    display: none !important;
-                  }
-                  span.sp-br::before {
-                    content: "\A" ;
-                    white-space: pre ;
-                  }
-                    .course-header-list0 p {
-                      font-weight: 700;
-                      font-size: 16px;
-                      line-height: px;
-                      text-align: center;
-                      margin-left: auto;
-                      margin-right: auto;
-                    }
-                    span.course-header-span1 {
-                      font-size: 20px !important;
-                    }
-                    .course-header-list0 p::before {
-                      position: absolute;
-                      top: 50%;
-                      left: 10%;
-                    }
-                    img.course-header-list3-img {
-                      display: none !important;
-                    }
-                    .res-open-img {
-                      display: block !important;
-                      width:20px;
-                      position: absolute;
-                      margin:-100px auto 0 auto;
-                      text-align: center;
-                    }
-                      .res-open-img img{
-                        width:100%;
-                        height:auto;
-                      }
-                  .course-flow {}
-                    ul.course-flow-list {}
-                      li.course-flow-list1 {}
-                      li.course-flow-list0 {}
-                          .flow-list-left {
-                            position: relative;
-                          }
-                            .flow-list-left img {
-                              position: relative;
-                              top: 50%;
-                              left: 50%;
-                              transform: translate(-50%, -50%);
-                            }
-                            .flow-list-left p {}
-                          .flow-list-right {}
-                      li.course-flow-list2 {}
-                      li.course-flow-list3 {}
-                      li.course-flow-list4 {}
-
-
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-footer ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-
-
-  }
+/* メモ */
+.kaizen-mae {
+  display: none;
+}
+.about-course {
+  display: none;
+}
 
 
 
-
-
-  /*  */
+}
