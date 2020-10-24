@@ -1223,8 +1223,6 @@
                       position: relative;
                     }
                       .flow-list-left img{
-                        width:auto;
-                        height:100%;
                         object-fit: contain;
                       }
                       .flow-list-left p{
