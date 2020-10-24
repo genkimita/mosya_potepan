@@ -439,9 +439,6 @@ body {
 }
   ul.drawer {}
     li.drawer-list {}
-      .drawer-list p span:nth-child(-n+6) {
-        margin-bottom:7px;
-      }
 
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
