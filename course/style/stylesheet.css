@@ -1220,7 +1220,7 @@
                   }
                     .flow-list-left {
                       width:27%;
-                      position: relative;
+                      height:auto;
                     }
                       .flow-list-left img{
                         object-fit: contain;
