@@ -442,7 +442,7 @@ body {
 }
   ul.drawer {}
     li.drawer-list {}
-      .drawer-list span {
+      .drawer-list:nth-child(-n+6) span {
         line-height: 23px;
       }
 
