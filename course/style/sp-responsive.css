@@ -220,6 +220,7 @@ body {
                 }
                 span.sp-tr1-4 {
                   display: block;
+                  margin-top:10px;
                 }
                 .tbl-head:nth-child(4) span:nth-child(2) {
                   display: none;
