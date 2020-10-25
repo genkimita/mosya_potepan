@@ -117,6 +117,9 @@
                     letter-spacing: 2px;
                     color:#f79314;
                   }
+                  .drawer-list p:nth-child(-n+6) {
+                    margin-bottom:5px;
+                  }
                 p.drawer-btn {
                   width:250px;
                   height:60px;
