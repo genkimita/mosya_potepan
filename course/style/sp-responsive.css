@@ -439,6 +439,12 @@ body {
 }
   ul.drawer {}
     li.drawer-list {}
+        .drawer-list p:nth-child(1) {
+          margin-bottom:5px;
+        }
+        .drawer-list p:last-child  {
+          margin-bottom:initial !important;
+        }
 
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
