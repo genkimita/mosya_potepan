@@ -32,7 +32,9 @@
     }
       .header-width {
       }
-        .header-nav {}
+        nav.header-nav {
+          height:20px;
+        }
           .header-logo {}
           ul.header-nav-list {
             display: none !important;
