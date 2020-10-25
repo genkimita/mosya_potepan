@@ -287,6 +287,7 @@ body {
         }
           li.course-header-list0 {
             width:100%;
+            display: flex;
           }
             .res-open-img {
               display: none;
