@@ -218,7 +218,7 @@
                       display: none !important;
                     }
                     .res-open-img {
-                      display: block !important;
+                      display: block;
                       width:100%;
                       position: absolute;
                       margin:-100px auto 0 auto;
