@@ -140,10 +140,11 @@
        .header-nav {
        }
         .header-logo {
-          width:190px;
+          width:185px;
+          height:20px;
         }
           .header-logo img{
-            width:auto;
+            width:185;
             height:20px;
           }
         .sp-header-logo {
