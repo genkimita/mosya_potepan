@@ -143,8 +143,12 @@
           width:185px;
           height:20px;
         }
+          .header-logo a {
+            width:185px;
+            height:20px;
+          }
           .header-logo img{
-            width:185;
+            width:auto;
             height:20px;
           }
         .sp-header-logo {
