@@ -219,7 +219,7 @@
                     }
                     .res-open-img {
                       display: block !important;
-                      width:44px;
+                      width:100%;
                       position: absolute;
                       margin:-100px auto 0 auto;
                       text-align: center;
