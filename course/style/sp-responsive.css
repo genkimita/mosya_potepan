@@ -306,7 +306,7 @@ body {
             display: none;
           }
           .sp-course-header-list3-img {
-            display: block;
+            display: inline-block;
             width:35px;
             height:35px;
           }
@@ -439,7 +439,7 @@ body {
 }
   ul.drawer {}
     li.drawer-list {}
-        
+
 
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-voice ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
