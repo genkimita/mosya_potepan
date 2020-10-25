@@ -297,6 +297,7 @@ body {
             }
             .course-header-list0 p {
               font-size: 15px;
+              display: flex;
             }
           .course-header-list1 {
             margin-bottom:9px;
