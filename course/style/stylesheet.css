@@ -142,6 +142,7 @@
         .header-logo {
           width:185px;
           height:20px;
+          text-align: center;
         }
           .header-logo a {
             width:185px;
