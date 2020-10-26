@@ -1207,11 +1207,11 @@
                     .flow-list-left {
                       width:27%;
                       height:100%;
+                      display: flex;
                       position: relative;
                     }
                       .flow-list-left img{
                         width:100%;
-                        display: flex;
                         object-fit:cover;
                       }
                       .flow-list-left p{/* 01 */
