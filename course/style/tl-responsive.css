@@ -126,10 +126,10 @@
                   .drawer-list p:nth-child(-n+6) {
                     margin-bottom:5px;
                   }
-                p.drawer-btn {
+                p.drawer-btn span {
                   width:250px;
                   height:60px;
-                  letter-spacing: none;
+                  letter-spacing: 0px;
                   border-radius: 30px;
                   background-color:rgb(247,147,20);
                   display: flex;
