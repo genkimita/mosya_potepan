@@ -1207,6 +1207,7 @@
                     }
                       .flow-list-left img{
                         width:100%;
+                        display: flex;
                         object-fit:cover;
                       }
                       .flow-list-left p{/* 01 */
