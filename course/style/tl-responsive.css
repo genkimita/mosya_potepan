@@ -244,6 +244,7 @@
                       li.course-flow-list0 {}
                           .flow-list-left {
                             position: relative;
+                            display: initial;
                             height:auto;
                           }
                             .flow-list-left img {
