@@ -33,6 +33,7 @@
       .header-width {
       }
         nav.header-nav {
+          width:30px;
           height:20px;
         }
           .header-logo {}
