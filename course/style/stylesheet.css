@@ -986,6 +986,9 @@
                     font-size: 16px;
                     line-height: px;
                     margin-left: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                   }
                   span.course-header-span1 {
                     font-weight: 700;
@@ -1000,9 +1003,7 @@
                       content: ' ';
                       width:8px;
                       height:8px;
-                      position: absolute;
-                      top: 8px;
-                      margin:0 10px 0 0;
+                      margin-right: 10px;
                       border-top:3px solid rgb(247, 147, 20) ;
                       border-right:3px solid rgb(247, 147, 20) ;
                       transform: rotate(135deg);
