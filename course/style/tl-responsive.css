@@ -196,7 +196,10 @@
                   .course-header-list0 .mgr-10 {
                     display: none;
                   }
-                  span.sp-br::before {
+                  span.tl-sp-br {
+                    display: block;
+                  }
+                  span.tl-sp-br::before {
                     content: "\A" ;
                     white-space: pre ;
                   }
