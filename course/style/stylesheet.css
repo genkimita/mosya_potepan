@@ -23,7 +23,7 @@
     }
     span.mgr-10 {
       content: ' ';
-      margin-right: 10px !important;
+      margin-right: 10px;
     }
 
 
@@ -984,7 +984,7 @@
                     font-size: 20px;
                     line-height: px;
                   }
-                    .course-header-list0 p::before {
+                    .course-header-list0 p::before {/* plan-headerの矢印 */
                       content: ' ';
                       width:8px;
                       height:8px;
@@ -1001,6 +1001,9 @@
                       display: none;
                     }
                     .mgr-10 {
+                      display: none;
+                    }
+                    .sp-br {
                       display: none;
                     }
                 li.course-header-list2 {
