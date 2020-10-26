@@ -1205,6 +1205,7 @@
                       position: relative;
                     }
                       .flow-list-left img{
+                        width:100%;
                         object-fit: contain;
                       }
                       .flow-list-left p{/* 01 */
