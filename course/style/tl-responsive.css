@@ -140,9 +140,9 @@
 
 
 
-    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tl-top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
 
-    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tab-about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+    /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー tl-about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   　.about-course {}
       .res-about-course-title {
         display: block;
@@ -175,6 +175,17 @@
         }
 
         /* 3コース */
+  .test-section {}
+    .content-width {}
+    .test--width {}
+      table.three-course-table {}
+        tr {}
+          .tr1 {}
+            .tbl-head {}
+              .tbl-head a::before {
+                content: "\A" ;
+                white-space: pre ;
+              }
         .tr1-1-left {
           width:65%;
         }
