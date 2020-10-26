@@ -1199,10 +1199,12 @@
                   }
                     .flow-list-left {
                       width:27%;
+                      height:100%;
                       position: relative;
                     }
                       .flow-list-left img{
-                        width:100%;
+                        width:auto;
+                        height:100%;
                         object-fit: contain;
                       }
                       .flow-list-left p{/* 01 */
