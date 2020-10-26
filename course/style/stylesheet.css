@@ -156,6 +156,7 @@
           display: none;
         }
         nav.header-nav {
+          height:40px;
         }
         ul.header-nav-list {
           display: flex;
