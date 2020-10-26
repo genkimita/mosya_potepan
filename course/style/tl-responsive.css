@@ -211,13 +211,16 @@
                       margin-left: auto;
                       margin-right: auto;
                     }
-                    span.course-header-span1 {
+                    span.course-header-span1 {/* 上の行 */
                       font-size: 20px !important;
                     }
-                    .course-header-list0 p::before {
+                    .course-header-list0 p::before {/* 矢印 */
                       position: absolute;
                       top: 50%;
                       left: 10%;
+                    }
+                    .course-header-list0 p a {
+                      display: none;
                     }
                     img.course-header-list3-img {
                       display: none !important;
