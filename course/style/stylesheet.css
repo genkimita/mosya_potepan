@@ -975,7 +975,7 @@
                   align-items: stretch;
                   transition: 0.5s;
                 }
-                li.course-header-list0:hover li.course-header-list0{
+                li.course-header-list0:hover {
                   cursor:pointer;
                   color:rgb(255, 255, 255);
                   background-color:rgb(247,147,20);
