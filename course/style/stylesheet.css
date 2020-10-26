@@ -995,10 +995,10 @@
                     font-size: 20px;
                     line-height: px;
                   }
-                    .course-header-span1::after {
-                      content: "\A" ;
-                      white-space: pre ;
-                    }
+                  .course-header-list0 p a::before {
+                    content: "\A" ;
+                    white-space: pre ;
+                  }
                     li.course-header-list0 p::before {/* plan-headerの矢印 */
                       content: ' ';
                       width:8px;
