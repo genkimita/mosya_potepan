@@ -972,6 +972,7 @@
                   display: flex;
                   justify-content: center;
                   align-items: center;
+                  align-items: stretch;
                   transition: 0.5s;
                 }
                 li.course-header-list0:hover li.course-header-list0{
