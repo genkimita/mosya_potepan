@@ -977,7 +977,7 @@
                     line-height: px;
                     width:100%;
                     color:rgb(247, 147, 20);
-                    padding-left:15px;
+                    margin-left: 15px;
                   }
                   span.course-header-span1 {
                     font-weight: 700;
