@@ -29,6 +29,9 @@ body {
       width:auto;
       height:16px;
     }
+nav.header-nav-list {
+  width:30px;
+}
   .header-nav-list {
     display: none;
   }
