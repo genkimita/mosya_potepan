@@ -963,21 +963,27 @@
                 justify-content: space-between;
               }
                 li.course-header-list0 {
+                  color:rgb(247,147,20);
                   width:32.6%;
-                  border:2px solid rgb(247, 147, 20) ;
+                  border:2px solid rgb(247, 147, 20);
                   border-radius: 6px;
                   text-align: center;
                   position: relative;
                   display: flex;
                   justify-content: center;
                   align-items: center;
+                  transition: 0.5s;
                 }
-                  .course-header-list0 p{
+                li.course-header-list0:hover li.course-header-list0{
+                  cursor:pointer;
+                  color:rgb(255, 255, 255);
+                  background-color:rgb(247,147,20);
+                  transition: 0.5s;
+                }
+                  li.course-header-list0 p{
                     font-weight: 700;
                     font-size: 16px;
                     line-height: px;
-                    width:100%;
-                    color:rgb(247, 147, 20);
                     margin-left: 15px;
                   }
                   span.course-header-span1 {
@@ -989,7 +995,7 @@
                       content: "\A" ;
                       white-space: pre ;
                     }
-                    .course-header-list0 p::before {/* plan-headerの矢印 */
+                    li.course-header-list0 p::before {/* plan-headerの矢印 */
                       content: ' ';
                       width:8px;
                       height:8px;
@@ -999,6 +1005,7 @@
                       border-top:3px solid rgb(247, 147, 20) ;
                       border-right:3px solid rgb(247, 147, 20) ;
                       transform: rotate(135deg);
+                      transition: 0.5s;
                     }
                     li.course-header-list0:hover .course-header-list0 p::before{/* 矢印 */
                       border-color: rgb(255, 255, 255);
@@ -1016,13 +1023,8 @@
                 li.course-header-list2 {
                 }
                   .course-header-list p{
-                    transition: all 0.5s;
                   }
                   .course-header-list p:hover {
-                    color:rgb(255, 255, 255);
-                    background-color:rgb(247,147,20);
-                    transition: all 0.5s;
-                    cursor:pointer;
                   }
                   .course-header-list2 p {
                   }
