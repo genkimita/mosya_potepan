@@ -995,7 +995,7 @@
                     font-size: 20px;
                     line-height: px;
                   }
-                    .course-header-span1::before {
+                    .course-header-span1::after {
                       content: "\A" ;
                       white-space: pre ;
                     }
