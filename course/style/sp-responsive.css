@@ -289,7 +289,7 @@ nav.header-nav-list {
           display: grid;
         }
           li.course-header-list0 {
-            grid-template-columns: 1fr;
+            grid-template-columns:100%;
           }
             .res-open-img {
               display: none;
