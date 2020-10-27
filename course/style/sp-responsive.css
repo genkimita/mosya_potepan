@@ -303,10 +303,6 @@ nav.header-nav-list {
             li.course-header-list0:nth-child(3) p {
               flex-direction: initial;
             }
-            li.course-header-list0:nth-child(3) p::after {
-              content: "\A" ;
-              white-space: pre ;
-            }
           .course-header-list1 {
             margin-bottom:9px;
           }
