@@ -1117,12 +1117,17 @@
                 }
                 ul.course-recommend-list {
                   padding: 20px;
-                  position: relative;
                 }
                   li.course-recommend-list1 {
                     font-weight: 700;
                     font-size: 20px;
                     line-height: 26px;
+                  }
+                  li.course-recommend-list2,
+                  li.course-recommend-list3,
+                  li.course-recommend-list4,
+                  li.course-recommend-list5 {
+                    position: relative;
                   }
                   li.course-recommend-list2 p,
                   li.course-recommend-list3 p,
