@@ -1011,8 +1011,6 @@
                     display: block;
                   }
                   .course-header-list0 p a::before {
-                    content: "\A" ;
-                    white-space: pre ;
                   }
                     .course-header-list0 p::before {/* plan-headerの矢印 */
                       content: ' ';
