@@ -291,6 +291,7 @@ nav.header-nav-list {
           justify-content: initial;
         }
           li.course-header-list0 {
+            width:100%;
             grid-template-rows: 1fr;
             grid-template-columns: 60px;
           }
