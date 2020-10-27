@@ -207,6 +207,8 @@
               .course-header {}
                 ul.course-header-list {}
                   li.course-header-list0 {
+                    padding-top:initial;
+                    padding-bottom:initial;
                   }
                   span.mgr-10 {
                     display: none;
