@@ -991,7 +991,6 @@
                   cursor:pointer;
                   color:rgb(255, 255, 255);
                   background-color:rgb(247,147,20);
-                  border-color: rgb(255, 255, 255);
                   transition: 0.5s;
                 }
                   li.course-header-list0 p{
@@ -1022,6 +1021,10 @@
                       transform: rotate(135deg);
                       transition: 0.5s;
                     }
+                      li.course-header-list0:hover .course-header-list0 p::before {
+                        border-color: rgb(255, 255, 255);
+                        transition: 0.5s;
+                      }
                     .res-open-img {
                       display: none;
                     }
