@@ -776,6 +776,7 @@
                 position: absolute;
                 top: -38px;
                 left: 50%;
+                margin-left: -38px;
               }
               .tr1-4-img {
                 display: none;
