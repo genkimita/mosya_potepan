@@ -968,6 +968,7 @@
             }
               ul.course-header-list {
                 display: flex;
+                align-items: stretch;
                 justify-content: space-between;
               }
                 li.course-header-list0 {
@@ -980,7 +981,6 @@
                   display: flex;
                   justify-content: center;
                   align-items: center;
-                  align-items: stretch;
                   transition: 0.5s;
                 }
                 li.course-header-list0:hover {
