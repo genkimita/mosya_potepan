@@ -991,6 +991,7 @@
                   cursor:pointer;
                   color:rgb(255, 255, 255);
                   background-color:rgb(247,147,20);
+                  border-color: rgb(255, 255, 255);
                   transition: 0.5s;
                 }
                   li.course-header-list0 p{
@@ -1018,16 +1019,6 @@
                       margin-right: 10px;
                       border-top:3px solid rgb(247, 147, 20) ;
                       border-right:3px solid rgb(247, 147, 20) ;
-                      transform: rotate(135deg);
-                      transition: 0.5s;
-                    }
-                    .course-header-list0:hover .course-header-list0 p::before{/* 矢印 */
-                      content: ' ';
-                      width:8px;
-                      height:8px;
-                      margin-right: 10px;
-                      border-top:3px solid rgb(255, 255, 255) ;
-                      border-right:3px solid rgb(255, 255, 255) ;
                       transform: rotate(135deg);
                       transition: 0.5s;
                     }
