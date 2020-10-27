@@ -217,8 +217,6 @@
                     display: block;
                   }
                   span.tl-sp-br::before {
-                    content: "\A" ;
-                    white-space: pre ;
                   }
                     .course-header-list0 p {
                       font-weight: 700;
