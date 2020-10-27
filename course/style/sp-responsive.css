@@ -286,6 +286,7 @@ nav.header-nav-list {
     }
       .course-header {}
         ul.course-header-list {
+          flex-wrap: wrap
         }
           li.course-header-list0 {
             width:100%;
