@@ -1024,7 +1024,7 @@
                       transform: rotate(135deg);
                       transition: 0.5s;
                     }
-                    li.course-header-list0:hover .course-header-list0 p::before {
+                    li.course-header-list0:hover.course-header-list0 p::before {
                       content: ' ';
                       border-color: rgb(255, 255, 255);
                       transition: 0.5s;
