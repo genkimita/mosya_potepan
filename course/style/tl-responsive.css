@@ -216,6 +216,9 @@
                   span.tl-sp-br {
                     display: block;
                   }
+                    .tl-sp-br:nth-child(3) {
+                      content: ' ';
+                    }
                   span.tl-sp-br::before {
                   }
                     .course-header-list0 p {
