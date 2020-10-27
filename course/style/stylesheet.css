@@ -17,13 +17,13 @@
     table {
       border-collapse: collapse;
     }
-    span.mgr-15 {
-      content: ' ';
-      margin-right: 15px !important;
-    }
     span.mgr-10 {
       content: ' ';
       margin-right: 10px;
+    }
+    span.mgr-15 {
+      content: ' ';
+      margin-right: 15px !important;
     }
 
 
