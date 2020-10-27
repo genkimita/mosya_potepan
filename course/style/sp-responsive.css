@@ -287,6 +287,8 @@ nav.header-nav-list {
       .course-header {}
         ul.course-header-list {
           display: grid;
+          align-items: initial;
+          justify-content: initial;
         }
           li.course-header-list0 {
             grid-template-rows: 1fr;
