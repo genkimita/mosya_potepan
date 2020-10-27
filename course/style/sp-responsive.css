@@ -290,6 +290,7 @@ nav.header-nav-list {
         }
           li.course-header-list0 {
             width:100%;
+            display: table-cell;
           }
             .res-open-img {
               display: none;
