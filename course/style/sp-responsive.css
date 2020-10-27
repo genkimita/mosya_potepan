@@ -290,7 +290,9 @@ nav.header-nav-list {
         }
           li.course-header-list0 {
             width:100%;
-            display: flex;
+          }
+          li.course-header-list0:nth-child(3) {
+            flex-direction: initial;
           }
             .res-open-img {
               display: none;
