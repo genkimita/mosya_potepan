@@ -216,9 +216,6 @@
                   span.tl-sp-br {
                     display: block;
                   }
-                    .tl-sp-br:nth-child(3) {
-                      content: ' ';
-                    }
                   span.tl-sp-br::before {
                   }
                     .course-header-list0 p {
@@ -229,6 +226,10 @@
                     }
                     span.course-header-span1 {/* 上の行 */
                       font-size: 20px;
+                    }
+                    span.tl-sp-br:nth-child(3) {
+                      content: ' ';
+                      width:10px;
                     }
                     .course-header-list0 p::before {/* 矢印 */
                       position: absolute;
