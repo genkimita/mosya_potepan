@@ -770,7 +770,7 @@
               .tr1-4::before {
                 content: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/icon-openclass_table.png);
                 width:76px;
-                position: relative;
+                position: absolute;
                 top: -38px;
                 left: 50%;
               }
