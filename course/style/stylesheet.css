@@ -1133,7 +1133,6 @@
                     font-size: 16px;
                     line-height: 26px;
                     display: inline-block;
-                    padding-left:18px;
                   }
                     .course-recommend-list2 p::before,
                     .course-recommend-list3 p::before,
@@ -1143,6 +1142,8 @@
                       width:8px;
                       height:8px;
                       border-radius: 50%;
+                      position: absolute;
+                      top: 4px;
                       background-color:#f79214;
                       margin:0px 10px 0 0;
                       display: inline-block;
