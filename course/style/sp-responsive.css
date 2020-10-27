@@ -291,19 +291,17 @@ nav.header-nav-list {
           li.course-header-list0 {
             width:100%;
           }
-          li.course-header-list0:nth-child(3) {
-            flex-direction: initial;
-          }
             .res-open-img {
               display: none;
             }
             .mgr-10 {
               display: block;
             }
-            .course-header-list0 p {
+            li.course-header-list0 p {
               font-size: 15px;
-              text-align: center;
-              display: flex;
+            }
+            li.course-header-list0:nth-child(3) p {
+              flex-direction: initial;
             }
           .course-header-list1 {
             margin-bottom:9px;
