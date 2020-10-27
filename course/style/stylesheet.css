@@ -767,6 +767,9 @@
                 align-items: center;
                 flex-direction: column;
               }
+              th.tr1-4 {
+                position: relative;
+              }
               .tr1-4 span::before {
                 content: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/icon-openclass_table.png);
                 width:76px;
