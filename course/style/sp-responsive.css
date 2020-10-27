@@ -293,6 +293,7 @@ nav.header-nav-list {
           li.course-header-list0 {
             width:100%;
             grid-template-rows: 1fr;
+            height:100%;
             grid-template-columns: 60px;
           }
             .res-open-img {
