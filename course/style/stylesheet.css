@@ -1007,6 +1007,9 @@
                     font-size: 20px;
                     line-height: px;
                   }
+                  .course-header-list0 p a  {
+                    display: block;
+                  }
                   .course-header-list0 p a::before {
                     content: "\A" ;
                     white-space: pre ;
