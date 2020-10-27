@@ -1007,7 +1007,7 @@
                     content: "\A" ;
                     white-space: pre ;
                   }
-                    li.course-header-list0 p::before {/* plan-headerの矢印 */
+                    .course-header-list0 p::before {/* plan-headerの矢印 */
                       content: ' ';
                       width:8px;
                       height:8px;
@@ -1017,8 +1017,14 @@
                       transform: rotate(135deg);
                       transition: 0.5s;
                     }
-                    li.course-header-list0:hover .course-header-list0 p::before{/* 矢印 */
-                      border-color: rgb(255, 255, 255);
+                    .course-header-list0:hover .course-header-list0 p::before{/* 矢印 */
+                      content: ' ';
+                      width:8px;
+                      height:8px;
+                      margin-right: 10px;
+                      border-top:3px solid rgb(255, 255, 255) ;
+                      border-right:3px solid rgb(255, 255, 255) ;
+                      transform: rotate(135deg);
                       transition: 0.5s;
                     }
                     .res-open-img {
