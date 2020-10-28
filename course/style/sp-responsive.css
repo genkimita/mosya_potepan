@@ -85,10 +85,12 @@ nav.header-nav-list {
       right: 0;
     }
       .top-title {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
       }
         .top-title p{
           font-size: 22px;
-          text-align: center;
           line-height: 28px;
         }
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
