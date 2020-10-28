@@ -66,6 +66,8 @@ nav.header-nav-list {
   .top-section {
     height: none;
     background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/course-hero-sp.png);
+    background-position: center;
+    background-repeat: no-repeat;
     padding-top:42px;
     padding-bottom:90px;
     background-size: contain;
