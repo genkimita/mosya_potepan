@@ -64,12 +64,12 @@ nav.header-nav-list {
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .top-section {
-    height:160px;
   }
     .content-width {
     /* 共通 */
   }
     .top-width {
+      height:160px;
       background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/course-hero-sp.png);
       background-size:contain;
       background-repeat: no-repeat;
