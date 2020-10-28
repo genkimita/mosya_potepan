@@ -40,7 +40,9 @@ nav.header-nav-list {
     display: inline-flex;
   }
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-main-section ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
-  .main-section {}
+  .main-section {
+    margin-top:65px;
+  }
     .content-width {
       max-width: none;
       padding-left:20px;
@@ -49,7 +51,6 @@ nav.header-nav-list {
     .content-tidy {}
       .section-title {
         font-size: 22px;
-        margin-top:50px;
       }
       .section-title::after {
         border-bottom:5px solid rgb(247, 147, 20) ;
