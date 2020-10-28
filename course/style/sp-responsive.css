@@ -78,15 +78,6 @@ nav.header-nav-list {
   }
     .top-width {
     }
-    .top-width::after {
-      display: none;
-      background-color:rgb(247,147,20);
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-    }
       .top-title {
         text-align: center;
         margin-left: auto;
@@ -95,7 +86,9 @@ nav.header-nav-list {
         .top-title p{
           font-size: 22px;
           line-height: 28px;
+          letter-spacing: 3px;
         }
+
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .about-section {}
     .content-title {}
