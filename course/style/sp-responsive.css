@@ -85,14 +85,12 @@ nav.header-nav-list {
     }
       .top-title {
         width:150px;
-        margin-top:0px;
+        margin-top:50px;
         margin-left: auto;
         margin-right: auto;
       }
         .top-title p{
-          font-weight: ;
           font-size: 23px;
-          line-height: px;
         }
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .about-section {}
