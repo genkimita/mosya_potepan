@@ -64,18 +64,17 @@ nav.header-nav-list {
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-top ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .top-section {
+    background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/course-hero-sp.png);
+    padding-top:42px;
+    padding-bottom:90px;
   }
     .content-width {
     /* 共通 */
   }
     .top-width {
-      height:160px;
-      background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/course-hero-sp.png);
-      background-size:contain;
-      background-repeat: no-repeat;
-      background-position: center center;
     }
     .top-width::after {
+      display: none;
       background-color:rgb(247,147,20);
       position: absolute;
       top: 0;
@@ -84,13 +83,11 @@ nav.header-nav-list {
       right: 0;
     }
       .top-title {
-        width:150px;
-        margin-top:50px;
-        margin-left: auto;
-        margin-right: auto;
       }
         .top-title p{
           font-size: 23px;
+          text-align: center;
+          line-height: 28px;
         }
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-about ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .about-section {}
