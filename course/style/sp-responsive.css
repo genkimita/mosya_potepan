@@ -67,6 +67,7 @@ nav.header-nav-list {
     background: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/course-hero-sp.png);
     padding-top:42px;
     padding-bottom:90px;
+    background-size: contain;
   }
     .content-width {
     /* 共通 */
