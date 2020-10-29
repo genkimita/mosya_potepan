@@ -1040,13 +1040,8 @@
                   }
                 li.course-header-list3 {
                 }
-                  .course-header-list3 p::before {
-                    background-image: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/icon-openclass_table.png);
-                    width:60px;
-                    position: absolute;
-                    top: 30px;
-                    left: 50%;
-                    margin-left: -15px;
+                  span.tl-open-icon::before {
+                    display: none;
                   }
                     .course-header-list3-img {
                       width:33px;
