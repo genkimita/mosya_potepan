@@ -1040,7 +1040,7 @@
                   }
                 li.course-header-list3 {
                 }
-                  span.tl-open-icon::before {
+                  .course-header-list3 p::after {
                     display: none;
                   }
                     .course-header-list3-img {
