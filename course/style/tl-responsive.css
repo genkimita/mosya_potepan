@@ -204,7 +204,9 @@
             }
             .section-container {}
               .course-header {}
-                ul.course-header-list {}
+                ul.course-header-list {
+                  position: relative;
+                }
                   li.course-header-list0 {
                     padding-top:initial;
                     padding-bottom:initial;
@@ -242,12 +244,12 @@
                     img.course-header-list3-img {
                       display: none !important;
                     }
-                    .course-header-list3 p::after {
+                    li.course-header-list3::before {
                       display: block;
                       content: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/icon-openclass_table.png);
                       width:50px;
                       position: absolute;
-                      top: -50px;
+                      top: 30px;
                       left: 50%;
                       margin-left: -25px;
                     }
