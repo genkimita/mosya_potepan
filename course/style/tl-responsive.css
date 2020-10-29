@@ -267,6 +267,7 @@
                             height:auto;
                           }
                             .flow-list-left img {
+                              height:auto;
                               object-fit: cover;
                               position: relative;
                               top: 50%;
