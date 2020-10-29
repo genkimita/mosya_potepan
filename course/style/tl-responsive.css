@@ -242,17 +242,15 @@
                     img.course-header-list3-img {
                       display: none !important;
                     }
-                    .res-open-img {
+                    span.tl-open-icon::before {
                       display: block;
+                      background-image: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/icon-openclass_table.png);
                       width:60px;
                       position: absolute;
-                      margin:-80px auto 0 auto;
-                      text-align: center;
+                      top: 30px;
+                      left: 50%;
+                      margin-left: -15px;
                     }
-                      .res-open-img img{
-                        width:100%;
-                        height:auto;
-                      }
                   .course-flow {}
                     ul.course-flow-list {}
                       li.course-flow-list1 {}
