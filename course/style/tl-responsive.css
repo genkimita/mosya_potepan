@@ -245,9 +245,11 @@
                       display: none !important;
                     }
                     li.course-header-list3::before {
-                      display: block;
-                      content: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/icon-openclass_table.png);
+                      content: ' ';
+                      display: inline-block;
                       width:50px;
+                      content: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/icon-openclass_table.png);
+                      background-size: contain;
                       position: absolute;
                       top: 30px;
                       left: 50%;
