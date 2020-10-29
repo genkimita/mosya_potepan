@@ -242,6 +242,10 @@
                     img.course-header-list3-img {
                       display: none !important;
                     }
+                    span.tl-open-icon {
+                      display: block;
+                      content: ' ';
+                    }
                     span.tl-open-icon::before {
                       display: block;
                       background-image: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/icon-openclass_table.png);
