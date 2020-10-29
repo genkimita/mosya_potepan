@@ -242,18 +242,14 @@
                     img.course-header-list3-img {
                       display: none !important;
                     }
-                    span.tl-open-icon {
-                      display: block;
-                      content: ' ';
-                    }
-                    span.tl-open-icon::before {
+                    .course-header-list3 p::after {
                       display: block;
                       background-image: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/icon-openclass_table.png);
                       width:60px;
                       position: absolute;
                       top: 30px;
                       left: 50%;
-                      margin-left: -15px;
+                      margin-left: -30px;
                     }
                   .course-flow {}
                     ul.course-flow-list {}
