@@ -1261,7 +1261,6 @@
                     .flow-list-right {
                       width:73%;
                       padding:20px 30px 20px 30px;
-                      display: flex;
                     }
                       .flow-list-right a{
                         font-weight: 400;
