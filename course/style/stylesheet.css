@@ -1040,7 +1040,7 @@
                   }
                 li.course-header-list3 {
                 }
-                  .course-header-list3 p::after {
+                  li.course-header-list3::before {
                     display: none;
                   }
                     .course-header-list3-img {
