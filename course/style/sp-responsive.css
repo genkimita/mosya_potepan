@@ -41,7 +41,7 @@ nav.header-nav-list {
   }
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー sp-main-section ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
   .main-section {
-    margin-top:65px;
+    padding-top:65px;
   }
     .content-width {
       max-width: none;
