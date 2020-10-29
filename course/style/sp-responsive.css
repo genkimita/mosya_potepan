@@ -309,6 +309,9 @@ nav.header-nav-list {
           .course-header-list3-img {
             display: none;
           }
+          span.tl-open-icon::before {
+            display: none;
+          }
           img.sp-course-header-list3-img {
             display: inline-block;
             width:25px;
