@@ -309,7 +309,7 @@ nav.header-nav-list {
           .course-header-list3-img {
             display: none;
           }
-          span.tl-open-icon::before {
+          .course-header-list p::after {
             display: none;
           }
           img.sp-course-header-list3-img {
