@@ -245,11 +245,11 @@
                     .course-header-list3 p::after {
                       display: block;
                       content: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/icon-openclass_table.png);
-                      width:60px;
+                      width:50px;
                       position: absolute;
-                      top: 30px;
+                      top: -50px;
                       left: 50%;
-                      margin-left: -30px;
+                      margin-left: -25px;
                     }
                   .course-flow {}
                     ul.course-flow-list {}
