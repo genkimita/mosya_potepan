@@ -307,7 +307,7 @@ nav.header-nav-list {
             margin-bottom:9px;
           }
         li.course-header-list3 {}
-          .course-header-list3::before {
+        li.course-header-list3::before {
             display: none;
           }
           .course-header-list3-img {
