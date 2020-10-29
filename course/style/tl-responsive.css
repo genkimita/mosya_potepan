@@ -248,7 +248,7 @@
                       content: ' ';
                       display: inline-block;
                       width:50px;
-                      content: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/icon-openclass_table.png);
+                      background-image: url(https://raw.githubusercontent.com/genkimita/mosya_potepan/master/course/image/icon-openclass_table.png);
                       background-size: contain;
                       position: absolute;
                       top: 30px;
