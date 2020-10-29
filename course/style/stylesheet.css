@@ -1232,6 +1232,7 @@
                   }
                     .flow-list-left {
                       width:27%;
+                      height:auto;
                       display: flex;
                       position: relative;
                     }
